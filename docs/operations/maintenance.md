@@ -59,6 +59,8 @@ pnpm collect:report:all
 
 ## 依赖与生成文件
 
+`src/start-env.d.ts` 显式载入 TanStack Start 的服务端路由类型扩展，保证干净检出首次运行 `pnpm verify` 时可识别 `server.handlers`；不能依赖本机 `.cloudflare/` 类型或 Vite 生成的路由树附带导入。
+
 使用 `pnpm-lock.yaml`；构建及依赖升级时保持 cf 与 Cloudflare Vite 插件兼容。升级一个明确的依赖组合，运行对应检查，不顺手批量升级所有框架。pnpm 原生依赖的构建许可保留在现有包管理配置中。
 
 以下目录不进入源码仓库：`node_modules/`、`.pnpm-store/`、`.cloudflare/`、`.cache/`、`.wrangler/`、`.tanstack/`、`dist/`、`src/generated/` 和 Python 缓存。`src/routeTree.gen.ts` 的跟踪策略沿用现状，生成器负责其内容。
