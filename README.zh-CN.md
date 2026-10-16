@@ -36,6 +36,8 @@ pnpm verify                  # 内容、类型、测试和生产构建
 
 ## 部署
 
+Cloudflare Workers Builds 监听 `main`，通过 `pnpm verify` 后自动部署。Git 集成与手动发布见[部署手册](docs/operations/deployment.md)。
+
 ```sh
 pnpm exec cf auth login      # 需要登录时使用
 pnpm verify

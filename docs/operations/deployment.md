@@ -15,6 +15,25 @@ pnpm exec cf auth login
 
 `cf` 与适配的 Cloudflare Vite 插件目前使用 beta 版本；`cf` 固定版本，插件的安装版本由 `pnpm-lock.yaml` 锁定。换机器或 CI 使用冻结锁文件安装；升级这两个依赖应一起检查。
 
+## Git 自动部署
+
+代码仓库：[hr98w/esp32.sh](https://github.com/hr98w/esp32.sh)。Cloudflare Workers Builds 生产触发器监听 `main`，所有路径变更都会触发：
+
+| 设置 | 值 |
+| --- | --- |
+| Worker | `esp32-sh` |
+| 生产分支 | `main` |
+| 根目录 | `/` |
+| 构建命令 | `pnpm verify` |
+| 部署命令 | `pnpm deploy:built` |
+| 其他分支 / PR 预览部署 | 未配置 |
+
+合并 Pull Request 或推送到 `main` 后，Cloudflare 安装锁文件依赖、检查并构建，通过后才发布。不会运行网络采集脚本。构建失败时查看 Workers Builds 日志；自动部署无需本机保持运行，也不需要把本机 OAuth 凭据放进 GitHub。
+
+构建授权保存在 Cloudflare，限制到当前账户和 `esp32.sh` zone 所需的 Worker、路由及读取权限；临时明文凭据文件已删除。首次关联 GitHub 时，如 Cloudflare 提示授权，需在官方页面安装/授权 Cloudflare GitHub App 并允许访问此仓库。
+
+未来迁移到组织时，转移现有 GitHub 仓库，更新本地 `origin`，并在 Cloudflare 的 Git 集成中核对新组织、仓库权限和 `main` 触发器。转移后用一次真实推送验证自动部署，不依赖旧仓库地址重定向来保证集成有效。
+
 ## 标准发布
 
 在项目根目录操作，依次执行：

@@ -36,6 +36,8 @@ Run `pnpm check`, then open a pull request to [hr98w/esp32.sh](https://github.co
 
 ## Deployment
 
+Cloudflare Workers Builds deploys `main` after `pnpm verify` passes. See the [deployment guide](docs/operations/deployment.md) for Git integration and manual deployment.
+
 ```sh
 pnpm exec cf auth login      # When authentication is needed
 pnpm verify
