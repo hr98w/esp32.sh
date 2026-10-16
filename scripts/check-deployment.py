@@ -112,6 +112,8 @@ def main():
             template = 'submit-project.yml'
             if f'href="https://github.com/hr98w/esp32.sh/issues/new?template={template}"' not in body:
                 raise RuntimeError(f'{path}: missing localized project submission link')
+            if not re.search(r'<a class="github-star"[^>]*href="https://github.com/hr98w/esp32.sh"', body):
+                raise RuntimeError(f'{path}: missing GitHub Star link')
             if count is not None and page.cards != count:
                 raise RuntimeError(f'{path}: expected {count} cards from local catalog, got {page.cards}')
             if path.endswith('/tools') and page.tools != len(tools):

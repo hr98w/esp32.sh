@@ -80,7 +80,7 @@
 .submit-project { display: inline-block; white-space: nowrap; padding: 8px 12px; background: #e4e4e4; color: #000080; font-size: 12px; font-weight: bold; text-decoration: none; box-shadow: inset 1px 1px #fff, inset -1px -1px #555; border: 1px solid #ddd; }
 .submit-project:hover { background: #fff3b0; }
 @media(max-width:1000px) { .masthead { gap: 18px; } .masthead nav { gap: 18px; } }
-@media(max-width:740px) {
+@media(max-width:900px) {
   .masthead { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 14px 10px; min-height: 0; padding: 16px 0 12px; align-items: center; }
   .masthead > .logo { font-size: 22px; gap: 6px; }
   .masthead .logo-icon { width: 24px; height: 24px; }
@@ -89,4 +89,13 @@
   .masthead-actions .language { min-width: 80px; padding: 6px; }
   .submit-project { padding: 7px 9px; }
 }
-@media(max-width:400px) { .masthead-actions { flex-direction: column; align-items: stretch; gap: 6px; } .submit-project { text-align: center; } }
+
+.github-star { display: inline-flex; align-items: center; gap: 5px; padding: 6px 0; color: #fff; text-decoration: none; font-size: 12px; white-space: nowrap; }
+.github-star img { display: block; filter: brightness(0) invert(1); }
+.github-star:hover { color: #fff3b0; }
+@media(max-width:900px) {
+  .masthead-actions { display: grid; grid-template-columns: auto auto; gap: 6px 9px; }
+  .masthead-actions .language { grid-column: 1; grid-row: 1; }
+  .github-star { grid-column: 2; grid-row: 1; justify-self: end; }
+  .masthead-actions .submit-project { grid-column: 1 / -1; grid-row: 2; text-align: center; }
+}
