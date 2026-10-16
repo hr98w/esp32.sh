@@ -48,6 +48,8 @@ pnpm deploy:built
 pnpm check:deployment
 ```
 
+项目详情页复用现有 Markdown 信息，由访客浏览器直接从 GitHub 加载原始 README。`/sitemap.xml` 和 `/robots.txt` 根据目录自动更新。
+
 配置入口：[cloudflare.config.ts](cloudflare.config.ts)。完整流程见[部署手册](docs/operations/deployment.md)。
 
 ## 文档

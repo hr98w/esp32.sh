@@ -42,7 +42,7 @@ for path,expected in [('/',len(catalog['projects'])),('/?device=waveshare-esp32-
     status,html,_=request(path);assert status==200 and Page(html).cards==min(24,expected),(path,status,Page(html).cards,min(24,expected))
 # Traverse both directories in every locale: no missing or duplicated cards.
 for prefix in ['', '/zh', '/ja']:
-    for suffix, entries, expected in [('', catalog['projects'], {p['repository'] for p in catalog['projects']}), ('/devices', catalog['devices'], {prefix+'/devices/'+d['id'] for d in catalog['devices']})]:
+    for suffix, entries, expected in [('', catalog['projects'], {prefix+'/projects/'+p['id'] for p in catalog['projects']}), ('/devices', catalog['devices'], {prefix+'/devices/'+d['id'] for d in catalog['devices']})]:
         seen=[]
         root=prefix+suffix or '/'
         for page_number in range(1,(len(entries)+23)//24+1):
@@ -108,7 +108,7 @@ for locale,prefix,html_lang in [('en','','en'),('zh','/zh','zh-CN'),('ja','/ja',
         assert status==200 and f'<html lang="{html_lang}"' in html,path
         assert device['name'] in unescape(html) and device['summary'][locale] in unescape(html),path
         parsed=Page(html)
-        expected={p['repository']:p for p in catalog['projects'] if any(r['deviceId']==device['id'] for r in p['devices'])}
+        expected={prefix+'/projects/'+p['id']:p for p in catalog['projects'] if any(r['deviceId']==device['id'] for r in p['devices'])}
         assert set(parsed.project_links)==set(expected) and len(parsed.project_links)==len(expected),(path,'related project membership')
         stars=[expected[url].get('metrics',{}).get('stars',-1) for url in parsed.project_links]
         assert stars==sorted(stars,reverse=True),(path,'related project order')
@@ -133,6 +133,7 @@ for locale,prefix,html_lang in [('en','','en'),('zh','/zh','zh-CN'),('ja','/ja',
         assert post['url'] in html and post['title'][locale] in unescape(html),(path,post['id'])
     for pick in guides['picks']:
         assert pick['title'][locale] in unescape(html),(path,pick['id'])
+        for project in pick['projectIds']:assert f'href="{prefix}/projects/{project}"' in html,(path,project)
         for device in pick['deviceIds']:assert f'href="{prefix}/devices/{device}"' in html,(path,device)
 assert request('/en/guides',False)[0]==301
 print('Passed Start Here HTTP: all localized picks, device links, 10 original-post fallbacks, canonical URLs and language redirect. X iframe rendering requires a browser/network check.')
@@ -146,5 +147,46 @@ if agent_projects:
         assert status==200 and label in unescape(html),(path,'localized agent category')
         assert parsed.cards==min(24,len(agent_projects)),(path,'agent filter count')
         if len(agent_projects)<=24:
-            assert set(parsed.project_links)=={project['repository'] for project in agent_projects},(path,'agent project membership')
+            assert set(parsed.project_links)=={prefix+'/projects/'+project['id'] for project in agent_projects},(path,'agent project membership')
     print(f'Passed agent category: {len(agent_projects)} projects, three translated labels and correct filtered membership.')
+
+# Detail pages must render useful metadata without a browser or GitHub requests.
+for locale,prefix,html_lang in [('en','','en'),('zh','/zh','zh-CN'),('ja','/ja','ja')]:
+    for project in catalog['projects']:
+        path=prefix+'/projects/'+project['id']
+        status,html,_=request(path)
+        assert status==200 and f'<html lang="{html_lang}"' in html,path
+        rendered=unescape(html)
+        assert project['name'] in rendered and project['summary'][locale] in rendered,path
+        assert f'href="{project["repository"]}"' in rendered,(path,'GitHub destination')
+        assert 'id="project-readme-heading"' in html and 'class="sidebar"' not in html,path
+        assert f'rel="canonical" href="https://esp32.sh{path}"' in html,path
+        for device in project['devices']:
+            assert f'href="{prefix}/devices/{device["deviceId"]}"' in html,(path,'device link')
+    assert request(prefix+'/projects/not-a-project')[0]==404
+status,_,headers=request('/en/projects/'+catalog['projects'][0]['id'],False)
+assert status==301 and headers['Location']=='/projects/'+catalog['projects'][0]['id']
+
+# Parse sitemap XML rather than checking its text shape. All links are canonical.
+import xml.etree.ElementTree as ET
+status,xml,headers=request('/sitemap.xml')
+assert status==200 and 'application/xml' in headers['Content-Type']
+root=ET.fromstring(xml)
+ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9','x':'http://www.w3.org/1999/xhtml'}
+locations=[entry.find('s:loc',ns).text for entry in root]
+expected=set()
+for prefix in ['', '/zh', '/ja']:
+    expected.update('https://esp32.sh'+prefix+path for path in ['', '/devices','/tools','/guides'] if prefix+path)
+    if not prefix:expected.add('https://esp32.sh/')
+    expected.update('https://esp32.sh'+prefix+'/projects/'+p['id'] for p in catalog['projects'])
+    expected.update('https://esp32.sh'+prefix+'/devices/'+d['id'] for d in catalog['devices'])
+    for suffix,entries in [('',catalog['projects']),('/devices',catalog['devices'])]:
+        expected.update('https://esp32.sh'+(prefix+suffix or '/')+'?page='+str(page) for page in range(2,(len(entries)+23)//24+1))
+assert set(locations)==expected and len(locations)==len(expected),'missing/duplicate sitemap URLs'
+for entry in root:
+    alternates=entry.findall('x:link',ns)
+    assert {link.attrib['hreflang'] for link in alternates}=={'en','zh-CN','ja','x-default'}
+    assert all(link.attrib['href'] in expected for link in alternates)
+status,robots,headers=request('/robots.txt')
+assert status==200 and 'text/plain' in headers['Content-Type'] and 'Sitemap: https://esp32.sh/sitemap.xml' in robots
+print(f'Passed {len(catalog["projects"])*3} localized project details, metadata, device links, project 404s/redirect, robots.txt and {len(locations)} canonical sitemap URLs with language alternates. README browser loading is tested separately with offline fixtures.')

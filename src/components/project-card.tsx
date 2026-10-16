@@ -15,13 +15,13 @@ export function ProjectCard({ project, locale }: { project: Project; locale: Loc
   }, [project.cover])
   const t = text(locale)
   return <article className="project-card">
-    <a className="cover" href={project.repository} target="_blank" rel="noopener noreferrer">
+    <Link className="cover" to="/{-$lang}/projects/$projectId" params={{ lang: localeParam(locale), projectId: project.id }}>
       {project.cover && project.cover !== failedCover
         ? <img ref={imageRef} src={project.cover} alt={`${project.name} — ${t.imageAlt}`} loading="lazy" onError={() => setFailedCover(project.cover ?? null)} />
         : <span className="name-cover"><small>ESP32.SH</small><strong>{project.name}</strong></span>}
-    </a>
+    </Link>
     <div className="card-body">
-      <h2><a href={project.repository} target="_blank" rel="noopener noreferrer">{project.name}</a></h2>
+      <h2><Link to="/{-$lang}/projects/$projectId" params={{ lang: localeParam(locale), projectId: project.id }}>{project.name}</Link></h2>
       <p>{project.summary[locale]}</p>
       {project.devices.length === 0 && <small className="compatibility">{project.compatibility === 'custom-hardware' ? t.customHardware : t.compatibilityPending}</small>}<div className="device-tags">{project.devices.map(({ deviceId }) => <Link key={deviceId} to="/{-$lang}/devices/$deviceId" params={{ lang: localeParam(locale), deviceId }}>{catalog.devices.find((device) => device.id === deviceId)?.name}</Link>)}</div>
       <div className="card-meta"><span title={project.metrics ? `${t.checked}: ${project.metrics.checkedAt.slice(0, 10)}` : t.metricsPending}>{project.metrics ? `★ ${project.metrics.stars.toLocaleString(locale)}` : t.metricsPending}{project.metrics?.archived ? ` · ${t.archived}` : ''}</span><span>{project.license}</span><a href={project.repository} target="_blank" rel="noopener noreferrer">{t.open}</a></div>

@@ -28,7 +28,7 @@ docs/prototype/            历史 HTML 原型
 1. **正式内容**：独立 Markdown 是已发布编辑内容的依据，含稳定 ID、三语摘要和来源。
 2. **独立快照**：`data/repository-metrics.json` 与 `repository-covers.json` 提供 Star、仓库身份及可选 README 图片候选，不反复重写 Markdown。
 3. **构建**：`scripts/content.ts` 用 Zod 校验 Markdown 和快照，生成 `src/generated/catalog.json`。`content-plugin.ts` 在构建和本地内容变更时调用它。
-4. **运行时**：`src/lib/content/index.ts` 导入生成目录，页面筛选本地数据；Worker 不扫描 Markdown，也不在访问时请求 GitHub。
+4. **运行时**：`src/lib/content/index.ts` 导入生成目录，页面筛选本地数据；Worker 不扫描 Markdown，也不在访问时请求 GitHub。项目详情页在访客浏览器匿名请求原仓库 README。
 5. **采集与审阅**：`data/collection/` 保存候选、原始事实摘要、编辑计划及待办。候选、通过源站核验和已写入正式 Markdown 是不同状态，不能混计。
 
 ## 修改内容
@@ -74,3 +74,9 @@ pnpm collect:report:all
 公共分页逻辑为 `src/lib/pagination.ts`，筛选排序在 `src/lib/directory.ts`，界面为 `src/components/pagination.tsx`。三语目录的 canonical 与语言替代链接保留有效页码。设备详情中的关联项目不分页，仍置于最下方、按 Star 倒序。
 
 `pnpm check:http` 会遍历三语目录全部分页，检查收录项不遗漏、不重复、筛选保留及页码纠正，同时保留完整设备详情检查。`check:deployment` 检查首页卡片数，并在内容超过一页时探测第二页。分页减少渲染卡片数量；当前前端仍使用完整目录快照，列表与详情数据拆分留待后续扩量处理。
+
+## 项目详情与 sitemap
+
+`src/routes/{-$lang}.projects.$projectId.tsx` 用现有 ID 生成三语详情页，不增加 Markdown 字段。简介、标签、设备和 Star 快照在服务端输出；README 仅在浏览器请求 GitHub，无 Token、Cookie 或本站代理。会话缓存保留最多 5 篇、有效期一小时；请求超时、限流、超大文件等失败时保留 GitHub 原文入口。README 保留原始语言，安全过滤 HTML，图片与相对链接指向上游；复杂视频等不保证完整还原。README 不在初始 HTML，SEO 依靠已有编辑内容。
+
+`/sitemap.xml` 根据构建生成的 catalog 自动输出三语项目、设备、四个目录入口及项目/设备分页，带语言替代链接；不收录筛选组合。新增或移除 Markdown 后，随重新构建自动更新，无需手填 URL。`/robots.txt` 声明 sitemap。当前规模为单个 sitemap；接近 50,000 URL 时再拆分 sitemap index。

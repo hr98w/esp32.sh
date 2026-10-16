@@ -26,7 +26,7 @@ function Guides() {
         <h3>{pick.title[locale]}</h3><p>{pick.summary[locale]}</p>
         <div className="guide-hardware"><DeviceImage src={devices[0].cover} name={devices[0].name} maker={devices[0].manufacturer.name} /><div><strong>{t.device}</strong>{devices.map(device => <Link key={device.id} to="/{-$lang}/devices/$deviceId" params={{ lang: localeParam(locale), deviceId: device.id }}>{locale === 'zh' && device.manufacturer.id === 'lckfb' ? '立创实战派 ESP32-S3' : device.name} →</Link>)}</div></div>
         <p className="guide-effort">{pick.effort[locale]}</p>
-        <div className="guide-projects"><strong>{t.project}</strong>{pick.projectIds.map(id => { const project = catalog.projects.find(p => p.id === id)!; return <a key={id} href={project.repository} target="_blank" rel="noopener noreferrer">{project.name} ↗</a> })}</div>
+        <div className="guide-projects"><strong>{t.project}</strong>{pick.projectIds.map(id => { const project = catalog.projects.find(p => p.id === id)!; return <Link key={id} to="/{-$lang}/projects/$projectId" params={{ lang: localeParam(locale), projectId: id }}>{project.name} →</Link> })}</div>
         <a className="guide-start" href={pick.resource.url} target="_blank" rel="noopener noreferrer">{pick.resource.label[locale]}</a>
       </article>
     })}</div>

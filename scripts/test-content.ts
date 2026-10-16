@@ -195,3 +195,74 @@ test('one bilingual submission form stays distinct from ordinary issues',()=>{
   assert.equal(url.pathname,'/hr98w/esp32.sh/issues/new')
   assert.equal(url.searchParams.get('template'),projectSubmissionTemplate)
 })
+
+// README rendering uses untrusted upstream content; these are offline fixtures.
+import { createElement } from 'react'
+import { renderToStaticMarkup } from 'react-dom/server'
+import ReadmeMarkdown from '../src/components/readme-markdown.tsx'
+import { ProjectReadme as ReadmePanel } from '../src/components/project-readme.tsx'
+import { fetchProjectReadme, readmeUrl } from '../src/lib/project-readme.ts'
+import { buildSitemap } from '../src/lib/sitemap.ts'
+const readmeFixture = {
+  content: '', path: 'docs/README.md',
+  htmlUrl: 'https://github.com/example/project/blob/feature/docs/README.md',
+  rawUrl: 'https://raw.githubusercontent.com/example/project/feature/docs/README.md',
+}
+test('README links resolve nested paths and repository-root files, rejecting unsafe protocols', () => {
+  assert.equal(readmeUrl('../images/demo.png', true, readmeFixture), 'https://raw.githubusercontent.com/example/project/feature/images/demo.png')
+  assert.equal(readmeUrl('/images/demo.png', true, readmeFixture), 'https://raw.githubusercontent.com/example/project/feature/images/demo.png')
+  assert.equal(readmeUrl('./install.md', false, readmeFixture), 'https://github.com/example/project/blob/feature/docs/install.md')
+  assert.equal(readmeUrl('#setup', false, readmeFixture), readmeFixture.htmlUrl + '#setup')
+  assert.equal(readmeUrl('javascript:alert(1)', false, readmeFixture), '')
+  assert.equal(readmeUrl('data:image/svg+xml,bad', true, readmeFixture), '')
+  assert.equal(readmeUrl('mailto:example@example.com', false, readmeFixture), 'mailto:example@example.com')
+})
+test('README renders GFM and safe HTML while removing scripts, event handlers, iframes and unsafe links', () => {
+  const content = '# Title\n\n| A | B |\n| - | - |\n| 1 | 2 |\n\n![demo](../images/demo.png)\n\n<details><summary>More</summary>Text</details>\n<script>alert(1)</script><iframe src="https://evil.example"></iframe><img src="/images/demo.png" onerror="alert(2)" />\n\n[bad](javascript:alert%281%29)'
+  const html = renderToStaticMarkup(createElement(ReadmeMarkdown, { readme: { ...readmeFixture, content } }))
+  assert.match(html, /<table>/)
+  assert.match(html, /<details>/)
+  assert.match(html, /raw\.githubusercontent\.com\/example\/project\/feature\/images\/demo.png/)
+  assert.doesNotMatch(html, /<script|<iframe|onerror|javascript:/i)
+})
+test('README SSR renders the localized fallback without requesting GitHub', async () => {
+  for (const locale of ['en','zh','ja'] as const) {
+    const html = renderToStaticMarkup(createElement(ReadmePanel, { repository: project.repository, locale }))
+    assert.match(html, /project-readme-heading/)
+    assert.match(html, /https:\/\/github.com\/example\/project#readme/)
+  }
+  await assert.rejects(fetchProjectReadme(project.repository, new AbortController().signal), /browser-only/)
+})
+test('README browser transport is anonymous, decodes Unicode, reuses cache and propagates GitHub failures', async (t) => {
+  const entries = new Map<string,string>()
+  const windowDescriptor = Object.getOwnPropertyDescriptor(globalThis, 'window')
+  const storageDescriptor = Object.getOwnPropertyDescriptor(globalThis, 'sessionStorage')
+  Object.defineProperty(globalThis, 'window', { configurable: true, value: {} })
+  Object.defineProperty(globalThis, 'sessionStorage', { configurable: true, value: { getItem: (key: string) => entries.get(key) ?? null, setItem: (key: string, value: string) => entries.set(key,value) } })
+  const fetchMock = t.mock.method(globalThis, 'fetch', async (input: RequestInfo | URL, options?: RequestInit) => {
+    assert.equal(input, 'https://api.github.com/repos/example/project/readme')
+    assert.equal(options?.credentials, 'omit')
+    assert.deepEqual(options?.headers, { Accept: 'application/vnd.github+json' })
+    return new Response(JSON.stringify({ ...{path:readmeFixture.path,html_url:readmeFixture.htmlUrl,download_url:readmeFixture.rawUrl}, encoding:'base64', size:20, content:Buffer.from('你好 ESP32 日本語').toString('base64') }))
+  })
+  try {
+    const first = await fetchProjectReadme(project.repository, new AbortController().signal)
+    assert.equal(first.content, '你好 ESP32 日本語')
+    assert.deepEqual(await fetchProjectReadme(project.repository, new AbortController().signal), first)
+    assert.equal(fetchMock.mock.callCount(), 1)
+    entries.clear()
+    fetchMock.mock.mockImplementation(async () => new Response('', { status:403 }))
+    await assert.rejects(fetchProjectReadme(project.repository, new AbortController().signal), /GitHub 403/)
+  } finally {
+    if (windowDescriptor) Object.defineProperty(globalThis,'window',windowDescriptor); else Reflect.deleteProperty(globalThis,'window')
+    if (storageDescriptor) Object.defineProperty(globalThis,'sessionStorage',storageDescriptor); else Reflect.deleteProperty(globalThis,'sessionStorage')
+  }
+})
+test('sitemap scales with catalog entries and includes localized pagination without filter combinations', () => {
+  const xml = buildSitemap({ projects:Array.from({length:25},(_,i)=>({id:'p'+i})), devices:[{id:'board'}] })
+  assert.equal((xml.match(/<loc>/g) ?? []).length, (4+25+1+1)*3)
+  assert.match(xml, /https:\/\/esp32.sh\/zh\/projects\/p24/)
+  assert.match(xml, /https:\/\/esp32.sh\/ja\?page=2/)
+  assert.match(xml, /hreflang="zh-CN"/)
+  assert.doesNotMatch(xml, /device=|tag=|sort=|\/en\//)
+})

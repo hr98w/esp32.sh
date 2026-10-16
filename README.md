@@ -48,6 +48,8 @@ pnpm deploy:built
 pnpm check:deployment
 ```
 
+Project detail pages use existing Markdown metadata and load the original README directly from GitHub in the visitor’s browser. `/sitemap.xml` and `/robots.txt` update automatically from the catalog.
+
 Configuration: [cloudflare.config.ts](cloudflare.config.ts). Full workflow: [deployment guide](docs/operations/deployment.md).
 
 ## Documentation
