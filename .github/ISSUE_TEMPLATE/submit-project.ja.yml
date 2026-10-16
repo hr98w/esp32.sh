@@ -1,0 +1,31 @@
+name: プロジェクトを推薦
+description: ESP32のオープンソースプロジェクトを推薦。コードやMarkdownの作成は不要です。
+title: "[Project submission] "
+labels:
+  - submission:project
+body:
+  - type: markdown
+    attributes:
+      value: GitHubリポジトリのリンクを入力してください。運営者が確認して掲載情報を作成します。自作・他の方のプロジェクト、どちらも推薦できます。
+  - type: input
+    id: repository
+    attributes:
+      label: GitHubリポジトリURL
+      description: 公開GitHubリポジトリ。例：https://github.com/owner/project。
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: おすすめする理由
+      placeholder: 任意：何ができるか、どこが面白いかを教えてください。
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: 試したデバイス
+      placeholder: 任意：実際に使った機種名。試していない場合は空欄で構いません。
+    validations:
+      required: false

@@ -1,0 +1,31 @@
+name: Submit a project
+description: Recommend an ESP32 open-source project. No code or Markdown required.
+title: "[Project submission] "
+labels:
+  - submission:project
+body:
+  - type: markdown
+    attributes:
+      value: Paste the GitHub repository link. Our maintainers will check the project and prepare its listing. You can recommend your own project or someone else’s.
+  - type: input
+    id: repository
+    attributes:
+      label: GitHub repository URL
+      description: A public GitHub repository, for example https://github.com/owner/project.
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why do you recommend it?
+      placeholder: "Optional: what can it do, or what makes it interesting?"
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: Device you tried
+      placeholder: "Optional: the model you used. Leave blank if you have not tried it."
+    validations:
+      required: false

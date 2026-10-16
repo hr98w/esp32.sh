@@ -109,6 +109,9 @@ def main():
             page = Page(body)
             if 'text/html' not in content_type or page.lang != lang:
                 raise RuntimeError(f'{path}: expected HTML language {lang}, got {page.lang}')
+            template = {'en': 'submit-project.yml', 'zh-CN': 'submit-project.zh-CN.yml', 'ja': 'submit-project.ja.yml'}[lang]
+            if f'href="https://github.com/hr98w/esp32.sh/issues/new?template={template}"' not in body:
+                raise RuntimeError(f'{path}: missing localized project submission link')
             if count is not None and page.cards != count:
                 raise RuntimeError(f'{path}: expected {count} cards from local catalog, got {page.cards}')
             if path.endswith('/tools') and page.tools != len(tools):

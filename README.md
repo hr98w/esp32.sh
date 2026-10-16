@@ -20,6 +20,8 @@ For production HTTP checks, run `pnpm preview --port 4317` and `pnpm check:http`
 
 ## Contributing
 
+Recommend a project through [an issue](https://github.com/hr98w/esp32.sh/issues/new?template=submit-project.yml)—only a GitHub link is required. Use pull requests to maintain the website or its content.
+
 Add one Markdown file per entry using the [templates](templates/):
 
 | Content | Directory |

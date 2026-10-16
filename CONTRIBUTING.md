@@ -1,6 +1,10 @@
-# Contributing content
+# Contributing
 
-Contribute through a pull request to [hr98w/esp32.sh](https://github.com/hr98w/esp32.sh). Start with the [English README](README.md#contributing) or [中文 README](README.zh-CN.md#贡献内容). These are the content conventions for the directory; there is no automated AI approval or auto-merge workflow.
+To recommend an ESP32 project, [submit an issue](https://github.com/hr98w/esp32.sh/issues/new?template=submit-project.yml). Only the repository link is required; you do not need to write code or Markdown. Maintainers verify the project and prepare its listing.
+
+Use pull requests for code changes, corrections, and direct content contributions. Ordinary issues remain available for questions and bug reports.
+
+Contribute through a pull request to [hr98w/esp32.sh](https://github.com/hr98w/esp32.sh). Start with the [English README](README.md#contributing) or [中文 README](README.zh-CN.md#贡献内容). These are the content conventions for the directory; there is currently no automatic issue processing, AI approval, or auto-merge workflow.
 
 1. Add one Markdown file per project under `content/projects/`, or one device under `content/devices/<manufacturer.id>/`. Start with a file in `templates/`.
 2. Use a stable lowercase ID. Project folders do not depend on tags; a repository is listed once, even if it supports many boards.
@@ -16,9 +20,11 @@ Stars and image candidates live in `data/` and do not require repeatedly editing
 
 # 内容投稿说明
 
+推荐项目请[提交 Issue](https://github.com/hr98w/esp32.sh/issues/new?template=submit-project.zh-CN.yml)，只需填写 GitHub 仓库链接，不需要写代码或 Markdown。维护者负责核验和整理收录。修改网站代码、纠错或直接维护内容请提 PR；其他问题仍可提交普通 Issue。
+
 项目、设备分别新增独立 Markdown 文件。项目文件平铺，设备按厂商分目录；摘要包含英文、中文和日文。项目需 README、明确的开源许可和入库时至少 10 个 Star。设备适配必须有上游明确依据，无法核实的先待定。封面可选。提交前运行 `pnpm check`，不要提交缓存、凭据或生成产物。
 
-通过 [GitHub Pull Request](https://github.com/hr98w/esp32.sh/pulls) 投稿，审核合并后发布，没有 AI 自动批准或自动合并。维护与发布流程见 [文档索引](docs/README.md)。
+通过 [GitHub Pull Request](https://github.com/hr98w/esp32.sh/pulls) 提交维护改动，审核合并后发布。目前尚未启用自动处理 Issue、AI 自动批准或自动合并。维护与发布流程见 [文档索引](docs/README.md)。
 
 ## Tools / 工具
 

@@ -3,7 +3,8 @@ import assert from 'node:assert/strict'
 import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
-import { stringify } from 'yaml'
+import { parse, stringify } from 'yaml'
+import { projectSubmissionLabel, projectSubmissionUrl, submissionTemplates } from '../src/lib/submissions.ts'
 import { buildCatalog } from './content.ts'
 import { matchesQuery, deviceSearchFields } from '../src/lib/search.ts'
 
@@ -177,3 +178,21 @@ test('guide post validation rejects unsupported URLs and duplicate tweet identit
   md(root,'content/guides/posts/two.md',{...post,id:'two',url:'https://twitter.com/other/status/123'})
   assert.throws(()=>buildCatalog(root),/Duplicate X post/)
 }))
+
+
+test('project submission forms stay distinct from ordinary issues in every language',()=>{
+  const directory=join(process.cwd(),'.github/ISSUE_TEMPLATE')
+  const config=parse(readFileSync(join(directory,'config.yml'),'utf8'))
+  assert.equal(config.blank_issues_enabled,true,'ordinary feedback must remain possible')
+  for(const locale of ['en','zh','ja'] as const){
+    const filename=submissionTemplates[locale]
+    const form=parse(readFileSync(join(directory,filename),'utf8'))
+    assert.deepEqual(form.labels,[projectSubmissionLabel])
+    const fields=form.body.filter((field:{type:string})=>field.type!=='markdown')
+    assert.deepEqual(fields.map((field:{id:string})=>field.id),['repository','reason','device'])
+    assert.deepEqual(fields.filter((field:{validations?:{required?:boolean}})=>field.validations?.required).map((field:{id:string})=>field.id),['repository'])
+    const url=new URL(projectSubmissionUrl(locale))
+    assert.equal(url.pathname,'/hr98w/esp32.sh/issues/new')
+    assert.equal(url.searchParams.get('template'),filename)
+  }
+})
