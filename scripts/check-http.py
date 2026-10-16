@@ -33,7 +33,10 @@ for locale,prefix,html_lang in [('en','','en'),('zh','/zh','zh-CN'),('ja','/ja',
         template='submit-project.yml'
         assert f'href="https://github.com/hr98w/esp32.sh/issues/new?template={template}"' in html,(path,'localized submission form')
         assert 'class="submit-project"' in html,(path,'submission button')
-        assert re.search(r'<a class="github-star"[^>]*href="https://github.com/hr98w/esp32.sh"',html),(path,'GitHub Star link')
+        footer=re.search(r'<footer>(.*?)</footer>',html,re.S).group(1)
+        assert re.search(r'<a class="github-contribute"[^>]*href="https://github.com/hr98w/esp32.sh"',footer.split('</details>',1)[-1]),(path,'visible footer GitHub link')
+        assert 'Star & Contribute' in unescape(footer),(path,'GitHub link text')
+        assert 'github-contribute' not in html.split('</header>',1)[0],(path,'GitHub link must leave the header')
         assert 'https://github.githubassets.com/favicons/favicon.svg' in html,(path,'official GitHub icon')
 for path,expected in [('/',len(catalog['projects'])),('/?device=waveshare-esp32-s3-touch-amoled-1-8',sum(any(d['deviceId']=='waveshare-esp32-s3-touch-amoled-1-8' for d in p['devices']) for p in catalog['projects'])),('/?q=zzzznonexistent',0),('/devices?maker=m5stack',sum(d['manufacturer']['id']=='m5stack' for d in catalog['devices'])),('/devices?feature=keyboard',sum('keyboard' in d['features'] for d in catalog['devices'])),('/devices?feature=display',sum('display' in d['features'] or 'epaper' in d['features'] for d in catalog['devices'])),('/devices?q=M5CardputerADV',1),('/devices?q=Seeed%20XIAO',sum(d['manufacturer']['id']=='seeed-studio' and d['name'].lower().startswith('xiao') for d in catalog['devices'])),('/devices?q=zzzznonexistent',0)]:
     status,html,_=request(path);assert status==200 and Page(html).cards==min(24,expected),(path,status,Page(html).cards,min(24,expected))
