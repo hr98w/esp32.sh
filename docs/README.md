@@ -17,6 +17,8 @@
 
 ## 产品约定与历史依据
 
+- [GitHub 与 Workers Builds](research/2026-10-16-github-workers-builds.md)：个人仓库、main 自动部署和首次推送验证。
+
 - [新手指南](product/2026-10-16-beginner-guide.md)：推荐设备与玩法、独立推文 Markdown、嵌入和删减方式。
 
 - [产品方向](product/2026-10-15-product-direction.md)、[功能结构](product/2026-10-15-site-functional-structure.md)。
