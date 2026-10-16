@@ -36,6 +36,8 @@ pnpm exec cf auth login
 
 ## 标准发布
 
+新增服务端路由、调整类型声明、构建配置或依赖时，先按下节验证干净环境，再进行本地 HTTP 检查。运行过开发服务或构建的本机目录不能替代首次检出验证。
+
 在项目根目录操作，依次执行：
 
 ```sh
@@ -67,6 +69,35 @@ pnpm check:deployment
 检查结果默认保存到 `.cache/deployment/public-smoke-results.json`，只在全部探测成功后更新。它不证明浏览器水合交互、所有外部图片长期可用或真实硬件运行。
 
 发布后在新的有日期的部署记录中保存 Worker 版本 ID、发布范围和检查结果，不要覆盖首次上线记录。
+
+## 干净环境验证
+
+适用于服务端路由、类型/依赖/构建变更，以及“本机通过、CI 失败”的排查。对准备推送的本地提交运行以下命令：
+
+```sh
+# HEAD 必须已经包含本次候选改动；未提交文件不在归档中。
+review_dir=$(mktemp -d "${TMPDIR:-/tmp}/esp32-clean.XXXXXX")
+git archive HEAD | tar -x -C "$review_dir"
+(
+  cd "$review_dir" || exit 1
+  pnpm install --frozen-lockfile || exit 1
+  pnpm verify
+)
+```
+
+此目录只含提交中的文件，不复制 `.cloudflare/`、`.tanstack/`、`src/generated/` 或本机 `node_modules/`。验证前不要启动开发服务，也不要先运行 `pnpm build` 来生成可能掩盖问题的类型。CI 同样先检查再构建，不应颠倒顺序来掩盖缺失声明。
+
+如果仅为定位问题复用已安装的依赖，须明确这只能验证“缺少生成文件”的差异，不能证明冻结锁文件的全新安装；依赖安装故障应另做实际安装验证。不要清空主工作区、删除采集缓存或把凭据复制到隔离目录。检查后仅清理自己创建的临时目录。
+
+`src/start-env.d.ts` 必须显式引用 `@tanstack/react-start`，让 `server.handlers` 类型在第一次 `tsc` 时可用。遇到 `TS2353`、`'server' does not exist`，先核对该声明、`tsconfig.json` 的包含范围及 Start 类型扩展是否加载，不直接改写生成文件、关闭类型检查或升级框架。完整案例见 [2026-10-16 排障记录](../research/2026-10-16-server-route-ci-failure.md)。
+
+## 自动部署收尾
+
+任务包含发布时，跟踪本次提交对应的 `Workers Builds: esp32-sh` 检查直到成功或失败。失败时先读取对应 Build ID 的完整日志，区分依赖安装、类型检查、测试、构建和上传阶段；发布修复后跟踪新的提交，不能只看到已触发就结束。读取日志使用 `cf`；先用匿名查询 `cf cli search "retrieve worker build logs"` 发现命令，再使用 `cf builds logs get <build-uuid>`，如日志截断按返回的 cursor 继续获取。
+
+构建成功后运行 `pnpm check:deployment`，并额外探测本次新增或修改的线上入口。现有通用检查覆盖的是代表性页面，不自动证明新增路由已上线；例如本次项目详情、sitemap 和 robots.txt 需单独确认。无法取得最终状态或完成线上验证时，明确报告当前状态和未确认部分。
+
+修复后按 [AGENTS.md](../../AGENTS.md) 的“故障修复后主动沉淀”更新维护规则和案例，不等待用户提醒。
 
 ## 域名与 DNS
 

@@ -19,6 +19,8 @@
 
 ## 产品约定与历史依据
 
+- [服务端路由 CI 排障](research/2026-10-16-server-route-ci-failure.md)：本机生成类型掩盖首次检出错误、显式类型入口、部署验证与防复发。
+
 - [Agent 标签与指定项目收录](research/2026-10-16-agent-tags-intake.md)：标签边界、设备关联与组合许可。
 
 - [GitHub 与 Workers Builds](research/2026-10-16-github-workers-builds.md)：个人仓库、main 自动部署和首次推送验证。
