@@ -21,9 +21,9 @@
 
 ## Issue 投稿边界
 
-- 项目推荐通过三语 Issue Form，自动标记 `submission:project`；普通 Issue 不属于收录队列。
+- 项目推荐通过单一中英双语 Issue Form，自动标记 `submission:project`；普通 Issue 不属于收录队列。
 - 未来 Issue 自动化必须先检查专用标签，再校验投稿表单结构与规范 GitHub 仓库链接；不得按标题关键词或任意 Issue 事件处理全部 Issue。
-- 表单字段 ID 相同，但 GitHub Issue 正文使用本地化字段标题，不包含这些 ID；解析规则见 `docs/operations/submissions.md`。
+- 表单字段 ID 相同，但 GitHub Issue 正文使用中英双语字段标题，不包含这些 ID；解析规则见 `docs/operations/submissions.md`。
 - 当前不启用 Issue 自动处理或自动合并。直接链接收录仍按用户明确要求和收录技能执行。
 
 ## 工具与数据

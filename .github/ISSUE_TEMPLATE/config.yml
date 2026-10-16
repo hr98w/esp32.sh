@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Contribute code / 贡献代码 / コードで貢献
+  - name: 贡献代码 / Contribute code
     url: https://github.com/hr98w/esp32.sh/blob/main/CONTRIBUTING.md
-    about: Use a pull request for code and content changes. 项目推荐请使用上面的投稿表单。
+    about: 通过 PR 修改网站或内容。Use a PR for website or content changes.

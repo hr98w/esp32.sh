@@ -20,7 +20,7 @@ pnpm verify                  # 内容、类型、测试和生产构建
 
 ## 贡献内容
 
-推荐项目请[提交 Issue](https://github.com/hr98w/esp32.sh/issues/new?template=submit-project.zh-CN.yml)，只需提供 GitHub 链接。修改网站或维护内容请提 PR。
+推荐项目请[提交 Issue](https://github.com/hr98w/esp32.sh/issues/new?template=submit-project.yml)，只需提供 GitHub 链接。修改网站或维护内容请提 PR。
 
 每个条目一个 Markdown，从[模板](templates/)开始：
 

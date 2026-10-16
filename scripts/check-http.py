@@ -30,7 +30,7 @@ assert 'href="/devices"' in html and 'q=&amp;' not in html
 for locale,prefix,html_lang in [('en','','en'),('zh','/zh','zh-CN'),('ja','/ja','ja')]:
     for path in [prefix or '/',prefix+'/devices',prefix+'/devices/m5stack-cardputer']:
         status,html,_=request(path);assert status==200 and f'<html lang="{html_lang}"' in html,(path,status)
-        template={'en':'submit-project.yml','zh':'submit-project.zh-CN.yml','ja':'submit-project.ja.yml'}[locale]
+        template='submit-project.yml'
         assert f'href="https://github.com/hr98w/esp32.sh/issues/new?template={template}"' in html,(path,'localized submission form')
         assert 'class="submit-project"' in html,(path,'submission button')
 for path,expected in [('/',len(catalog['projects'])),('/?device=waveshare-esp32-s3-touch-amoled-1-8',sum(any(d['deviceId']=='waveshare-esp32-s3-touch-amoled-1-8' for d in p['devices']) for p in catalog['projects'])),('/?q=zzzznonexistent',0),('/devices?maker=m5stack',sum(d['manufacturer']['id']=='m5stack' for d in catalog['devices'])),('/devices?feature=keyboard',sum('keyboard' in d['features'] for d in catalog['devices'])),('/devices?feature=display',sum('display' in d['features'] or 'epaper' in d['features'] for d in catalog['devices'])),('/devices?q=M5CardputerADV',1),('/devices?q=Seeed%20XIAO',sum(d['manufacturer']['id']=='seeed-studio' and d['name'].lower().startswith('xiao') for d in catalog['devices'])),('/devices?q=zzzznonexistent',0)]:

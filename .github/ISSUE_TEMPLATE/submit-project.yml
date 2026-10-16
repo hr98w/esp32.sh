@@ -1,31 +1,33 @@
-name: Submit a project
-description: Recommend an ESP32 open-source project. No code or Markdown required.
+name: 提交项目 / Submit a project
+description: 推荐 ESP32 开源项目，无需写代码。Recommend an ESP32 project; no code required.
 title: "[Project submission] "
 labels:
   - submission:project
 body:
   - type: markdown
     attributes:
-      value: Paste the GitHub repository link. Our maintainers will check the project and prepare its listing. You can recommend your own project or someone else’s.
+      value: |-
+        只需填写 GitHub 仓库链接，维护者会核验并整理收录。可以推荐自己或别人的项目。
+        Just share the GitHub repository link. Maintainers will verify and prepare the listing. You may recommend your own project or someone else’s.
   - type: input
     id: repository
     attributes:
-      label: GitHub repository URL
-      description: A public GitHub repository, for example https://github.com/owner/project.
+      label: GitHub 仓库链接 / Repository URL
+      description: 公开仓库，例如 / Public repository, e.g. https://github.com/owner/project
       placeholder: https://github.com/owner/project
     validations:
       required: true
   - type: textarea
     id: reason
     attributes:
-      label: Why do you recommend it?
-      placeholder: "Optional: what can it do, or what makes it interesting?"
+      label: 为什么推荐？/ Why recommend it?
+      placeholder: "选填：它能做什么？/ Optional: what can it do?"
     validations:
       required: false
   - type: input
     id: device
     attributes:
-      label: Device you tried
-      placeholder: "Optional: the model you used. Leave blank if you have not tried it."
+      label: 使用过什么设备？/ Device you tried
+      placeholder: "选填：实际使用的型号，没试过可留空。/ Optional: the model you used; leave blank if untested."
     validations:
       required: false

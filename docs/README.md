@@ -15,7 +15,7 @@
 - [设备图片与详情覆盖](research/device-enrichment-progress.md)。
 - 刷新这些文件运行 `pnpm collect:report:all`，不要直接修改生成的报告。
 
-- [项目投稿与贡献](operations/submissions.md)：三语表单、专用标签及未来 AI 处理边界。
+- [项目投稿与贡献](operations/submissions.md)：双语表单、专用标签及未来 AI 处理边界。
 
 ## 产品约定与历史依据
 

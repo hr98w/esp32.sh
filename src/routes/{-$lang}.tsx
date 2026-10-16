@@ -20,7 +20,7 @@ function LocaleLayout() {
       <div className="masthead-actions"><select className="language" aria-label={t.language} value={lang} onChange={(event) => {
         const path = localizedPath(location.pathname, resolveLocale(event.target.value))
         window.location.assign(path + location.searchStr)
-      }}>{locales.map((locale) => <option key={locale} value={locale}>{languageNames[locale]}</option>)}</select><a className="submit-project" href={projectSubmissionUrl(lang)} target="_blank" rel="noopener noreferrer">{t.submitProject}</a></div>
+      }}>{locales.map((locale) => <option key={locale} value={locale}>{languageNames[locale]}</option>)}</select><a className="submit-project" href={projectSubmissionUrl()} target="_blank" rel="noopener noreferrer">{t.submitProject}</a></div>
     </header>
     <main className="window"><div className="titlebar">esp32.sh</div><Outlet /></main>
     <footer><details><summary>{t.about}</summary><p>{t.aboutText}</p><p>{t.policy}</p><h3>{t.contribute}</h3><p>{t.contributeText} <a href={repositoryUrl} target="_blank" rel="noopener noreferrer">GitHub ↗</a></p></details><span>SMALL CHIPS. BIG POSSIBILITIES.</span></footer>

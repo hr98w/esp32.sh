@@ -1,10 +1,10 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync } from 'node:fs'
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, readdirSync, rmSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { parse, stringify } from 'yaml'
-import { projectSubmissionLabel, projectSubmissionUrl, submissionTemplates } from '../src/lib/submissions.ts'
+import { projectSubmissionLabel, projectSubmissionUrl, projectSubmissionTemplate } from '../src/lib/submissions.ts'
 import { buildCatalog } from './content.ts'
 import { matchesQuery, deviceSearchFields } from '../src/lib/search.ts'
 
@@ -180,19 +180,18 @@ test('guide post validation rejects unsupported URLs and duplicate tweet identit
 }))
 
 
-test('project submission forms stay distinct from ordinary issues in every language',()=>{
+test('one bilingual submission form stays distinct from ordinary issues',()=>{
   const directory=join(process.cwd(),'.github/ISSUE_TEMPLATE')
   const config=parse(readFileSync(join(directory,'config.yml'),'utf8'))
   assert.equal(config.blank_issues_enabled,true,'ordinary feedback must remain possible')
-  for(const locale of ['en','zh','ja'] as const){
-    const filename=submissionTemplates[locale]
-    const form=parse(readFileSync(join(directory,filename),'utf8'))
-    assert.deepEqual(form.labels,[projectSubmissionLabel])
-    const fields=form.body.filter((field:{type:string})=>field.type!=='markdown')
-    assert.deepEqual(fields.map((field:{id:string})=>field.id),['repository','reason','device'])
-    assert.deepEqual(fields.filter((field:{validations?:{required?:boolean}})=>field.validations?.required).map((field:{id:string})=>field.id),['repository'])
-    const url=new URL(projectSubmissionUrl(locale))
-    assert.equal(url.pathname,'/hr98w/esp32.sh/issues/new')
-    assert.equal(url.searchParams.get('template'),filename)
-  }
+  assert.deepEqual(readdirSync(directory).filter(file=>file.endsWith('.yml')&&file!=='config.yml'),[projectSubmissionTemplate])
+  const form=parse(readFileSync(join(directory,projectSubmissionTemplate),'utf8'))
+  assert.equal(form.name,'提交项目 / Submit a project')
+  assert.deepEqual(form.labels,[projectSubmissionLabel])
+  const fields=form.body.filter((field:{type:string})=>field.type!=='markdown')
+  assert.deepEqual(fields.map((field:{id:string})=>field.id),['repository','reason','device'])
+  assert.deepEqual(fields.filter((field:{validations?:{required?:boolean}})=>field.validations?.required).map((field:{id:string})=>field.id),['repository'])
+  const url=new URL(projectSubmissionUrl())
+  assert.equal(url.pathname,'/hr98w/esp32.sh/issues/new')
+  assert.equal(url.searchParams.get('template'),projectSubmissionTemplate)
 })
