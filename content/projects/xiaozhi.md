@@ -12,6 +12,7 @@ kind: firmware
 tags:
   - ai
   - audio
+  - agent
 devices:
   - deviceId: lckfb-szpi-esp32-s3
     sourceUrl: https://wiki.lckfb.com/zh-hans/szpi-esp32s3/xiaozhi-ai.html

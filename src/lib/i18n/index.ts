@@ -34,6 +34,7 @@ const messages = {
 export const text = (locale: Locale) => messages[locale]
 
 const tagNames: Record<string, Record<Locale, string>> = {
+  agent: {zh:'智能体', en:'Agents', ja:'AIエージェント'},
   security: {zh:'安全测试', en:'Security', ja:'セキュリティ'},
   demo: {zh:'演示', en:'Demos', ja:'デモ'},
   tools: {zh:'工具', en:'Tools', ja:'ツール'}, home: {zh:'智能家居', en:'Smart home', ja:'スマートホーム'},

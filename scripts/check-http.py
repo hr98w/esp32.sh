@@ -136,3 +136,15 @@ for locale,prefix,html_lang in [('en','','en'),('zh','/zh','zh-CN'),('ja','/ja',
         for device in pick['deviceIds']:assert f'href="{prefix}/devices/{device}"' in html,(path,device)
 assert request('/en/guides',False)[0]==301
 print('Passed Start Here HTTP: all localized picks, device links, 10 original-post fallbacks, canonical URLs and language redirect. X iframe rendering requires a browser/network check.')
+
+agent_projects=[project for project in catalog['projects'] if 'agent' in project['tags']]
+if agent_projects:
+    for prefix,label in [('', 'Agents'),('/zh','智能体'),('/ja','AIエージェント')]:
+        path=(prefix or '/')+'?tag=agent'
+        status,html,_=request(path)
+        parsed=Page(html)
+        assert status==200 and label in unescape(html),(path,'localized agent category')
+        assert parsed.cards==min(24,len(agent_projects)),(path,'agent filter count')
+        if len(agent_projects)<=24:
+            assert set(parsed.project_links)=={project['repository'] for project in agent_projects},(path,'agent project membership')
+    print(f'Passed agent category: {len(agent_projects)} projects, three translated labels and correct filtered membership.')

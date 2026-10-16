@@ -898,5 +898,23 @@
     "pushedAt": "2026-08-28T06:32:52Z",
     "archived": false,
     "sourceUrl": "https://api.github.com/repos/m5stack/StackChan-BSP"
+  },
+  "esp32-iphone-agent": {
+    "repository": "https://github.com/onehumanbeing/esp32-iphone-agent",
+    "githubId": 1414685342,
+    "stars": 2785,
+    "checkedAt": "2026-10-16T15:02:49+00:00",
+    "pushedAt": "2026-10-16T07:12:48Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/onehumanbeing/esp32-iphone-agent"
+  },
+  "anan-iphone-use": {
+    "repository": "https://github.com/ananhq/anan-iphone-use",
+    "githubId": 1417010216,
+    "stars": 113,
+    "checkedAt": "2026-10-16T15:02:42+00:00",
+    "pushedAt": "2026-10-15T15:24:42Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/ananhq/anan-iphone-use"
   }
 }

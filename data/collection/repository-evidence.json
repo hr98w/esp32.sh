@@ -4952,7 +4952,13 @@
     "readmeCheckedAt": "2026-10-16T01:04:03+00:00",
     "readmeCharacters": 5335,
     "readmeCacheUrl": "https://api.github.com/repos/Trentct/m5stack-stopwatch-avatar/readme",
-    "readmeExcerpt": "# KK — M5Stack StopWatch Avatar\n\n[English](README.md) | [简体中文](README.zh-CN.md)\n\n[![Build firmware](https://github.com/Trentct/m5stack-stopwatch-avatar/actions/workflows/build.yml/badge.svg)](https://github.com/Trentct/m5stack-stopwatch-avatar/actions/workflows/build.yml)\n[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)\n\nMeet **KK** — a tiny expressive face living inside the M5Stack StopWatch.\n\nKK is a procedural avatar built for the M5Stack StopWatch's circular AMOLED display. Its eyes, eyelids, brows, keyframes and transitions are drawn in real time with "
+    "readmeExcerpt": "# KK — M5Stack StopWatch Avatar\n\n[English](README.md) | [简体中文](README.zh-CN.md)\n\n[![Build firmware](https://github.com/Trentct/m5stack-stopwatch-avatar/actions/workflows/build.yml/badge.svg)](https://github.com/Trentct/m5stack-stopwatch-avatar/actions/workflows/build.yml)\n[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)\n\nMeet **KK** — a tiny expressive face living inside the M5Stack StopWatch.\n\nKK is a procedural avatar built for the M5Stack StopWatch's circular AMOLED display. Its eyes, eyelids, brows, keyframes and transitions are drawn in real time with ",
+    "verifiedLicense": "AGPL-3.0-or-later",
+    "licenseReview": {
+      "sourceUrl": "https://github.com/Trentct/m5stack-stopwatch-avatar#license",
+      "checkedAt": "2026-10-16T01:04:03+00:00",
+      "basis": "The complete cached README explicitly declares GNU Affero General Public License v3.0 or later; retain the or-later term rather than the generic API AGPL-3.0 identifier."
+    }
   },
   "volosr/m5cardremote": {
     "repository": "VolosR/M5CardRemote",
@@ -5463,5 +5469,85 @@
     "readmeCacheUrl": "https://api.github.com/repos/lovyan03/M5Stack_OnScreenKeyboard/readme",
     "readmeExcerpt": "M5Stack OnScreenKeyboard library. (for ASCII code)\n===\n\nAdd Keyboard for your M5Stack project.\n\nあなたのM5Stackプロジェクトにキーボードを！  \n\n## Description\n\nOnScreenKeyboard which can be operated with 3 button.  \n\nM5Stack本体の３ボタンで操作できるオンスクリーンキーボード。  \n簡単な文字入力にお使いいただけます。  \n\nSupport FACES Keyboard and GameBoy and Encoder unit.  \nSupport PLUS Encoder unit.  \nSupport JoyStick unit.  \nSupport CardKB unit.  \nSupport morse code input.  \n\nM5Stackの各種ユニットでの操作にも対応。\nA+C 2ボタン同時押しでモールス入力モードに切替可能。  \n\n![image](https://user-images.githubusercontent.com/42724151/52710266-45ab4280-2fd2-11e9-9897-f0b001cb0edf.png)  \n\nCommon operat",
     "reason": null
+  },
+  "ananhq/anan-iphone-use": {
+    "repository": "ananhq/anan-iphone-use",
+    "status": "verified",
+    "githubId": 1417010216,
+    "stars": 113,
+    "starsCheckedAt": "2026-10-16T15:02:42+00:00",
+    "description": "ESP32 MCP firmware for iPhone USB input, built for M5Stack StopWatch with guided board adaptation",
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-10-15T15:24:42Z",
+    "apiUrl": "https://api.github.com/repos/ananhq/anan-iphone-use",
+    "topics": [
+      "agent-infra",
+      "esp32",
+      "esp32-s3",
+      "iphone-use",
+      "phone-use"
+    ],
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "readmeUrl": "https://api.github.com/repos/ananhq/anan-iphone-use/readme",
+    "readmeCheckedAt": "2026-10-16T15:02:45+00:00",
+    "readmeCharacters": 9801,
+    "readmeCacheUrl": "https://api.github.com/repos/ananhq/anan-iphone-use/readme",
+    "readmeExcerpt": "# Anan iPhone Use\n\nEnglish · [简体中文](README.zh-CN.md)\n\n**An iPhone MCP server built for M5Stack StopWatch (ESP32-S3), with USB and Bluetooth mouse and keyboard input.**\n\nThe client observes the screen, decides what to do and checks the result; StopWatch executes taps, drags, scrolling and keyboard input. The firmware runs no model and provides no phone screenshots.\n\nIntegrated with **[Anan](https://anan.sh) (an entirely client-side agent, coming soon as open source)**. Other MCP agents and ESP32 boards are welcome; the [anan-iphone-use skill](.agents/skills/anan-iphone-use/SKILL.md) guides setu",
+    "reason": null,
+    "verifiedLicense": "GPL-3.0-only AND AGPL-3.0-or-later",
+    "licenseReview": {
+      "sourceUrl": "https://github.com/ananhq/anan-iphone-use#license",
+      "checkedAt": "2026-10-16T15:02:45+00:00",
+      "basis": "The complete README declares existing code GPL-3.0-only and the integrated StopWatch avatar engine AGPL-3.0-or-later; it explicitly describes the combination under GPLv3/AGPLv3 section 13. Preserve both declarations rather than the API GPL-3.0 label alone. License sections were read in the full README; a separate license-file fetch was deferred by anonymous API cooldown."
+    }
+  },
+  "onehumanbeing/esp32-iphone-agent": {
+    "repository": "onehumanbeing/esp32-iphone-agent",
+    "status": "verified",
+    "githubId": 1414685342,
+    "stars": 2785,
+    "starsCheckedAt": "2026-10-16T15:02:49+00:00",
+    "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+    "archived": false,
+    "defaultBranch": "main",
+    "pushedAt": "2026-10-16T07:12:48Z",
+    "apiUrl": "https://api.github.com/repos/onehumanbeing/esp32-iphone-agent",
+    "topics": [
+      "ai-agent",
+      "airplay",
+      "automation",
+      "computer-use",
+      "esp32",
+      "esp32-s3",
+      "iphone",
+      "llm",
+      "usb-hid"
+    ],
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "readmeUrl": "https://api.github.com/repos/onehumanbeing/esp32-iphone-agent/readme",
+    "readmeCheckedAt": "2026-10-16T15:02:51+00:00",
+    "readmeCharacters": 10660,
+    "readmeCacheUrl": "https://api.github.com/repos/onehumanbeing/esp32-iphone-agent/readme",
+    "readmeExcerpt": "<div align=\"center\">\n\n<img src=\"docs/images/logo.png\" alt=\"ESP32 Agent logo\" width=\"160\">\n\n# ESP32 iPhone Agent\n\n**Let an AI model use a real iPhone with a $7 ESP32. Just the phone and the board: no computer, no jailbreak.**\n\nEnglish · [简体中文](README.zh-CN.md)\n\nDemo video and updates: [X @iamhenryyuan](https://x.com/iamhenryyuan) · [YouTube demo](https://www.youtube.com/watch?v=Ly4im-P4jYg)\n\n[![CI](https://github.com/onehumanbeing/esp32-iphone-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/onehumanbeing/esp32-iphone-agent/actions/workflows/ci.yml)\n[![License: MIT](https://img.shi",
+    "reason": null,
+    "verifiedLicense": "MIT AND GPL-3.0",
+    "licenseReview": {
+      "sourceUrl": "https://github.com/onehumanbeing/esp32-iphone-agent#license",
+      "checkedAt": "2026-10-16T15:02:51+00:00",
+      "basis": "The complete README declares MIT except the UxPlay-derived AirPlay directory, which is GPL-3.0; the linked firmware binary is distributed under GPL-3.0. The API MIT label alone does not cover the complete repository. License sections were read in the full README; a separate license-file fetch was deferred by anonymous API cooldown."
+    }
   }
 }

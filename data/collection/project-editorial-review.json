@@ -13,7 +13,15 @@
       "https://github.com/steveruizok/chat-stick#readme",
       "https://github.com/steveruizok/chat-stick#readme",
       "https://github.com/steveruizok/chat-stick#readme"
-    ]
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": true,
+      "reviewedAt": "2026-10-16T15:06:56.992Z",
+      "sourceUrl": "https://github.com/steveruizok/chat-stick#readme",
+      "sourceCheckedAt": "2026-10-15T17:22:06+00:00",
+      "basis": "Voice interface with model-driven device and server tool calls."
+    }
   },
   "78/xiaozhi-esp32": {
     "contentId": "xiaozhi",
@@ -27,7 +35,15 @@
     "supportSources": [
       "https://github.com/78/xiaozhi-esp32#readme",
       "https://github.com/78/xiaozhi-esp32#readme"
-    ]
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": true,
+      "reviewedAt": "2026-10-16T15:06:56.993Z",
+      "sourceUrl": "https://github.com/78/xiaozhi-esp32#readme",
+      "sourceCheckedAt": "2026-10-15T17:22:10+00:00",
+      "basis": "Voice interaction with device-side and cloud-side MCP tool control."
+    }
   },
   "datascale-ai/inksight": {
     "contentId": "inksight",
@@ -47,7 +63,15 @@
     "compatibility": "documented",
     "supportSources": [
       "https://github.com/GOROman/vibewatch#readme"
-    ]
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": true,
+      "reviewedAt": "2026-10-16T15:06:56.994Z",
+      "sourceUrl": "https://github.com/GOROman/vibewatch#readme",
+      "sourceCheckedAt": "2026-10-15T17:22:26+00:00",
+      "basis": "Physical UI for agent sessions, approval/rejection and prompt input."
+    }
   },
   "sieren/homepoint": {
     "contentId": "homepoint",
@@ -79,7 +103,15 @@
     "readmeCheckedAt": "2026-10-15T17:23:05+00:00",
     "deviceIds": [],
     "compatibility": "pending",
-    "supportSources": []
+    "supportSources": [],
+    "tagReview": {
+      "tag": "agent",
+      "included": false,
+      "reviewedAt": "2026-10-16T15:06:56.995Z",
+      "sourceUrl": "https://github.com/tobymarks/esp32-ai-monitor#readme",
+      "sourceCheckedAt": "2026-10-15T17:23:05+00:00",
+      "basis": "Current primary function is AI usage/quota display; the Claude Code approval window is explicitly in development."
+    }
   },
   "aliceisjustplaying/tinydraw": {
     "contentId": "tinydraw",
@@ -255,7 +287,15 @@
       "https://github.com/stack-chan/stack-chan#readme",
       "https://github.com/stack-chan/stack-chan#readme",
       "https://github.com/stack-chan/stack-chan#readme"
-    ]
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": false,
+      "reviewedAt": "2026-10-16T15:06:56.995Z",
+      "sourceUrl": "https://github.com/stack-chan/stack-chan#readme",
+      "sourceCheckedAt": "2026-10-15T18:20:38+00:00",
+      "basis": "General robot platform and MOD toolkit; no agent-specific function established from the reviewed README."
+    }
   },
   "echo-lalia/microhydra": {
     "contentId": "microhydra",
@@ -637,7 +677,15 @@
     "compatibility": "documented",
     "supportSources": [
       "https://github.com/bryant24hao/ClawPuter#readme"
-    ]
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": true,
+      "reviewedAt": "2026-10-16T15:06:56.990Z",
+      "sourceUrl": "https://github.com/bryant24hao/ClawPuter#readme",
+      "sourceCheckedAt": "2026-10-15T19:21:43+00:00",
+      "basis": "Provides a Cardputer terminal for an external OpenClaw Gateway; not an on-device model."
+    }
   },
   "voidnoi/badcard": {
     "contentId": "badcard",
@@ -663,7 +711,15 @@
     "supportSources": [
       "https://github.com/ronron-gh/AI_StackChan_Ex#readme",
       "https://github.com/ronron-gh/AI_StackChan_Ex#readme"
-    ]
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": true,
+      "reviewedAt": "2026-10-16T15:06:56.995Z",
+      "sourceUrl": "https://github.com/ronron-gh/AI_StackChan_Ex#readme",
+      "sourceCheckedAt": "2026-10-15T19:21:55+00:00",
+      "basis": "README explicitly states implemented real-time voice and MCP extensions."
+    }
   },
   "botofancalin/m5stack-esp32-oscilloscope": {
     "contentId": "m5-oscilloscope",
@@ -715,7 +771,15 @@
     "compatibility": "documented",
     "supportSources": [
       "https://github.com/kisaragi-mochi/stackchan-mcp#readme"
-    ]
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": true,
+      "reviewedAt": "2026-10-16T15:06:56.991Z",
+      "sourceUrl": "https://github.com/kisaragi-mochi/stackchan-mcp#readme",
+      "sourceCheckedAt": "2026-10-15T19:22:26+00:00",
+      "basis": "Exposes physical robot capabilities to external MCP/LLM clients."
+    }
   },
   "northstrix/midbar": {
     "contentId": "midbar",
@@ -845,7 +909,15 @@
     "compatibility": "documented",
     "supportSources": [
       "https://github.com/fwz233-RE/M5Claw#readme"
-    ]
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": true,
+      "reviewedAt": "2026-10-16T15:06:56.984Z",
+      "sourceUrl": "https://github.com/fwz233-RE/M5Claw#readme",
+      "sourceCheckedAt": "2026-10-15T21:00:08+00:00",
+      "basis": "Runs an agent with callable device tools, persistent memory, skills and scheduled tasks."
+    }
   },
   "mongonta0716/m5stack-avatar-mic": {
     "contentId": "avatar-mic",
@@ -1077,7 +1149,16 @@
     "compatibility": "documented",
     "supportSources": [
       "https://github.com/Trentct/m5stack-stopwatch-avatar#readme"
-    ]
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": false,
+      "reviewedAt": "2026-10-16T15:06:56.995Z",
+      "sourceUrl": "https://github.com/Trentct/m5stack-stopwatch-avatar#readme",
+      "sourceCheckedAt": "2026-10-16T01:04:03+00:00",
+      "basis": "Procedural expression rendering and local input; no agent loop or model tools. Keep graphics/demo tags."
+    },
+    "licenseReviewNote": "README explicitly says AGPL-3.0-or-later; original intake date and non-agent graphics/demo tags retained."
   },
   "hanminyin/vibestick-for-mac": {
     "contentId": "vibestick-for-mac",
@@ -1089,7 +1170,15 @@
     "compatibility": "documented",
     "supportSources": [
       "https://github.com/HanminYIN/VibeStick-for-Mac#readme"
-    ]
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": true,
+      "reviewedAt": "2026-10-16T15:06:56.995Z",
+      "sourceUrl": "https://github.com/HanminYIN/VibeStick-for-Mac#readme",
+      "sourceCheckedAt": "2026-10-16T01:04:07+00:00",
+      "basis": "Coding-agent companion with session status and push-to-talk input into the Mac workflow."
+    }
   },
   "juicecultus/crosspoint-reader-papers3": {
     "contentId": "crosspoint-papers3",
@@ -1262,5 +1351,45 @@
     "deviceIds": [],
     "compatibility": "pending",
     "supportSources": []
+  },
+  "onehumanbeing/esp32-iphone-agent": {
+    "contentId": "esp32-iphone-agent",
+    "review": "The complete README declares MIT except the UxPlay-derived AirPlay directory, which is GPL-3.0; the linked firmware binary is distributed under GPL-3.0. The API MIT label alone does not cover the complete repository. Summary and exact-model support reviewed against the complete current README. No hardware validation.",
+    "readmeCheckedAt": "2026-10-16T15:02:51+00:00",
+    "deviceIds": [
+      "seeed-xiao-esp32s3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/onehumanbeing/esp32-iphone-agent#readme"
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": true,
+      "reviewedAt": "2026-10-16T15:08:14+00:00",
+      "sourceUrl": "https://github.com/onehumanbeing/esp32-iphone-agent#readme",
+      "sourceCheckedAt": "2026-10-16T15:02:51+00:00",
+      "basis": "Visual-agent orchestration in the iPhone app, with AirPlay observation relay and physical HID actions."
+    }
+  },
+  "ananhq/anan-iphone-use": {
+    "contentId": "anan-iphone-use",
+    "review": "The complete README declares existing code GPL-3.0-only and the integrated StopWatch avatar engine AGPL-3.0-or-later; it explicitly describes the combination under GPLv3/AGPLv3 section 13. Preserve both declarations rather than the API GPL-3.0 label alone. Summary and exact-model support reviewed against the complete current README. No hardware validation.",
+    "readmeCheckedAt": "2026-10-16T15:02:45+00:00",
+    "deviceIds": [
+      "m5stack-stopwatch"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/ananhq/anan-iphone-use#readme"
+    ],
+    "tagReview": {
+      "tag": "agent",
+      "included": true,
+      "reviewedAt": "2026-10-16T15:08:14+00:00",
+      "sourceUrl": "https://github.com/ananhq/anan-iphone-use#readme",
+      "sourceCheckedAt": "2026-10-16T15:02:45+00:00",
+      "basis": "MCP device tools for external iPhone agents; no onboard model or screenshot capture."
+    }
   }
 }

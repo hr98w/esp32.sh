@@ -1900,7 +1900,8 @@
     "status": "discovered",
     "discoveredAt": "2026-10-15T17:47:41+00:00",
     "sources": [
-      "https://m5ware.com/projects/526"
+      "https://m5ware.com/projects/526",
+      "https://github.com/Trentct/m5stack-stopwatch-avatar"
     ],
     "reason": null,
     "directoryTitle": "MW Device not specified EXP Experiments M5stack Stopwatch Avatar by  Trentct KK — a procedural 60fps avatar for the M5Stack StopWatch C++ Device not specified   56  stars   Sep 1, 2026",
@@ -2802,5 +2803,23 @@
     ],
     "reason": null,
     "directoryDescription": "- [Weather App](https://github.com/qubiX00/weather-cardputer)"
+  },
+  "onehumanbeing/esp32-iphone-agent": {
+    "repository": "onehumanbeing/esp32-iphone-agent",
+    "status": "discovered",
+    "discoveredAt": "2026-10-16T15:02:40+00:00",
+    "sources": [
+      "https://github.com/onehumanbeing/esp32-iphone-agent"
+    ],
+    "reason": null
+  },
+  "ananhq/anan-iphone-use": {
+    "repository": "ananhq/anan-iphone-use",
+    "status": "discovered",
+    "discoveredAt": "2026-10-16T15:02:40+00:00",
+    "sources": [
+      "https://github.com/ananhq/anan-iphone-use"
+    ],
+    "reason": null
   }
 }

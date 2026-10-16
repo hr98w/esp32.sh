@@ -13,6 +13,7 @@ tags:
   - ai
   - wearable
   - tools
+  - agent
 devices:
   - deviceId: m5stack-stopwatch
     sourceUrl: https://github.com/GOROman/vibewatch#readme

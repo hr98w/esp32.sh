@@ -10,6 +10,7 @@
 - `summary` 中保存 `zh`、`en`、`ja` 三个版本；仓库、许可、设备关联共用。
 - `kind`：`firmware`、`application`、`library` 或 `framework`，方便区分可体验固件与开发依赖。
 - `tags`：多个稳定标签，调整标签不需要移动文件。
+  - `agent`（智能体 / Agents / AIエージェント）：有明确智能体流程、模型工具调用、MCP 设备能力，或面向智能体的操作终端。它可与 `ai` 共存，不代表模型运行在 ESP32 上。普通聊天、AI 用量看板、通用机器人平台和表情动画不因此自动归入。
 - `devices`：`deviceId` 与 `sourceUrl` 的列表，记录上游适配依据。不根据相同芯片自动关联。
 - `cover`：可选 HTTPS 图片地址或 `/images/...` 本站资源路径。不要填空字符串，不填写即可。
 - `autoCover`：可选，默认 `true`，用于控制 README 自动取图；候选来自独立数据快照，缺图或加载失败显示项目名。

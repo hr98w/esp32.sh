@@ -12,6 +12,7 @@ kind: firmware
 tags:
   - ai
   - audio
+  - agent
 devices:
   - deviceId: m5stack-core2
     sourceUrl: https://github.com/ronron-gh/AI_StackChan_Ex#readme

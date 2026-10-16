@@ -13,6 +13,7 @@ tags:
   - ai
   - tools
   - audio
+  - agent
 devices:
   - deviceId: m5stack-sticks3
     sourceUrl: https://github.com/HanminYIN/VibeStick-for-Mac#readme

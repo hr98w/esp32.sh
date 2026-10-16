@@ -12,6 +12,7 @@ kind: firmware
 tags:
   - ai
   - tools
+  - agent
 devices:
   - deviceId: m5stack-stackchan
     sourceUrl: https://github.com/kisaragi-mochi/stackchan-mcp#readme

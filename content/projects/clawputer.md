@@ -13,6 +13,7 @@ tags:
   - ai
   - games
   - display
+  - agent
 devices:
   - deviceId: m5stack-cardputer
     sourceUrl: https://github.com/bryant24hao/ClawPuter#readme

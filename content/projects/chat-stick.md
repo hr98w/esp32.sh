@@ -11,6 +11,7 @@ kind: firmware
 tags:
   - ai
   - audio
+  - agent
 devices:
   - deviceId: m5stack-sticks3
     sourceUrl: https://github.com/steveruizok/chat-stick#readme

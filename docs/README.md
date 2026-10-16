@@ -19,6 +19,8 @@
 
 ## 产品约定与历史依据
 
+- [Agent 标签与指定项目收录](research/2026-10-16-agent-tags-intake.md)：标签边界、设备关联与组合许可。
+
 - [GitHub 与 Workers Builds](research/2026-10-16-github-workers-builds.md)：个人仓库、main 自动部署和首次推送验证。
 
 - [新手指南](product/2026-10-16-beginner-guide.md)：推荐设备与玩法、独立推文 Markdown、嵌入和删减方式。

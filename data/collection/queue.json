@@ -2988,7 +2988,8 @@
       "file": "content/projects/stopwatch-avatar.md"
     },
     "sources": [
-      "https://m5ware.com/projects/526"
+      "https://m5ware.com/projects/526",
+      "https://github.com/Trentct/m5stack-stopwatch-avatar"
     ],
     "stars": 63,
     "checkedAt": "2026-10-16T01:04:00+00:00",
@@ -4372,6 +4373,44 @@
     "reason": "Upstream verification pending",
     "discoveryKeys": [
       "qubix00/weather-cardputer"
+    ]
+  },
+  {
+    "kind": "project",
+    "key": "onehumanbeing/esp32-iphone-agent",
+    "repository": "onehumanbeing/esp32-iphone-agent",
+    "status": "included",
+    "content": {
+      "id": "esp32-iphone-agent",
+      "file": "content/projects/esp32-iphone-agent.md"
+    },
+    "sources": [
+      "https://github.com/onehumanbeing/esp32-iphone-agent"
+    ],
+    "stars": 2785,
+    "checkedAt": "2026-10-16T15:02:49+00:00",
+    "reason": null,
+    "discoveryKeys": [
+      "onehumanbeing/esp32-iphone-agent"
+    ]
+  },
+  {
+    "kind": "project",
+    "key": "ananhq/anan-iphone-use",
+    "repository": "ananhq/anan-iphone-use",
+    "status": "included",
+    "content": {
+      "id": "anan-iphone-use",
+      "file": "content/projects/anan-iphone-use.md"
+    },
+    "sources": [
+      "https://github.com/ananhq/anan-iphone-use"
+    ],
+    "stars": 113,
+    "checkedAt": "2026-10-16T15:02:42+00:00",
+    "reason": null,
+    "discoveryKeys": [
+      "ananhq/anan-iphone-use"
     ]
   },
   {

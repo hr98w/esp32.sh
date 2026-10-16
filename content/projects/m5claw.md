@@ -12,6 +12,7 @@ kind: firmware
 tags:
   - ai
   - audio
+  - agent
 devices:
   - deviceId: m5stack-cardputer
     sourceUrl: https://github.com/fwz233-RE/M5Claw#readme

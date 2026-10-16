@@ -2,7 +2,7 @@
 id: stopwatch-avatar
 name: KK StopWatch Avatar
 repository: https://github.com/Trentct/m5stack-stopwatch-avatar
-license: AGPL-3.0
+license: AGPL-3.0-or-later
 summary:
   zh: 在 StopWatch 上实时绘制可互动的表情角色，响应触摸、倾斜、摇晃和按键；语音识别尚未接入。
   en: An interactive, procedurally drawn avatar for StopWatch that responds to
