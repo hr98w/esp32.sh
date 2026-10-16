@@ -1,0 +1,1831 @@
+{
+  "generatedAt": "2026-10-16T03:33:09+00:00",
+  "scope": "All listed relations; offline lexical review aid only, not execution or hardware verification.",
+  "relations": [
+    {
+      "projectId": "advanceos",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/bomberman30/AdvanceOS-for-cardputer#readme",
+      "readmeCheckedAt": "2026-10-16T00:04:26+00:00",
+      "status": "model-name-found",
+      "context": [
+        "AdvanceOS is a lightweight operating system for the Cardputer ADV, designed primarily for media playback and file browsing."
+      ]
+    },
+    {
+      "projectId": "ai-stackchan-ex",
+      "deviceId": "m5stack-core2",
+      "sourceUrl": "https://github.com/ronron-gh/AI_StackChan_Ex#readme",
+      "readmeCheckedAt": "2026-10-15T19:21:55+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- M5Stack Core2"
+      ]
+    },
+    {
+      "projectId": "ai-stackchan-ex",
+      "deviceId": "m5stack-cores3",
+      "sourceUrl": "https://github.com/ronron-gh/AI_StackChan_Ex#readme",
+      "readmeCheckedAt": "2026-10-15T19:21:55+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- M5Stack CoreS3"
+      ]
+    },
+    {
+      "projectId": "area512",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/engneer-hamachan/area512#readme",
+      "readmeCheckedAt": "2026-10-16T01:06:02+00:00",
+      "status": "source-context-reviewed",
+      "context": [
+        "AREA512 is an OS built for the Cardputer ADV and Cardputer v1.1,",
+        "AREA512 supports Cardputer ADV and Cardputer v1.1, either on their own or with the TERM512 external display and case.",
+        "<td><img src=\"image/device.jpg\" alt=\"AREA512 on a Cardputer ADV\" height=\"226\" /></td>"
+      ],
+      "reviewBasis": "README explicitly supports ADV and Cardputer v1.1. Only ADV linked; original Cardputer listing does not establish v1.1 revision."
+    },
+    {
+      "projectId": "avatar-mic",
+      "deviceId": "m5stack-core2",
+      "sourceUrl": "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "readmeCheckedAt": "2026-10-15T21:00:12+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- M5Stack Core2/Core2 V1.1/AWS"
+      ]
+    },
+    {
+      "projectId": "avatar-mic",
+      "deviceId": "m5stack-stickc",
+      "sourceUrl": "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "readmeCheckedAt": "2026-10-15T21:00:12+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- M5StickC",
+        "- M5StickCPlus"
+      ]
+    },
+    {
+      "projectId": "avatar-mic",
+      "deviceId": "m5stack-atoms3",
+      "sourceUrl": "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "readmeCheckedAt": "2026-10-15T21:00:12+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- ATOMS3 + PDMUnit"
+      ]
+    },
+    {
+      "projectId": "avatar-mic",
+      "deviceId": "m5stack-cores3",
+      "sourceUrl": "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "readmeCheckedAt": "2026-10-15T21:00:12+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- M5Stack CoreS3",
+        "- M5Stack CoreS3SE"
+      ]
+    },
+    {
+      "projectId": "avatar-mic",
+      "deviceId": "m5stack-fire",
+      "sourceUrl": "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "readmeCheckedAt": "2026-10-15T21:00:12+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- M5Stack Fire"
+      ]
+    },
+    {
+      "projectId": "avatar-mic",
+      "deviceId": "m5stack-dial",
+      "sourceUrl": "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "readmeCheckedAt": "2026-10-15T21:00:12+00:00",
+      "status": "source-context-reviewed",
+      "context": [
+        "- M5Dial + PDMUnit(Port.A)"
+      ],
+      "reviewBasis": "README names M5Dial + PDMUnit on Port.A. Additional microphone requirement is not inferred as built-in hardware."
+    },
+    {
+      "projectId": "avatar-mic",
+      "deviceId": "m5stack-stickc-plus",
+      "sourceUrl": "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "readmeCheckedAt": "2026-10-15T21:00:12+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- M5StickCPlus"
+      ]
+    },
+    {
+      "projectId": "axisorange",
+      "deviceId": "m5stack-core2",
+      "sourceUrl": "https://github.com/naninunenoy/AxisOrange#readme",
+      "readmeCheckedAt": "2026-10-16T01:06:06+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* M5Stack Core2"
+      ]
+    },
+    {
+      "projectId": "axisorange",
+      "deviceId": "m5stack-stickc",
+      "sourceUrl": "https://github.com/naninunenoy/AxisOrange#readme",
+      "readmeCheckedAt": "2026-10-16T01:06:06+00:00",
+      "status": "model-name-found",
+      "context": [
+        "This is demo. M5StickC calucutates and sends quaternion to PC by SPP.",
+        "* M5StickC",
+        "* M5StickCPlus"
+      ]
+    },
+    {
+      "projectId": "axisorange",
+      "deviceId": "m5stack-stickc-plus",
+      "sourceUrl": "https://github.com/naninunenoy/AxisOrange#readme",
+      "readmeCheckedAt": "2026-10-16T01:06:06+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* M5StickCPlus"
+      ]
+    },
+    {
+      "projectId": "badcard",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/VoidNoi/BadCard#readme",
+      "readmeCheckedAt": "2026-10-15T19:21:51+00:00",
+      "status": "model-name-found",
+      "context": [
+        "BadUSB for the Cardputer with ducky script support and extra functionality",
+        "You can make your own payloads in your cardputer with the <strong>\"NEW FILE\"</strong> option"
+      ]
+    },
+    {
+      "projectId": "beryllium-micro",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- M5Stack Cardputer (Requires 9.1.0-beta1 or later)<br />"
+      ]
+    },
+    {
+      "projectId": "beryllium-micro",
+      "deviceId": "lilygo-t-deck",
+      "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- LILYGO T-Deck<br />"
+      ]
+    },
+    {
+      "projectId": "beryllium-micro",
+      "deviceId": "lilygo-t-watch-s3",
+      "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- LILYGO T-Watch-S3<br />"
+      ]
+    },
+    {
+      "projectId": "beryllium-micro",
+      "deviceId": "waveshare-esp32-s3-zero",
+      "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- Waveshare ESP32-S3-Zero<br />"
+      ]
+    },
+    {
+      "projectId": "beryllium-micro",
+      "deviceId": "adafruit-feather-esp32s2",
+      "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- Adafruit Feather ESP32-S2<br />"
+      ]
+    },
+    {
+      "projectId": "beryllium-micro",
+      "deviceId": "adafruit-feather-esp32s3-tft",
+      "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- Adafruit Feather ESP32-S3 TFT<br />"
+      ]
+    },
+    {
+      "projectId": "beryllium-micro",
+      "deviceId": "ai-thinker-esp32-cam",
+      "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- AiThinker ESP32-CAM<br />"
+      ]
+    },
+    {
+      "projectId": "beryllium-micro",
+      "deviceId": "dfrobot-beetle-esp32c3",
+      "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- DFRobot Beetle ESP32-C3<br />"
+      ]
+    },
+    {
+      "projectId": "beryllium-micro",
+      "deviceId": "dfrobot-firebeetle2-esp32s3",
+      "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- Firebeetle 2 ESP32-S3<br />"
+      ]
+    },
+    {
+      "projectId": "beryllium-micro",
+      "deviceId": "wemos-lolin-s2-mini",
+      "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- Wemos Lolin S2 Mini<br />"
+      ]
+    },
+    {
+      "projectId": "bit-pirate",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:08+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| **M5 Cardputer**      | ![Photo of the M5 Cardputer](/images/cardputer_s.png)            | 2 GPIO (Grove), screen, keyboard, mic, speaker, IR TX, SD card, battery, [standalone mode](#standalone-mode-for-the-cardputer)            |",
+        "| [**M5 Cardputer ADV**](https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3?ref=pvosfmid)  | [![Photo of the M5 Cardputer ADV](/images/cardputer-adv_s.jpg)](https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3?ref=pvosfmid)    | 12 GPIO (Grove, Header), screen, keyboard, mic, speaker, IR TX, SD card, IMU, battery, [Lora](https://shop.m5stack.com/products/cap-lora-1262-for-cardputer-adv-sx1262-atgm336h?ref=pvosfmid), [CC1101](https://shop.m5stack.com/products/cap-cc1101-nfc-for-cardputer?ref=pvosfmid), [standalone mode](#standalone-mode-for-the-cardputer)                  |",
+        "- You can also burn it on [M5Burner](https://docs.m5stack.com/en/download), in the StickS3, AtomS3, M5StampS3 or Cardputer category."
+      ]
+    },
+    {
+      "projectId": "bit-pirate",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:08+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| [**M5 Cardputer ADV**](https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3?ref=pvosfmid)  | [![Photo of the M5 Cardputer ADV](/images/cardputer-adv_s.jpg)](https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3?ref=pvosfmid)    | 12 GPIO (Grove, Header), screen, keyboard, mic, speaker, IR TX, SD card, IMU, battery, [Lora](https://shop.m5stack.com/products/cap-lora-1262-for-cardputer-adv-sx1262-atgm336h?ref=pvosfmid), [CC1101](https://shop.m5stack.com/products/cap-cc1101-nfc-for-cardputer?ref=pvosfmid), [standalone mode](#standalone-mode-for-the-cardputer)                  |"
+      ]
+    },
+    {
+      "projectId": "bit-pirate",
+      "deviceId": "m5stack-sticks3",
+      "sourceUrl": "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:08+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| [**M5 Stick S3**](https://shop.m5stack.com/products/m5sticks3-esp32s3-mini-iot-dev-kit?ref=pvosfmid) | [![Photo of the M5 Stick S3](/images/m5sticks3_s.jpg)](https://shop.m5stack.com/products/m5sticks3-esp32s3-mini-iot-dev-kit?ref=pvosfmid)      | 13 GPIO (Grove, Header), screen, mic, speaker, IR TX, IR RX, IMU, 3 buttons, battery                 |",
+        "- You can also burn it on [M5Burner](https://docs.m5stack.com/en/download), in the StickS3, AtomS3, M5StampS3 or Cardputer category."
+      ]
+    },
+    {
+      "projectId": "bit-pirate",
+      "deviceId": "lilygo-t-embed",
+      "sourceUrl": "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:08+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| **LILYGO T-Embed**    | ![Photo of the LILYGO T-Embed](/images/tembed_s.jpg)          | 9 GPIO (Grove, Header), screen, encoder, speaker, mic, SD card                                         |",
+        "| **LILYGO T-Embed CC1101** | ![Photo of the LILYGO T-Embed CC1101](/images/tembedcc1101_s.jpg) | 4 GPIO (2x Qwiic), screen, encoder, speaker, mic, SD Card, CC1101, PN532, IR TX, IR RX , battery                                 |",
+        "| **LILYGO T-Embed CC1101 Plus** | ![Photo of the LILYGO T-Embed CC1101 Plus](/images/tembedcc1101_s.jpg) | 4 GPIO (2x Qwiic), screen, encoder, speaker, mic, SD Card, CC1101, NRF24, PN532, IR TX, IR RX , battery                                 |"
+      ]
+    },
+    {
+      "projectId": "bit-pirate",
+      "deviceId": "lilygo-t-embed-cc1101",
+      "sourceUrl": "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:08+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| **LILYGO T-Embed CC1101** | ![Photo of the LILYGO T-Embed CC1101](/images/tembedcc1101_s.jpg) | 4 GPIO (2x Qwiic), screen, encoder, speaker, mic, SD Card, CC1101, PN532, IR TX, IR RX , battery                                 |",
+        "| **LILYGO T-Embed CC1101 Plus** | ![Photo of the LILYGO T-Embed CC1101 Plus](/images/tembedcc1101_s.jpg) | 4 GPIO (2x Qwiic), screen, encoder, speaker, mic, SD Card, CC1101, NRF24, PN532, IR TX, IR RX , battery                                 |"
+      ]
+    },
+    {
+      "projectId": "bit-pirate",
+      "deviceId": "seeed-xiao-esp32s3",
+      "sourceUrl": "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:08+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| **Seeed Studio Xiao S3** | ![Photo of the Seeed Studio Xiao ESP32-S3](/images/xiaos3_s.jpg)        | 9 GPIO (exposed pins), 1 button |"
+      ]
+    },
+    {
+      "projectId": "bit-pirate",
+      "deviceId": "heltec-wifi-lora-32-v4",
+      "sourceUrl": "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:08+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| **Heltec WiFi LoRa 32 V4** | ![Photo of the Heltec WiFi LoRa 32 V4](/images/heltec-lora-32-v4_s.png) | 15 GPIO (Header), SX1262 LoRa, 2 buttons, **screen not supported** |"
+      ]
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "model-name-found",
+      "context": [
+        "It also supports [M5Stack](https://shop.m5stack.com), [LILYGO](https://lilygo.cc) , [RockBase IoT](https://www.rockbaseiot.com) and [Elecrow](https://www.elecrow.com) products, and works great with the Cardputer, Sticks, M5Cores, T-Decks and T-Embeds.",
+        "- [x] BLE Keyboard - Cardputer and T-Deck Only",
+        "- [x] USB Keyboard - Cardputer and T-Deck Only"
+      ]
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "source-context-reviewed",
+      "context": [],
+      "reviewBasis": "README support matrix explicitly says M5Stack Cardputer (and ADV); shared prefix prevented lexical match."
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "m5stack-stickc-plus2",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| [M5Stack M5StickC PLUS2](https://shop.m5stack.com/products/m5stickc-plus2-esp32-mini-iot-development-kit)                                                                                   |  :ok:  | :ok:  |   :ok:   |         :ok:         | :ok: | :ok:¹  |   :x:   |  Tone   |    :x:     |     :x:      |"
+      ]
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "m5stack-core2",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| [M5Stack M5Core2](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit-v1-1)                                                                                           |  :ok:  | :ok:  |   :ok:   |         :ok:         | :ok: | :ok:¹  |   :x:   |   :x:   |    :x:     |     :x:      |"
+      ]
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "m5stack-cores3",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| [M5Stack M5CoreS3](https://shop.m5stack.com/products/m5stack-cores3-esp32s3-lotdevelopment-kit)/[SE](https://shop.m5stack.com/products/m5stack-cores3-se-iot-controller-w-o-battery-bottom) |  :ok:  | :ok:  |   :ok:   |         :ok:         | :x:  |  :ok:  |   :x:   |   :x:   |    :x:     |     :x:      |"
+      ]
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "lilygo-t-embed-cc1101",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| [Lilygo T&#x2011;Embed CC1101](https://lilygo.cc/products/t-embed-cc1101)                                                                                                                   |  :ok:  | :ok:  |   :ok:   |         :ok:         | :ok: |  :ok:  |  :ok:   |  :ok:   |    :ok:    |     :x:      |"
+      ]
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "lilygo-t-embed",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "model-name-found",
+      "context": [
+        "It also supports [M5Stack](https://shop.m5stack.com), [LILYGO](https://lilygo.cc) , [RockBase IoT](https://www.rockbaseiot.com) and [Elecrow](https://www.elecrow.com) products, and works great with the Cardputer, Sticks, M5Cores, T-Decks and T-Embeds.",
+        "| [Lilygo T&#x2011;Embed CC1101](https://lilygo.cc/products/t-embed-cc1101)                                                                                                                   |  :ok:  | :ok:  |   :ok:   |         :ok:         | :ok: |  :ok:  |  :ok:   |  :ok:   |    :ok:    |     :x:      |",
+        "| [Lilygo T&#x2011;Embed](https://lilygo.cc/products/t-embed)                                                                                                                                 |  :ok:  | :ok:  |   :ok:   |         :ok:         | :ok: |  :ok:  |  :ok:   |  :ok:   |    :x:     |     :x:      |"
+      ]
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "lilygo-t-display-s3",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| [Lilygo T-Display-S3](https://lilygo.cc/products/t-display-s3)                                                                                                                              |  :ok:  | :ok:  |   :x:    |         :x:          | :x:  |  :ok:  |   :x:   |   :x:   |    :x:     |     :x:      |"
+      ]
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "lilygo-t-deck",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "model-name-found",
+      "context": [
+        "It also supports [M5Stack](https://shop.m5stack.com), [LILYGO](https://lilygo.cc) , [RockBase IoT](https://www.rockbaseiot.com) and [Elecrow](https://www.elecrow.com) products, and works great with the Cardputer, Sticks, M5Cores, T-Decks and T-Embeds.",
+        "- [x] BLE Keyboard - Cardputer and T-Deck Only",
+        "- [x] USB Keyboard - Cardputer and T-Deck Only"
+      ]
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "lilygo-t-watch-s3",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| [Lilygo T-Watch-S3](https://lilygo.cc/products/t-watch-s3)                                                                                                                                  |  :x:   |  :x:  |   :x:    |         :x:          | :x:  |  :ok:  |   :x:   |   :x:   |    :x:     |     :x:      |"
+      ]
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "m5stack-stickc-plus",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| [M5Stack M5StickC PLUS2](https://shop.m5stack.com/products/m5stickc-plus2-esp32-mini-iot-development-kit)                                                                                   |  :ok:  | :ok:  |   :ok:   |         :ok:         | :ok: | :ok:¹  |   :x:   |  Tone   |    :x:     |     :x:      |",
+        "| [M5Stack M5StickC PLUS](https://shop.m5stack.com/products/m5stickc-plus-esp32-pico-mini-iot-development-kit)                                                                                |  :ok:  | :ok:  |   :ok:   |         :ok:         | :ok: | :ok:¹  |   :x:   |  Tone   |    :x:     |     :x:²     |",
+        "- TH3_KR4K3N for Stick cplus extender PCB design."
+      ]
+    },
+    {
+      "projectId": "cardputer-adv-ssh",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/MangoX0567/M5Stack-Cardputer-SSH#readme",
+      "readmeCheckedAt": "2026-10-16T01:05:22+00:00",
+      "status": "model-name-found",
+      "context": [
+        "A portable, general-purpose SSH client for the **M5Stack Cardputer ADV**.",
+        "<td width=\"50%\"><img src=\"docs/images/terminal.jpg\" alt=\"M5Stack Cardputer ADV running an SSH terminal\"></td>",
+        "<td width=\"50%\"><img src=\"docs/images/settings.jpg\" alt=\"M5Stack Cardputer ADV SSH settings menu\"></td>"
+      ]
+    },
+    {
+      "projectId": "cardputer-audio-stream",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/geo-tp/M5Cardputer-Audio-Stream-Server#readme",
+      "readmeCheckedAt": "2026-10-15T20:44:14+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# Audio Stream Server for M5Cardputer",
+        "It sets up an audio stream server on an M5Cardputer, capturing microphone input and streaming it over a Wi-Fi connection to a web page. This allows you to listen to the microphone input from the M5Cardputer remotely through a web browser.",
+        "- Streams microphone audio from M5Cardputer to a web page."
+      ]
+    },
+    {
+      "projectId": "cardputer-doom",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/romalik/m5cardputer_doom#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:19+00:00",
+      "status": "model-name-found",
+      "context": [
+        "This is Doom for M5 Cardputer",
+        "Cardputer does not have PSRAM, so things get tricky",
+        "HAL was taken from [M5 Official User Demo](https://github.com/m5stack/M5Cardputer-UserDemo)"
+      ]
+    },
+    {
+      "projectId": "cardputer-game-station",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/geo-tp/Cardputer-Game-Station-Emulators#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:04+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# Cardputer Game Station",
+        "![NES emulator screen captures on the M5Stack Cardputer](images/nes_emulator_s.jpg)",
+        "![GBC emulator screen captures on the M5Stack Cardputer](images/gbc_emulator_s.jpg)"
+      ]
+    },
+    {
+      "projectId": "cardputer-hid-emulator",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/geo-tp/Bluetooth-Keyboard-Mouse-Emulator#readme",
+      "readmeCheckedAt": "2026-10-16T01:04:16+00:00",
+      "status": "model-name-found",
+      "context": [
+        "This project implements a USB HID and a BLE HID device using the M5Cardputer, capable of emulating both a keyboard and a mouse. The device can switch between mouse and keyboard modes, sending the appropriate input data to a connected USB/BLE device.",
+        "- <b>M5Burner</b> : Search into M5CARDPUTER section and simply burn it",
+        "- <b>Keyboard :</b> Default Cardputer Keys. The keyboard layout depends on the configuration of the connected PC."
+      ]
+    },
+    {
+      "projectId": "cardputer-ssh-terminal",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/aat440hz/SSHClient-M5Cardputer#readme",
+      "readmeCheckedAt": "2026-10-16T01:05:00+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# SSH Terminal with M5Cardputer and ESP32",
+        "This project demonstrates how to create an SSH terminal using an M5Cardputer device and an ESP32 microcontroller. With this setup, you can remotely connect to an SSH server and interact with it using the M5Cardputer's keyboard and display.",
+        "- [M5Cardputer](https://shop.m5stack.com/)"
+      ]
+    },
+    {
+      "projectId": "chat-stick",
+      "deviceId": "m5stack-sticks3",
+      "sourceUrl": "https://github.com/steveruizok/chat-stick#readme",
+      "readmeCheckedAt": "2026-10-15T17:22:06+00:00",
+      "status": "model-name-found",
+      "context": [
+        "A voice interface for large language models, built on ESP32-S3 devices including the [M5StickS3](https://docs.m5stack.com/en/core/M5StickS3), [Waveshare ESP32-S3 Touch AMOLED 1.8](https://www.waveshare.com/esp32-s3-touch-amoled-1.8.htm?srsltid=AfmBOopWm_MZL8aGf5XV585tGT0jWPlOl0W76xvRGnrxafm7xtMon-yv), and the robot-oriented [M5Stack Stack-Chan](https://docs.m5stack.com/en/StackChan).",
+        "- M5StickS3 or Waveshare ESP32-S3 Touch AMOLED 1.8, plus USB-C cable.",
+        "The worker finds the latest available firmware by listing `chat-stick/firmware/<device>/firmware-v<N>.bin` in R2 and choosing the highest version. For M5StickS3, it also checks the legacy `chat-stick/firmware/firmware-v<N>.bin` path. The two Waveshare panel variants are separate OTA lineages: `waveshare-v1` builds identify as device `waveshare` (the original path), `waveshare-v2` builds as `waveshare-v2`, so a board never downloads a binary built for the other panel controller. `publish-ota-release.sh` asks the deployed worker for that latest version before building; set `OTA_CHECK_URL` to override the default URL derived from the selected device's `src/credentials.h`."
+      ]
+    },
+    {
+      "projectId": "chat-stick",
+      "deviceId": "waveshare-esp32-s3-touch-amoled-1-8",
+      "sourceUrl": "https://github.com/steveruizok/chat-stick#readme",
+      "readmeCheckedAt": "2026-10-15T17:22:06+00:00",
+      "status": "model-name-found",
+      "context": [
+        "A voice interface for large language models, built on ESP32-S3 devices including the [M5StickS3](https://docs.m5stack.com/en/core/M5StickS3), [Waveshare ESP32-S3 Touch AMOLED 1.8](https://www.waveshare.com/esp32-s3-touch-amoled-1.8.htm?srsltid=AfmBOopWm_MZL8aGf5XV585tGT0jWPlOl0W76xvRGnrxafm7xtMon-yv), and the robot-oriented [M5Stack Stack-Chan](https://docs.m5stack.com/en/StackChan).",
+        "- M5StickS3 or Waveshare ESP32-S3 Touch AMOLED 1.8, plus USB-C cable.",
+        "The Waveshare ESP32-S3-Touch-AMOLED-1.8 shipped with two different AMOLED driver ICs, so the `waveshare/` project has two PlatformIO envs built from the same source: `waveshare-v1` for the original board (SH8601 panel) and `waveshare-v2` for the V2 board (CO5300 panel). The panel cannot be detected at runtime over the write-only QSPI bus, so pick the env that matches your hardware; flashing the wrong one leaves the screen blank or shifted but otherwise harmless."
+      ]
+    },
+    {
+      "projectId": "chat-stick",
+      "deviceId": "m5stack-stopwatch",
+      "sourceUrl": "https://github.com/steveruizok/chat-stick#readme",
+      "readmeCheckedAt": "2026-10-15T17:22:06+00:00",
+      "status": "source-context-reviewed",
+      "context": [
+        "**Firmware** lives in `devices/firmware/`, with one PlatformIO/Arduino project per device. The `m5-stick/`, `m5-stopwatch/`, and `waveshare/` targets run the full voice client. `stack-chan/` is currently a hardware bring-up scaffold for the robot's face, touch, motion, LEDs, battery, and speaker; its voice and cloud layers are next.",
+        "# or: cd devices/firmware/m5-stopwatch",
+        "| `./flash.sh [m5-stick\\|m5-stopwatch\\|waveshare-v1\\|waveshare-v2\\|stack-chan] [--monitor]` | Build firmware and upload over USB. |"
+      ],
+      "reviewBasis": "Dedicated M5 StopWatch build/controls section; architecture lists it among full voice-client targets."
+    },
+    {
+      "projectId": "clawputer",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/bryant24hao/ClawPuter#readme",
+      "readmeCheckedAt": "2026-10-15T19:21:43+00:00",
+      "status": "model-name-found",
+      "context": [
+        "A pixel-art desktop companion running on M5Stack Cardputer (ESP32-S3). Features an OpenClaw-themed lobster character with animations, real-time weather, AI chat with voice input/TTS, and a synced macOS desktop pet.",
+        "<img src=\"assets/hardware.png\" alt=\"ClawPuter on M5Stack Cardputer\" width=\"500\">",
+        "The idea started one afternoon at a friend's office. We were chatting about [OpenClaw](https://github.com/openclaw) and I mentioned I'd been getting into hardware lately. He happened to have an M5Stack **Cardputer** lying around and lent it to me. That same afternoon, the concept clicked: what if we gave OpenClaw — a digital life — a more embodied, physical form? The Cardputer was the perfect vessel. So I mashed the names together: **Claw** (from OpenClaw) + Card**puter** = **ClawPuter**."
+      ]
+    },
+    {
+      "projectId": "crosspoint-papers3",
+      "deviceId": "m5stack-papers3",
+      "sourceUrl": "https://github.com/juicecultus/crosspoint-reader-papers3#readme",
+      "readmeCheckedAt": "2026-10-16T01:04:12+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# CrossPoint Reader — M5Paper S3 Port",
+        "Port of the [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader) firmware to the **M5Paper S3**.",
+        "## Release 1.2.1 — CrossPoint PaperS3"
+      ]
+    },
+    {
+      "projectId": "dualpid",
+      "deviceId": "m5stack-basic",
+      "sourceUrl": "https://github.com/knifter/DualPID#readme",
+      "readmeCheckedAt": "2026-10-16T01:05:35+00:00",
+      "status": "source-context-reviewed",
+      "context": [],
+      "reviewBasis": "README Hardware/Base explicitly links the BASIC Core IoT development kit. Core2 is only an unchecked planned target and is not linked."
+    },
+    {
+      "projectId": "esp32cam-rtsp",
+      "deviceId": "m5stack-timer-cam",
+      "sourceUrl": "https://github.com/rzeldent/esp32cam-rtsp#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:26+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- M5STACK Timer CAM (Original and X)"
+      ]
+    },
+    {
+      "projectId": "esp32cam-rtsp",
+      "deviceId": "seeed-xiao-esp32s3-sense",
+      "sourceUrl": "https://github.com/rzeldent/esp32cam-rtsp#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:26+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Boards with an onboard microphone (e.g. the Seeed Studio XIAO ESP32S3 SENSE) can additionally stream",
+        "- Seeed Studio XIAO ESP32S3 SENSE",
+        "| Seeed Studio XIAO ESP32S3 Sense | ![img](assets/boards/seeed-studio-xiao-esp32s3-sense.jpg)                                           | ESP32-S3R8              | 520KB  | 8MB    | 8MB   | OV2640          | Microphone  | [https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html](https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html)          |"
+      ]
+    },
+    {
+      "projectId": "esp32cam-rtsp",
+      "deviceId": "ai-thinker-esp32-cam",
+      "sourceUrl": "https://github.com/rzeldent/esp32cam-rtsp#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:26+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# ESP32CAM-RTSP",
+        "[![Platform IO CI](https://github.com/rzeldent/esp32cam-rtsp/actions/workflows/main.yml/badge.svg)](https://github.com/rzeldent/esp32cam-rtsp/actions/workflows/main.yml)",
+        "> A [`develop`](https://github.com/rzeldent/esp32cam-rtsp/tree/develop) branch is available with the newest boards (including the Seeed Studio XIAO ESP32S3). It may be ahead of `main`; feedback and testing are welcome."
+      ]
+    },
+    {
+      "projectId": "esp32drop",
+      "deviceId": "m5stack-stopwatch",
+      "sourceUrl": "https://github.com/s-iwaki-d/ESP32Drop#readme",
+      "readmeCheckedAt": "2026-10-15T20:43:07+00:00",
+      "status": "model-name-found",
+      "context": [
+        "It was written and verified on an M5Stack StopWatch with the `m5stack:esp32` board core,",
+        "receive. Written, tested and the examples verified on an M5Stack StopWatch.",
+        "実装と検証は M5Stack StopWatch、ボードコア `m5stack:esp32` 3.3.8、ボードオプション `PSRAM=opi` と"
+      ]
+    },
+    {
+      "projectId": "evil-m5project",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<a href=\"https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3?ref=7h30th3r0n3\" target=\"_blank\">",
+        "<p><a href=\"https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3?ref=7h30th3r0n3\" target=\"_blank\"><strong>Buy M5Stack product</strong></a> <br />using my affiliate link to help me keep building new tools 🛠️</p>",
+        "<td> Better one : M5Cardputer</td>"
+      ]
+    },
+    {
+      "projectId": "evil-m5project",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<a href=\"https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3?ref=7h30th3r0n3\" target=\"_blank\">",
+        "<p><a href=\"https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3?ref=7h30th3r0n3\" target=\"_blank\"><strong>Buy M5Stack product</strong></a> <br />using my affiliate link to help me keep building new tools 🛠️</p>",
+        "<td><a href=\"https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3?ref=7h30th3r0n3\">M5Stack</a> / <a href=\"https://s.click.aliexpress.com/e/_c4CfjBAR\">AliExpress</a></td>"
+      ]
+    },
+    {
+      "projectId": "evil-m5project",
+      "deviceId": "m5stack-core2",
+      "sourceUrl": "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<img src=\"https://github.com/7h30th3r0n3/Evil-M5Core2/blob/main/SD-Card-File/img/startup.jpg\" width=\"300\" />",
+        "<b>Evil-M5Project</b> is an innovative tool developed for ethical testing and exploration of WiFi networks. It harnesses the power of the M5Core2 device to scan, monitor, and interact with WiFi networks in a controlled environment. This project is designed for educational purposes, aiding in understanding network security and vulnerabilities.",
+        "> <i>Disclaimer</i>: The creator of Evil-M5Core2 is not responsible for any misuse of this tool. It is intended solely for ethical and educational purposes. Users are reminded to comply with all applicable laws and regulations in their jurisdiction. All files provided with Evil-M5Core2 are designed to be used in a controlled environment and must be used in compliance with all applicable laws and regulations. Misuse or illegal use of this tool is strictly prohibited and not supported by the creator."
+      ]
+    },
+    {
+      "projectId": "evil-m5project",
+      "deviceId": "m5stack-fire",
+      "sourceUrl": "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<td>M5Stack Fire</td>",
+        "<td><a href=\"https://shop.m5stack.com/products/m5stack-fire-iot-development-kit-psram-v2-7?ref=7h30th3r0n3\">M5Stack</a></td>"
+      ]
+    },
+    {
+      "projectId": "evil-m5project",
+      "deviceId": "m5stack-atoms3",
+      "sourceUrl": "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<td><a href=\"https://shop.m5stack.com/products/atoms3-dev-kit-w-0-85-inch-screen?ref=7h30th3r0n3\">M5Stack</a></td>",
+        "<td><a href=\"https://shop.m5stack.com/products/atoms3-dev-kit-w-0-85-inch-screen?ref=7h30th3r0n3\">M5Stack</a></td>",
+        "<td>M5AtomS3 (GPS needed)</td>"
+      ]
+    },
+    {
+      "projectId": "evil-m5project",
+      "deviceId": "m5stack-cores3",
+      "sourceUrl": "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<td>M5Stack CoreS3</td>",
+        "<td><a href=\"https://shop.m5stack.com/products/m5stack-cores3-esp32s3-lotdevelopment-kit?ref=7h30th3r0n3\">M5Stack</a> / <a href=\"https://s.click.aliexpress.com/e/_DlFvqIT\">AliExpress</a></td>",
+        "<td>M5Stack CoreS3 SE</td>"
+      ]
+    },
+    {
+      "projectId": "evil-m5project",
+      "deviceId": "m5stack-stickc-plus2",
+      "sourceUrl": "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Supported: M5Cardputer, Cardputer ADV, M5AtomS3, CoreS3 / SE, Core2, Fire, StickC Plus/Plus2, CYD (1×/2×USB), and the AWOK Dual ESP32 Mini v2 port."
+      ]
+    },
+    {
+      "projectId": "evil-m5project",
+      "deviceId": "m5stack-stickc-plus",
+      "sourceUrl": "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Supported: M5Cardputer, Cardputer ADV, M5AtomS3, CoreS3 / SE, Core2, Fire, StickC Plus/Plus2, CYD (1×/2×USB), and the AWOK Dual ESP32 Mini v2 port."
+      ]
+    },
+    {
+      "projectId": "fluidbox",
+      "deviceId": "waveshare-esp32-s3-touch-amoled-1-8",
+      "sourceUrl": "https://github.com/V4C38/esp32-fluidbox#readme",
+      "readmeCheckedAt": "2026-10-15T17:23:20+00:00",
+      "status": "model-name-found",
+      "context": [
+        "A 3D particle fluid living inside the case of a [Waveshare ESP32-S3-Touch-AMOLED-1.8](https://www.waveshare.com/esp32-s3-touch-amoled-1.8.htm). The screen is the front wall of a glass box, and the depth you see receding into the display is the real thickness of the enclosure."
+      ]
+    },
+    {
+      "projectId": "furble",
+      "deviceId": "m5stack-stickc",
+      "sourceUrl": "https://github.com/gkoh/furble#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:00+00:00",
+      "status": "model-name-found",
+      "context": [
+        "## M5StickC Plus2 (Dark theme)",
+        "![furble - Dark - M5StickC Plus2](https://github.com/user-attachments/assets/9888e348-1476-4d5e-bd47-3c03b87f062a)",
+        "Initially targeted at the M5StickC, the following controllers from [M5Stack](https://m5stack.com/) are supported:"
+      ]
+    },
+    {
+      "projectId": "furble",
+      "deviceId": "m5stack-stickc-plus2",
+      "sourceUrl": "https://github.com/gkoh/furble#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:00+00:00",
+      "status": "model-name-found",
+      "context": [
+        "## M5StickC Plus2 (Dark theme)",
+        "![furble - Dark - M5StickC Plus2](https://github.com/user-attachments/assets/9888e348-1476-4d5e-bd47-3c03b87f062a)",
+        "* M5StickC Plus2"
+      ]
+    },
+    {
+      "projectId": "furble",
+      "deviceId": "m5stack-core2",
+      "sourceUrl": "https://github.com/gkoh/furble#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:00+00:00",
+      "status": "model-name-found",
+      "context": [
+        "## M5Core2 (Default theme)",
+        "![furble - Default - M5Core2](https://github.com/user-attachments/assets/0e60cff4-fc1b-4345-b0fc-5d85be0a705d)",
+        "* M5Core2"
+      ]
+    },
+    {
+      "projectId": "furble",
+      "deviceId": "m5stack-basic",
+      "sourceUrl": "https://github.com/gkoh/furble#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:00+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* M5Core Basic"
+      ]
+    },
+    {
+      "projectId": "furble",
+      "deviceId": "m5stack-stickc-plus",
+      "sourceUrl": "https://github.com/gkoh/furble#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:00+00:00",
+      "status": "model-name-found",
+      "context": [
+        "## M5StickC Plus2 (Dark theme)",
+        "![furble - Dark - M5StickC Plus2](https://github.com/user-attachments/assets/9888e348-1476-4d5e-bd47-3c03b87f062a)",
+        "* M5StickC Plus"
+      ]
+    },
+    {
+      "projectId": "furble",
+      "deviceId": "m5stack-sticks3",
+      "sourceUrl": "https://github.com/gkoh/furble#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:00+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* M5StickS3"
+      ]
+    },
+    {
+      "projectId": "ha-epaper-remote",
+      "deviceId": "m5stack-papers3",
+      "sourceUrl": "https://github.com/ugomeda/home-assistant-epaper-remote#readme",
+      "readmeCheckedAt": "2026-10-15T19:21:15+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- [Lilygo T5 E-Paper S3 Pro](https://lilygo.cc/products/t5-e-paper-s3-pro)",
+        "- [M5Stack M5Paper S3](https://docs.m5stack.com/en/core/PaperS3)"
+      ]
+    },
+    {
+      "projectId": "homekit-ac-remote",
+      "deviceId": "m5stack-atom-lite",
+      "sourceUrl": "https://github.com/megabitsenmzq/ESP32-HomeKit-Remote#readme",
+      "readmeCheckedAt": "2026-10-16T01:04:38+00:00",
+      "status": "source-context-reviewed",
+      "context": [
+        "I'm using an ESP32 board made by M5Stack called [M5Atom Lite](https://shop.m5stack.com/products/atom-lite-esp32-development-kit). Which is cheap and small. You can use other boards, and the code is very easy to modify.",
+        "<img src=\"https://cdn.shopify.com/s/files/1/0056/7689/2250/products/1_2_c215b5d9-d41a-4ab8-ad54-b2531930f075_1200x1200.jpg?v=1655692122\" alt=\"M5Atom Lite\" width=\"350\" height=\"350\">"
+      ],
+      "reviewBasis": "Explicit Atom Lite hardware section; additional ENV III sensor and external IR LED are documented upstream. Summary preserves external sensor requirement."
+    },
+    {
+      "projectId": "homething",
+      "deviceId": "m5stack-fire",
+      "sourceUrl": "https://github.com/landonr/homeThing#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:56+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- M5Stack Fire",
+        "|t-display demo|m5stack fire demo|lilygo T4 demo|",
+        "|![Scroll Demo Gif](docs/scrollListSelectTDisplay.gif)|![Scroll List Fire Demo Gif](docs/m5stackFireDemo.gif)|![Lilygo T4 Demo](docs/t4Demo.gif)"
+      ]
+    },
+    {
+      "projectId": "homething",
+      "deviceId": "lilygo-ttgo-t-display-1-14",
+      "sourceUrl": "https://github.com/landonr/homeThing#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:56+00:00",
+      "status": "source-context-reviewed",
+      "context": [],
+      "reviewBasis": "README distinguishes original Lilygo TTGo TDisplay from TDisplay S3, links original tdisplay-ipod.yaml and original case. Project is no longer actively developed."
+    },
+    {
+      "projectId": "homething",
+      "deviceId": "lilygo-t-display-s3",
+      "sourceUrl": "https://github.com/landonr/homeThing#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:56+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<h3>TDisplay S3 homeThing</h3>",
+        "<a href=\"https://github.com/landonr/homeThing/tree/main/Case%20Design/tdisplay-s3\">More Info</a><br>",
+        "<td><a href=\"tdisplay-s3.yaml\">ESPHome Config</a></td>"
+      ]
+    },
+    {
+      "projectId": "m5apps",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/d4rkmen/M5Apps#readme",
+      "readmeCheckedAt": "2026-10-16T00:04:44+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Multi-app installer for M5 CardPuter - A comprehensive application launcher and management system that allows you to install and run multiple applications on your M5 CardPuter device.",
+        "M5Apps is a full-featured firmware bundle that transforms your M5 CardPuter into a versatile multi-application platform. Install up to 16 applications (limited only by your CardPuter flash size) and manage them through an intuitive user interface. The system supports remote repositories, SD cards, and USB drives for easy app installation.",
+        "- **ES8311 Audio Codec**: Proper audio support for CardPuter ADV"
+      ]
+    },
+    {
+      "projectId": "m5apps",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/d4rkmen/M5Apps#readme",
+      "readmeCheckedAt": "2026-10-16T00:04:44+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- **ES8311 Audio Codec**: Proper audio support for CardPuter ADV",
+        "- **M5 CardPuter ADV** (with TCA8418)",
+        "- M5 CardPuter or M5 CardPuter ADV"
+      ]
+    },
+    {
+      "projectId": "m5cardputer-userdemo",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/m5stack/M5Cardputer-UserDemo#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:26+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# M5Cardputer-UserDemo",
+        "M5Cardputer user demo for hardware evaluation.",
+        "> **Note: If you are using Cardputer ADV, please use the [CardputerADV branch](https://github.com/m5stack/M5Cardputer-UserDemo/tree/CardputerADV).**"
+      ]
+    },
+    {
+      "projectId": "m5cardputer-userdemo",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/m5stack/M5Cardputer-UserDemo#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:26+00:00",
+      "status": "model-name-found",
+      "context": [
+        "> **Note: If you are using Cardputer ADV, please use the [CardputerADV branch](https://github.com/m5stack/M5Cardputer-UserDemo/tree/CardputerADV).**"
+      ]
+    },
+    {
+      "projectId": "m5claw",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/fwz233-RE/M5Claw#readme",
+      "readmeCheckedAt": "2026-10-15T21:00:08+00:00",
+      "status": "model-name-found",
+      "context": [
+        "M5Claw 是一个运行在 M5Stack Cardputer 上的 AI 助手固件，围绕 `ESP32-S3 + SPIFFS + PlatformIO + Xiaomi MiMo` 构建，提供本地陪伴界面、键盘聊天、语音输入、语音播报、微信互联、天气显示、定时任务、记忆文件和技能扩展能力。",
+        "- 硬件：M5Stack Cardputer",
+        "- `M5Cardputer`"
+      ]
+    },
+    {
+      "projectId": "m5dial-user-demo",
+      "deviceId": "m5stack-dial",
+      "sourceUrl": "https://github.com/m5stack/M5Dial-UserDemo#readme",
+      "readmeCheckedAt": "2026-10-16T01:04:20+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# M5Dial-UserDemo",
+        "M5Dial user demo for hardware evaluation.",
+        "git clone https://github.com/m5stack/M5Dial-UserDemo.git"
+      ]
+    },
+    {
+      "projectId": "m5gotchi",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/Devsur11/M5Gotchi#readme",
+      "readmeCheckedAt": "2026-10-15T19:21:23+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- Full Pwnagothi functionality adapted for M5Cardputer",
+        "> An SD card is **required** for the firmware to function properly on Cardputer. M5StickS3 will use build-in littleFs memory.",
+        "| M5Cardputer    | ✅ Supported   | Main target device             |"
+      ]
+    },
+    {
+      "projectId": "m5gotchi",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/Devsur11/M5Gotchi#readme",
+      "readmeCheckedAt": "2026-10-15T19:21:23+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| M5Cardputer adv| ✅ Supported   | Tested And Work Fine           |",
+        "- `advertise_pwngrid`, `toggle_pwnagothi_with_gpio0`, `cardputer_adv`, `limitFeatures` (boolean flags reported as 0/1)"
+      ]
+    },
+    {
+      "projectId": "m5gotchi",
+      "deviceId": "m5stack-sticks3",
+      "sourceUrl": "https://github.com/Devsur11/M5Gotchi#readme",
+      "readmeCheckedAt": "2026-10-15T19:21:23+00:00",
+      "status": "model-name-found",
+      "context": [
+        "> An SD card is **required** for the firmware to function properly on Cardputer. M5StickS3 will use build-in littleFs memory.",
+        "| M5stickS3      | ✅ Supported   | Limited input ability          |",
+        "- **UI** is fully controlled via the **built-in keyboard** in cardputer or 2 buttons on M5StickS3"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] Custom Partition Manager \"PMan\" (no more hardcoded partitions on Cardputer)",
+        "* [x] Battery ADC measurement fix for Cardputer, Tdeck, StickCPlus2, T-Display S3, T-HMI",
+        "* [x] Fixed M5Stack Cardputer ADV keyboard not adding '*' and '('"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "m5stack-stickc",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* Having an SD card gives you a better experience, but it is not required. [SD Card Hat for M5StickCs](https://www.thingiverse.com/thing:6459069)",
+        "* Fixed display things and positions for the M5StickC",
+        "* Added auto orientation to M5StickCs"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "m5stack-stickc-plus2",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] **Added Serial interface**: type \"help\" on serial to check available commands, you can configure Wifi from there, useful for devices like StickCPlus2 and others without keyboard or touchscreen: e.g. \"wifi add MyNetworkSSID MyN37w0rkPWD\", calibrate touchscreen, mirror X/Y axis or swap XY axis.",
+        "* [x] **Added support to M5 CardKB2, CardKB 1.1 and Tab5 keyboard**. Support was added to M5 devices using grove I2C Port A for: StickC, StickCPlus 1.1, StickCPlus2, StickS3, Tab5, CoreS3, Core2 and Core, Thanks to @cddigi",
+        "* [x] Battery ADC measurement fix for Cardputer, Tdeck, StickCPlus2, T-Display S3, T-HMI"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "m5stack-core2",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] **Added support to M5 CardKB2, CardKB 1.1 and Tab5 keyboard**. Support was added to M5 devices using grove I2C Port A for: StickC, StickCPlus 1.1, StickCPlus2, StickS3, Tab5, CoreS3, Core2 and Core, Thanks to @cddigi",
+        "* [x] Core Fire (all 16Mb Core devices) and Core2 compatibility"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "m5stack-cores3",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] **Added support to M5 CardKB2, CardKB 1.1 and Tab5 keyboard**. Support was added to M5 devices using grove I2C Port A for: StickC, StickCPlus 1.1, StickCPlus2, StickS3, Tab5, CoreS3, Core2 and Core, Thanks to @cddigi",
+        "* [x] Fixed M5Stack CoreS3 SD Card not mounting",
+        "* [x] Finally ported to CoreS3 and CoreS3-SE"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "m5stack-papers3",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] Fix M5Stack PaperS3 touchscreen https://github.com/bmorcelli/Launcher/issues/338",
+        "* [x] New Device: [Lilygo E-Paper S3 Pro H752-x](https://lilygo.cc/products/t5-e-paper-s3-pro?bg_ref=sDI8Bh4HmO)",
+        "* [x] Fixed M5Stack Paper S3 USB Mass Storage issue https://github.com/bmorcelli/Launcher/issues/287 and OTA will show only S3 firmware."
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "m5stack-tab5",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] **FIXED** `M5Stack Tab5` OTA function randomly crashing.",
+        "* [x] **Added support to M5 CardKB2, CardKB 1.1 and Tab5 keyboard**. Support was added to M5 devices using grove I2C Port A for: StickC, StickCPlus 1.1, StickCPlus2, StickS3, Tab5, CoreS3, Core2 and Core, Thanks to @cddigi",
+        "* [x] Fix M5Stack Tab5 WiFi scan and WebUI in AP mode."
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "lilygo-t-watch-s3",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] New Device: [Lilygo T-Watch-S3](https://lilygo.cc/products/t-watch-s3?bg_ref=sDI8Bh4HmO)"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "m5stack-paper",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] Fix **M5-Paper Mono** rendering and touch issues.",
+        "* [x] Port to [M5-Paper](https://shop.m5stack.com/products/m5paper-esp32-development-kit-v1-1-960x540-4-7-eink-display-235-ppi?ref=Pirata)",
+        "* [x] Port to [M5-Paper Mono](https://shop.m5stack.com/products/m5papermono-with-lora-nfc-800x480-3-97-eink-display?ref=Pirata)"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "m5stack-stickc-plus",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] **Added Serial interface**: type \"help\" on serial to check available commands, you can configure Wifi from there, useful for devices like StickCPlus2 and others without keyboard or touchscreen: e.g. \"wifi add MyNetworkSSID MyN37w0rkPWD\", calibrate touchscreen, mirror X/Y axis or swap XY axis.",
+        "* [x] **Added support to M5 CardKB2, CardKB 1.1 and Tab5 keyboard**. Support was added to M5 devices using grove I2C Port A for: StickC, StickCPlus 1.1, StickCPlus2, StickS3, Tab5, CoreS3, Core2 and Core, Thanks to @cddigi",
+        "* [x] Battery ADC measurement fix for Cardputer, Tdeck, StickCPlus2, T-Display S3, T-HMI"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "m5stack-sticks3",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] **ATENTION**: Arduino **Nesso N1** and **M5Stack StickS3** Navigation has changed, Front button short press to move Next and Long press to Select, Side button short press to mode Previous an long press to Escape.. on Keyboard, holding Escape will change the moviment from Left/Up to Right/Down, so typing will be easier to handle (after you master it).",
+        "* [x] **Added support to M5 CardKB2, CardKB 1.1 and Tab5 keyboard**. Support was added to M5 devices using grove I2C Port A for: StickC, StickCPlus 1.1, StickCPlus2, StickS3, Tab5, CoreS3, Core2 and Core, Thanks to @cddigi",
+        "* [x] Set StickC and CPlus devices to see only ESP32 firmware on OTA, excluding ESP32-S3 (StickS3) firmware"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "seeed-reterminal-e1001",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] Port to [SeeedStudio reTerminal E1001 Monochrome e-Paper Display](https://www.seeedstudio.com/reTerminal-E1001-p-6534.html?sensecap_affiliate=dhriNBA&referring_service=link)"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "seeed-xiao-esp32s3-plus",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] Port to [SeeedStudio XIAO ESP32S3 Plus](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Plus-p-6361.html?sensecap_affiliate=dhriNBA&referring_service=link) on **Headless** environment"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "lilygo-t-deck",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] Fix **Lilygo T-Deck Pro** touchscreen issue.",
+        "* [x] Enabled WASD navigation for Lilygo T-LoraPager, T-Deck, T-Deck Plus, and T-Deck Pro",
+        "* [x] Battery ADC measurement fix for Cardputer, Tdeck, StickCPlus2, T-Display S3, T-HMI"
+      ]
+    },
+    {
+      "projectId": "m5launcher",
+      "deviceId": "lilygo-t-deck-plus",
+      "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* [x] Enabled WASD navigation for Lilygo T-LoraPager, T-Deck, T-Deck Plus, and T-Deck Pro",
+        "* [x] Fixed T-Deck Plus touchscreen (added new env for it)"
+      ]
+    },
+    {
+      "projectId": "m5monster-c5",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/C5Lab/M5MonsterC5-CardputerADV#readme",
+      "readmeCheckedAt": "2026-10-15T19:20:45+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# M5MonsterC5-CardputerADV",
+        "- App for the M5Stack Cardputer AVD and for first gen Cardputer - flasher: https://c5lab.github.io/M5MonsterC5-CardputerADV/janos_flash.html",
+        "M5MonsterC5-CardputerADV is an add-on board built around the M5MonsterC5 platform and based on JanOS from the Project Zero repository."
+      ]
+    },
+    {
+      "projectId": "m5monster-c5",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/C5Lab/M5MonsterC5-CardputerADV#readme",
+      "readmeCheckedAt": "2026-10-15T19:20:45+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# M5MonsterC5-CardputerADV",
+        "- App for the M5Stack Cardputer AVD and for first gen Cardputer - flasher: https://c5lab.github.io/M5MonsterC5-CardputerADV/janos_flash.html",
+        "M5MonsterC5-CardputerADV is an add-on board built around the M5MonsterC5 platform and based on JanOS from the Project Zero repository."
+      ]
+    },
+    {
+      "projectId": "m5monster-c5",
+      "deviceId": "m5stack-tab5",
+      "sourceUrl": "https://github.com/C5Lab/M5MonsterC5-CardputerADV#readme",
+      "readmeCheckedAt": "2026-10-15T19:20:45+00:00",
+      "status": "model-name-found",
+      "context": [
+        "It is intended for M5Stack Cardputer AVD and Tab5 devices, and it can also be used with Android and PC/MacOS over a USB connection."
+      ]
+    },
+    {
+      "projectId": "m5paper-factory-test",
+      "deviceId": "m5stack-paper",
+      "sourceUrl": "https://github.com/m5stack/M5Paper_FactoryTest#readme",
+      "readmeCheckedAt": "2026-10-16T00:04:08+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# M5Paper_FactoryTest",
+        "PlatformIO Project for M5Paper"
+      ]
+    },
+    {
+      "projectId": "m5paper-weather",
+      "deviceId": "m5stack-paper",
+      "sourceUrl": "https://github.com/Bastelschlumpf/M5PaperWeather#readme",
+      "readmeCheckedAt": "2026-10-15T19:21:38+00:00",
+      "status": "model-name-found",
+      "context": [
+        "## M5PaperWeather",
+        "**M5Paper project with weather information from openweathermap ***",
+        "![M5PaperWeather](images/M5PaperWeather.png \"M5Paper\")"
+      ]
+    },
+    {
+      "projectId": "m5porkchop",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/0ct0sec/M5PORKCHOP#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "PORKCHOP runs on M5Cardputer (ESP32-S3, 240MHz, 8MB flash).",
+        "![Cardputer ADV with CapLoRa module](docs/images/hardware_cardputer_adv.jpg)",
+        "*cardputer ADV + CapLoRa868. GPS + LoRa on a keyboard.*"
+      ]
+    },
+    {
+      "projectId": "m5porkchop",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/0ct0sec/M5PORKCHOP#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "![Cardputer ADV with CapLoRa module](docs/images/hardware_cardputer_adv.jpg)",
+        "*cardputer ADV + CapLoRa868. GPS + LoRa on a keyboard.*",
+        "- Cardputer ADV: BMI270 IMU enables dial mode in Spectrum"
+      ]
+    },
+    {
+      "projectId": "m5stack-esphome",
+      "deviceId": "m5stack-cores3",
+      "sourceUrl": "https://github.com/m5stack/esphome-yaml#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:55+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- [M5Stack CoreS3 Voice Assistant](https://docs.m5stack.com/en/homeassistant/voice_assistant/cores3_voice_assistant)"
+      ]
+    },
+    {
+      "projectId": "m5stack-esphome",
+      "deviceId": "m5stack-tab5",
+      "sourceUrl": "https://github.com/m5stack/esphome-yaml#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:55+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- [Tab5 Home Assistant HMI](https://docs.m5stack.com/en/homeassistant/kit/tab5_ha_hmi)"
+      ]
+    },
+    {
+      "projectId": "m5stick-marauder",
+      "deviceId": "m5stack-stickc-plus2",
+      "sourceUrl": "https://github.com/ATOMNFT/M5stick-Marauder#readme",
+      "readmeCheckedAt": "2026-10-15T19:20:37+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<b>Want wifi-marauder on that tiny m5stickC plus or m5stickC plus2? Tried to build from source and hitting brick walls? Then this repo is what you're looking for! A simple way to install marauder on these cool tiny devices!",
+        "These versions of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and v13.10 contains a clean bootscreen (Read more about the fixes below).",
+        "1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2."
+      ]
+    },
+    {
+      "projectId": "m5stick-marauder",
+      "deviceId": "m5stack-stickc-plus",
+      "sourceUrl": "https://github.com/ATOMNFT/M5stick-Marauder#readme",
+      "readmeCheckedAt": "2026-10-15T19:20:37+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<b>Want wifi-marauder on that tiny m5stickC plus or m5stickC plus2? Tried to build from source and hitting brick walls? Then this repo is what you're looking for! A simple way to install marauder on these cool tiny devices!",
+        "These versions of marauder for m5stickC plus & m5stickC plus2 contains a few great fixes and v13.10 contains a clean bootscreen (Read more about the fixes below).",
+        "1. Use the link below in google chrome to flash the project onto M5stickC plus or M5stickC plus2."
+      ]
+    },
+    {
+      "projectId": "m5stick-shark",
+      "deviceId": "m5stack-stickc",
+      "sourceUrl": "https://github.com/AH2005NA/m5stick-shark#readme",
+      "readmeCheckedAt": "2026-10-15T20:43:56+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Updated version of M5Stickc-NEMO https://github.com/n0xa/m5stick-nemo.",
+        "Shark is a Projekt i started at the 29.2.2024 1:12 PM. I saw a tutorial for the M5StickC PLUS2 on youtube and i ordered myself one when i saw that it only costs 30 USD. It arrived two weeks later and i burned the Nemo firmware on it. I wanted to see the code from this firmware and i downloadet the source code at 1:12 PM. I saw a that it is programed with arduino and because of this fact i decided to programm my own version. Thanks to n0xa good programming skills it isnt a big deal to change and add things. Thank you!",
+        "* If M5Stack -> M5Stick-C-Plus doesn't show up under Tools -> Boards, then use Tools -> Boards -> Boards Manager and search for M5Stack. This will install support for most of the M5Stack boards including the Stick C Plus."
+      ]
+    },
+    {
+      "projectId": "m5stick-shark",
+      "deviceId": "m5stack-stickc-plus2",
+      "sourceUrl": "https://github.com/AH2005NA/m5stick-shark#readme",
+      "readmeCheckedAt": "2026-10-15T20:43:56+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Shark is a Projekt i started at the 29.2.2024 1:12 PM. I saw a tutorial for the M5StickC PLUS2 on youtube and i ordered myself one when i saw that it only costs 30 USD. It arrived two weeks later and i burned the Nemo firmware on it. I wanted to see the code from this firmware and i downloadet the source code at 1:12 PM. I saw a that it is programed with arduino and because of this fact i decided to programm my own version. Thanks to n0xa good programming skills it isnt a big deal to change and add things. Thank you!"
+      ]
+    },
+    {
+      "projectId": "m5stick-shark",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/AH2005NA/m5stick-shark#readme",
+      "readmeCheckedAt": "2026-10-15T20:43:56+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* M5Button(Btn G0 by Cardputer) presst while (After) Startup: no Startupsound",
+        "* Changed the Number-Menu for the Cardputer",
+        "* Cardputer"
+      ]
+    },
+    {
+      "projectId": "m5stick-shark",
+      "deviceId": "m5stack-dial",
+      "sourceUrl": "https://github.com/AH2005NA/m5stick-shark#readme",
+      "readmeCheckedAt": "2026-10-15T20:43:56+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* Add Support to the M5Dial"
+      ]
+    },
+    {
+      "projectId": "m5stick-shark",
+      "deviceId": "m5stack-coreink",
+      "sourceUrl": "https://github.com/AH2005NA/m5stick-shark#readme",
+      "readmeCheckedAt": "2026-10-15T20:43:56+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* Add Support to the CoreInk"
+      ]
+    },
+    {
+      "projectId": "m5stick-shark",
+      "deviceId": "m5stack-stickc-plus",
+      "sourceUrl": "https://github.com/AH2005NA/m5stick-shark#readme",
+      "readmeCheckedAt": "2026-10-15T20:43:56+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Shark is a Projekt i started at the 29.2.2024 1:12 PM. I saw a tutorial for the M5StickC PLUS2 on youtube and i ordered myself one when i saw that it only costs 30 USD. It arrived two weeks later and i burned the Nemo firmware on it. I wanted to see the code from this firmware and i downloadet the source code at 1:12 PM. I saw a that it is programed with arduino and because of this fact i decided to programm my own version. Thanks to n0xa good programming skills it isnt a big deal to change and add things. Thank you!",
+        "* StickC and StickC-Plus",
+        "* If M5Stack -> M5Stick-C-Plus doesn't show up under Tools -> Boards, then use Tools -> Boards -> Boards Manager and search for M5Stack. This will install support for most of the M5Stack boards including the Stick C Plus."
+      ]
+    },
+    {
+      "projectId": "meshcore-cardputer",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/Stachugit/MeshCore-Cardputer-ADV#readme",
+      "readmeCheckedAt": "2026-10-15T19:22:13+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# 🔥 MeshCore-Cardputer-ADV 🔥",
+        "### **[⚡ Flash Firmware Online →](https://meshcorecardputeradv.vercel.app/)**",
+        "Enhanced TFT user interface for MeshCore mesh networking firmware, optimized for M5Stack Cardputer-Adv with Cap LoRa-1262."
+      ]
+    },
+    {
+      "projectId": "meshtastic",
+      "deviceId": "lilygo-t-beam-supreme",
+      "sourceUrl": "https://meshtastic.org/docs/hardware/devices/lilygo/tbeam/",
+      "readmeCheckedAt": "2026-10-15T17:23:41+00:00",
+      "status": "source-context-reviewed",
+      "context": [],
+      "reviewBasis": "Dedicated T-Beam Supreme section names firmware-tbeam-s3-core target."
+    },
+    {
+      "projectId": "meshtastic",
+      "deviceId": "lilygo-t3s3-v1-0",
+      "sourceUrl": "https://meshtastic.org/docs/hardware/devices/lilygo/lora/",
+      "readmeCheckedAt": "2026-10-15T17:23:41+00:00",
+      "status": "source-context-reviewed",
+      "context": [],
+      "reviewBasis": "Dedicated Lora T3S3 v1.0/v1.1/v1.2 section names tlora-t3s3-v1 target."
+    },
+    {
+      "projectId": "meshtastic",
+      "deviceId": "lilygo-t-watch-s3",
+      "sourceUrl": "https://meshtastic.org/docs/hardware/devices/lilygo/twatch/",
+      "readmeCheckedAt": "2026-10-15T17:23:41+00:00",
+      "status": "source-context-reviewed",
+      "context": [],
+      "reviewBasis": "Separate original T-Watch S3 tab and firmware-t-watch-s3 target, distinct from Plus."
+    },
+    {
+      "projectId": "meshtastic",
+      "deviceId": "lilygo-t-deck-plus",
+      "sourceUrl": "https://meshtastic.org/docs/hardware/devices/lilygo/tdeck/",
+      "readmeCheckedAt": "2026-10-15T17:23:41+00:00",
+      "status": "source-context-reviewed",
+      "context": [],
+      "reviewBasis": "Official supported hardware page explicitly groups T-Deck and T-Deck Plus."
+    },
+    {
+      "projectId": "microhydra-apps",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/echo-lalia/MicroHydra-Apps#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:02+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<a href=\"https://github.com/echo-lalia/Cardputer-MicroHydra\" alt=\"MicroHydra\">",
+        "<a href=\"https://github.com/echo-lalia/Cardputer-MicroHydra/wiki\" alt=\"Wiki\">",
+        "- [Cardputer](#cardputer)"
+      ]
+    },
+    {
+      "projectId": "microhydra-apps",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/echo-lalia/MicroHydra-Apps#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:02+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- [Cardputer_Adv](#cardputer_adv)",
+        "## Cardputer_Adv",
+        "*There are 14 apps for the Cardputer_Adv.*"
+      ]
+    },
+    {
+      "projectId": "microhydra",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/echo-lalia/MicroHydra#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:47+00:00",
+      "status": "model-name-found",
+      "context": [
+        "<a href=\"https://github.com/echo-lalia/Cardputer-MicroHydra/wiki\" alt=\"Wiki\">",
+        "<a href=\"https://github.com/echo-lalia/Cardputer-MicroHydra?tab=GPL-3.0-1-ov-file\" alt=\"License\">",
+        "<img src=\"https://img.shields.io/github/license/echo-lalia/Cardputer-MicroHydra?labelColor=47102a&color=8d1f52\" /></a>"
+      ]
+    },
+    {
+      "projectId": "micropython-core2",
+      "deviceId": "m5stack-core2",
+      "sourceUrl": "https://github.com/lemariva/micropython-core2#readme",
+      "readmeCheckedAt": "2026-10-16T01:05:09+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# MicroPython for M5Stack CORE2",
+        "This repository extends LV-MicroPython for using it on the M5Stack Core2. It adds support for the:",
+        "esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 1152000 write_flash -z 0x1000 lv_micropython_m5core2_bf62dfc784_esp32_idf4_4_x.bin"
+      ]
+    },
+    {
+      "projectId": "miniacid",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/urtubia/miniacid#readme",
+      "readmeCheckedAt": "2026-10-15T20:44:10+00:00",
+      "status": "model-name-found",
+      "context": [
+        "1) Flash `miniacid.ino` to your M5Stack Cardputer ADV (Arduino IDE)"
+      ]
+    },
+    {
+      "projectId": "nemo",
+      "deviceId": "m5stack-stickc",
+      "sourceUrl": "https://github.com/n0xa/m5stick-nemo#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:17+00:00",
+      "status": "model-name-found",
+      "context": [
+        "![M5-Nemo on M5StickC family and M5Cardputer](https://github.com/n0xa/m5stick-nemo/blob/main/M5-Nemo.jpg)",
+        "* [M5Stick C Plus Quick Start](https://docs.m5stack.com/en/quick_start/m5stickc_plus/uiflow) has links to the M5Burner app for Linux, MacOS and Windows. This is the official tool to install UIFlow and other official firmware. I provide up-to-date binaries for NEMO there.",
+        "* If M5Stack -> M5Stick-C-Plus doesn't show up under Tools -> Boards, then use Tools -> Boards -> Boards Manager and search for M5Stack. This will install support for most of the M5Stack boards including the Stick C Plus."
+      ]
+    },
+    {
+      "projectId": "nemo",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/n0xa/m5stick-nemo#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:17+00:00",
+      "status": "model-name-found",
+      "context": [
+        "![M5-Nemo on M5StickC family and M5Cardputer](https://github.com/n0xa/m5stick-nemo/blob/main/M5-Nemo.jpg)",
+        "* NEW: BadUSB Hunter (only for Cardputer and ADV Models) - Recognizes many USB peripherals via USB-C OTG and can warn you about HID devices (blinking red LED), suspicious USB Cables and BadUSB devices with multiple interface profiles including HID. Use to field-test unknown and untrustworthy USB peripherals before investigating with a computer.",
+        "* Cardputer"
+      ]
+    },
+    {
+      "projectId": "nemo",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/n0xa/m5stick-nemo#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:17+00:00",
+      "status": "model-name-found",
+      "context": [
+        "## BadUSB Hunter (Cardputer & ADV Models)"
+      ]
+    },
+    {
+      "projectId": "nemo",
+      "deviceId": "m5stack-stickc-plus",
+      "sourceUrl": "https://github.com/n0xa/m5stick-nemo#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:17+00:00",
+      "status": "model-name-found",
+      "context": [
+        "* StickC and StickC-Plus",
+        "* [M5Stick C Plus Quick Start](https://docs.m5stack.com/en/quick_start/m5stickc_plus/uiflow) has links to the M5Burner app for Linux, MacOS and Windows. This is the official tool to install UIFlow and other official firmware. I provide up-to-date binaries for NEMO there.",
+        "* If M5Stack -> M5Stick-C-Plus doesn't show up under Tools -> Boards, then use Tools -> Boards -> Boards Manager and search for M5Stack. This will install support for most of the M5Stack boards including the Stick C Plus."
+      ]
+    },
+    {
+      "projectId": "open-bike-computer",
+      "deviceId": "waveshare-esp32-s3-touch-amoled-2-06",
+      "sourceUrl": "https://github.com/seichris/open-bike-computer#readme",
+      "readmeCheckedAt": "2026-10-15T20:27:12+00:00",
+      "status": "model-name-found",
+      "context": [
+        "1. **Buy your bike computer including Garmin mount at [bicino.com](https://bicino.com)** or get a generic [Waveshare 1.75\"](https://www.waveshare.com/esp32-s3-touch-amoled-1.75.htm?sku=31262), or a [Waveshare 2.06\"](https://www.waveshare.com/esp32-s3-touch-amoled-2.06.htm)."
+      ]
+    },
+    {
+      "projectId": "palnagotchi",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/viniciusbo/m5-palnagotchi#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:28+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# Palnagotchi for M5 Cardputer",
+        "- Cardputer",
+        "- Cardputer: ESC or m toggles the menu. Use arrow keys or tab to navigate and OK to select option. Esc or m to go back to main menu."
+      ]
+    },
+    {
+      "projectId": "palnagotchi",
+      "deviceId": "m5stack-stickc-plus2",
+      "sourceUrl": "https://github.com/viniciusbo/m5-palnagotchi#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:28+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- StickC Plus2",
+        "- StickC Plus2: Long press M5 button to toggle menu. Use top and bottom keys to navigate and M5 button (short press) to select option."
+      ]
+    },
+    {
+      "projectId": "palnagotchi",
+      "deviceId": "m5stack-atoms3",
+      "sourceUrl": "https://github.com/viniciusbo/m5-palnagotchi#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:28+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- AtomS3",
+        "- AtomS3(R): Long press display to toggle menu. Use double/triple tap display to navigate and short press display to select option."
+      ]
+    },
+    {
+      "projectId": "pathshield",
+      "deviceId": "m5stack-stickc-plus2",
+      "sourceUrl": "https://github.com/lukeswitz/PathShield#readme",
+      "readmeCheckedAt": "2026-10-16T01:05:44+00:00",
+      "status": "source-context-reviewed",
+      "context": [
+        "**M5StickC Plus 2:**",
+        "1. Board: **M5StickCPlus2**",
+        "| | M5StickC Plus 1.1 | M5StickC Plus 2 |"
+      ],
+      "reviewBasis": "Explicit Plus2 source/build section. Plus1.1 is not automatically mapped to older Plus revision. Summary describes scanning, not reliable proof of stalking."
+    },
+    {
+      "projectId": "picoware",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/jblanked/Picoware#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:17+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Open-source custom firmware for PicoCalc, Cardputer ADV, Flipper Zero, POOM, and other ESP32/Raspberry Pi Pico devices.",
+        "- [M5Stack Cardputer ADV](https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3)"
+      ]
+    },
+    {
+      "projectId": "picoware",
+      "deviceId": "waveshare-esp32-s3-touch-amoled-2-06",
+      "sourceUrl": "https://github.com/jblanked/Picoware#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:17+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- [Waveshare ESP32 2.06inch Touch Watch](https://www.waveshare.com/esp32-s3-touch-amoled-2.06.htm)"
+      ]
+    },
+    {
+      "projectId": "plai",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/d4rkmen/plai#readme",
+      "readmeCheckedAt": "2026-10-15T19:21:28+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| **M5Stack CardPuter ADV** | ESP32-S3 portable terminal with keyboard |"
+      ]
+    },
+    {
+      "projectId": "r4s-gateway",
+      "deviceId": "m5stack-basic",
+      "sourceUrl": "https://github.com/alutov/ESP32-R4sGate-for-Redmond#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:26+00:00",
+      "status": "model-name-found",
+      "context": [
+        "&emsp;There are 10 I/O ports, 5 of them can be used to control external devices (Out mode) and read their status (In mode). Three ports can be configured as buttons for turning on/off connected BLE devices (Sw mode, in which case the state of the buttons in mqtt is not displayed), the fourth port can be configured as a button for updating the image from the camera. When configured in input mode, pullup is enabled if possible (pin number less than 34). Another 2 ports are used by the I2C bus, and each of the 3 remaining ports can be used as a pulse width modulated (PWM) output, or as an input for connecting either one DS18B20 sensor with direct power supply, or one DHT22/AM2302 sensor (ports 7 and 8). Reading procedures are simplified, the checksum is not read or verified, and data is rounded to one decimal place. If the gateway is equipped with an audio emitter, then by connecting the PWM output to it (in m5stack basic this is gpio 25), you can output an audio signal. By changing the duty cycle of the pulses, you can adjust the volume. The frequency is fixed and equal to 3.136 kHz. The I2C bus supports sensors SHT3x/SHT4X(addresses 0x44, 0x45), AHT20(0x38), HTU21(0x40), BMP280/BME280/680/688(0x76, 0x77, 688 not yet tested), SGP30(0x58), SGP4x(0x59 ), SCD4x(0x62), as well as RTC DS3231(0x68) and battery controller IP5306(0x75). It is possible to save the SGP30 calibration data in NVRAM and restore it when the gateway starts. To do this, check the AQ base item in the settings. The [Sensirion library](https://github.com/Sensirion/gas-index-algorithm) is used to calculate VOC in SGP4x. The clock is used to store the date and time from the NTP server, the temperature sensor is output to Mqtt. The IP5306 controller is installed in m5stack and ttgo-t4 (SCL 22, SDA 21), allows you to determine the battery level in 25% increments and its mode (Discarging / Charging / Charged). When on battery power, the screen brightness decreases by 16 times. The gateway also supports the AXP192 power controller and PCF8563 RTC, allowing it to run on the M5Stack Tough, and also supports the ADC of the HX711 load cells. The measurement result from the HX711 can be displayed either in kilograms or as a percentage, depending on the calibration. HX711 is polled at intervals of 4 seconds, other sensors at intervals of 12 seconds. The gateway allows hot plugging of all sensors. Sensors 18B20 and DHT22 appear in Mqtt and Home Assistant immediately after the gateway starts, even if they are not connected, and I2C sensors as they are detected on the bus within 2 polling cycles (24 seconds).",
+        "&emsp; If the goal is to launch the gateway at minimal cost, you will have to buy spare parts and then assemble the gateway from them. I used an [ESP32 WROOM ESP-32 4 MB with a built-in antenna (bottom left) or an ESP32 WROOM ESP-32U 4 MB with an external one (to the right of the first)](https://aliexpress.ru/item/32961594602.html?item_id=32961594602&sku_id=66888778667&spm=a2g2w.productlist.0.0.4f835c61Fvd1gD) . Issue price $2.5. Then I soldered the microcircuit onto [an adapter board ($0.3)](https://www.aliexpress.com/item/32763489487.html?spm=a2g2w.productlist.i0.2.48d33c75KbnjpB&sku_id=62208988599) and then onto a breadboard. ESP32C3 is also suitable, I have ESP32C3-12F. Due to hardware limitations of this chip, the gateway uses port 8 only as a pulse width modulation (PWM) output. There is approximately 28 kilobytes more free RAM. And even with the screen connected, the ESP32C3-12F still has 6 free gpio. Power supply for 3.3 Hi-Link ($2-$4). [I bought them for $1.65](https://aliexpress.ru/item/32953853140.html?spm=a2g39.orderlist.0.0.32964aa6PePEbg&_ga=2.238912000.104655408.1636114275-428746708.1615828563&_gac=1.87036010.1634012869.Cj0KCQjwwY-LBhD6ARIsACvT72Na1GBQp7leEJDlxPCd0jTye8sF-GiknWzlo4hKElMNbtmI4DYpB_8aAktOEALw_wcB). **You can avoid soldering** if you use [esp32-wroom-devkit (bottom center, $14)](ttps://aliexpress.ru/item/4000127837743.html?sku_id=10000000372418546&spm=a2g0s.9042311.0.0.274233edNcajyj). True, this board is very redundant for the project; you can get a [simpler one for $3.54](https://aliexpress.ru/item/32928267626.html?item_id=32928267626&sku_id=12000016847177755&spm=a2g2w.productlist.0.0.430c65c8Kf9vOT). In it, esp32 comes along with a board on which there are also converters from 5V to 3.3V, USB-RS232 and a standard mini-USB connector. Through it you can power the esp32 using a five-volt charger from a smartphone, and program it directly from the computer without any adapters. And on the right in the photo is a 3.2\" [320 * 240 TFT screen ($18)](https://aliexpress.ru/item/32911859963.html?spm=a2g0s.9042311.0.0.274233edzZnjSp) , which I used in the gateway. You can also use compatible ready-made devices both with a screen ( **TTGO T-Watcher BTC Ticker** , **M5Stack BASIC** , **M5Stack Tough** ) and without ( **m5atom lite**).",
+        "#### [M5Stack BASIC Kit](https://docs.m5stack.com/en/core/basic)<br>"
+      ]
+    },
+    {
+      "projectId": "r4s-gateway",
+      "deviceId": "m5stack-atom-lite",
+      "sourceUrl": "https://github.com/alutov/ESP32-R4sGate-for-Redmond#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:26+00:00",
+      "status": "model-name-found",
+      "context": [
+        "I checked everything on the Atom lite, it has IR LED on 12 gpio. RC5 and SIRCx15 have not yet been tested.<br>",
+        "&emsp; If the goal is to launch the gateway at minimal cost, you will have to buy spare parts and then assemble the gateway from them. I used an [ESP32 WROOM ESP-32 4 MB with a built-in antenna (bottom left) or an ESP32 WROOM ESP-32U 4 MB with an external one (to the right of the first)](https://aliexpress.ru/item/32961594602.html?item_id=32961594602&sku_id=66888778667&spm=a2g2w.productlist.0.0.4f835c61Fvd1gD) . Issue price $2.5. Then I soldered the microcircuit onto [an adapter board ($0.3)](https://www.aliexpress.com/item/32763489487.html?spm=a2g2w.productlist.i0.2.48d33c75KbnjpB&sku_id=62208988599) and then onto a breadboard. ESP32C3 is also suitable, I have ESP32C3-12F. Due to hardware limitations of this chip, the gateway uses port 8 only as a pulse width modulation (PWM) output. There is approximately 28 kilobytes more free RAM. And even with the screen connected, the ESP32C3-12F still has 6 free gpio. Power supply for 3.3 Hi-Link ($2-$4). [I bought them for $1.65](https://aliexpress.ru/item/32953853140.html?spm=a2g39.orderlist.0.0.32964aa6PePEbg&_ga=2.238912000.104655408.1636114275-428746708.1615828563&_gac=1.87036010.1634012869.Cj0KCQjwwY-LBhD6ARIsACvT72Na1GBQp7leEJDlxPCd0jTye8sF-GiknWzlo4hKElMNbtmI4DYpB_8aAktOEALw_wcB). **You can avoid soldering** if you use [esp32-wroom-devkit (bottom center, $14)](ttps://aliexpress.ru/item/4000127837743.html?sku_id=10000000372418546&spm=a2g0s.9042311.0.0.274233edNcajyj). True, this board is very redundant for the project; you can get a [simpler one for $3.54](https://aliexpress.ru/item/32928267626.html?item_id=32928267626&sku_id=12000016847177755&spm=a2g2w.productlist.0.0.430c65c8Kf9vOT). In it, esp32 comes along with a board on which there are also converters from 5V to 3.3V, USB-RS232 and a standard mini-USB connector. Through it you can power the esp32 using a five-volt charger from a smartphone, and program it directly from the computer without any adapters. And on the right in the photo is a 3.2\" [320 * 240 TFT screen ($18)](https://aliexpress.ru/item/32911859963.html?spm=a2g0s.9042311.0.0.274233edzZnjSp) , which I used in the gateway. You can also use compatible ready-made devices both with a screen ( **TTGO T-Watcher BTC Ticker** , **M5Stack BASIC** , **M5Stack Tough** ) and without ( **m5atom lite**).",
+        "#### [ATOM-LITE-ESP32-DEVELOPMENT-KIT](https://docs.m5stack.com/en/core/atom_lite)<br>"
+      ]
+    },
+    {
+      "projectId": "r4s-gateway",
+      "deviceId": "m5stack-tough",
+      "sourceUrl": "https://github.com/alutov/ESP32-R4sGate-for-Redmond#readme",
+      "readmeCheckedAt": "2026-10-15T18:22:26+00:00",
+      "status": "model-name-found",
+      "context": [
+        "&emsp;There are 10 I/O ports, 5 of them can be used to control external devices (Out mode) and read their status (In mode). Three ports can be configured as buttons for turning on/off connected BLE devices (Sw mode, in which case the state of the buttons in mqtt is not displayed), the fourth port can be configured as a button for updating the image from the camera. When configured in input mode, pullup is enabled if possible (pin number less than 34). Another 2 ports are used by the I2C bus, and each of the 3 remaining ports can be used as a pulse width modulated (PWM) output, or as an input for connecting either one DS18B20 sensor with direct power supply, or one DHT22/AM2302 sensor (ports 7 and 8). Reading procedures are simplified, the checksum is not read or verified, and data is rounded to one decimal place. If the gateway is equipped with an audio emitter, then by connecting the PWM output to it (in m5stack basic this is gpio 25), you can output an audio signal. By changing the duty cycle of the pulses, you can adjust the volume. The frequency is fixed and equal to 3.136 kHz. The I2C bus supports sensors SHT3x/SHT4X(addresses 0x44, 0x45), AHT20(0x38), HTU21(0x40), BMP280/BME280/680/688(0x76, 0x77, 688 not yet tested), SGP30(0x58), SGP4x(0x59 ), SCD4x(0x62), as well as RTC DS3231(0x68) and battery controller IP5306(0x75). It is possible to save the SGP30 calibration data in NVRAM and restore it when the gateway starts. To do this, check the AQ base item in the settings. The [Sensirion library](https://github.com/Sensirion/gas-index-algorithm) is used to calculate VOC in SGP4x. The clock is used to store the date and time from the NTP server, the temperature sensor is output to Mqtt. The IP5306 controller is installed in m5stack and ttgo-t4 (SCL 22, SDA 21), allows you to determine the battery level in 25% increments and its mode (Discarging / Charging / Charged). When on battery power, the screen brightness decreases by 16 times. The gateway also supports the AXP192 power controller and PCF8563 RTC, allowing it to run on the M5Stack Tough, and also supports the ADC of the HX711 load cells. The measurement result from the HX711 can be displayed either in kilograms or as a percentage, depending on the calibration. HX711 is polled at intervals of 4 seconds, other sensors at intervals of 12 seconds. The gateway allows hot plugging of all sensors. Sensors 18B20 and DHT22 appear in Mqtt and Home Assistant immediately after the gateway starts, even if they are not connected, and I2C sensors as they are detected on the bus within 2 polling cycles (24 seconds).",
+        "&emsp; If the goal is to launch the gateway at minimal cost, you will have to buy spare parts and then assemble the gateway from them. I used an [ESP32 WROOM ESP-32 4 MB with a built-in antenna (bottom left) or an ESP32 WROOM ESP-32U 4 MB with an external one (to the right of the first)](https://aliexpress.ru/item/32961594602.html?item_id=32961594602&sku_id=66888778667&spm=a2g2w.productlist.0.0.4f835c61Fvd1gD) . Issue price $2.5. Then I soldered the microcircuit onto [an adapter board ($0.3)](https://www.aliexpress.com/item/32763489487.html?spm=a2g2w.productlist.i0.2.48d33c75KbnjpB&sku_id=62208988599) and then onto a breadboard. ESP32C3 is also suitable, I have ESP32C3-12F. Due to hardware limitations of this chip, the gateway uses port 8 only as a pulse width modulation (PWM) output. There is approximately 28 kilobytes more free RAM. And even with the screen connected, the ESP32C3-12F still has 6 free gpio. Power supply for 3.3 Hi-Link ($2-$4). [I bought them for $1.65](https://aliexpress.ru/item/32953853140.html?spm=a2g39.orderlist.0.0.32964aa6PePEbg&_ga=2.238912000.104655408.1636114275-428746708.1615828563&_gac=1.87036010.1634012869.Cj0KCQjwwY-LBhD6ARIsACvT72Na1GBQp7leEJDlxPCd0jTye8sF-GiknWzlo4hKElMNbtmI4DYpB_8aAktOEALw_wcB). **You can avoid soldering** if you use [esp32-wroom-devkit (bottom center, $14)](ttps://aliexpress.ru/item/4000127837743.html?sku_id=10000000372418546&spm=a2g0s.9042311.0.0.274233edNcajyj). True, this board is very redundant for the project; you can get a [simpler one for $3.54](https://aliexpress.ru/item/32928267626.html?item_id=32928267626&sku_id=12000016847177755&spm=a2g2w.productlist.0.0.430c65c8Kf9vOT). In it, esp32 comes along with a board on which there are also converters from 5V to 3.3V, USB-RS232 and a standard mini-USB connector. Through it you can power the esp32 using a five-volt charger from a smartphone, and program it directly from the computer without any adapters. And on the right in the photo is a 3.2\" [320 * 240 TFT screen ($18)](https://aliexpress.ru/item/32911859963.html?spm=a2g0s.9042311.0.0.274233edzZnjSp) , which I used in the gateway. You can also use compatible ready-made devices both with a screen ( **TTGO T-Watcher BTC Ticker** , **M5Stack BASIC** , **M5Stack Tough** ) and without ( **m5atom lite**).",
+        "Settings for [**M5Stack Tough**](https://docs.m5stack.com/en/core/tough) : 23-MISO, 23-MOSI, 18-CLK, 5-CS, 15-DC, 44-RES, 47-LED, 46-PWR. I2C bus: SCL-22, SDA-21. Without I2C the screen will not start.<br>"
+      ]
+    },
+    {
+      "projectId": "raising-hell",
+      "deviceId": "m5stack-cardputer-adv",
+      "sourceUrl": "https://github.com/acpayers-alt/raising-hell-cardputer#readme",
+      "readmeCheckedAt": "2026-10-16T00:04:17+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# Raising Hell — Cardputer ADV Edition",
+        "A Tamagotchi-style virtual pet game for the M5Stack Cardputer ADV (ESP32).",
+        "- M5Stack Cardputer ADV"
+      ]
+    },
+    {
+      "projectId": "readpaper",
+      "deviceId": "m5stack-papers3",
+      "sourceUrl": "https://github.com/shinemoon/M5ReadPaper#readme",
+      "readmeCheckedAt": "2026-10-15T21:00:04+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Y.A.P.T.R. — Yet Another PaperS3 Text Reader",
+        "出于个人兴趣开发的轻量级阅读固件，针对 PaperS3 平台的文本阅读体验进行了优化，最主要的初心其实只是好奇。",
+        "*总体来说各方面都是按照自己的阅读习惯和倾向做了些定制化设计，一方面满足了自己的好奇心，另一方面也确实因为符合自己的（哪怕拙劣）的审美和使用习惯——不过正如我习惯性劝退的，从完备性、优化各方面，对PaperS3来说EDCBook无疑是我本人之外的用户的优选；*"
+      ]
+    },
+    {
+      "projectId": "saturn",
+      "deviceId": "m5stack-cardputer",
+      "sourceUrl": "https://github.com/henriquesebastiao/saturn#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:11+00:00",
+      "status": "model-name-found",
+      "context": [
+        "### External antenna on Cardputer",
+        "If you want to know more about the procedure for installing an external antenna on the Cardputer, see this [repository](https://github.com/henriquesebastiao/external-cardputer-antenna).",
+        "- Select \"Cardputer\" from the menu on the left."
+      ]
+    },
+    {
+      "projectId": "saturn",
+      "deviceId": "m5stack-stickc-plus",
+      "sourceUrl": "https://github.com/henriquesebastiao/saturn#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:11+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- The code should compile cleanly and work on an M5Stick C Plus out of the box from the main branch or a release tag."
+      ]
+    },
+    {
+      "projectId": "stack-chan",
+      "deviceId": "m5stack-core2",
+      "sourceUrl": "https://github.com/stack-chan/stack-chan#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:38+00:00",
+      "status": "model-name-found",
+      "context": [
+        "The distributed firmware supports M5Stack, M5Stack Core2, M5Stack CoreS3, and M5StackChan CoreS3.",
+        "Firmware for Stack-chan RT and Takao Core2 + SG90 can be built from source."
+      ]
+    },
+    {
+      "projectId": "stack-chan",
+      "deviceId": "m5stack-cores3",
+      "sourceUrl": "https://github.com/stack-chan/stack-chan#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:38+00:00",
+      "status": "model-name-found",
+      "context": [
+        "This repository provides firmware with M5StackChan CoreS3 as its standard configuration, user applications called MODs, browser development tools, cases, and schematics.",
+        "Select \"M5StackChan CoreS3\" as the device.",
+        "The distributed firmware supports M5Stack, M5Stack Core2, M5Stack CoreS3, and M5StackChan CoreS3."
+      ]
+    },
+    {
+      "projectId": "stack-chan",
+      "deviceId": "m5stack-stackchan",
+      "sourceUrl": "https://github.com/stack-chan/stack-chan#readme",
+      "readmeCheckedAt": "2026-10-15T18:20:38+00:00",
+      "status": "source-context-reviewed",
+      "context": [
+        "This repository provides firmware with M5StackChan CoreS3 as its standard configuration, user applications called MODs, browser development tools, cases, and schematics.",
+        "If this is your first Stack-chan, start with a preassembled M5StackChan and the browser tools.",
+        "### 1. Get an M5StackChan"
+      ],
+      "reviewBasis": "README explicitly names M5StackChan CoreS3 and standard K151 package; not inferred from generic DIY Stack-chan lineage."
+    },
+    {
+      "projectId": "stackchan-bsp",
+      "deviceId": "m5stack-stackchan",
+      "sourceUrl": "https://github.com/m5stack/StackChan-BSP#readme",
+      "readmeCheckedAt": "2026-10-16T01:05:53+00:00",
+      "status": "source-context-reviewed",
+      "context": [
+        "### SKU:K151"
+      ],
+      "reviewBasis": "Explicit K151 hardware-support library. Classified as library; product factory AI features are not presented as BSP application features."
+    },
+    {
+      "projectId": "stackchan-mcp",
+      "deviceId": "m5stack-stackchan",
+      "sourceUrl": "https://github.com/kisaragi-mochi/stackchan-mcp#readme",
+      "readmeCheckedAt": "2026-10-15T19:22:26+00:00",
+      "status": "source-context-reviewed",
+      "context": [
+        "An MCP (Model Context Protocol) bridge for the **M5Stack official [StackChan](https://docs.m5stack.com/ja/StackChan)** (2025 Kickstarter shipping kit), letting any LLM client drive the device.",
+        "> Born out of the [stack-chan project](https://github.com/stack-chan/stack-chan) community (originated by Shinya Ishikawa in 2021). This repository targets the M5Stack official StackChan kit that grew out of that lineage.",
+        "**M5Stack official [StackChan kit](https://docs.m5stack.com/ja/StackChan)** (Kickstarter 2025 shipping version). The firmware in this repository is meant to replace the kit's [factory firmware](https://docs.m5stack.com/ja/StackChan#%E5%87%BA%E8%8D%B7%E6%99%82%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2)."
+      ],
+      "reviewBasis": "README explicitly targets official M5Stack StackChan kit and distinguishes DIY variants."
+    },
+    {
+      "projectId": "stickwatch2",
+      "deviceId": "m5stack-stickc",
+      "sourceUrl": "https://github.com/eggfly/M5StickCProjects#readme",
+      "readmeCheckedAt": "2026-10-16T00:05:42+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# M5StickC projects (in ./other_projects and ./demo)"
+      ]
+    },
+    {
+      "projectId": "stopwatch-avatar",
+      "deviceId": "m5stack-stopwatch",
+      "sourceUrl": "https://github.com/Trentct/m5stack-stopwatch-avatar#readme",
+      "readmeCheckedAt": "2026-10-16T01:04:03+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# KK — M5Stack StopWatch Avatar",
+        "[![Build firmware](https://github.com/Trentct/m5stack-stopwatch-avatar/actions/workflows/build.yml/badge.svg)](https://github.com/Trentct/m5stack-stopwatch-avatar/actions/workflows/build.yml)",
+        "Meet **KK** — a tiny expressive face living inside the M5Stack StopWatch."
+      ]
+    },
+    {
+      "projectId": "tab5-user-demo",
+      "deviceId": "m5stack-tab5",
+      "sourceUrl": "https://github.com/m5stack/M5Tab5-UserDemo#readme",
+      "readmeCheckedAt": "2026-10-16T00:04:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "# M5Tab5 User Demo",
+        "User demo source code of [M5Tab5](https://docs.m5stack.com/en/products/sku/k145).",
+        "cd platforms/tab5"
+      ]
+    },
+    {
+      "projectId": "tinydraw",
+      "deviceId": "waveshare-esp32-s3-touch-amoled-1-8",
+      "sourceUrl": "https://github.com/aliceisjustplaying/tinydraw#readme",
+      "readmeCheckedAt": "2026-10-15T17:23:11+00:00",
+      "status": "source-context-reviewed",
+      "context": [],
+      "reviewBasis": "README explicitly targets Waveshare 368x448 ESP32-S3 Touch AMOLED 1.8-inch; distinguishes RP2350 target."
+    },
+    {
+      "projectId": "uiflow-micropython",
+      "deviceId": "m5stack-atoms3",
+      "sourceUrl": "https://github.com/m5stack/uiflow-micropython#readme",
+      "readmeCheckedAt": "2026-10-15T19:20:49+00:00",
+      "status": "model-name-found",
+      "context": [
+        "The default board build the M5STACK_AtomS3 one, You can use the `make BOARD=<board> pack_all` command to specify different development boards for compilation. More BOARD type definitions are located in the [m5stack/boards](./m5stack/boards/) path."
+      ]
+    },
+    {
+      "projectId": "vibe-watch",
+      "deviceId": "m5stack-stopwatch",
+      "sourceUrl": "https://github.com/GOROman/vibewatch#readme",
+      "readmeCheckedAt": "2026-10-15T17:22:26+00:00",
+      "status": "model-name-found",
+      "context": [
+        "**A wearable, tactile control surface for AI-assisted Vibe Coding—built around the M5Stack StopWatch.**",
+        "The M5Stack StopWatch is the complete product interface—not a passive display attached to another controller.",
+        "| [M5Stack StopWatch](https://docs.m5stack.com/en/core/StopWatch) | 1 | Controller, display, input, audio, haptics, BLE, and power |"
+      ]
+    },
+    {
+      "projectId": "vibestick-for-mac",
+      "deviceId": "m5stack-sticks3",
+      "sourceUrl": "https://github.com/HanminYIN/VibeStick-for-Mac#readme",
+      "readmeCheckedAt": "2026-10-16T01:04:07+00:00",
+      "status": "model-name-found",
+      "context": [
+        "![VibeStick for Mac with the real StickS3 home-screen layout and English product messaging](assets/brand/vibestick-for-mac-hero.png)",
+        "VibeStick for Mac turns an M5Stack StickS3 into a tiny desktop companion for",
+        "VibeStick targets M5Stack StickS3 hardware and is not an official M5Stack project. Third-party agent names such as Codex and Claude describe compatible local tools and integrations only."
+      ]
+    },
+    {
+      "projectId": "wifi-hash-monster",
+      "deviceId": "m5stack-fire",
+      "sourceUrl": "https://github.com/G4lile0/ESP32-WiFi-Hash-Monster#readme",
+      "readmeCheckedAt": "2026-10-15T18:21:30+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Use Arduino IDE to compile it, tested with (ESP32 version 1.0.4) M5stack-fire."
+      ]
+    },
+    {
+      "projectId": "xiaozhi",
+      "deviceId": "m5stack-cores3",
+      "sourceUrl": "https://github.com/78/xiaozhi-esp32#readme",
+      "readmeCheckedAt": "2026-10-15T17:22:10+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- <a href=\"https://docs.m5stack.com/zh_CN/core/CoreS3\" target=\"_blank\" title=\"M5Stack CoreS3\">M5Stack CoreS3</a>",
+        "<a href=\"docs/v1/m5cores3.jpg\" target=\"_blank\" title=\"M5Stack CoreS3\">",
+        "<img src=\"docs/v1/m5cores3.jpg\" width=\"240\" />"
+      ]
+    },
+    {
+      "projectId": "xiaozhi",
+      "deviceId": "waveshare-esp32-s3-touch-amoled-1-8",
+      "sourceUrl": "https://github.com/78/xiaozhi-esp32#readme",
+      "readmeCheckedAt": "2026-10-15T17:22:10+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- <a href=\"https://www.waveshare.net/shop/ESP32-S3-Touch-AMOLED-1.8.htm\" target=\"_blank\" title=\"Waveshare ESP32-S3-Touch-AMOLED-1.8\">Waveshare ESP32-S3-Touch-AMOLED-1.8</a>",
+        "<a href=\"docs/v1/waveshare.jpg\" target=\"_blank\" title=\"Waveshare ESP32-S3-Touch-AMOLED-1.8\">"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "stagedDevices": 0,
+  "sourceCoverage": {
+    "project": {
+      "awesome-esp32": {
+        "included": 24,
+        "needs-review": 3,
+        "excluded": 26,
+        "pending": 1,
+        "discovered": 4
+      },
+      "M5Ware": {
+        "included": 79,
+        "needs-review": 42,
+        "excluded": 9,
+        "discovered": 35
+      },
+      "Awesome M5Stack Cardputer": {
+        "needs-review": 10,
+        "included": 12,
+        "discovered": 35
+      }
+    },
+    "device": {
+      "ESPboards": {
+        "included": 128,
+        "discovered": 86,
+        "needs-review": 54,
+        "pending": 30
+      },
+      "M5Ware": {
+        "included": 3
+      },
+      "Upstream project documentation": {
+        "included": 1
+      },
+      "awesome-esp32": {
+        "included": 7
+      },
+      "Upstream manufacturer documentation": {
+        "included": 1
+      }
+    }
+  },
+  "generatedAt": "2026-10-16T03:33:08+00:00",
+  "counts": {
+    "project": {
+      "included": 100,
+      "needs-review": 45,
+      "excluded": 35,
+      "pending": 1,
+      "discovered": 72
+    },
+    "device": {
+      "included": 140,
+      "discovered": 86,
+      "needs-review": 54,
+      "pending": 30
+    }
+  },
+  "manufacturerCoverage": {
+    "01studio": {
+      "discovered": 1
+    },
+    "adafruit": {
+      "included": 18
+    },
+    "ai-thinker": {
+      "needs-review": 1,
+      "included": 2
+    },
+    "airm2m": {
+      "discovered": 1
+    },
+    "april-brother": {
+      "discovered": 1
+    },
+    "atmegazero": {
+      "discovered": 1
+    },
+    "ayarafun": {
+      "discovered": 1
+    },
+    "banana-pi": {
+      "discovered": 2
+    },
+    "ch2i": {
+      "discovered": 1
+    },
+    "connaxio": {
+      "discovered": 1
+    },
+    "crabik": {
+      "discovered": 1
+    },
+    "cytron": {
+      "discovered": 1
+    },
+    "deneyap": {
+      "discovered": 6
+    },
+    "dfrobot": {
+      "included": 4
+    },
+    "doit": {
+      "pending": 2
+    },
+    "dycodex": {
+      "discovered": 1
+    },
+    "elecrow": {
+      "included": 8,
+      "needs-review": 1
+    },
+    "espressif": {
+      "pending": 14,
+      "needs-review": 7,
+      "included": 16
+    },
+    "explore-embedded": {
+      "discovered": 2
+    },
+    "franzininho": {
+      "discovered": 2
+    },
+    "generic": {
+      "needs-review": 13,
+      "pending": 9
+    },
+    "hardkernel": {
+      "discovered": 1
+    },
+    "heltec": {
+      "included": 7,
+      "needs-review": 4
+    },
+    "iarduino": {
+      "discovered": 2
+    },
+    "imbrios": {
+      "discovered": 1
+    },
+    "inex": {
+      "discovered": 1
+    },
+    "intorobot": {
+      "discovered": 1
+    },
+    "iot-maker-vn": {
+      "discovered": 1
+    },
+    "iotbakery": {
+      "discovered": 1
+    },
+    "labplus": {
+      "discovered": 1
+    },
+    "lilygo": {
+      "included": 23,
+      "needs-review": 2,
+      "pending": 1
+    },
+    "lionbit": {
+      "discovered": 1
+    },
+    "m5stack": {
+      "included": 22
+    },
+    "magicbit": {
+      "discovered": 1
+    },
+    "makerasia": {
+      "discovered": 2
+    },
+    "mgbot": {
+      "discovered": 2
+    },
+    "mh-et-live": {
+      "discovered": 2
+    },
+    "microdev": {
+      "discovered": 1
+    },
+    "microduino": {
+      "discovered": 1
+    },
+    "munich-labs": {
+      "discovered": 1
+    },
+    "noduino": {
+      "discovered": 1
+    },
+    "olimex": {
+      "included": 6
+    },
+    "openjumper": {
+      "discovered": 3
+    },
+    "oroca": {
+      "discovered": 1
+    },
+    "protocentral": {
+      "discovered": 1
+    },
+    "pycom": {
+      "discovered": 4
+    },
+    "quickspot": {
+      "discovered": 1
+    },
+    "roboheart": {
+      "discovered": 1
+    },
+    "robotics-brno": {
+      "discovered": 1
+    },
+    "seeed-studio": {
+      "included": 10
+    },
+    "senses": {
+      "discovered": 1
+    },
+    "silicognition": {
+      "discovered": 1
+    },
+    "smart-bee-designs": {
+      "discovered": 4
+    },
+    "sonoff": {
+      "discovered": 1
+    },
+    "sparkfun": {
+      "included": 7
+    },
+    "spelec": {
+      "discovered": 1
+    },
+    "sqfmi": {
+      "discovered": 1
+    },
+    "sunton": {
+      "needs-review": 8,
+      "pending": 2
+    },
+    "tamc": {
+      "discovered": 2
+    },
+    "thaieasyelec": {
+      "discovered": 1
+    },
+    "tlera": {
+      "discovered": 1
+    },
+    "trueverit": {
+      "discovered": 2
+    },
+    "turta": {
+      "discovered": 1
+    },
+    "u-blox": {
+      "discovered": 2
+    },
+    "unexpected-maker": {
+      "needs-review": 7,
+      "included": 2
+    },
+    "unknown": {
+      "needs-review": 7
+    },
+    "unphone": {
+      "discovered": 3
+    },
+    "upesy": {
+      "discovered": 2
+    },
+    "valetron": {
+      "discovered": 2
+    },
+    "vintlabs": {
+      "discovered": 1
+    },
+    "waveshare": {
+      "included": 9,
+      "needs-review": 1
+    },
+    "wemos": {
+      "pending": 2,
+      "needs-review": 3,
+      "included": 6
+    },
+    "widora": {
+      "discovered": 2
+    },
+    "wireless-tag": {
+      "discovered": 2
+    },
+    "xinabox": {
+      "discovered": 1
+    }
+  },
+  "authorization": "Anonymous public GET only; no gh, personal keys, cookies, deployment or external writes"
+}

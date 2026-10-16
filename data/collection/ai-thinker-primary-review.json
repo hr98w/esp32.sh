@@ -1,0 +1,134 @@
+{
+  "ai-thinker-nodemcu-32s": {
+    "sourceUrl": "https://en.ai-thinker.com/pro_view-68.html",
+    "checkedAt": "2026-10-16T00:29:09+00:00",
+    "images": [
+      {
+        "url": "https://en.ai-thinker.com/Uploads/image/20200521/5ec605de660b0.png",
+        "alt": ""
+      },
+      {
+        "url": "https://en.ai-thinker.com/Uploads/image/20200521/5ec605e388601.png",
+        "alt": ""
+      },
+      {
+        "url": "https://en.ai-thinker.com/Uploads/image/20190506/20190506021739_18481.jpg",
+        "alt": ""
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect/?pid=6731196&fmt=gif",
+        "alt": ""
+      },
+      {
+        "url": "https://en.ai-thinker.com/Uploads/file/20220903/20220903102144_25257.jpg",
+        "alt": ""
+      },
+      {
+        "url": "https://en.ai-thinker.com/APP/Public/Home/images/products/remai.png",
+        "alt": ""
+      },
+      {
+        "url": "https://en.ai-thinker.com/Uploads/file/20220903/20220903102153_80230.jpg",
+        "alt": ""
+      },
+      {
+        "url": "https://en.ai-thinker.com/Uploads/file/20220903/20220903102213_74125.jpg",
+        "alt": ""
+      },
+      {
+        "url": "https://en.ai-thinker.com/Uploads/file/20220903/20220903102428_49978.jpg",
+        "alt": ""
+      },
+      {
+        "url": "https://en.ai-thinker.com/Uploads/image/20190628/5d158ceca4f9e.png",
+        "alt": "ESP32-WROOM-32"
+      }
+    ],
+    "tables": [
+      [
+        [
+          "串口驱动是否安装，接线是否良好，点击 START 出现等待电平同步的时候有没有长按 IO0 按钮"
+        ]
+      ]
+    ],
+    "resources": [],
+    "title": ""
+  },
+  "ai-thinker-esp32-cam": {
+    "sourceUrl": "https://docs.ai-thinker.com/en/esp32-cam",
+    "checkedAt": "2026-10-15T18:05:35+00:00",
+    "images": [
+      {
+        "url": "https://docs.ai-thinker.com/wifi.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/lora.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/ble.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/radar.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/xiaoanAI.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/dark-nearlink.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/light-nearlink.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/voice.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/nb-iot.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/uwb.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/2.4g.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/gps.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/rf433.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/antenna.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/aipi.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/dark-yun.png",
+        "alt": null
+      },
+      {
+        "url": "https://docs.ai-thinker.com/light-yun.png",
+        "alt": null
+      }
+    ],
+    "tables": [],
+    "resources": [],
+    "title": ""
+  }
+}

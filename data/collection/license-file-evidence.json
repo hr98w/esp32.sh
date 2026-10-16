@@ -1,0 +1,59 @@
+{
+  "rzeldent/esp32cam-rtsp": {
+    "repository": "rzeldent/esp32cam-rtsp",
+    "status": "fetched",
+    "url": "https://api.github.com/repos/rzeldent/esp32cam-rtsp/license",
+    "htmlUrl": "https://github.com/rzeldent/esp32cam-rtsp/blob/main/LICENSE",
+    "path": "LICENSE",
+    "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+    "detectedLicense": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "checkedAt": "2026-10-15T19:20:21+00:00",
+    "preamble": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim "
+  },
+  "justcallmekoko/esp32marauder": {
+    "repository": "justcallmekoko/ESP32Marauder",
+    "status": "needs-review",
+    "reason": "HTTP 404: https://api.github.com/repos/justcallmekoko/ESP32Marauder/license",
+    "lastAttemptAt": "2026-10-15T19:20:26+00:00"
+  },
+  "n0xa/m5stick-nemo": {
+    "repository": "n0xa/m5stick-nemo",
+    "status": "fetched",
+    "url": "https://api.github.com/repos/n0xa/m5stick-nemo/license",
+    "htmlUrl": "https://github.com/n0xa/m5stick-nemo/blob/main/LICENSE",
+    "path": "LICENSE",
+    "sha": "806c5453c2f058d20532a8e1ea40c1ad295d5881",
+    "detectedLicense": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "checkedAt": "2026-10-15T19:20:30+00:00",
+    "preamble": "This software is copyright Noah Axon 2023 - and available under either a GPL-2 or GPL-3 license.\n\n\n\n\n\t\t    GNU GENERAL PUBLIC LICENSE\n\t\t       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc"
+  },
+  "blueforcer/awtrix3": {
+    "repository": "Blueforcer/awtrix3",
+    "status": "fetched",
+    "url": "https://api.github.com/repos/Blueforcer/awtrix3/license",
+    "htmlUrl": "https://github.com/Blueforcer/awtrix3/blob/main/LICENSE.md",
+    "path": "LICENSE.md",
+    "sha": "ce32f473adf3c59aaf311265f9954515c697ba31",
+    "detectedLicense": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "checkedAt": "2026-10-15T19:20:34+00:00",
+    "preamble": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /></a><br />This work is l"
+  }
+}

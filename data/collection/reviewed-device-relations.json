@@ -1,0 +1,198 @@
+[
+  {
+    "projectId": "stack-chan",
+    "deviceId": "m5stack-stackchan",
+    "sourceUrl": "https://github.com/stack-chan/stack-chan#readme",
+    "checkedAt": "2026-10-15T18:20:38+00:00",
+    "basis": "README specifies the standard preassembled M5StackChan K151 package and M5StackChan CoreS3 release target."
+  },
+  {
+    "projectId": "m5launcher",
+    "deviceId": "m5stack-paper",
+    "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+    "checkedAt": "2026-10-15T18:20:34+00:00",
+    "basis": "README changelog explicitly lists completed ports/fixes for each of these models; XIAO ESP32S3 Plus uses a headless environment."
+  },
+  {
+    "projectId": "m5launcher",
+    "deviceId": "m5stack-stickc-plus",
+    "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+    "checkedAt": "2026-10-15T18:20:34+00:00",
+    "basis": "README changelog explicitly lists completed ports/fixes for each of these models; XIAO ESP32S3 Plus uses a headless environment."
+  },
+  {
+    "projectId": "m5launcher",
+    "deviceId": "m5stack-sticks3",
+    "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+    "checkedAt": "2026-10-15T18:20:34+00:00",
+    "basis": "README changelog explicitly lists completed ports/fixes for each of these models; XIAO ESP32S3 Plus uses a headless environment."
+  },
+  {
+    "projectId": "m5launcher",
+    "deviceId": "seeed-reterminal-e1001",
+    "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+    "checkedAt": "2026-10-15T18:20:34+00:00",
+    "basis": "README changelog explicitly lists completed ports/fixes for each of these models; XIAO ESP32S3 Plus uses a headless environment."
+  },
+  {
+    "projectId": "m5launcher",
+    "deviceId": "seeed-xiao-esp32s3-plus",
+    "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+    "checkedAt": "2026-10-15T18:20:34+00:00",
+    "basis": "README changelog explicitly lists completed ports/fixes for each of these models; XIAO ESP32S3 Plus uses a headless environment."
+  },
+  {
+    "projectId": "m5launcher",
+    "deviceId": "lilygo-t-deck",
+    "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+    "checkedAt": "2026-10-15T18:20:34+00:00",
+    "basis": "README changelog explicitly lists completed ports/fixes for each of these models; XIAO ESP32S3 Plus uses a headless environment."
+  },
+  {
+    "projectId": "m5launcher",
+    "deviceId": "lilygo-t-deck-plus",
+    "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+    "checkedAt": "2026-10-15T18:20:34+00:00",
+    "basis": "README changelog explicitly lists completed ports/fixes for each of these models; XIAO ESP32S3 Plus uses a headless environment."
+  },
+  {
+    "projectId": "furble",
+    "deviceId": "m5stack-basic",
+    "sourceUrl": "https://github.com/gkoh/furble#readme",
+    "checkedAt": "2026-10-15T18:21:00+00:00",
+    "basis": "README Supported Controllers list explicitly names M5Core Basic, M5StickC Plus, and M5StickS3."
+  },
+  {
+    "projectId": "furble",
+    "deviceId": "m5stack-stickc-plus",
+    "sourceUrl": "https://github.com/gkoh/furble#readme",
+    "checkedAt": "2026-10-15T18:21:00+00:00",
+    "basis": "README Supported Controllers list explicitly names M5Core Basic, M5StickC Plus, and M5StickS3."
+  },
+  {
+    "projectId": "furble",
+    "deviceId": "m5stack-sticks3",
+    "sourceUrl": "https://github.com/gkoh/furble#readme",
+    "checkedAt": "2026-10-15T18:21:00+00:00",
+    "basis": "README Supported Controllers list explicitly names M5Core Basic, M5StickC Plus, and M5StickS3."
+  },
+  {
+    "projectId": "bruce",
+    "deviceId": "m5stack-stickc-plus",
+    "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+    "checkedAt": "2026-10-15T18:20:21+00:00",
+    "basis": "README hardware table includes a distinct M5StickC PLUS row, separate from PLUS2."
+  },
+  {
+    "projectId": "evil-m5project",
+    "deviceId": "m5stack-stickc-plus",
+    "sourceUrl": "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+    "checkedAt": "2026-10-15T18:21:13+00:00",
+    "basis": "README Supported list explicitly includes StickC Plus/Plus2."
+  },
+  {
+    "projectId": "m5stick-marauder",
+    "deviceId": "m5stack-stickc-plus",
+    "sourceUrl": "https://github.com/ATOMNFT/M5stick-Marauder#readme",
+    "checkedAt": "2026-10-15T19:20:37+00:00",
+    "basis": "README specifically targets both M5StickC plus and plus2."
+  },
+  {
+    "projectId": "nemo",
+    "deviceId": "m5stack-stickc-plus",
+    "sourceUrl": "https://github.com/n0xa/m5stick-nemo#readme",
+    "checkedAt": "2026-10-15T18:21:17+00:00",
+    "basis": "README UI and build instructions explicitly name M5Stick-C-Plus."
+  },
+  {
+    "projectId": "r4s-gateway",
+    "deviceId": "m5stack-tough",
+    "sourceUrl": "https://github.com/alutov/ESP32-R4sGate-for-Redmond#readme",
+    "checkedAt": "2026-10-15T18:22:26+00:00",
+    "basis": "README names M5Stack Tough and provides its hardware settings."
+  },
+  {
+    "projectId": "beryllium-micro",
+    "deviceId": "adafruit-feather-esp32s2",
+    "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+    "checkedAt": "2026-10-15T18:22:13+00:00",
+    "basis": "README current supported boards list explicitly names each exact board. No reverse TFT, no-PSRAM, or Timer Camera original substitutions."
+  },
+  {
+    "projectId": "beryllium-micro",
+    "deviceId": "adafruit-feather-esp32s3-tft",
+    "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+    "checkedAt": "2026-10-15T18:22:13+00:00",
+    "basis": "README current supported boards list explicitly names each exact board. No reverse TFT, no-PSRAM, or Timer Camera original substitutions."
+  },
+  {
+    "projectId": "beryllium-micro",
+    "deviceId": "ai-thinker-esp32-cam",
+    "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+    "checkedAt": "2026-10-15T18:22:13+00:00",
+    "basis": "README current supported boards list explicitly names each exact board. No reverse TFT, no-PSRAM, or Timer Camera original substitutions."
+  },
+  {
+    "projectId": "beryllium-micro",
+    "deviceId": "dfrobot-beetle-esp32c3",
+    "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+    "checkedAt": "2026-10-15T18:22:13+00:00",
+    "basis": "README current supported boards list explicitly names each exact board. No reverse TFT, no-PSRAM, or Timer Camera original substitutions."
+  },
+  {
+    "projectId": "beryllium-micro",
+    "deviceId": "dfrobot-firebeetle2-esp32s3",
+    "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+    "checkedAt": "2026-10-15T18:22:13+00:00",
+    "basis": "README current supported boards list explicitly names each exact board. No reverse TFT, no-PSRAM, or Timer Camera original substitutions."
+  },
+  {
+    "projectId": "beryllium-micro",
+    "deviceId": "wemos-lolin-s2-mini",
+    "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+    "checkedAt": "2026-10-15T18:22:13+00:00",
+    "basis": "README current supported boards list explicitly names each exact board. No reverse TFT, no-PSRAM, or Timer Camera original substitutions."
+  },
+  {
+    "projectId": "esp32cam-rtsp",
+    "deviceId": "ai-thinker-esp32-cam",
+    "sourceUrl": "https://github.com/rzeldent/esp32cam-rtsp#readme",
+    "checkedAt": "2026-10-15T18:21:26+00:00",
+    "basis": "README supported-board list and hardware table explicitly name AI-Thinker ESP32-CAM."
+  },
+  {
+    "projectId": "bit-pirate",
+    "deviceId": "heltec-wifi-lora-32-v4",
+    "sourceUrl": "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+    "checkedAt": "2026-10-15T18:21:08+00:00",
+    "basis": "README hardware table explicitly lists Heltec WiFi LoRa 32 V4; its screen is not supported, and the project is operated through a CLI."
+  },
+  {
+    "projectId": "meshtastic",
+    "deviceId": "lilygo-t-deck-plus",
+    "sourceUrl": "https://meshtastic.org/docs/hardware/devices/lilygo/tdeck/",
+    "checkedAt": "2026-10-15T17:53:05+00:00",
+    "basis": "Meshtastic hardware documentation explicitly covers T-Deck Plus and names firmware-t-deck. Manufacturer T-Deck Plus product description includes an SX1262; unlike the original T-Deck, its radio is not labeled optional."
+  },
+  {
+    "projectId": "avatar-mic",
+    "deviceId": "m5stack-stickc-plus",
+    "sourceUrl": "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+    "checkedAt": "2026-10-15T21:00:12+00:00",
+    "basis": "README explicitly names M5StickCPlus in its supported devices or build instructions."
+  },
+  {
+    "projectId": "m5stick-shark",
+    "deviceId": "m5stack-stickc-plus",
+    "sourceUrl": "https://github.com/AH2005NA/m5stick-shark#readme",
+    "checkedAt": "2026-10-15T20:43:56+00:00",
+    "basis": "README explicitly names M5StickCPlus in its supported devices or build instructions."
+  },
+  {
+    "projectId": "chat-stick",
+    "deviceId": "m5stack-stopwatch",
+    "sourceUrl": "https://github.com/steveruizok/chat-stick#readme",
+    "checkedAt": "2026-10-16T00:47:12+00:00",
+    "basis": "README has a dedicated M5 StopWatch section and states m5-stopwatch runs the full voice client."
+  }
+]

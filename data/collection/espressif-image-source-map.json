@@ -1,0 +1,82 @@
+{
+  "espressif-esp32-c3-devkitc-02": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-c3-devkitc-02/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitc-02/user_guide.html",
+    "chipDirectory": "esp32c3"
+  },
+  "espressif-esp32-c3-devkitm-1": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-c3-devkitm-1/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitm-1/user_guide.html",
+    "chipDirectory": "esp32c3"
+  },
+  "espressif-esp32-c6-devkitc-1": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-c6-devkitc-1/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html",
+    "chipDirectory": "esp32c6"
+  },
+  "espressif-esp32-c6-devkitm-1": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-c6-devkitm-1/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/user_guide.html",
+    "chipDirectory": "esp32c6"
+  },
+  "espressif-esp32-devkitc": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-devkitc/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32/esp32-devkitc/user_guide.html",
+    "chipDirectory": "esp32"
+  },
+  "espressif-esp32-devkitm-1": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-devkitm-1/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32/esp32-devkitm-1/user_guide.html",
+    "chipDirectory": "esp32"
+  },
+  "espressif-esp32-ethernet-kit": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-ethernet-kit/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32/esp32-ethernet-kit/user_guide.html",
+    "chipDirectory": "esp32"
+  },
+  "espressif-esp32-h2-devkitm-1": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-h2-devkitm-1/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html",
+    "chipDirectory": "esp32h2"
+  },
+  "espressif-esp32-lcdkit": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-lcdkit/user_guide.rst",
+    "pageUrl": "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32/esp32-lcdkit/user_guide.html",
+    "chipDirectory": "esp32"
+  },
+  "espressif-esp32-pico-devkitm-2": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-pico-devkitm-2/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32/esp32-pico-devkitm-2/user_guide.html",
+    "chipDirectory": "esp32"
+  },
+  "espressif-esp32-pico-kit-1": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-pico-kit-1/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32/esp32-pico-kit-1/user_guide.html",
+    "chipDirectory": "esp32"
+  },
+  "espressif-esp32-s2-devkitc-1": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-s2-devkitc-1/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s2/esp32-s2-devkitc-1/user_guide.html",
+    "chipDirectory": "esp32s2"
+  },
+  "espressif-esp32-s2-devkitm-1": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-s2-devkitm-1/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s2/esp32-s2-devkitm-1/user_guide.html",
+    "chipDirectory": "esp32s2"
+  },
+  "espressif-esp32-s3-devkitc-1": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-s3-devkitc-1/user_guide_v1.1.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html",
+    "chipDirectory": "esp32s3"
+  },
+  "espressif-esp32-s3-devkitm-1": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-s3-devkitm-1/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitm-1/user_guide.html",
+    "chipDirectory": "esp32s3"
+  },
+  "espressif-esp32-s3-usb-bridge": {
+    "rstUrl": "https://raw.githubusercontent.com/espressif/esp-dev-kits/master/docs/en/esp32-s3-usb-bridge/user_guide.rst",
+    "pageUrl": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s3/esp32-s3-usb-bridge/user_guide.html",
+    "chipDirectory": "esp32s3"
+  }
+}

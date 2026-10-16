@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" shape-rendering="crispEdges" role="img" aria-label="esp32.sh chip terminal logo">
+  <g fill="#172238">
+    <path d="M8 2h4v4H8zm6 0h4v4h-4zm6 0h4v4h-4zM8 26h4v4H8zm6 0h4v4h-4zm6 0h4v4h-4zM2 8h4v4H2zm0 6h4v4H2zm0 6h4v4H2zM26 8h4v4h-4zm0 6h4v4h-4zm0 6h4v4h-4z"/>
+  </g>
+  <g fill="#c6d0c9">
+    <path d="M9 2h2v3H9zm6 0h2v3h-2zm6 0h2v3h-2zM9 27h2v3H9zm6 0h2v3h-2zm6 0h2v3h-2zM2 9h3v2H2zm0 6h3v2H2zm0 6h3v2H2zM27 9h3v2h-3zm0 6h3v2h-3zm0 6h3v2h-3z"/>
+  </g>
+  <path fill="#172238" d="M8 6h16v2h2v16h-2v2H8v-2H6V8h2z"/>
+  <path fill="#000080" d="M8 8h16v16H8z"/>
+  <path fill="#66c5b1" d="M8 8h16v2H10v14H8z"/>
+  <path fill="#00004c" d="M10 22h14v2H10zm12-12h2v12h-2z"/>
+  <path fill="#fff3b0" d="M11 12h3v2h-3zm2 2h3v2h-3zm2 2h3v2h-3zm-2 2h3v2h-3zm-2 2h3v2h-3zm6 0h4v2h-4z"/>
+</svg>

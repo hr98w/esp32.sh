@@ -1,0 +1,446 @@
+{
+  "01studio": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/01studio/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:29:57+00:00",
+    "discoveredBoards": 1
+  },
+  "adafruit": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/adafruit/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:23:06+00:00",
+    "discoveredBoards": 18
+  },
+  "ai-thinker": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/ai-thinker/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:00+00:00",
+    "discoveredBoards": 3
+  },
+  "airm2m": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/airm2m/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:02+00:00",
+    "discoveredBoards": 1
+  },
+  "april-brother": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/april-brother/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:05+00:00",
+    "discoveredBoards": 1
+  },
+  "atmegazero": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/atmegazero/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:07+00:00",
+    "discoveredBoards": 1
+  },
+  "ayarafun": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/ayarafun/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:10+00:00",
+    "discoveredBoards": 1
+  },
+  "banana-pi": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/banana-pi/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:12+00:00",
+    "discoveredBoards": 2
+  },
+  "ch2i": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/ch2i/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:15+00:00",
+    "discoveredBoards": 1
+  },
+  "connaxio": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/connaxio/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:17+00:00",
+    "discoveredBoards": 1
+  },
+  "crabik": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/crabik/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:20+00:00",
+    "discoveredBoards": 1
+  },
+  "cytron": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/cytron/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:22+00:00",
+    "discoveredBoards": 1
+  },
+  "deneyap": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/deneyap/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:25+00:00",
+    "discoveredBoards": 6
+  },
+  "dfrobot": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/dfrobot/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:27+00:00",
+    "discoveredBoards": 4
+  },
+  "doit": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/doit/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:29+00:00",
+    "discoveredBoards": 2
+  },
+  "dycodex": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/dycodex/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:31+00:00",
+    "discoveredBoards": 1
+  },
+  "elecrow": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/elecrow/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:23:08+00:00",
+    "discoveredBoards": 9
+  },
+  "espressif": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/espressif/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:23:11+00:00",
+    "discoveredBoards": 37
+  },
+  "explore-embedded": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/explore-embedded/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:34+00:00",
+    "discoveredBoards": 2
+  },
+  "franzininho": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/franzininho/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:36+00:00",
+    "discoveredBoards": 2
+  },
+  "generic": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/generic/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:23:13+00:00",
+    "discoveredBoards": 22
+  },
+  "hardkernel": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/hardkernel/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:38+00:00",
+    "discoveredBoards": 1
+  },
+  "heltec": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/heltec/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:41+00:00",
+    "discoveredBoards": 11
+  },
+  "iarduino": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/iarduino/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:43+00:00",
+    "discoveredBoards": 2
+  },
+  "imbrios": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/imbrios/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:45+00:00",
+    "discoveredBoards": 1
+  },
+  "inex": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/inex/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:48+00:00",
+    "discoveredBoards": 1
+  },
+  "intorobot": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/intorobot/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:50+00:00",
+    "discoveredBoards": 1
+  },
+  "iot-maker-vn": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/iot-maker-vn/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:52+00:00",
+    "discoveredBoards": 1
+  },
+  "iotbakery": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/iotbakery/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:55+00:00",
+    "discoveredBoards": 1
+  },
+  "labplus": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/labplus/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:30:57+00:00",
+    "discoveredBoards": 1
+  },
+  "lilygo": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/lilygo/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:23:15+00:00",
+    "discoveredBoards": 26
+  },
+  "lionbit": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/lionbit/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:00+00:00",
+    "discoveredBoards": 1
+  },
+  "m5stack": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/m5stack/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:23:18+00:00",
+    "discoveredBoards": 12
+  },
+  "magicbit": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/magicbit/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:02+00:00",
+    "discoveredBoards": 1
+  },
+  "makerasia": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/makerasia/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:05+00:00",
+    "discoveredBoards": 2
+  },
+  "mgbot": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/mgbot/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:07+00:00",
+    "discoveredBoards": 2
+  },
+  "mh-et-live": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/mh-et-live/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:09+00:00",
+    "discoveredBoards": 2
+  },
+  "microdev": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/microdev/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:12+00:00",
+    "discoveredBoards": 1
+  },
+  "microduino": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/microduino/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:14+00:00",
+    "discoveredBoards": 1
+  },
+  "munich-labs": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/munich-labs/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:17+00:00",
+    "discoveredBoards": 1
+  },
+  "noduino": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/noduino/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:19+00:00",
+    "discoveredBoards": 1
+  },
+  "olimex": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/olimex/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:22+00:00",
+    "discoveredBoards": 6
+  },
+  "openjumper": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/openjumper/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:24+00:00",
+    "discoveredBoards": 3
+  },
+  "oroca": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/oroca/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:26+00:00",
+    "discoveredBoards": 1
+  },
+  "protocentral": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/protocentral/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:28+00:00",
+    "discoveredBoards": 1
+  },
+  "pycom": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/pycom/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:31+00:00",
+    "discoveredBoards": 4
+  },
+  "quickspot": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/quickspot/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:34+00:00",
+    "discoveredBoards": 1
+  },
+  "roboheart": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/roboheart/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:37+00:00",
+    "discoveredBoards": 1
+  },
+  "robotics-brno": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/robotics-brno/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:39+00:00",
+    "discoveredBoards": 1
+  },
+  "seeed-studio": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/seeed-studio/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:23:20+00:00",
+    "discoveredBoards": 10
+  },
+  "senses": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/senses/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:41+00:00",
+    "discoveredBoards": 1
+  },
+  "silicognition": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/silicognition/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:44+00:00",
+    "discoveredBoards": 1
+  },
+  "smart-bee-designs": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/smart-bee-designs/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:46+00:00",
+    "discoveredBoards": 4
+  },
+  "sonoff": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/sonoff/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:49+00:00",
+    "discoveredBoards": 1
+  },
+  "sparkfun": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/sparkfun/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:51+00:00",
+    "discoveredBoards": 7
+  },
+  "spelec": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/spelec/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:54+00:00",
+    "discoveredBoards": 1
+  },
+  "sqfmi": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/sqfmi/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:56+00:00",
+    "discoveredBoards": 1
+  },
+  "sunton": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/sunton/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:31:58+00:00",
+    "discoveredBoards": 10
+  },
+  "tamc": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/tamc/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:01+00:00",
+    "discoveredBoards": 2
+  },
+  "thaieasyelec": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/thaieasyelec/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:03+00:00",
+    "discoveredBoards": 1
+  },
+  "tlera": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/tlera/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:06+00:00",
+    "discoveredBoards": 1
+  },
+  "trueverit": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/trueverit/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:08+00:00",
+    "discoveredBoards": 2
+  },
+  "turta": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/turta/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:11+00:00",
+    "discoveredBoards": 1
+  },
+  "u-blox": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/u-blox/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:13+00:00",
+    "discoveredBoards": 2
+  },
+  "unexpected-maker": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/unexpected-maker/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:23:22+00:00",
+    "discoveredBoards": 9
+  },
+  "unphone": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/unphone/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:15+00:00",
+    "discoveredBoards": 3
+  },
+  "upesy": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/upesy/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:18+00:00",
+    "discoveredBoards": 2
+  },
+  "valetron": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/valetron/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:20+00:00",
+    "discoveredBoards": 2
+  },
+  "vintlabs": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/vintlabs/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:23+00:00",
+    "discoveredBoards": 1
+  },
+  "waveshare": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/waveshare/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:23:24+00:00",
+    "discoveredBoards": 8
+  },
+  "wemos": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/wemos/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:25+00:00",
+    "discoveredBoards": 11
+  },
+  "widora": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/widora/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:27+00:00",
+    "discoveredBoards": 2
+  },
+  "wireless-tag": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/wireless-tag/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:30+00:00",
+    "discoveredBoards": 2
+  },
+  "xinabox": {
+    "sourceUrl": "https://www.espboards.dev/esp32/manufacturer/xinabox/",
+    "status": "indexed",
+    "checkedAt": "2026-10-15T17:32:32+00:00",
+    "discoveredBoards": 1
+  }
+}

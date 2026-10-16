@@ -1,0 +1,124 @@
+{
+  "reviewedAt": "2026-10-16T01:08:42+00:00",
+  "findings": [
+    {
+      "projectId": "chat-stick",
+      "deviceId": "m5stack-stackchan",
+      "status": "partial-target-not-listed",
+      "sourceUrl": "https://github.com/steveruizok/chat-stick#readme",
+      "basis": "README architecture explicitly says Stack-Chan is hardware bring-up only; voice and cloud layers are next. Removed the relation from the voice-project listing; track for later review."
+    },
+    {
+      "projectId": "chat-stick",
+      "deviceId": "m5stack-stopwatch",
+      "status": "documented",
+      "sourceUrl": "https://github.com/steveruizok/chat-stick#readme",
+      "basis": "Dedicated M5 StopWatch build/controls section; architecture lists it among full voice-client targets."
+    },
+    {
+      "projectId": "stack-chan",
+      "deviceId": "m5stack-stackchan",
+      "status": "documented",
+      "sourceUrl": "https://github.com/stack-chan/stack-chan#readme",
+      "basis": "README explicitly names M5StackChan CoreS3 and standard K151 package; not inferred from generic DIY Stack-chan lineage."
+    },
+    {
+      "projectId": "stackchan-mcp",
+      "deviceId": "m5stack-stackchan",
+      "status": "documented",
+      "sourceUrl": "https://github.com/kisaragi-mochi/stackchan-mcp#readme",
+      "basis": "README explicitly targets official M5Stack StackChan kit and distinguishes DIY variants."
+    },
+    {
+      "projectId": "avatar-mic",
+      "deviceId": "m5stack-dial",
+      "status": "documented-with-extra-peripheral",
+      "sourceUrl": "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "basis": "README names M5Dial + PDMUnit on Port.A. Additional microphone requirement is not inferred as built-in hardware."
+    },
+    {
+      "projectId": "bruce",
+      "deviceId": "m5stack-cardputer-adv",
+      "status": "documented",
+      "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+      "basis": "README support matrix explicitly says M5Stack Cardputer (and ADV); shared prefix prevented lexical match."
+    },
+    {
+      "projectId": "homething",
+      "deviceId": "lilygo-ttgo-t-display-1-14",
+      "status": "documented",
+      "sourceUrl": "https://github.com/landonr/homeThing#readme",
+      "basis": "README distinguishes original Lilygo TTGo TDisplay from TDisplay S3, links original tdisplay-ipod.yaml and original case. Project is no longer actively developed."
+    },
+    {
+      "projectId": "tinydraw",
+      "deviceId": "waveshare-esp32-s3-touch-amoled-1-8",
+      "status": "documented",
+      "sourceUrl": "https://github.com/aliceisjustplaying/tinydraw#readme",
+      "basis": "README explicitly targets Waveshare 368x448 ESP32-S3 Touch AMOLED 1.8-inch; distinguishes RP2350 target."
+    },
+    {
+      "projectId": "meshtastic",
+      "deviceId": "lilygo-t-beam-supreme",
+      "status": "documented",
+      "sourceUrl": "https://meshtastic.org/docs/hardware/devices/lilygo/tbeam/",
+      "basis": "Dedicated T-Beam Supreme section names firmware-tbeam-s3-core target."
+    },
+    {
+      "projectId": "meshtastic",
+      "deviceId": "lilygo-t3s3-v1-0",
+      "status": "documented",
+      "sourceUrl": "https://meshtastic.org/docs/hardware/devices/lilygo/lora/",
+      "basis": "Dedicated Lora T3S3 v1.0/v1.1/v1.2 section names tlora-t3s3-v1 target."
+    },
+    {
+      "projectId": "meshtastic",
+      "deviceId": "lilygo-t-watch-s3",
+      "status": "documented",
+      "sourceUrl": "https://meshtastic.org/docs/hardware/devices/lilygo/twatch/",
+      "basis": "Separate original T-Watch S3 tab and firmware-t-watch-s3 target, distinct from Plus."
+    },
+    {
+      "projectId": "meshtastic",
+      "deviceId": "lilygo-t-deck-plus",
+      "status": "documented",
+      "sourceUrl": "https://meshtastic.org/docs/hardware/devices/lilygo/tdeck/",
+      "basis": "Official supported hardware page explicitly groups T-Deck and T-Deck Plus."
+    },
+    {
+      "projectId": "dualpid",
+      "deviceId": "m5stack-basic",
+      "status": "documented",
+      "sourceUrl": "https://github.com/knifter/DualPID#readme",
+      "basis": "README Hardware/Base explicitly links the BASIC Core IoT development kit. Core2 is only an unchecked planned target and is not linked."
+    },
+    {
+      "projectId": "area512",
+      "deviceId": "m5stack-cardputer-adv",
+      "status": "documented",
+      "sourceUrl": "https://github.com/engneer-hamachan/area512#readme",
+      "basis": "README explicitly supports ADV and Cardputer v1.1. Only ADV linked; original Cardputer listing does not establish v1.1 revision."
+    },
+    {
+      "projectId": "pathshield",
+      "deviceId": "m5stack-stickc-plus2",
+      "status": "documented",
+      "sourceUrl": "https://github.com/lukeswitz/PathShield#readme",
+      "basis": "Explicit Plus2 source/build section. Plus1.1 is not automatically mapped to older Plus revision. Summary describes scanning, not reliable proof of stalking."
+    },
+    {
+      "projectId": "stackchan-bsp",
+      "deviceId": "m5stack-stackchan",
+      "status": "documented",
+      "sourceUrl": "https://github.com/m5stack/StackChan-BSP#readme",
+      "basis": "Explicit K151 hardware-support library. Classified as library; product factory AI features are not presented as BSP application features."
+    },
+    {
+      "projectId": "homekit-ac-remote",
+      "deviceId": "m5stack-atom-lite",
+      "status": "documented",
+      "sourceUrl": "https://github.com/megabitsenmzq/ESP32-HomeKit-Remote#readme",
+      "basis": "Explicit Atom Lite hardware section; additional ENV III sensor and external IR LED are documented upstream. Summary preserves external sensor requirement."
+    }
+  ]
+}

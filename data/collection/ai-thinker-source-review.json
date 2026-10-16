@@ -1,0 +1,12 @@
+{
+  "esp32c3m1ikit": {
+    "url": "https://docs.ai-thinker.com/_media/esp32/docs/nodemcu-esp-c3-m1-i-kit_v1.2.0_specification.pdf",
+    "status": "needs-review",
+    "reason": "Legacy manufacturer PDF URL now returns non-PDF content"
+  },
+  "nodemcu-32s": {
+    "url": "https://docs.ai-thinker.com/_media/esp32/docs/nodemcu-32s_product_specification.pdf",
+    "status": "needs-review",
+    "reason": "Legacy manufacturer PDF URL now returns non-PDF content"
+  }
+}

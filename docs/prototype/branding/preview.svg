@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850">
+<defs><symbol id="chip" viewBox="0 0 32 32" shape-rendering="crispEdges">
+  <g fill="#172238">
+    <path d="M8 2h4v4H8zm6 0h4v4h-4zm6 0h4v4h-4zM8 26h4v4H8zm6 0h4v4h-4zm6 0h4v4h-4zM2 8h4v4H2zm0 6h4v4H2zm0 6h4v4H2zM26 8h4v4h-4zm0 6h4v4h-4zm0 6h4v4h-4z"/>
+  </g>
+  <g fill="#c6d0c9">
+    <path d="M9 2h2v3H9zm6 0h2v3h-2zm6 0h2v3h-2zM9 27h2v3H9zm6 0h2v3h-2zm6 0h2v3h-2zM2 9h3v2H2zm0 6h3v2H2zm0 6h3v2H2zM27 9h3v2h-3zm0 6h3v2h-3zm0 6h3v2h-3z"/>
+  </g>
+  <path fill="#172238" d="M8 6h16v2h2v16h-2v2H8v-2H6V8h2z"/>
+  <path fill="#000080" d="M8 8h16v16H8z"/>
+  <path fill="#66c5b1" d="M8 8h16v2H10v14H8z"/>
+  <path fill="#00004c" d="M10 22h14v2H10zm12-12h2v12h-2z"/>
+  <path fill="#fff3b0" d="M11 12h3v2h-3zm2 2h3v2h-3zm2 2h3v2h-3zm-2 2h3v2h-3zm-2 2h3v2h-3zm6 0h4v2h-4z"/>
+</symbol><symbol id="tiny" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <path fill="#172238" d="M5 1h2v2H5zm4 0h2v2H9zM5 13h2v2H5zm4 0h2v2H9zM1 5h2v2H1zm0 4h2v2H1zM13 5h2v2h-2zm0 4h2v2h-2z"/>
+  <path fill="#c6d0c9" d="M5 1h1v2H5zm4 0h1v2H9zM5 13h1v2H5zm4 0h1v2H9zM1 5h2v1H1zm0 4h2v1H1zM13 5h2v1h-2zm0 4h2v1h-2z"/>
+  <path fill="#172238" d="M4 3h8v1h1v8h-1v1H4v-1H3V4h1z"/>
+  <path fill="#000080" d="M4 4h8v8H4z"/>
+  <path fill="#66c5b1" d="M4 4h8v1H5v7H4z"/>
+  <path fill="#fff3b0" d="M5 6h2v1H5zm1 1h2v1H6zm1 1h2v1H7zm-1 1h2v1H6zm-1 1h2v1H5zm4 0h2v1H9z"/>
+</symbol></defs>
+<rect width="1100" height="850" fill="#f3f2ec"/>
+<g font-family="Menlo,monospace" fill="#52645f"><text x="48" y="47" font-size="12" letter-spacing="2">ESP32.SH / IDENTITY STUDY 01</text><text x="1052" y="47" text-anchor="end" font-size="12">A / CHIP TERMINAL</text></g>
+<rect x="50" y="94" width="1004" height="268" fill="#172238"/><rect x="48" y="92" width="1004" height="268" fill="#c0c0c0"/><rect x="52" y="96" width="996" height="260" fill="#008080"/>
+<use href="#chip" x="260" y="155" width="128" height="128"/>
+<text x="422" y="246" font-family="Menlo,monospace" font-size="72" font-weight="bold" letter-spacing="-4" fill="#fff">esp32<tspan fill="#fff3b0">.sh</tspan></text>
+<rect x="48" y="392" width="490" height="190" fill="#fff" stroke="#dedfd6"/><rect x="562" y="392" width="490" height="190" fill="#1b2438"/>
+<g font-family="Menlo,monospace" font-size="11" letter-spacing="1"><text x="76" y="425" fill="#75887e">LIGHT BACKGROUND</text><text x="590" y="425" fill="#acbfb6">DARK BACKGROUND</text></g>
+<use href="#tiny" x="115" y="478" width="16" height="16"/><use href="#chip" x="248" y="470" width="32" height="32"/><use href="#chip" x="385" y="462" width="48" height="48"/>
+<use href="#tiny" x="629" y="478" width="16" height="16"/><use href="#chip" x="762" y="470" width="32" height="32"/><use href="#chip" x="899" y="462" width="48" height="48"/>
+<g font-family="Menlo,monospace" font-size="11" text-anchor="middle" fill="#75887e"><text x="123" y="545">16px</text><text x="264" y="545">32px</text><text x="409" y="545">48px</text></g>
+<g font-family="Menlo,monospace" font-size="11" text-anchor="middle" fill="#acbfb6"><text x="637" y="545">16px</text><text x="778" y="545">32px</text><text x="923" y="545">48px</text></g>
+<rect x="48" y="610" width="1004" height="158" fill="#fff" stroke="#dedfd6"/>
+<text x="76" y="642" font-family="Menlo,monospace" font-size="11" letter-spacing="1" fill="#75887e">BROWSER TAB / 16PX</text>
+<rect x="76" y="665" width="385" height="60" fill="#c0c0c0" stroke="#92968e"/><path fill="#f7f7f2" stroke="#92968e" d="M88 725v-48h260v48"/>
+<use href="#tiny" x="103" y="693" width="16" height="16"/><text x="132" y="705" font-family="Arial,sans-serif" font-size="14" fill="#172238">esp32.sh</text>
+<text x="739" y="687" font-family="Menlo,monospace" font-size="11" fill="#75887e" text-anchor="end">16PX ICON</text><text x="739" y="707" font-family="Menlo,monospace" font-size="11" fill="#75887e" text-anchor="end">6x ZOOM</text><use href="#tiny" x="811" y="641" width="96" height="96"/>
+<text x="48" y="811" font-family="Menlo,monospace" font-size="11" fill="#60716a">Draft 01 / Small icon redrawn on a 16px grid / Transparent assets</text>
+</svg>

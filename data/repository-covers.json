@@ -1,0 +1,386 @@
+{
+  "area512": {
+    "repository": "https://github.com/engneer-hamachan/area512",
+    "url": "https://raw.githubusercontent.com/engneer-hamachan/area512/main/docs/assets/images/emblem-transparent.webp",
+    "sourceUrl": "https://github.com/engneer-hamachan/area512#readme",
+    "checkedAt": "2026-10-16T01:06:02+00:00"
+  },
+  "axisorange": {
+    "repository": "https://github.com/naninunenoy/AxisOrange",
+    "url": "https://user-images.githubusercontent.com/15327448/141321892-37214815-c0ff-4db5-9817-3dd100d4d2f2.png?raw=true",
+    "sourceUrl": "https://github.com/naninunenoy/AxisOrange#readme",
+    "checkedAt": "2026-10-16T01:06:06+00:00"
+  },
+  "badcard": {
+    "repository": "https://github.com/VoidNoi/BadCard",
+    "url": "https://raw.githubusercontent.com/VoidNoi/BadCard/main/BADCARD.png",
+    "sourceUrl": "https://github.com/VoidNoi/BadCard#readme",
+    "checkedAt": "2026-10-15T19:21:51+00:00"
+  },
+  "basic-synth": {
+    "repository": "https://github.com/marcel-licence/esp32_basic_synth",
+    "url": "https://raw.githubusercontent.com/marcel-licence/esp32_basic_synth/main/img/splash.jpg",
+    "sourceUrl": "https://github.com/marcel-licence/esp32_basic_synth#readme",
+    "checkedAt": "2026-10-15T17:23:56+00:00"
+  },
+  "beryllium-micro": {
+    "repository": "https://github.com/beryllium-org/Micro",
+    "url": "https://raw.githubusercontent.com/beryllium-org/Micro/master/other/screenshots/boot.gif",
+    "sourceUrl": "https://github.com/beryllium-org/Micro#readme",
+    "checkedAt": "2026-10-15T18:22:13+00:00"
+  },
+  "bit-pirate": {
+    "repository": "https://github.com/geo-tp/ESP32-Bit-Pirate",
+    "url": "https://raw.githubusercontent.com/geo-tp/ESP32-Bit-Pirate/pioarduino/images/bit_pirate_uart.gif",
+    "sourceUrl": "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+    "checkedAt": "2026-10-15T18:21:08+00:00"
+  },
+  "blecollector": {
+    "repository": "https://github.com/tobozo/ESP32-BLECollector",
+    "url": "https://user-images.githubusercontent.com/1893754/81865372-1b965680-956e-11ea-9f2d-448c2330f3d3.png",
+    "sourceUrl": "https://github.com/tobozo/ESP32-BLECollector#readme",
+    "checkedAt": "2026-10-15T18:22:00+00:00"
+  },
+  "bruce": {
+    "repository": "https://github.com/BruceDevices/firmware",
+    "url": "https://raw.githubusercontent.com/BruceDevices/firmware/main/media/pictures/bruce_banner.jpg",
+    "sourceUrl": "https://github.com/BruceDevices/firmware#readme",
+    "checkedAt": "2026-10-15T18:20:21+00:00"
+  },
+  "cardputer-adv-ssh": {
+    "repository": "https://github.com/MangoX0567/M5Stack-Cardputer-SSH",
+    "url": "https://raw.githubusercontent.com/MangoX0567/M5Stack-Cardputer-SSH/main/docs/images/terminal.jpg",
+    "sourceUrl": "https://github.com/MangoX0567/M5Stack-Cardputer-SSH#readme",
+    "checkedAt": "2026-10-16T01:05:22+00:00"
+  },
+  "cardputer-audio-stream": {
+    "repository": "https://github.com/geo-tp/M5Cardputer-Audio-Stream-Server",
+    "url": "https://raw.githubusercontent.com/geo-tp/M5Cardputer-Audio-Stream-Server/main/audio-stream.jpg",
+    "sourceUrl": "https://github.com/geo-tp/M5Cardputer-Audio-Stream-Server#readme",
+    "checkedAt": "2026-10-15T20:44:14+00:00"
+  },
+  "cardputer-game-station": {
+    "repository": "https://github.com/geo-tp/Cardputer-Game-Station-Emulators",
+    "url": "https://raw.githubusercontent.com/geo-tp/Cardputer-Game-Station-Emulators/xip_load/images/nes_emulator_s.jpg",
+    "sourceUrl": "https://github.com/geo-tp/Cardputer-Game-Station-Emulators#readme",
+    "checkedAt": "2026-10-15T18:21:04+00:00"
+  },
+  "clawputer": {
+    "repository": "https://github.com/bryant24hao/ClawPuter",
+    "url": "https://raw.githubusercontent.com/bryant24hao/ClawPuter/main/assets/hardware.png",
+    "sourceUrl": "https://github.com/bryant24hao/ClawPuter#readme",
+    "checkedAt": "2026-10-15T19:21:43+00:00"
+  },
+  "crypto-coin-ticker": {
+    "repository": "https://github.com/frittna/Crypto_Coin_Ticker",
+    "url": "https://raw.githubusercontent.com/frittna/Crypto_Coin_Ticker/master/preview/IMG_M.jpg",
+    "sourceUrl": "https://github.com/frittna/Crypto_Coin_Ticker#readme",
+    "checkedAt": "2026-10-16T00:05:46+00:00"
+  },
+  "dualpid": {
+    "repository": "https://github.com/knifter/DualPID",
+    "url": "https://raw.githubusercontent.com/knifter/DualPID/main/Pictures/incubator-internals.jpg",
+    "sourceUrl": "https://github.com/knifter/DualPID#readme",
+    "checkedAt": "2026-10-16T01:05:35+00:00"
+  },
+  "esp32-camera-demo": {
+    "repository": "https://github.com/m5stack/esp32-cam-demo",
+    "url": "https://raw.githubusercontent.com/m5stack/esp32-cam-demo/m5cam/pictures/ov7725-alternate-wiring.png",
+    "sourceUrl": "https://github.com/m5stack/esp32-cam-demo#readme",
+    "checkedAt": "2026-10-15T20:44:01+00:00"
+  },
+  "esp32cam-rtsp": {
+    "repository": "https://github.com/rzeldent/esp32cam-rtsp",
+    "url": "https://raw.githubusercontent.com/rzeldent/esp32cam-rtsp/main/assets/boards/esp32-wrover-cam.jpg",
+    "sourceUrl": "https://github.com/rzeldent/esp32cam-rtsp#readme",
+    "checkedAt": "2026-10-15T18:21:26+00:00"
+  },
+  "esp32drop": {
+    "repository": "https://github.com/s-iwaki-d/ESP32Drop",
+    "url": "https://raw.githubusercontent.com/s-iwaki-d/ESP32Drop/main/ESP32Drop.png",
+    "sourceUrl": "https://github.com/s-iwaki-d/ESP32Drop#readme",
+    "checkedAt": "2026-10-15T20:43:07+00:00"
+  },
+  "evil-m5project": {
+    "repository": "https://github.com/7h30th3r0n3/Evil-M5Project",
+    "url": "https://raw.githubusercontent.com/7h30th3r0n3/Evil-M5Core2/main/SD-Card-File/img/startup.jpg",
+    "sourceUrl": "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+    "checkedAt": "2026-10-15T18:21:13+00:00"
+  },
+  "fluidbox": {
+    "repository": "https://github.com/V4C38/esp32-fluidbox",
+    "url": "https://raw.githubusercontent.com/V4C38/esp32-fluidbox/main/assets/hero.gif",
+    "sourceUrl": "https://github.com/V4C38/esp32-fluidbox#readme",
+    "checkedAt": "2026-10-15T17:23:20+00:00"
+  },
+  "ha-epaper-remote": {
+    "repository": "https://github.com/ugomeda/home-assistant-epaper-remote",
+    "url": "https://raw.githubusercontent.com/ugomeda/home-assistant-epaper-remote/main/preview.jpg",
+    "sourceUrl": "https://github.com/ugomeda/home-assistant-epaper-remote#readme",
+    "checkedAt": "2026-10-15T19:21:15+00:00"
+  },
+  "homepoint": {
+    "repository": "https://github.com/sieren/Homepoint",
+    "url": "https://raw.githubusercontent.com/sieren/Homepoint/master/media/img3.gif",
+    "sourceUrl": "https://github.com/sieren/Homepoint#readme",
+    "checkedAt": "2026-10-15T17:22:41+00:00"
+  },
+  "homething": {
+    "repository": "https://github.com/landonr/homeThing",
+    "url": "https://img.youtube.com/vi/5bx5w-n5c0Y/0.jpg",
+    "sourceUrl": "https://github.com/landonr/homeThing#readme",
+    "checkedAt": "2026-10-15T18:20:56+00:00"
+  },
+  "imu-dmp-visualizer": {
+    "repository": "https://github.com/nopnop2002/esp-idf-mpu6050-dmp",
+    "url": "https://user-images.githubusercontent.com/6020549/224452743-d4cf419d-f936-4e46-9ece-a12f21bf2e32.jpg",
+    "sourceUrl": "https://github.com/nopnop2002/esp-idf-mpu6050-dmp#readme",
+    "checkedAt": "2026-10-16T00:04:52+00:00"
+  },
+  "inksight": {
+    "repository": "https://github.com/datascale-ai/inksight",
+    "url": "https://raw.githubusercontent.com/datascale-ai/inksight/main/images/intro_eng.jpg",
+    "sourceUrl": "https://github.com/datascale-ai/inksight#readme",
+    "checkedAt": "2026-10-15T17:22:20+00:00"
+  },
+  "lantern": {
+    "repository": "https://github.com/Northstrix/Lantern",
+    "url": "https://raw.githubusercontent.com/Northstrix/Lantern/main/V1.1/Pictures/IMG_0641.jpg",
+    "sourceUrl": "https://github.com/Northstrix/Lantern#readme",
+    "checkedAt": "2026-10-15T17:23:37+00:00"
+  },
+  "lovyan-launcher": {
+    "repository": "https://github.com/lovyan03/M5Stack_LovyanLauncher",
+    "url": "https://raw.githubusercontent.com/lovyan03/M5Stack_LovyanLauncher/master/image/img_001.jpg",
+    "sourceUrl": "https://github.com/lovyan03/M5Stack_LovyanLauncher#readme",
+    "checkedAt": "2026-10-15T19:21:06+00:00"
+  },
+  "lvgl-watchfaces": {
+    "repository": "https://github.com/fbiego/esp32-lvgl-watchface",
+    "url": "https://raw.githubusercontent.com/fbiego/esp32-lvgl-watchface/main/src/faces/75_2_dial/watchface.png?raw=true",
+    "sourceUrl": "https://github.com/fbiego/esp32-lvgl-watchface#readme",
+    "checkedAt": "2026-10-15T17:22:46+00:00"
+  },
+  "m5-lvgl-emulator": {
+    "repository": "https://github.com/m5stack/lv_m5_emulator",
+    "url": "https://raw.githubusercontent.com/m5stack/lv_m5_emulator/main/images/lv_m5stack_fire.gif",
+    "sourceUrl": "https://github.com/m5stack/lv_m5_emulator#readme",
+    "checkedAt": "2026-10-16T00:04:48+00:00"
+  },
+  "m5-onscreen-keyboard": {
+    "repository": "https://github.com/lovyan03/M5Stack_OnScreenKeyboard",
+    "url": "https://user-images.githubusercontent.com/42724151/52710266-45ab4280-2fd2-11e9-9897-f0b001cb0edf.png",
+    "sourceUrl": "https://github.com/lovyan03/M5Stack_OnScreenKeyboard#readme",
+    "checkedAt": "2026-10-16T01:06:11+00:00"
+  },
+  "m5-oscilloscope": {
+    "repository": "https://github.com/botofancalin/M5Stack-ESP32-Oscilloscope",
+    "url": "https://raw.githubusercontent.com/botofancalin/M5Stack-ESP32-Oscilloscope/master/M5Stack_Oscilloscope/twoChOsc.jpg",
+    "sourceUrl": "https://github.com/botofancalin/M5Stack-ESP32-Oscilloscope#readme",
+    "checkedAt": "2026-10-15T19:22:04+00:00"
+  },
+  "m5apps": {
+    "repository": "https://github.com/d4rkmen/M5Apps",
+    "url": "https://raw.githubusercontent.com/d4rkmen/M5Apps/main/pics/menu.png",
+    "sourceUrl": "https://github.com/d4rkmen/M5Apps#readme",
+    "checkedAt": "2026-10-16T00:04:44+00:00"
+  },
+  "m5ez": {
+    "repository": "https://github.com/M5ez/M5ez",
+    "url": "https://raw.githubusercontent.com/M5ez/M5ez/master/images/M5ez.png",
+    "sourceUrl": "https://github.com/M5ez/M5ez#readme",
+    "checkedAt": "2026-10-15T18:21:51+00:00"
+  },
+  "m5launcher": {
+    "repository": "https://github.com/bmorcelli/Launcher",
+    "url": "https://raw.githubusercontent.com/bmorcelli/Launcher/main/M5Launcher.png?raw=true",
+    "sourceUrl": "https://github.com/bmorcelli/Launcher#readme",
+    "checkedAt": "2026-10-15T18:20:34+00:00"
+  },
+  "m5paper-weather": {
+    "repository": "https://github.com/Bastelschlumpf/M5PaperWeather",
+    "url": "https://raw.githubusercontent.com/Bastelschlumpf/M5PaperWeather/master/images/M5PaperWeather.png",
+    "sourceUrl": "https://github.com/Bastelschlumpf/M5PaperWeather#readme",
+    "checkedAt": "2026-10-15T19:21:38+00:00"
+  },
+  "m5porkchop": {
+    "repository": "https://github.com/0ct0sec/M5PORKCHOP",
+    "url": "https://raw.githubusercontent.com/0ct0sec/M5PORKCHOP/main/docs/images/porkchop.jpg",
+    "sourceUrl": "https://github.com/0ct0sec/M5PORKCHOP#readme",
+    "checkedAt": "2026-10-15T18:21:34+00:00"
+  },
+  "m5stack-air-quality": {
+    "repository": "https://github.com/koenvervloesem/M5Stack-Air-Quality-ESPHome",
+    "url": "https://raw.githubusercontent.com/koenvervloesem/M5Stack-Air-Quality-ESPHome/main/static/m5stack-air-quality-kit-esphome.jpg",
+    "sourceUrl": "https://github.com/koenvervloesem/M5Stack-Air-Quality-ESPHome#readme",
+    "checkedAt": "2026-10-16T01:04:25+00:00"
+  },
+  "m5stick-marauder": {
+    "repository": "https://github.com/ATOMNFT/M5stick-Marauder",
+    "url": "https://raw.githubusercontent.com/ATOMNFT/M5stick-Marauder/main/Images/main-header.png",
+    "sourceUrl": "https://github.com/ATOMNFT/M5stick-Marauder#readme",
+    "checkedAt": "2026-10-15T19:20:37+00:00"
+  },
+  "m5stick-shark": {
+    "repository": "https://github.com/AH2005NA/m5stick-shark",
+    "url": "https://raw.githubusercontent.com/AH2005NA/m5stick-shark/main/Shark.png",
+    "sourceUrl": "https://github.com/AH2005NA/m5stick-shark#readme",
+    "checkedAt": "2026-10-15T20:43:56+00:00"
+  },
+  "meshcore-cardputer": {
+    "repository": "https://github.com/Stachugit/MeshCore-Cardputer-ADV",
+    "url": "https://raw.githubusercontent.com/Stachugit/MeshCore-Cardputer-ADV/master/docs/images/Imagecardp.png",
+    "sourceUrl": "https://github.com/Stachugit/MeshCore-Cardputer-ADV#readme",
+    "checkedAt": "2026-10-15T19:22:13+00:00"
+  },
+  "microhydra-apps": {
+    "repository": "https://github.com/echo-lalia/MicroHydra-Apps",
+    "url": "https://raw.githubusercontent.com/echo-lalia/MicroHydra-Apps/main/images/default_icon.png",
+    "sourceUrl": "https://github.com/echo-lalia/MicroHydra-Apps#readme",
+    "checkedAt": "2026-10-16T00:05:02+00:00"
+  },
+  "microhydra": {
+    "repository": "https://github.com/echo-lalia/MicroHydra",
+    "url": "https://raw.githubusercontent.com/echo-lalia/MicroHydra/main/misc\\images\\thonnyhamburgermenu.png",
+    "sourceUrl": "https://github.com/echo-lalia/MicroHydra#readme",
+    "checkedAt": "2026-10-15T18:20:47+00:00"
+  },
+  "micropython-core2": {
+    "repository": "https://github.com/lemariva/micropython-core2",
+    "url": "https://raw.githubusercontent.com/lemariva/micropython-core2/master/docs/dragme_example.gif",
+    "sourceUrl": "https://github.com/lemariva/micropython-core2#readme",
+    "checkedAt": "2026-10-16T01:05:09+00:00"
+  },
+  "midbar": {
+    "repository": "https://github.com/Northstrix/Midbar",
+    "url": "https://raw.githubusercontent.com/Northstrix/Midbar/main/Teensy%204.1%20Version/V3.0/Pictures/IMG_20240101_144229_hdr.jpg?raw=true",
+    "sourceUrl": "https://github.com/Northstrix/Midbar#readme",
+    "checkedAt": "2026-10-15T20:27:05+00:00"
+  },
+  "multiapp-advanced": {
+    "repository": "https://github.com/botofancalin/M5Stack-MultiApp-Advanced",
+    "url": "https://raw.githubusercontent.com/botofancalin/M5Stack-MultiApp-Advanced/master/MultiAppImgs/Apps.jpg",
+    "sourceUrl": "https://github.com/botofancalin/M5Stack-MultiApp-Advanced#readme",
+    "checkedAt": "2026-10-15T19:20:54+00:00"
+  },
+  "nemo": {
+    "repository": "https://github.com/n0xa/m5stick-nemo",
+    "url": "https://raw.githubusercontent.com/n0xa/m5stick-nemo/main/NEMOMatrix.png",
+    "sourceUrl": "https://github.com/n0xa/m5stick-nemo#readme",
+    "checkedAt": "2026-10-15T18:21:17+00:00"
+  },
+  "open-bike-computer": {
+    "repository": "https://github.com/seichris/open-bike-computer",
+    "url": "https://raw.githubusercontent.com/seichris/open-bike-computer/main/docs/images/readme/1.jpg",
+    "sourceUrl": "https://github.com/seichris/open-bike-computer#readme",
+    "checkedAt": "2026-10-15T20:27:12+00:00"
+  },
+  "palnagotchi": {
+    "repository": "https://github.com/viniciusbo/m5-palnagotchi",
+    "url": "https://raw.githubusercontent.com/viniciusbo/m5-palnagotchi/master/palnagotchi.jpg?raw=true",
+    "sourceUrl": "https://github.com/viniciusbo/m5-palnagotchi#readme",
+    "checkedAt": "2026-10-16T00:05:28+00:00"
+  },
+  "picoware": {
+    "repository": "https://github.com/jblanked/Picoware",
+    "url": "https://raw.githubusercontent.com/jblanked/Picoware/main/images/desktop-animation.gif",
+    "sourceUrl": "https://github.com/jblanked/Picoware#readme",
+    "checkedAt": "2026-10-15T18:22:17+00:00"
+  },
+  "plai": {
+    "repository": "https://github.com/d4rkmen/plai",
+    "url": "https://raw.githubusercontent.com/d4rkmen/plai/main/pics/nodes_list.png",
+    "sourceUrl": "https://github.com/d4rkmen/plai#readme",
+    "checkedAt": "2026-10-15T19:21:28+00:00"
+  },
+  "r4s-gateway": {
+    "repository": "https://github.com/alutov/ESP32-R4sGate-for-Redmond",
+    "url": "https://raw.githubusercontent.com/alutov/ESP32-R4sGate-for-Redmond/master/jpg/myparts.jpg",
+    "sourceUrl": "https://github.com/alutov/ESP32-R4sGate-for-Redmond#readme",
+    "checkedAt": "2026-10-15T18:22:26+00:00"
+  },
+  "raising-hell": {
+    "repository": "https://github.com/acpayers-alt/raising-hell-cardputer",
+    "url": "https://raw.githubusercontent.com/acpayers-alt/raising-hell-cardputer/main/media/teaser.gif",
+    "sourceUrl": "https://github.com/acpayers-alt/raising-hell-cardputer#readme",
+    "checkedAt": "2026-10-16T00:04:17+00:00"
+  },
+  "readpaper": {
+    "repository": "https://github.com/shinemoon/M5ReadPaper",
+    "url": "https://raw.githubusercontent.com/shinemoon/M5ReadPaper/main/design/newBurner.png",
+    "sourceUrl": "https://github.com/shinemoon/M5ReadPaper#readme",
+    "checkedAt": "2026-10-15T21:00:04+00:00"
+  },
+  "saturn": {
+    "repository": "https://github.com/henriquesebastiao/saturn",
+    "url": "https://raw.githubusercontent.com/henriquesebastiao/saturn/main/img/boot-screen.jpg",
+    "sourceUrl": "https://github.com/henriquesebastiao/saturn#readme",
+    "checkedAt": "2026-10-16T00:05:11+00:00"
+  },
+  "sd-updater": {
+    "repository": "https://github.com/tobozo/M5Stack-SD-Updater",
+    "url": "https://raw.githubusercontent.com/PartsandCircuits/M5Stack-SD-Updater/master/SDUpdaterpic.png",
+    "sourceUrl": "https://github.com/tobozo/M5Stack-SD-Updater#readme",
+    "checkedAt": "2026-10-15T18:22:04+00:00"
+  },
+  "stack-chan": {
+    "repository": "https://github.com/stack-chan/stack-chan",
+    "url": "https://raw.githubusercontent.com/stack-chan/stack-chan/develop/docs/images/stackchan.gif",
+    "sourceUrl": "https://github.com/stack-chan/stack-chan#readme",
+    "checkedAt": "2026-10-15T18:20:38+00:00"
+  },
+  "tasmota": {
+    "repository": "https://github.com/arendst/Tasmota",
+    "url": "https://user-images.githubusercontent.com/5904370/68332933-e6e5a600-00d7-11ea-885d-50395f7239a1.png",
+    "sourceUrl": "https://github.com/arendst/Tasmota#readme",
+    "checkedAt": "2026-10-15T17:23:31+00:00"
+  },
+  "the-badge": {
+    "repository": "https://github.com/curisama/The-Badge",
+    "url": "https://raw.githubusercontent.com/curisama/The-Badge/main/docs/img/real/home.jpg",
+    "sourceUrl": "https://github.com/curisama/The-Badge#readme",
+    "checkedAt": "2026-10-15T20:27:22+00:00"
+  },
+  "tinydraw": {
+    "repository": "https://github.com/aliceisjustplaying/tinydraw",
+    "url": "https://raw.githubusercontent.com/aliceisjustplaying/tinydraw/main/assets/readme/tinydraw-drawing.jpg",
+    "sourceUrl": "https://github.com/aliceisjustplaying/tinydraw#readme",
+    "checkedAt": "2026-10-15T17:23:11+00:00"
+  },
+  "trmnl": {
+    "repository": "https://github.com/usetrmnl/trmnl-firmware",
+    "url": "https://raw.githubusercontent.com/usetrmnl/trmnl-firmware/main/pics/deep-sleep-power-consumption.png",
+    "sourceUrl": "https://github.com/usetrmnl/trmnl-firmware#readme",
+    "checkedAt": "2026-10-15T17:22:54+00:00"
+  },
+  "vibe-watch": {
+    "repository": "https://github.com/GOROman/vibewatch",
+    "url": "https://raw.githubusercontent.com/GOROman/vibewatch/main/docs/images/vibe-watch-hero.jpg",
+    "sourceUrl": "https://github.com/GOROman/vibewatch#readme",
+    "checkedAt": "2026-10-15T17:22:26+00:00"
+  },
+  "vibestick-for-mac": {
+    "repository": "https://github.com/HanminYIN/VibeStick-for-Mac",
+    "url": "https://raw.githubusercontent.com/HanminYIN/VibeStick-for-Mac/main/assets/brand/vibestick-for-mac-hero.png",
+    "sourceUrl": "https://github.com/HanminYIN/VibeStick-for-Mac#readme",
+    "checkedAt": "2026-10-16T01:04:07+00:00"
+  },
+  "wifi-hash-monster": {
+    "repository": "https://github.com/G4lile0/ESP32-WiFi-Hash-Monster",
+    "url": "https://raw.githubusercontent.com/G4lile0/ESP32-WiFi-Hash-Monster/master/images/m5stack_ESP32_hash_monster.jpg",
+    "sourceUrl": "https://github.com/G4lile0/ESP32-WiFi-Hash-Monster#readme",
+    "checkedAt": "2026-10-15T18:21:30+00:00"
+  },
+  "wled": {
+    "repository": "https://github.com/wled/WLED",
+    "url": "https://raw.githubusercontent.com/wled/WLED/main/images/macbook-pro-space-gray-on-the-wooden-table.jpg",
+    "sourceUrl": "https://github.com/wled/WLED#readme",
+    "checkedAt": "2026-10-15T17:23:33+00:00"
+  },
+  "xiaozhi": {
+    "repository": "https://github.com/78/xiaozhi-esp32",
+    "url": "https://raw.githubusercontent.com/78/xiaozhi-esp32/main/docs/mcp-based-graph.jpg",
+    "sourceUrl": "https://github.com/78/xiaozhi-esp32#readme",
+    "checkedAt": "2026-10-15T17:22:10+00:00"
+  }
+}

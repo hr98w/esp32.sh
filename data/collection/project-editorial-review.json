@@ -1,0 +1,1266 @@
+{
+  "steveruizok/chat-stick": {
+    "contentId": "chat-stick",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:22:06+00:00",
+    "deviceIds": [
+      "m5stack-sticks3",
+      "waveshare-esp32-s3-touch-amoled-1-8",
+      "m5stack-stopwatch"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/steveruizok/chat-stick#readme",
+      "https://github.com/steveruizok/chat-stick#readme",
+      "https://github.com/steveruizok/chat-stick#readme"
+    ]
+  },
+  "78/xiaozhi-esp32": {
+    "contentId": "xiaozhi",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:22:10+00:00",
+    "deviceIds": [
+      "m5stack-cores3",
+      "waveshare-esp32-s3-touch-amoled-1-8"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/78/xiaozhi-esp32#readme",
+      "https://github.com/78/xiaozhi-esp32#readme"
+    ]
+  },
+  "datascale-ai/inksight": {
+    "contentId": "inksight",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:22:20+00:00",
+    "deviceIds": [],
+    "compatibility": "custom-hardware",
+    "supportSources": []
+  },
+  "goroman/vibewatch": {
+    "contentId": "vibe-watch",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:22:26+00:00",
+    "deviceIds": [
+      "m5stack-stopwatch"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/GOROman/vibewatch#readme"
+    ]
+  },
+  "sieren/homepoint": {
+    "contentId": "homepoint",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:22:41+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "fbiego/esp32-lvgl-watchface": {
+    "contentId": "lvgl-watchfaces",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:22:46+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "usetrmnl/firmware": {
+    "contentId": "trmnl",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:22:54+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "tobymarks/esp32-ai-monitor": {
+    "contentId": "ai-monitor",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:23:05+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "aliceisjustplaying/tinydraw": {
+    "contentId": "tinydraw",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:23:11+00:00",
+    "deviceIds": [
+      "waveshare-esp32-s3-touch-amoled-1-8"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/aliceisjustplaying/tinydraw#readme"
+    ]
+  },
+  "v4c38/esp32-fluidbox": {
+    "contentId": "fluidbox",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:23:20+00:00",
+    "deviceIds": [
+      "waveshare-esp32-s3-touch-amoled-1-8"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/V4C38/esp32-fluidbox#readme"
+    ]
+  },
+  "arendst/tasmota": {
+    "contentId": "tasmota",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:23:31+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "aircoookie/wled": {
+    "contentId": "wled",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:23:33+00:00",
+    "deviceIds": [],
+    "compatibility": "custom-hardware",
+    "supportSources": []
+  },
+  "northstrix/lantern": {
+    "contentId": "lantern",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:23:37+00:00",
+    "deviceIds": [],
+    "compatibility": "custom-hardware",
+    "supportSources": []
+  },
+  "meshtastic/firmware": {
+    "contentId": "meshtastic",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:23:41+00:00",
+    "deviceIds": [
+      "lilygo-t-beam-supreme",
+      "lilygo-t3s3-v1-0",
+      "lilygo-t-watch-s3",
+      "lilygo-t-deck-plus"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://meshtastic.org/docs/hardware/devices/lilygo/tbeam/",
+      "https://meshtastic.org/docs/hardware/devices/lilygo/lora/",
+      "https://meshtastic.org/docs/hardware/devices/lilygo/twatch/",
+      "https://meshtastic.org/docs/hardware/devices/lilygo/tdeck/"
+    ]
+  },
+  "marcel-licence/esp32_basic_synth": {
+    "contentId": "basic-synth",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T17:23:56+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "brucedevices/firmware": {
+    "contentId": "bruce",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:20:21+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-cardputer-adv",
+      "m5stack-stickc-plus2",
+      "m5stack-core2",
+      "m5stack-cores3",
+      "lilygo-t-embed-cc1101",
+      "lilygo-t-embed",
+      "lilygo-t-display-s3",
+      "lilygo-t-deck",
+      "lilygo-t-watch-s3",
+      "m5stack-stickc-plus"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/BruceDevices/firmware#readme",
+      "https://github.com/BruceDevices/firmware#readme",
+      "https://github.com/BruceDevices/firmware#readme",
+      "https://github.com/BruceDevices/firmware#readme",
+      "https://github.com/BruceDevices/firmware#readme",
+      "https://github.com/BruceDevices/firmware#readme",
+      "https://github.com/BruceDevices/firmware#readme",
+      "https://github.com/BruceDevices/firmware#readme",
+      "https://github.com/BruceDevices/firmware#readme",
+      "https://github.com/BruceDevices/firmware#readme",
+      "https://github.com/BruceDevices/firmware#readme"
+    ]
+  },
+  "m5stack/m5cardputer-userdemo": {
+    "contentId": "m5cardputer-userdemo",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:20:26+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/m5stack/M5Cardputer-UserDemo#readme",
+      "https://github.com/m5stack/M5Cardputer-UserDemo#readme"
+    ]
+  },
+  "bmorcelli/launcher": {
+    "contentId": "m5launcher",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:20:34+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-stickc",
+      "m5stack-stickc-plus2",
+      "m5stack-core2",
+      "m5stack-cores3",
+      "m5stack-papers3",
+      "m5stack-tab5",
+      "lilygo-t-watch-s3",
+      "m5stack-paper",
+      "m5stack-stickc-plus",
+      "m5stack-sticks3",
+      "seeed-reterminal-e1001",
+      "seeed-xiao-esp32s3-plus",
+      "lilygo-t-deck",
+      "lilygo-t-deck-plus"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme",
+      "https://github.com/bmorcelli/Launcher#readme"
+    ]
+  },
+  "stack-chan/stack-chan": {
+    "contentId": "stack-chan",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:20:38+00:00",
+    "deviceIds": [
+      "m5stack-core2",
+      "m5stack-cores3",
+      "m5stack-stackchan"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/stack-chan/stack-chan#readme",
+      "https://github.com/stack-chan/stack-chan#readme",
+      "https://github.com/stack-chan/stack-chan#readme"
+    ]
+  },
+  "echo-lalia/microhydra": {
+    "contentId": "microhydra",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:20:47+00:00",
+    "deviceIds": [
+      "m5stack-cardputer"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/echo-lalia/MicroHydra#readme"
+    ]
+  },
+  "haswitchplate/openhasp": {
+    "contentId": "openhasp",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:20:51+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "landonr/homething": {
+    "contentId": "homething",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:20:56+00:00",
+    "deviceIds": [
+      "m5stack-fire",
+      "lilygo-ttgo-t-display-1-14",
+      "lilygo-t-display-s3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/landonr/homeThing#readme",
+      "https://github.com/landonr/homeThing#readme",
+      "https://github.com/landonr/homeThing#readme"
+    ]
+  },
+  "gkoh/furble": {
+    "contentId": "furble",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:21:00+00:00",
+    "deviceIds": [
+      "m5stack-stickc",
+      "m5stack-stickc-plus2",
+      "m5stack-core2",
+      "m5stack-basic",
+      "m5stack-stickc-plus",
+      "m5stack-sticks3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/gkoh/furble#readme",
+      "https://github.com/gkoh/furble#readme",
+      "https://github.com/gkoh/furble#readme",
+      "https://github.com/gkoh/furble#readme",
+      "https://github.com/gkoh/furble#readme",
+      "https://github.com/gkoh/furble#readme"
+    ]
+  },
+  "geo-tp/cardputer-game-station-emulators": {
+    "contentId": "cardputer-game-station",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:21:04+00:00",
+    "deviceIds": [
+      "m5stack-cardputer"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/geo-tp/Cardputer-Game-Station-Emulators#readme"
+    ]
+  },
+  "geo-tp/esp32-bit-pirate": {
+    "contentId": "bit-pirate",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:21:08+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-cardputer-adv",
+      "m5stack-sticks3",
+      "lilygo-t-embed",
+      "lilygo-t-embed-cc1101",
+      "seeed-xiao-esp32s3",
+      "heltec-wifi-lora-32-v4"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "https://github.com/geo-tp/ESP32-Bit-Pirate#readme",
+      "https://github.com/geo-tp/ESP32-Bit-Pirate#readme"
+    ]
+  },
+  "g4lile0/esp32-wifi-hash-monster": {
+    "contentId": "wifi-hash-monster",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:21:30+00:00",
+    "deviceIds": [
+      "m5stack-fire"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/G4lile0/ESP32-WiFi-Hash-Monster#readme"
+    ]
+  },
+  "0ct0sec/m5porkchop": {
+    "contentId": "m5porkchop",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:21:34+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/0ct0sec/M5PORKCHOP#readme",
+      "https://github.com/0ct0sec/M5PORKCHOP#readme"
+    ]
+  },
+  "m5ez/m5ez": {
+    "contentId": "m5ez",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:21:51+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "tobozo/esp32-blecollector": {
+    "contentId": "blecollector",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:22:00+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "tobozo/m5stack-sd-updater": {
+    "contentId": "sd-updater",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:22:04+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "beryllium-org/micro": {
+    "contentId": "beryllium-micro",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:22:13+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "lilygo-t-deck",
+      "lilygo-t-watch-s3",
+      "waveshare-esp32-s3-zero",
+      "adafruit-feather-esp32s2",
+      "adafruit-feather-esp32s3-tft",
+      "ai-thinker-esp32-cam",
+      "dfrobot-beetle-esp32c3",
+      "dfrobot-firebeetle2-esp32s3",
+      "wemos-lolin-s2-mini"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/beryllium-org/Micro#readme",
+      "https://github.com/beryllium-org/Micro#readme",
+      "https://github.com/beryllium-org/Micro#readme",
+      "https://github.com/beryllium-org/Micro#readme",
+      "https://github.com/beryllium-org/Micro#readme",
+      "https://github.com/beryllium-org/Micro#readme",
+      "https://github.com/beryllium-org/Micro#readme",
+      "https://github.com/beryllium-org/Micro#readme",
+      "https://github.com/beryllium-org/Micro#readme",
+      "https://github.com/beryllium-org/Micro#readme"
+    ]
+  },
+  "jblanked/picoware": {
+    "contentId": "picoware",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:22:17+00:00",
+    "deviceIds": [
+      "m5stack-cardputer-adv",
+      "waveshare-esp32-s3-touch-amoled-2-06"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/jblanked/Picoware#readme",
+      "https://github.com/jblanked/Picoware#readme"
+    ]
+  },
+  "alutov/esp32-r4sgate-for-redmond": {
+    "contentId": "r4s-gateway",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:22:26+00:00",
+    "deviceIds": [
+      "m5stack-basic",
+      "m5stack-atom-lite",
+      "m5stack-tough"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/alutov/ESP32-R4sGate-for-Redmond#readme",
+      "https://github.com/alutov/ESP32-R4sGate-for-Redmond#readme",
+      "https://github.com/alutov/ESP32-R4sGate-for-Redmond#readme"
+    ]
+  },
+  "7h30th3r0n3/evil-m5project": {
+    "contentId": "evil-m5project",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:21:13+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-cardputer-adv",
+      "m5stack-core2",
+      "m5stack-fire",
+      "m5stack-atoms3",
+      "m5stack-cores3",
+      "m5stack-stickc-plus2",
+      "m5stack-stickc-plus"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "https://github.com/7h30th3r0n3/Evil-M5Project#readme",
+      "https://github.com/7h30th3r0n3/Evil-M5Project#readme"
+    ]
+  },
+  "atomnft/m5stick-marauder": {
+    "contentId": "m5stick-marauder",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:20:37+00:00",
+    "deviceIds": [
+      "m5stack-stickc-plus2",
+      "m5stack-stickc-plus"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/ATOMNFT/M5stick-Marauder#readme",
+      "https://github.com/ATOMNFT/M5stick-Marauder#readme"
+    ]
+  },
+  "c5lab/m5monsterc5-cardputeradv": {
+    "contentId": "m5monster-c5",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:20:45+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-cardputer-adv",
+      "m5stack-tab5"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/C5Lab/M5MonsterC5-CardputerADV#readme",
+      "https://github.com/C5Lab/M5MonsterC5-CardputerADV#readme",
+      "https://github.com/C5Lab/M5MonsterC5-CardputerADV#readme"
+    ]
+  },
+  "m5stack/uiflow-micropython": {
+    "contentId": "uiflow-micropython",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:20:49+00:00",
+    "deviceIds": [
+      "m5stack-atoms3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/m5stack/uiflow-micropython#readme"
+    ]
+  },
+  "botofancalin/m5stack-multiapp-advanced": {
+    "contentId": "multiapp-advanced",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:20:54+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "lovyan03/m5stack_lovyanlauncher": {
+    "contentId": "lovyan-launcher",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:21:06+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "ryuzaki-mrl/espeon": {
+    "contentId": "espeon",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:21:11+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "ugomeda/home-assistant-epaper-remote": {
+    "contentId": "ha-epaper-remote",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:21:15+00:00",
+    "deviceIds": [
+      "m5stack-papers3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/ugomeda/home-assistant-epaper-remote#readme"
+    ]
+  },
+  "devsur11/m5gotchi": {
+    "contentId": "m5gotchi",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:21:23+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-cardputer-adv",
+      "m5stack-sticks3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/Devsur11/M5Gotchi#readme",
+      "https://github.com/Devsur11/M5Gotchi#readme",
+      "https://github.com/Devsur11/M5Gotchi#readme"
+    ]
+  },
+  "d4rkmen/plai": {
+    "contentId": "plai",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:21:28+00:00",
+    "deviceIds": [
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/d4rkmen/plai#readme"
+    ]
+  },
+  "n0xa/m5stick-nemo": {
+    "contentId": "nemo",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:21:17+00:00",
+    "deviceIds": [
+      "m5stack-stickc",
+      "m5stack-cardputer",
+      "m5stack-cardputer-adv",
+      "m5stack-stickc-plus"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/n0xa/m5stick-nemo#readme",
+      "https://github.com/n0xa/m5stick-nemo#readme",
+      "https://github.com/n0xa/m5stick-nemo#readme",
+      "https://github.com/n0xa/m5stick-nemo#readme"
+    ]
+  },
+  "rzeldent/esp32cam-rtsp": {
+    "contentId": "esp32cam-rtsp",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T18:21:26+00:00",
+    "deviceIds": [
+      "m5stack-timer-cam",
+      "seeed-xiao-esp32s3-sense",
+      "ai-thinker-esp32-cam"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/rzeldent/esp32cam-rtsp#readme",
+      "https://github.com/rzeldent/esp32cam-rtsp#readme",
+      "https://github.com/rzeldent/esp32cam-rtsp#readme"
+    ]
+  },
+  "bryant24hao/clawputer": {
+    "contentId": "clawputer",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:21:43+00:00",
+    "deviceIds": [
+      "m5stack-cardputer"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/bryant24hao/ClawPuter#readme"
+    ]
+  },
+  "voidnoi/badcard": {
+    "contentId": "badcard",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:21:51+00:00",
+    "deviceIds": [
+      "m5stack-cardputer"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/VoidNoi/BadCard#readme"
+    ]
+  },
+  "ronron-gh/ai_stackchan_ex": {
+    "contentId": "ai-stackchan-ex",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:21:55+00:00",
+    "deviceIds": [
+      "m5stack-core2",
+      "m5stack-cores3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/ronron-gh/AI_StackChan_Ex#readme",
+      "https://github.com/ronron-gh/AI_StackChan_Ex#readme"
+    ]
+  },
+  "botofancalin/m5stack-esp32-oscilloscope": {
+    "contentId": "m5-oscilloscope",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:22:04+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "kikuchan/pngle": {
+    "contentId": "pngle",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:22:08+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "stachugit/meshcore-cardputer-adv": {
+    "contentId": "meshcore-cardputer",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:22:13+00:00",
+    "deviceIds": [
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/Stachugit/MeshCore-Cardputer-ADV#readme"
+    ]
+  },
+  "bastelschlumpf/m5paperweather": {
+    "contentId": "m5paper-weather",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:21:38+00:00",
+    "deviceIds": [
+      "m5stack-paper"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/Bastelschlumpf/M5PaperWeather#readme"
+    ]
+  },
+  "kisaragi-mochi/stackchan-mcp": {
+    "contentId": "stackchan-mcp",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T19:22:26+00:00",
+    "deviceIds": [
+      "m5stack-stackchan"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/kisaragi-mochi/stackchan-mcp#readme"
+    ]
+  },
+  "northstrix/midbar": {
+    "contentId": "midbar",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:27:05+00:00",
+    "deviceIds": [],
+    "compatibility": "custom-hardware",
+    "supportSources": []
+  },
+  "seichris/open-bike-computer": {
+    "contentId": "open-bike-computer",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:27:12+00:00",
+    "deviceIds": [
+      "waveshare-esp32-s3-touch-amoled-2-06"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/seichris/open-bike-computer#readme"
+    ]
+  },
+  "curisama/the-badge": {
+    "contentId": "the-badge",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:27:22+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "espressif/esp-idf": {
+    "contentId": "esp-idf",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:43:37+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "esp-rs/esp-hal": {
+    "contentId": "esp-hal",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:43:41+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "m5stack/core2-for-aws-iot-kit": {
+    "contentId": "core2-aws-examples",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:43:43+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "ah2005na/m5stick-shark": {
+    "contentId": "m5stick-shark",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:43:56+00:00",
+    "deviceIds": [
+      "m5stack-stickc",
+      "m5stack-stickc-plus2",
+      "m5stack-cardputer",
+      "m5stack-dial",
+      "m5stack-coreink",
+      "m5stack-stickc-plus"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/AH2005NA/m5stick-shark#readme",
+      "https://github.com/AH2005NA/m5stick-shark#readme",
+      "https://github.com/AH2005NA/m5stick-shark#readme",
+      "https://github.com/AH2005NA/m5stick-shark#readme",
+      "https://github.com/AH2005NA/m5stick-shark#readme",
+      "https://github.com/AH2005NA/m5stick-shark#readme"
+    ]
+  },
+  "m5stack/esp32-cam-demo": {
+    "contentId": "esp32-camera-demo",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:44:01+00:00",
+    "deviceIds": [],
+    "compatibility": "custom-hardware",
+    "supportSources": []
+  },
+  "urtubia/miniacid": {
+    "contentId": "miniacid",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:44:10+00:00",
+    "deviceIds": [
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/urtubia/miniacid#readme"
+    ]
+  },
+  "geo-tp/m5cardputer-audio-stream-server": {
+    "contentId": "cardputer-audio-stream",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:44:14+00:00",
+    "deviceIds": [
+      "m5stack-cardputer"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/geo-tp/M5Cardputer-Audio-Stream-Server#readme"
+    ]
+  },
+  "shinemoon/m5readpaper": {
+    "contentId": "readpaper",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T21:00:04+00:00",
+    "deviceIds": [
+      "m5stack-papers3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/shinemoon/M5ReadPaper#readme"
+    ]
+  },
+  "fwz233-re/m5claw": {
+    "contentId": "m5claw",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T21:00:08+00:00",
+    "deviceIds": [
+      "m5stack-cardputer"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/fwz233-RE/M5Claw#readme"
+    ]
+  },
+  "mongonta0716/m5stack-avatar-mic": {
+    "contentId": "avatar-mic",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T21:00:12+00:00",
+    "deviceIds": [
+      "m5stack-core2",
+      "m5stack-stickc",
+      "m5stack-atoms3",
+      "m5stack-cores3",
+      "m5stack-fire",
+      "m5stack-dial",
+      "m5stack-stickc-plus"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "https://github.com/mongonta0716/m5stack-avatar-mic#readme",
+      "https://github.com/mongonta0716/m5stack-avatar-mic#readme"
+    ]
+  },
+  "s-iwaki-d/esp32drop": {
+    "contentId": "esp32drop",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:43:07+00:00",
+    "deviceIds": [
+      "m5stack-stopwatch"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/s-iwaki-d/ESP32Drop#readme"
+    ]
+  },
+  "m5stack/m5paper_factorytest": {
+    "contentId": "m5paper-factory-test",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:04:08+00:00",
+    "deviceIds": [
+      "m5stack-paper"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/m5stack/M5Paper_FactoryTest#readme"
+    ]
+  },
+  "acpayers-alt/raising-hell-cardputer": {
+    "contentId": "raising-hell",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:04:17+00:00",
+    "deviceIds": [
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/acpayers-alt/raising-hell-cardputer#readme"
+    ]
+  },
+  "bomberman30/advanceos-for-cardputer": {
+    "contentId": "advanceos",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:04:26+00:00",
+    "deviceIds": [
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/bomberman30/AdvanceOS-for-cardputer#readme"
+    ]
+  },
+  "m5stack/m5tab5-userdemo": {
+    "contentId": "tab5-user-demo",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:04:34+00:00",
+    "deviceIds": [
+      "m5stack-tab5"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/m5stack/M5Tab5-UserDemo#readme"
+    ]
+  },
+  "d4rkmen/m5apps": {
+    "contentId": "m5apps",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:04:44+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/d4rkmen/M5Apps#readme",
+      "https://github.com/d4rkmen/M5Apps#readme"
+    ]
+  },
+  "nopnop2002/esp-idf-mpu6050-dmp": {
+    "contentId": "imu-dmp-visualizer",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:04:52+00:00",
+    "deviceIds": [],
+    "compatibility": "custom-hardware",
+    "supportSources": []
+  },
+  "henriquesebastiao/saturn": {
+    "contentId": "saturn",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:05:11+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-stickc-plus"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/henriquesebastiao/saturn#readme",
+      "https://github.com/henriquesebastiao/saturn#readme"
+    ]
+  },
+  "romalik/m5cardputer_doom": {
+    "contentId": "cardputer-doom",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:05:19+00:00",
+    "deviceIds": [
+      "m5stack-cardputer"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/romalik/m5cardputer_doom#readme"
+    ]
+  },
+  "viniciusbo/m5-palnagotchi": {
+    "contentId": "palnagotchi",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:05:28+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-stickc-plus2",
+      "m5stack-atoms3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/viniciusbo/m5-palnagotchi#readme",
+      "https://github.com/viniciusbo/m5-palnagotchi#readme",
+      "https://github.com/viniciusbo/m5-palnagotchi#readme"
+    ]
+  },
+  "eggfly/m5stickcprojects": {
+    "contentId": "stickwatch2",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:05:42+00:00",
+    "deviceIds": [
+      "m5stack-stickc"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/eggfly/M5StickCProjects#readme"
+    ]
+  },
+  "frittna/crypto_coin_ticker": {
+    "contentId": "crypto-coin-ticker",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:05:46+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "m5stack/esphome-yaml": {
+    "contentId": "m5stack-esphome",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:05:55+00:00",
+    "deviceIds": [
+      "m5stack-cores3",
+      "m5stack-tab5"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/m5stack/esphome-yaml#readme",
+      "https://github.com/m5stack/esphome-yaml#readme"
+    ]
+  },
+  "echo-lalia/microhydra-apps": {
+    "contentId": "microhydra-apps",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:05:02+00:00",
+    "deviceIds": [
+      "m5stack-cardputer",
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/echo-lalia/MicroHydra-Apps#readme",
+      "https://github.com/echo-lalia/MicroHydra-Apps#readme"
+    ]
+  },
+  "m5stack/lv_m5_emulator": {
+    "contentId": "m5-lvgl-emulator",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:04:48+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "micropython/micropython": {
+    "contentId": "micropython",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:04:01+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "esphome/esphome": {
+    "contentId": "esphome",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-15T20:42:58+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "trentct/m5stack-stopwatch-avatar": {
+    "contentId": "stopwatch-avatar",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:04:03+00:00",
+    "deviceIds": [
+      "m5stack-stopwatch"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/Trentct/m5stack-stopwatch-avatar#readme"
+    ]
+  },
+  "hanminyin/vibestick-for-mac": {
+    "contentId": "vibestick-for-mac",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:04:07+00:00",
+    "deviceIds": [
+      "m5stack-sticks3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/HanminYIN/VibeStick-for-Mac#readme"
+    ]
+  },
+  "juicecultus/crosspoint-reader-papers3": {
+    "contentId": "crosspoint-papers3",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:04:12+00:00",
+    "deviceIds": [
+      "m5stack-papers3"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/juicecultus/crosspoint-reader-papers3#readme"
+    ]
+  },
+  "geo-tp/bluetooth-keyboard-mouse-emulator": {
+    "contentId": "cardputer-hid-emulator",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:04:16+00:00",
+    "deviceIds": [
+      "m5stack-cardputer"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/geo-tp/Bluetooth-Keyboard-Mouse-Emulator#readme"
+    ]
+  },
+  "m5stack/m5dial-userdemo": {
+    "contentId": "m5dial-user-demo",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:04:20+00:00",
+    "deviceIds": [
+      "m5stack-dial"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/m5stack/M5Dial-UserDemo#readme"
+    ]
+  },
+  "koenvervloesem/m5stack-air-quality-esphome": {
+    "contentId": "m5stack-air-quality",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:04:25+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "m5stack/m5stampfly": {
+    "contentId": "stampfly-firmware",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T00:04:30+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  },
+  "megabitsenmzq/esp32-homekit-remote": {
+    "contentId": "homekit-ac-remote",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:04:38+00:00",
+    "deviceIds": [
+      "m5stack-atom-lite"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/megabitsenmzq/ESP32-HomeKit-Remote#readme"
+    ]
+  },
+  "aat440hz/sshclient-m5cardputer": {
+    "contentId": "cardputer-ssh-terminal",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:05:00+00:00",
+    "deviceIds": [
+      "m5stack-cardputer"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/aat440hz/SSHClient-M5Cardputer#readme"
+    ]
+  },
+  "lemariva/micropython-core2": {
+    "contentId": "micropython-core2",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:05:09+00:00",
+    "deviceIds": [
+      "m5stack-core2"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/lemariva/micropython-core2#readme"
+    ]
+  },
+  "mangox0567/m5stack-cardputer-ssh": {
+    "contentId": "cardputer-adv-ssh",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:05:22+00:00",
+    "deviceIds": [
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/MangoX0567/M5Stack-Cardputer-SSH#readme"
+    ]
+  },
+  "knifter/dualpid": {
+    "contentId": "dualpid",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:05:35+00:00",
+    "deviceIds": [
+      "m5stack-basic"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/knifter/DualPID#readme"
+    ]
+  },
+  "lukeswitz/pathshield": {
+    "contentId": "pathshield",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:05:44+00:00",
+    "deviceIds": [
+      "m5stack-stickc-plus2"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/lukeswitz/PathShield#readme"
+    ]
+  },
+  "m5stack/stackchan-bsp": {
+    "contentId": "stackchan-bsp",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:05:53+00:00",
+    "deviceIds": [
+      "m5stack-stackchan"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/m5stack/StackChan-BSP#readme"
+    ]
+  },
+  "engneer-hamachan/area512": {
+    "contentId": "area512",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:06:02+00:00",
+    "deviceIds": [
+      "m5stack-cardputer-adv"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/engneer-hamachan/area512#readme"
+    ]
+  },
+  "naninunenoy/axisorange": {
+    "contentId": "axisorange",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:06:06+00:00",
+    "deviceIds": [
+      "m5stack-core2",
+      "m5stack-stickc",
+      "m5stack-stickc-plus"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/naninunenoy/AxisOrange#readme",
+      "https://github.com/naninunenoy/AxisOrange#readme",
+      "https://github.com/naninunenoy/AxisOrange#readme"
+    ]
+  },
+  "lovyan03/m5stack_onscreenkeyboard": {
+    "contentId": "m5-onscreen-keyboard",
+    "review": "Summary reviewed against cached upstream README and linked official hardware documentation; only explicitly named models linked.",
+    "readmeCheckedAt": "2026-10-16T01:06:11+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": []
+  }
+}

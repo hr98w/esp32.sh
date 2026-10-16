@@ -1,0 +1,3145 @@
+{
+  "generatedAt": "2026-10-16T03:33:08+00:00",
+  "scope": "All listed devices; sourced key facts, not exhaustive transcription or physical testing.",
+  "counts": {
+    "devices": 140,
+    "complete": 120,
+    "images": 120,
+    "specifications": 138,
+    "resources": 140
+  },
+  "devices": [
+    {
+      "deviceId": "adafruit-esp32-c6-feather",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-esp32-c6-feather/",
+          "checkedAt": "2026-10-15T17:55:35+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-c6-feather",
+          "checkedAt": "2026-10-15T18:51:36+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-feather-esp32-v2",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32-v2/",
+          "checkedAt": "2026-10-15T17:55:37+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-feather-v2",
+          "checkedAt": "2026-10-15T17:57:05+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-feather-esp32s2-reversetft",
+      "manufacturer": "adafruit",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s2-reversetft/",
+          "checkedAt": "2026-10-15T17:55:40+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/esp32-s2-reverse-tft-feather",
+          "checkedAt": "2026-10-15T17:57:07+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-feather-esp32s2-tft",
+      "manufacturer": "adafruit",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s2-tft/",
+          "checkedAt": "2026-10-15T17:55:42+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-s2-tft-feather/overview",
+          "checkedAt": "2026-10-15T17:57:10+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-feather-esp32s2",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s2/",
+          "checkedAt": "2026-10-15T17:55:45+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-s2-feather",
+          "checkedAt": "2026-10-15T17:57:13+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-feather-esp32s3-nopsram",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s3-nopsram/",
+          "checkedAt": "2026-10-15T17:55:47+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-s3-feather",
+          "checkedAt": "2026-10-15T17:57:16+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-feather-esp32s3-reversetft",
+      "manufacturer": "adafruit",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s3-reversetft/",
+          "checkedAt": "2026-10-15T17:55:50+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/esp32-s3-reverse-tft-feather/overview",
+          "checkedAt": "2026-10-15T17:57:18+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-feather-esp32s3-tft",
+      "manufacturer": "adafruit",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s3-tft/",
+          "checkedAt": "2026-10-15T17:55:52+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-s3-tft-feather/overview",
+          "checkedAt": "2026-10-15T17:57:21+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-feather-esp32s3",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s3/",
+          "checkedAt": "2026-10-15T17:55:55+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-s3-feather",
+          "checkedAt": "2026-10-15T17:57:16+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-funhouse-esp32s2",
+      "manufacturer": "adafruit",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-funhouse-esp32s2/",
+          "checkedAt": "2026-10-15T17:55:58+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-funhouse",
+          "checkedAt": "2026-10-15T17:57:23+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-huzzah32",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/featheresp32/",
+          "checkedAt": "2026-10-15T17:56:19+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-huzzah32-esp32-feather",
+          "checkedAt": "2026-10-15T18:51:41+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-itsybitsy-esp32",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-itsybitsy-esp32/",
+          "checkedAt": "2026-10-15T17:56:01+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-itsybitsy-esp32/overview",
+          "checkedAt": "2026-10-15T17:57:25+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-magtag29-esp32s2",
+      "manufacturer": "adafruit",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-magtag29-esp32s2/",
+          "checkedAt": "2026-10-15T17:56:03+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-magtag",
+          "checkedAt": "2026-10-15T18:51:39+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-metro-esp32s2",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-metro-esp32s2/",
+          "checkedAt": "2026-10-15T17:56:06+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-metro-esp32-s2",
+          "checkedAt": "2026-10-15T17:57:27+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-qtpy-esp32-pico",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-qtpy-esp32-pico/",
+          "checkedAt": "2026-10-15T17:56:08+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-qt-py-esp32-pico",
+          "checkedAt": "2026-10-15T17:57:30+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-qtpy-esp32c3",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-qtpy-esp32c3/",
+          "checkedAt": "2026-10-15T17:56:11+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-qt-py-esp32-c3-wifi-dev-board",
+          "checkedAt": "2026-10-15T17:57:32+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-qtpy-esp32s2",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-qtpy-esp32s2/",
+          "checkedAt": "2026-10-15T17:56:13+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-qt-py-esp32-s2",
+          "checkedAt": "2026-10-15T17:57:34+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "adafruit-qtpy-esp32s3-nopsram",
+      "manufacturer": "adafruit",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-qtpy-esp32s3-nopsram/",
+          "checkedAt": "2026-10-15T17:56:16+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-qt-py-esp32-s3",
+          "checkedAt": "2026-10-15T17:57:36+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "ai-thinker-esp32-cam",
+      "manufacturer": "ai-thinker",
+      "type": "functional-board",
+      "status": "pending",
+      "image": false,
+      "specifications": false,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Only distributor image found; need Ai-Thinker primary image or explicitly reusable upstream asset."
+        },
+        {
+          "task": "primary-specifications",
+          "reason": "Manufacturer documents moved; primary specifications need confirmation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32cam/",
+          "checkedAt": "2026-10-15T18:03:16+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-CAM",
+          "checkedAt": "2026-10-15T19:00:34+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "ai-thinker-nodemcu-32s",
+      "manufacturer": "ai-thinker",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": false,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Visual inspection found a generic IoT illustration, not a NodeMCU-32S product photo; rejected before publication."
+        },
+        {
+          "task": "primary-specifications",
+          "reason": "Manufacturer documents moved; primary specifications need confirmation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/nodemcu-32s/",
+          "checkedAt": "2026-10-15T18:03:18+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/NodeMCU-32S",
+          "checkedAt": "2026-10-15T18:05:45+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "dfrobot-beetle-esp32c3",
+      "manufacturer": "dfrobot",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/dfrobot-beetle-esp32c3/",
+          "checkedAt": "2026-10-15T18:03:21+00:00"
+        },
+        {
+          "url": "https://wiki.dfrobot.com/SKU_DFR0868_Beetle_ESP32_C3",
+          "checkedAt": "2026-10-15T18:05:12+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "dfrobot-firebeetle-esp32",
+      "manufacturer": "dfrobot",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/firebeetle32/",
+          "checkedAt": "2026-10-15T18:03:29+00:00"
+        },
+        {
+          "url": "https://wiki.dfrobot.com/FireBeetle_ESP32_IOT_Microcontroller(V3.0)__Supports_Wi-Fi_&_Bluetooth__SKU__DFR0478",
+          "checkedAt": "2026-10-15T18:05:39+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "dfrobot-firebeetle2-esp32e",
+      "manufacturer": "dfrobot",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/dfrobot-firebeetle2-esp32e/",
+          "checkedAt": "2026-10-15T18:03:24+00:00"
+        },
+        {
+          "url": "https://wiki.dfrobot.com/dfr0654/",
+          "checkedAt": "2026-10-15T18:05:15+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "dfrobot-firebeetle2-esp32s3",
+      "manufacturer": "dfrobot",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/dfrobot-firebeetle2-esp32s3/",
+          "checkedAt": "2026-10-15T18:03:26+00:00"
+        },
+        {
+          "url": "https://wiki.dfrobot.com/dfr0975/",
+          "checkedAt": "2026-10-15T18:05:19+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "elecrow-crowpanel-2-8-esp32",
+      "manufacturer": "elecrow",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-2-8-esp32/",
+          "checkedAt": "2026-10-15T17:40:25+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/esp32-display-282727-intelligent-touch-screen-wi-fi26ble-240320-hmi-display.html",
+          "checkedAt": "2026-10-15T17:41:04+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "elecrow-crowpanel-7-esp32-s3",
+      "manufacturer": "elecrow",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-7-esp32-s3/",
+          "checkedAt": "2026-10-15T17:40:28+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/esp32-display-702727-intelligent-touch-screen-wi-fi26ble-800480-hmi-display.html",
+          "checkedAt": "2026-10-15T17:41:06+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "elecrow-crowpanel-advance-5-esp32-p4",
+      "manufacturer": "elecrow",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-advance-5-esp32-p4/",
+          "checkedAt": "2026-10-15T17:40:31+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/crowpanel-advanced-5inch-esp32-p4-hmi-ai-display-800x480-ips-touch-screen-with-wifi-6.html",
+          "checkedAt": "2026-10-15T19:35:07+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "elecrow-crowpanel-advance-7-esp32-s3",
+      "manufacturer": "elecrow",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-advance-7-esp32-s3/",
+          "checkedAt": "2026-10-15T17:40:33+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/ESP32_Display-7.0_inch%28Advance_Series%29wiki.html",
+          "checkedAt": "2026-10-15T17:41:11+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "elecrow-crowpanel-epaper-4-2",
+      "manufacturer": "elecrow",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-epaper-4-2/",
+          "checkedAt": "2026-10-15T17:40:36+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/CrowPanel_ESP32_E-paper_4.2-inch_HMI_Display.html",
+          "checkedAt": "2026-10-15T17:41:14+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "elecrow-crowpanel-epaper-5-79",
+      "manufacturer": "elecrow",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-epaper-5-79/",
+          "checkedAt": "2026-10-15T17:40:39+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/CrowPanel_ESP32_E-paper_5.79-inch_HMI_Display.html",
+          "checkedAt": "2026-10-15T17:41:17+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "elecrow-crowpanel-rotary-2-1",
+      "manufacturer": "elecrow",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-rotary-2-1/",
+          "checkedAt": "2026-10-15T17:40:41+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/CrowPanel_2.1inch-HMI_ESP32_Rotary_Display_480_IPS_Round_Touch_Knob_Screen.html",
+          "checkedAt": "2026-10-15T17:41:19+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "elecrow-thinknode-m2",
+      "manufacturer": "elecrow",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-thinknode-m2/",
+          "checkedAt": "2026-10-15T18:02:13+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/ThinkNode-M2_Transceiver_Device%28Meshtastic%29_Power_By_NRF52840.html",
+          "checkedAt": "2026-10-15T18:05:24+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-s3-devkitc-1",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html",
+          "checkedAt": "2026-10-15T17:32:28+00:00"
+        },
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s3-devkitc-1/"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html",
+          "checkedAt": "2026-10-16T00:13:43+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-c3-devkitc-02",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "HTTP 500: https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32c3/_images/esp32-c3-devkitc-02-v1-isometric.png"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c3-devkitc-02/",
+          "checkedAt": "2026-10-15T17:25:59+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitc-02/index.html",
+          "checkedAt": "2026-10-15T17:26:34+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitc-02/user_guide.html",
+          "checkedAt": "2026-10-16T00:26:11+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitc-02/user_guide.html",
+          "checkedAt": "2026-10-16T01:15:07+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-c3-devkitm-1",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c3-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:03+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitm-1/index.html",
+          "checkedAt": "2026-10-15T17:41:20+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitm-1/user_guide.html",
+          "checkedAt": "2026-10-16T00:26:22+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-c6-devkitc-1",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "HTTP 500: https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32c6/_images/esp32-c6-devkitc-1-isometric_v1.2.png"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c6-devkitc-1/",
+          "checkedAt": "2026-10-15T17:39:10+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/index.html",
+          "checkedAt": "2026-10-15T17:41:26+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html",
+          "checkedAt": "2026-10-16T00:26:33+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-c6-devkitm-1",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c6-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:13+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/index.html",
+          "checkedAt": "2026-10-15T17:41:28+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/user_guide.html",
+          "checkedAt": "2026-10-16T00:26:44+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-devkitc",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "HTTP 500: https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32/_images/esp32-devkitc-v4-functional-overview.png"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-devkitc/",
+          "checkedAt": "2026-10-15T17:39:16+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/index.html",
+          "checkedAt": "2026-10-15T17:41:30+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/user_guide.html",
+          "checkedAt": "2026-10-16T00:26:55+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-devkitm-1",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:18+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitm-1/index.html",
+          "checkedAt": "2026-10-15T17:41:32+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32/esp32-devkitm-1/user_guide.html",
+          "checkedAt": "2026-10-16T00:27:07+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-ethernet-kit",
+      "manufacturer": "espressif",
+      "type": "functional-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-ethernet-kit/",
+          "checkedAt": "2026-10-15T17:39:21+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-ethernet-kit.html",
+          "checkedAt": "2026-10-15T17:41:34+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32/esp32-ethernet-kit/user_guide.html",
+          "checkedAt": "2026-10-16T00:27:18+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-h2-devkitm-1",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-h2-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:23+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/index.html",
+          "checkedAt": "2026-10-15T17:41:36+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html",
+          "checkedAt": "2026-10-16T00:27:40+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-lcdkit",
+      "manufacturer": "espressif",
+      "type": "functional-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "HTTP 500: https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32/_images/esp32_lcdkit.jpg"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-lcdkit/",
+          "checkedAt": "2026-10-15T17:39:28+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32/esp32-lcdkit/user_guide.html",
+          "checkedAt": "2026-10-15T17:41:38+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-pico-devkitm-2",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-pico-devkitm-2/",
+          "checkedAt": "2026-10-15T17:39:41+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-pico-devkitm-2.html",
+          "checkedAt": "2026-10-15T17:41:45+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32/esp32-pico-devkitm-2/user_guide.html",
+          "checkedAt": "2026-10-16T00:27:42+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-pico-kit-1",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-pico-kit-1/",
+          "checkedAt": "2026-10-15T17:39:43+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-pico-kit-1.html",
+          "checkedAt": "2026-10-15T17:41:47+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32/esp32-pico-kit-1/user_guide.html",
+          "checkedAt": "2026-10-16T00:27:45+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-s2-devkitc-1",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s2-devkitc-1/",
+          "checkedAt": "2026-10-15T17:39:50+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s2/esp32-s2-devkitc-1/index.html",
+          "checkedAt": "2026-10-15T17:41:49+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32s2/esp32-s2-devkitc-1/user_guide.html",
+          "checkedAt": "2026-10-16T00:27:47+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-s2-devkitm-1",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s2-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:53+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s2/esp32-s2-devkitm-1/index.html",
+          "checkedAt": "2026-10-15T17:41:51+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32s2/esp32-s2-devkitm-1/user_guide.html",
+          "checkedAt": "2026-10-16T00:27:50+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-s3-devkitm-1",
+      "manufacturer": "espressif",
+      "type": "general-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s3-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:55+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitm-1.html",
+          "checkedAt": "2026-10-15T17:41:53+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitm-1/user_guide.html",
+          "checkedAt": "2026-10-16T00:27:52+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "espressif-esp32-s3-usb-bridge",
+      "manufacturer": "espressif",
+      "type": "functional-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s3-usb-bridge/",
+          "checkedAt": "2026-10-15T17:40:05+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-usb-bridge/index.html",
+          "checkedAt": "2026-10-15T17:41:57+00:00"
+        },
+        {
+          "url": "https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-usb-bridge/user_guide.html",
+          "checkedAt": "2026-10-16T00:27:55+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "heltec-wifi-kit-32-v3",
+      "manufacturer": "heltec",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wifi-kit-32-v3/",
+          "checkedAt": "2026-10-15T17:55:05+00:00"
+        },
+        {
+          "url": "https://docs.heltec.org/en/node/esp32/wifi_kit_32/index.html",
+          "checkedAt": "2026-10-15T19:36:29+00:00"
+        },
+        {
+          "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-kit-32/",
+          "checkedAt": "2026-10-16T00:23:02+00:00"
+        },
+        {
+          "url": "https://heltec.org/project/wifi-kit32-v3/",
+          "checkedAt": "2026-10-16T01:18:27+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "heltec-wifi-lora-32-v2",
+      "manufacturer": "heltec",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wifi-lora-32-v2/",
+          "checkedAt": "2026-10-15T17:55:10+00:00"
+        },
+        {
+          "url": "https://heltec.org/project/wifi-lora-32v2/",
+          "checkedAt": "2026-10-15T19:36:30+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "heltec-wifi-lora-32-v3",
+      "manufacturer": "heltec",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wifi-lora-32-v3/",
+          "checkedAt": "2026-10-15T17:55:13+00:00"
+        },
+        {
+          "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/",
+          "checkedAt": "2026-10-15T19:36:30+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "heltec-wifi-lora-32-v4",
+      "manufacturer": "heltec",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wifi-lora-32-v4/",
+          "checkedAt": "2026-10-15T17:55:16+00:00"
+        },
+        {
+          "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4/",
+          "checkedAt": "2026-10-15T19:36:32+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "heltec-wireless-shell-v3",
+      "manufacturer": "heltec",
+      "type": "module",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wireless-shell-v3/",
+          "checkedAt": "2026-10-15T17:55:21+00:00"
+        },
+        {
+          "url": "https://heltec.org/project/wireless-shell-v3/",
+          "checkedAt": "2026-10-15T19:36:33+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "heltec-wireless-stick-lite-v3",
+      "manufacturer": "heltec",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wireless-stick-lite-v3/",
+          "checkedAt": "2026-10-15T17:55:24+00:00"
+        },
+        {
+          "url": "https://heltec.org/project/wireless-stick-lite-v2/",
+          "checkedAt": "2026-10-15T19:36:36+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "heltec-wireless-tracker-v2",
+      "manufacturer": "heltec",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wireless-tracker-v2/",
+          "checkedAt": "2026-10-15T17:55:32+00:00"
+        },
+        {
+          "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-tracker-v2/",
+          "checkedAt": "2026-10-15T19:36:36+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-lora32-oled",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/ttgo-lora32/",
+          "checkedAt": "2026-10-15T17:24:46+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/lora3",
+          "checkedAt": "2026-10-15T17:27:42+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-beam-supreme",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-beam-supreme/",
+          "checkedAt": "2026-10-15T17:23:57+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-beam-supreme",
+          "checkedAt": "2026-10-15T17:26:38+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-beam",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-beam/",
+          "checkedAt": "2026-10-15T17:23:59+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-beam",
+          "checkedAt": "2026-10-15T17:26:41+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-deck-plus",
+      "manufacturer": "lilygo",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-deck-plus/",
+          "checkedAt": "2026-10-15T17:24:01+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-deck-plus-1",
+          "checkedAt": "2026-10-15T17:26:44+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-deck",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-deck/",
+          "checkedAt": "2026-10-15T17:24:04+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-deck",
+          "checkedAt": "2026-10-15T17:26:47+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-display-s3-amoled-touch",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Shared product page; need clearly identified touch variant image."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-display-s3-amoled-touch/",
+          "checkedAt": "2026-10-15T17:24:07+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-display-s3-amoled",
+          "checkedAt": "2026-10-15T18:32:04+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-display-s3-amoled",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-display-s3-amoled/",
+          "checkedAt": "2026-10-15T17:24:09+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-display-s3-amoled",
+          "checkedAt": "2026-10-15T18:32:04+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-display-s3-touch",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Shared product page; need clearly identified touch variant image."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-display-s3-touch/",
+          "checkedAt": "2026-10-15T17:24:12+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-display-s3",
+          "checkedAt": "2026-10-15T17:26:49+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-display-s3",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-display-s3/",
+          "checkedAt": "2026-10-15T17:24:15+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-display-s3",
+          "checkedAt": "2026-10-15T17:26:49+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-dongle-s3",
+      "manufacturer": "lilygo",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-dongle-s3/",
+          "checkedAt": "2026-10-15T17:24:17+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-dongle-s3",
+          "checkedAt": "2026-10-15T17:26:52+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-embed-cc1101",
+      "manufacturer": "lilygo",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-embed-cc1101/",
+          "checkedAt": "2026-10-15T17:24:20+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-embed-cc1101",
+          "checkedAt": "2026-10-15T17:26:55+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-embed",
+      "manufacturer": "lilygo",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-embed/",
+          "checkedAt": "2026-10-15T17:24:22+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-embed",
+          "checkedAt": "2026-10-15T17:26:58+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-eth-lite",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-eth-lite/",
+          "checkedAt": "2026-10-15T17:24:25+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-eth-lite",
+          "checkedAt": "2026-10-15T17:27:01+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-watch-2020",
+      "manufacturer": "lilygo",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/twatch/",
+          "checkedAt": "2026-10-15T17:25:01+00:00"
+        },
+        {
+          "url": "https://t-watch-document-en.readthedocs.io/en/latest/introduction/product/2020.html",
+          "checkedAt": "2026-10-15T17:28:14+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t-watch-s3",
+      "manufacturer": "lilygo",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-watch-s3/",
+          "checkedAt": "2026-10-15T17:24:28+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-watch-s3",
+          "checkedAt": "2026-10-15T17:27:04+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t3s3-v1-0",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t3s3-v1-0/",
+          "checkedAt": "2026-10-15T17:24:30+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t3s3-v1-0",
+          "checkedAt": "2026-10-15T17:27:06+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t4-s3",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t4-s3/",
+          "checkedAt": "2026-10-15T17:24:33+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t4-s3",
+          "checkedAt": "2026-10-15T17:27:09+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t5-4-7-epaper-v2-3",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t5-4-7-epaper-v2-3/",
+          "checkedAt": "2026-10-15T17:24:35+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t5-4-7-inch-e-paper-v2-3",
+          "checkedAt": "2026-10-15T17:27:12+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-t7-c6",
+      "manufacturer": "lilygo",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/t7-c6/",
+          "checkedAt": "2026-10-15T17:24:44+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t7-c6",
+          "checkedAt": "2026-10-15T18:32:07+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-ttgo-t-call",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/ttgo-t-call/",
+          "checkedAt": "2026-10-15T17:24:49+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-call-v1-4",
+          "checkedAt": "2026-10-15T18:32:09+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-ttgo-t-display-1-14",
+      "manufacturer": "lilygo",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-ttgo-t-display-1-14/",
+          "checkedAt": "2026-10-15T17:24:41+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board",
+          "checkedAt": "2026-10-15T17:27:15+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-ttgo-t-oi-plus",
+      "manufacturer": "lilygo",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/ttgo-t-oi-plus/",
+          "checkedAt": "2026-10-15T17:24:51+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-oi-plus",
+          "checkedAt": "2026-10-15T18:32:12+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lilygo-ttgo-t7-v13-mini32",
+      "manufacturer": "lilygo",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/ttgo-t7-v13-mini32/",
+          "checkedAt": "2026-10-15T17:24:56+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/en-us/products/t7-v1-3-mini-32-esp32",
+          "checkedAt": "2026-10-15T18:32:15+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-cardputer",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://docs.m5stack.com/en/core/Cardputer",
+          "checkedAt": "2026-10-15T17:32:13+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/Cardputer",
+          "checkedAt": "2026-10-16T00:05:32+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/Cardputer",
+          "checkedAt": "2026-10-16T00:05:34+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-atom-lite",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-atom/",
+          "checkedAt": "2026-10-15T17:23:27+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/ATOM%20Lite",
+          "checkedAt": "2026-10-15T17:27:16+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/ATOM%20Lite",
+          "checkedAt": "2026-10-16T00:05:20+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/ATOM%20Lite",
+          "checkedAt": "2026-10-16T00:05:22+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-atoms3",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-atoms3/",
+          "checkedAt": "2026-10-15T17:23:30+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/AtomS3",
+          "checkedAt": "2026-10-15T17:27:18+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/AtomS3",
+          "checkedAt": "2026-10-16T00:05:24+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/AtomS3",
+          "checkedAt": "2026-10-16T00:05:26+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-basic",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-core-esp32/",
+          "checkedAt": "2026-10-15T17:23:32+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/basic",
+          "checkedAt": "2026-10-15T17:27:19+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/basic",
+          "checkedAt": "2026-10-16T00:05:28+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/basic",
+          "checkedAt": "2026-10-16T00:05:30+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-cardputer-adv",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/Cardputer-Adv",
+          "checkedAt": "2026-10-15T17:27:05+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/Cardputer-Adv",
+          "checkedAt": "2026-10-16T00:05:36+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/Cardputer-Adv",
+          "checkedAt": "2026-10-16T00:05:38+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-core2",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-core2/",
+          "checkedAt": "2026-10-15T17:23:32+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/core2",
+          "checkedAt": "2026-10-15T17:27:21+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/core2",
+          "checkedAt": "2026-10-16T00:05:40+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/core2",
+          "checkedAt": "2026-10-16T00:05:42+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-coreink",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-coreink/",
+          "checkedAt": "2026-10-15T17:23:35+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/coreink",
+          "checkedAt": "2026-10-15T17:27:23+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/coreink",
+          "checkedAt": "2026-10-16T00:05:44+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/coreink",
+          "checkedAt": "2026-10-16T00:05:46+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-cores3",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-cores3/",
+          "checkedAt": "2026-10-15T17:23:38+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/coreS3",
+          "checkedAt": "2026-10-15T17:27:25+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/coreS3",
+          "checkedAt": "2026-10-16T00:05:48+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/coreS3",
+          "checkedAt": "2026-10-16T00:05:50+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-dial",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-dial/",
+          "checkedAt": "2026-10-15T17:23:40+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/M5Dial%20V1.1",
+          "checkedAt": "2026-10-15T17:27:27+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/M5Dial%20V1.1",
+          "checkedAt": "2026-10-16T00:05:52+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/M5Dial%20V1.1",
+          "checkedAt": "2026-10-16T00:05:54+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-fire",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-fire/",
+          "checkedAt": "2026-10-15T17:23:43+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/fire",
+          "checkedAt": "2026-10-15T17:27:29+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/fire",
+          "checkedAt": "2026-10-16T00:05:56+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/fire",
+          "checkedAt": "2026-10-16T00:05:58+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-paper",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://m5ware.com/projects/23"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/m5paper",
+          "checkedAt": "2026-10-15T17:58:58+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/m5paper",
+          "checkedAt": "2026-10-16T00:06:00+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/m5paper",
+          "checkedAt": "2026-10-16T00:06:02+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-papers3",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/PaperS3",
+          "checkedAt": "2026-10-15T17:27:07+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/PaperS3",
+          "checkedAt": "2026-10-16T00:06:04+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/PaperS3",
+          "checkedAt": "2026-10-16T00:06:06+00:00"
+        },
+        {
+          "url": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/517/C139.pdf"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-stackchan",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://github.com/stack-chan/stack-chan#readme"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/StackChan",
+          "checkedAt": "2026-10-15T18:29:21+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-station-485",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-station/",
+          "checkedAt": "2026-10-15T17:23:46+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/station_485",
+          "checkedAt": "2026-10-15T17:27:31+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/station_485",
+          "checkedAt": "2026-10-16T00:06:12+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/station_485",
+          "checkedAt": "2026-10-16T00:06:14+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-stickc-plus",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://m5ware.com/projects/41"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/m5stickc_plus",
+          "checkedAt": "2026-10-15T17:59:03+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/m5stickc_plus",
+          "checkedAt": "2026-10-16T00:06:20+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/m5stickc_plus",
+          "checkedAt": "2026-10-16T00:06:22+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-stickc-plus2",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/M5StickC%20PLUS2",
+          "checkedAt": "2026-10-15T17:27:03+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/M5StickC%20PLUS2",
+          "checkedAt": "2026-10-16T00:06:24+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/M5StickC%20PLUS2",
+          "checkedAt": "2026-10-16T00:06:26+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-stickc",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stick-c/",
+          "checkedAt": "2026-10-15T17:23:54+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/m5stickc",
+          "checkedAt": "2026-10-15T17:27:37+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/m5stickc",
+          "checkedAt": "2026-10-16T00:06:16+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/m5stickc",
+          "checkedAt": "2026-10-16T00:06:18+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-sticks3",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/StickS3",
+          "checkedAt": "2026-10-15T17:27:01+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/StickS3",
+          "checkedAt": "2026-10-16T00:06:28+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/StickS3",
+          "checkedAt": "2026-10-16T00:06:30+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-stopwatch",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://docs.m5stack.com/en/core/StopWatch",
+          "checkedAt": "2026-10-16T00:00:00Z"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/guide/stopwatch/usage",
+          "checkedAt": "2026-10-16T00:00:00Z"
+        },
+        {
+          "url": "https://shop.m5stack.com/products/m5stack-stopwatch-dev-kit-esp32-s3",
+          "checkedAt": "2026-10-16T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-tab5",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-tab5/",
+          "checkedAt": "2026-10-15T17:23:49+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/Tab5",
+          "checkedAt": "2026-10-15T17:27:33+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/Tab5",
+          "checkedAt": "2026-10-16T00:06:32+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/Tab5",
+          "checkedAt": "2026-10-16T00:06:34+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-timer-cam",
+      "manufacturer": "m5stack",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-timer-cam/",
+          "checkedAt": "2026-10-15T17:23:51+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/unit/timercam",
+          "checkedAt": "2026-10-15T17:27:35+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/unit/timercam",
+          "checkedAt": "2026-10-16T00:06:40+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/unit/timercam",
+          "checkedAt": "2026-10-16T00:06:42+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "m5stack-tough",
+      "manufacturer": "m5stack",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://m5ware.com/projects/453"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/tough",
+          "checkedAt": "2026-10-15T17:59:01+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/zh_CN/core/tough",
+          "checkedAt": "2026-10-16T00:06:36+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/ja/core/tough",
+          "checkedAt": "2026-10-16T00:06:38+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "olimex-esp32-devkitlipo",
+      "manufacturer": "olimex",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-devkitlipo/",
+          "checkedAt": "2026-10-15T19:28:49+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-DevKit-LiPo/open-source-hardware",
+          "checkedAt": "2026-10-15T19:30:46+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "olimex-esp32-evb",
+      "manufacturer": "olimex",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-evb/",
+          "checkedAt": "2026-10-15T19:28:51+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-EVB/open-source-hardware",
+          "checkedAt": "2026-10-15T19:31:41+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "olimex-esp32-gateway",
+      "manufacturer": "olimex",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-gateway/",
+          "checkedAt": "2026-10-15T19:28:54+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-GATEWAY/open-source-hardware",
+          "checkedAt": "2026-10-15T19:31:44+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "olimex-esp32-poe-iso",
+      "manufacturer": "olimex",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-poe-iso/",
+          "checkedAt": "2026-10-15T19:28:57+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-PoE-ISO/open-source-hardware",
+          "checkedAt": "2026-10-15T19:31:05+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "olimex-esp32-poe",
+      "manufacturer": "olimex",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-poe/",
+          "checkedAt": "2026-10-15T19:29:00+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware",
+          "checkedAt": "2026-10-15T19:31:46+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "olimex-esp32-poe2",
+      "manufacturer": "olimex",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/olimex-esp32-poe2/",
+          "checkedAt": "2026-10-15T19:29:02+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE2/open-source-hardware",
+          "checkedAt": "2026-10-15T19:31:49+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "seeed-edgebox-esp-100",
+      "manufacturer": "seeed-studio",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/edgebox-esp-100/",
+          "checkedAt": "2026-10-15T17:25:26+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/Edgebox-ESP-100-Arduino/",
+          "checkedAt": "2026-10-15T18:11:21+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "seeed-reterminal-e1001",
+      "manufacturer": "seeed-studio",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/reterminal-e1001/",
+          "checkedAt": "2026-10-15T17:25:28+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/getting_started_with_reterminal_e1001/",
+          "checkedAt": "2026-10-15T17:56:15+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "seeed-reterminal-e1002",
+      "manufacturer": "seeed-studio",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/reterminal-e1002/",
+          "checkedAt": "2026-10-15T17:25:31+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/getting_started_with_reterminal_e1002/",
+          "checkedAt": "2026-10-15T17:56:27+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "seeed-xiao-esp32c3",
+      "manufacturer": "seeed-studio",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32c3/",
+          "checkedAt": "2026-10-15T17:25:36+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/",
+          "checkedAt": "2026-10-15T17:28:38+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "seeed-xiao-esp32c5",
+      "manufacturer": "seeed-studio",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32c5/",
+          "checkedAt": "2026-10-15T17:25:39+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/",
+          "checkedAt": "2026-10-15T17:28:49+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "seeed-xiao-esp32c6",
+      "manufacturer": "seeed-studio",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32c6/",
+          "checkedAt": "2026-10-15T17:25:41+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/",
+          "checkedAt": "2026-10-15T17:29:00+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "seeed-xiao-esp32s3-plus",
+      "manufacturer": "seeed-studio",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32s3-plus/",
+          "checkedAt": "2026-10-15T17:25:44+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+          "checkedAt": "2026-10-15T17:29:11+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "seeed-xiao-esp32s3-sense",
+      "manufacturer": "seeed-studio",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32s3-sense/",
+          "checkedAt": "2026-10-15T17:25:46+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+          "checkedAt": "2026-10-15T17:29:11+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "seeed-xiao-esp32s3-wio-sx1262-kit",
+      "manufacturer": "seeed-studio",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/seeed-xiao-esp32s3-wio-sx1262-kit/",
+          "checkedAt": "2026-10-15T17:25:34+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/wio_sx1262_with_xiao_esp32s3_kit/",
+          "checkedAt": "2026-10-15T17:56:38+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "seeed-xiao-esp32s3",
+      "manufacturer": "seeed-studio",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32s3/",
+          "checkedAt": "2026-10-15T17:25:49+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+          "checkedAt": "2026-10-15T17:29:11+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "sparkfun-esp32-iot-redboard",
+      "manufacturer": "sparkfun",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/sparkfun-esp32-iot-redboard/",
+          "checkedAt": "2026-10-15T19:29:46+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/iot-redboard-esp32-development-board-hookup-guide/all",
+          "checkedAt": "2026-10-15T19:33:24+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "sparkfun-esp32micromod",
+      "manufacturer": "sparkfun",
+      "type": "module",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32micromod/",
+          "checkedAt": "2026-10-15T19:29:35+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/micromod-esp32-processor-board-hookup-guide",
+          "checkedAt": "2026-10-15T19:33:12+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "sparkfun-esp32s2-thing-plus",
+      "manufacturer": "sparkfun",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/sparkfun-esp32s2-thing-plus/",
+          "checkedAt": "2026-10-15T19:29:48+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/esp32-s2-thing-plus-hookup-guide/all",
+          "checkedAt": "2026-10-15T19:33:27+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "sparkfun-esp32thing-plus-c",
+      "manufacturer": "sparkfun",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32thing-plus-c/",
+          "checkedAt": "2026-10-15T19:29:37+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/esp32-thing-plus-usb-c-hookup-guide/all",
+          "checkedAt": "2026-10-15T19:33:16+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "sparkfun-esp32thing-plus",
+      "manufacturer": "sparkfun",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32thing-plus/",
+          "checkedAt": "2026-10-15T19:29:40+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/esp32-thing-plus-hookup-guide/all",
+          "checkedAt": "2026-10-15T19:33:19+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "sparkfun-esp32thing",
+      "manufacturer": "sparkfun",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32thing/",
+          "checkedAt": "2026-10-15T19:29:43+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide",
+          "checkedAt": "2026-10-15T19:33:22+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "sparkfun-lora-gateway-1-channel",
+      "manufacturer": "sparkfun",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/sparkfun-lora-gateway-1-channel/",
+          "checkedAt": "2026-10-15T19:29:51+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/sparkfun-lora-gateway-1-channel-hookup-guide",
+          "checkedAt": "2026-10-15T19:33:29+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "unexpected-maker-pros3",
+      "manufacturer": "unexpected-maker",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/pros3/",
+          "checkedAt": "2026-10-15T17:56:29+00:00"
+        },
+        {
+          "url": "https://esp32s3.com/pros3.html",
+          "checkedAt": "2026-10-15T17:58:01+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "unexpected-maker-rmp",
+      "manufacturer": "unexpected-maker",
+      "type": "functional-board",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "Official page is client-rendered; image needs another primary source."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/rmp/",
+          "checkedAt": "2026-10-15T17:56:32+00:00"
+        },
+        {
+          "url": "https://help.unexpectedmaker.com/docs/products/reflow-master-pro/",
+          "checkedAt": "2026-10-15T17:58:02+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "waveshare-esp32-c3-zero",
+      "manufacturer": "waveshare",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c3-zero/",
+          "checkedAt": "2026-10-15T17:25:04+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-C3-Zero",
+          "checkedAt": "2026-10-15T17:25:21+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "waveshare-esp32-c6-zero",
+      "manufacturer": "waveshare",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c6-zero-mini/",
+          "checkedAt": "2026-10-15T17:25:07+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-C6-Zero",
+          "checkedAt": "2026-10-15T17:25:24+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "waveshare-esp32-s3-epaper-1-54g",
+      "manufacturer": "waveshare",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/waveshare-esp32-s3-epaper-1-54g/",
+          "checkedAt": "2026-10-15T17:25:12+00:00"
+        },
+        {
+          "url": "https://docs.waveshare.com/ESP32-S3-ePaper-1.54G",
+          "checkedAt": "2026-10-15T17:28:16+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "waveshare-esp32-s3-eth",
+      "manufacturer": "waveshare",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/waveshare-esp32-s3-eth/",
+          "checkedAt": "2026-10-15T17:25:15+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-S3-ETH",
+          "checkedAt": "2026-10-15T18:11:08+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "waveshare-esp32-s3-touch-amoled-1-8",
+      "manufacturer": "waveshare",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-1.8",
+          "checkedAt": "2026-10-15T17:27:10+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "waveshare-esp32-s3-touch-amoled-2-06",
+      "manufacturer": "waveshare",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.06",
+          "checkedAt": "2026-10-15T17:27:16+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "waveshare-esp32-s3-touch-lcd-4b",
+      "manufacturer": "waveshare",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/waveshare-esp32-s3-touch-lcd-4b/",
+          "checkedAt": "2026-10-15T17:25:17+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4B",
+          "checkedAt": "2026-10-15T18:11:12+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "waveshare-esp32-s3-touch-lcd-7b",
+      "manufacturer": "waveshare",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/waveshare-esp32-s3-touch-lcd-7b/",
+          "checkedAt": "2026-10-15T17:25:20+00:00"
+        },
+        {
+          "url": "https://docs.waveshare.com/ESP32-S3-Touch-LCD-7B",
+          "checkedAt": "2026-10-15T17:28:21+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "waveshare-esp32-s3-zero",
+      "manufacturer": "waveshare",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s3-zero/",
+          "checkedAt": "2026-10-15T17:25:10+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-S3-Zero",
+          "checkedAt": "2026-10-15T17:26:36+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "wemos-d32-pro",
+      "manufacturer": "wemos",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/d32-pro/",
+          "checkedAt": "2026-10-15T19:29:11+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/d32/d32_pro.html",
+          "checkedAt": "2026-10-15T19:31:00+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "wemos-d32",
+      "manufacturer": "wemos",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/d32/",
+          "checkedAt": "2026-10-15T19:29:13+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/d32/d32.html",
+          "checkedAt": "2026-10-15T19:31:02+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "wemos-lolin-c3-mini",
+      "manufacturer": "wemos",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lolin-c3-mini/",
+          "checkedAt": "2026-10-15T19:29:16+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/c3/c3_mini.html",
+          "checkedAt": "2026-10-15T19:31:06+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "wemos-lolin-s2-mini",
+      "manufacturer": "wemos",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lolin-s2-mini/",
+          "checkedAt": "2026-10-15T19:29:19+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/s2/s2_mini.html",
+          "checkedAt": "2026-10-15T19:31:08+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "wemos-lolin-s2-pico",
+      "manufacturer": "wemos",
+      "type": "functional-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lolin-s2-pico/",
+          "checkedAt": "2026-10-15T19:29:22+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/s2/s2_pico.html",
+          "checkedAt": "2026-10-15T19:31:10+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "wemos-lolin-s3",
+      "manufacturer": "wemos",
+      "type": "general-board",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lolin-s3/",
+          "checkedAt": "2026-10-15T19:29:24+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/s3/s3.html",
+          "checkedAt": "2026-10-15T19:31:12+00:00"
+        }
+      ]
+    }
+  ]
+}

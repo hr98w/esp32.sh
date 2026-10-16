@@ -1,0 +1,2806 @@
+{
+  "steveruizok/chat-stick": {
+    "repository": "steveruizok/chat-stick",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "chat-stick",
+    "directoryDescription": "- [chat-stick](https://github.com/steveruizok/chat-stick) - Hold-to-talk voice interface to Gemini Live, with persistent timers, server-side tools and OTA updates, running on either an M5StickS3 or a Waveshare ESP32-S3-Touch-AMOLED-1.8. ([demo](https://x.com/steveruizok/status/2081132808341176405)) `M5StickS3` or `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "78/xiaozhi-esp32": {
+    "repository": "78/xiaozhi-esp32",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "xiaozhi-esp32",
+    "directoryDescription": "- [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) - MCP-based AI chatbot firmware powering a whole ecosystem of talking desk companions, across dozens of boards it lists itself."
+  },
+  "toddsherman/pixelcat": {
+    "repository": "toddsherman/pixelcat",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "pixelcat",
+    "directoryDescription": "- [pixelcat](https://github.com/toddsherman/pixelcat) - Tamagotchi-style pixel cat on a Waveshare ESP32-S3-Touch-AMOLED-1.8 that learns your schedule, reacts to touch and sound, and can never irrecoverably die. ([demo](https://x.com/tdd/status/2088804262646288883)) `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "frolic/pocket-pet": {
+    "repository": "frolic/pocket-pet",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "pocket-pet",
+    "directoryDescription": "- [pocket-pet](https://github.com/frolic/pocket-pet) - Pocket-Pikachu-style virtual-pet watch on a Waveshare ESP32-S3-Touch-AMOLED-2.06: a pixel pet roams a grass field, counts your real steps, sleeps with the screen, and levels up as you walk. `Waveshare ESP32-S3-Touch-AMOLED-2.06`"
+  },
+  "datascale-ai/inksight": {
+    "repository": "datascale-ai/inksight",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "InkSight",
+    "directoryDescription": "- [InkSight](https://github.com/datascale-ai/inksight) - E-paper desk companion built from an ESP32-C3 board and a 4.2-inch panel: 24 display modes (weather, poetry, habit tracking), a community mode marketplace, and browser-based flashing."
+  },
+  "mso96/esp32-codex-agent-device": {
+    "repository": "mso96/ESP32-Codex-agent-device",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "demo",
+    "directoryDescription": "- [ESP32 Codex Agent Device](https://github.com/mso96/ESP32-Codex-agent-device) - Physical Codex task-status companion for a Waveshare ESP32-S3-Touch-AMOLED-1.8, with lifecycle tracking, runtime and token metrics, and a procedural avatar. ([demo](https://github.com/mso96/ESP32-Codex-agent-device/blob/main/docs/hardware-demo.jpg)) `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "goroman/vibewatch": {
+    "repository": "GOROman/vibewatch",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32",
+      "https://m5ware.com/projects/448"
+    ],
+    "reason": null,
+    "directoryTitle": "Vibe Watch",
+    "directoryDescription": "- [Vibe Watch](https://github.com/GOROman/vibewatch) - Wrist-worn M5Stack StopWatch controller for parallel AI coding agents, with physical approve/reject, haptics, and BLE HID. ([demo](https://x.com/GOROman/status/2094369107781283991)) `M5Stack StopWatch`",
+    "m5wareDescription": "MW Device not specified TOOL Tools Vibewatch by  GOROman A tactile M5Stack StopWatch controller for AI-assisted Vibe Coding C++ Device not specified   142  stars   Sep 2, 2026"
+  },
+  "jeonghopark/esp32-ai": {
+    "repository": "jeonghopark/esp32-ai",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp32-ai TinyPoems",
+    "directoryDescription": "- [esp32-ai TinyPoems](https://github.com/jeonghopark/esp32-ai) - Runs a tiny poem language model locally on an M5Stack StickS3 and displays generated poems on its LCD. `M5StickS3`"
+  },
+  "seichris/codex-microphone": {
+    "repository": "seichris/codex-microphone",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "demo",
+    "directoryDescription": "- [Codex Microphone](https://github.com/seichris/codex-microphone) - Physical Codex Desktop attention inbox and privacy-gated USB or paired Wi-Fi microphone companion for a Waveshare ESP32-S3-Touch-AMOLED-2.06. ([demo](https://github.com/seichris/codex-microphone/blob/main/docs/codex-mic-github.jpg)) `Waveshare ESP32-S3-Touch-AMOLED-2.06`"
+  },
+  "rcostache230/code-familiar": {
+    "repository": "rcostache230/code-familiar",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "demo",
+    "directoryDescription": "- [Code Familiar](https://github.com/rcostache230/code-familiar) - Round-screen desk companion for Codex and Claude Code that shows task activity, permission requests, usage windows, and recent events through a local macOS bridge. ([demo](https://github.com/rcostache230/code-familiar/blob/main/design/audit/01-physical-portal-v1.png)) `Waveshare ESP32-S3-Touch-AMOLED-1.75`"
+  },
+  "blueforcer/awtrix3": {
+    "repository": "Blueforcer/awtrix3",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "awtrix3",
+    "directoryDescription": "- [awtrix3](https://github.com/Blueforcer/awtrix3) - Turns an Ulanzi Smart Pixel Clock TC001 into a scriptable smart display with a large community of apps. `Ulanzi Smart Pixel Clock TC001`"
+  },
+  "sieren/homepoint": {
+    "repository": "sieren/HomePoint",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32",
+      "https://m5ware.com/projects/400"
+    ],
+    "reason": null,
+    "directoryTitle": "HomePoint",
+    "directoryDescription": "- [HomePoint](https://github.com/sieren/HomePoint) - Switches MQTT and HomeKit devices from a small screen, shipped as prebuilt binaries for a generic ESP32 module or an M5Stack.",
+    "m5wareDescription": "MW Device not specified EXP Experiments Homepoint by  sieren Espressif ESP32 Based Smarthome screen for MQTT C Device not specified   661  stars   Sep 2, 2026"
+  },
+  "fbiego/esp32-lvgl-watchface": {
+    "repository": "fbiego/esp32-lvgl-watchface",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp32-lvgl-watchface",
+    "directoryDescription": "- [esp32-lvgl-watchface](https://github.com/fbiego/esp32-lvgl-watchface) - Renders smartwatch binary watchfaces on any board carrying a 240x240 LVGL screen, with a converter that turns watchface files into compilable code. ([demo](https://www.youtube.com/watch?v=lvRsTp9v6_k))"
+  },
+  "openepaperlink/openepaperlink": {
+    "repository": "OpenEPaperLink/OpenEPaperLink",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "OpenEPaperLink",
+    "directoryDescription": "- [OpenEPaperLink](https://github.com/OpenEPaperLink/OpenEPaperLink) - Repurposes electronic shelf labels into a wireless e-paper display network with an ESP32 access point."
+  },
+  "usetrmnl/firmware": {
+    "repository": "usetrmnl/firmware",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "trmnl firmware",
+    "directoryDescription": "- [trmnl firmware](https://github.com/usetrmnl/firmware) - Firmware behind the TRMNL e-ink dashboard, an ESP32-C3 driving a battery-friendly plugin ecosystem. `TRMNL`"
+  },
+  "austinbirch/esp32-vertical-card-compass": {
+    "repository": "austinbirch/esp32-vertical-card-compass",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp32-vertical-card-compass",
+    "directoryDescription": "- [esp32-vertical-card-compass](https://github.com/austinbirch/esp32-vertical-card-compass) - Simulates an aviation vertical-card magnetic compass on an M5Stack CoreS3: the card swings, overshoots, and reproduces the real instrument's errors. ([demo](https://x.com/austinbirch/status/2086535581773828169)) `M5Stack CoreS3`"
+  },
+  "cosjef/stripe-business-metrics-monitor": {
+    "repository": "cosjef/stripe-business-metrics-monitor",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "stripe-business-metrics-monitor",
+    "directoryDescription": "- [stripe-business-metrics-monitor](https://github.com/cosjef/stripe-business-metrics-monitor) - Desk display for a Stripe subscription business, rotating eight screens of MRR and its 30-day trend, signup pace, ARPU compared across joining and leaving cohorts, and failed payments with the revenue at risk. `Waveshare ESP32-C6-Touch-AMOLED-2.16`"
+  },
+  "iammartinj/bird-feeder-esp32": {
+    "repository": "iammartinj/bird-feeder-esp32",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "demo",
+    "directoryDescription": "- [bird-feeder-esp32](https://github.com/iammartinj/bird-feeder-esp32) - A window onto a garden bird feeder where eleven kinds of visitor come and go through the day: the feeder hangs as a damped pendulum that every landing sets swinging, the branch above it bends in the wind, each bird's size comes from a depth map of the photograph, and the light follows the real-time clock from morning to night and autumn to winter. ([demo](https://github.com/iammartinj/bird-feeder-esp32/blob/main/docs/on-the-board-clip.webp)) `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "tobymarks/esp32-ai-monitor": {
+    "repository": "tobymarks/esp32-ai-monitor",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "AI Monitor",
+    "directoryDescription": "- [AI Monitor](https://github.com/tobymarks/esp32-ai-monitor) - Desk display for Claude, ChatGPT, Gemini, GitHub Copilot, Cursor and Antigravity usage limits, shown as rings or bars with reset countdowns and fed over USB serial by a macOS (or beta Windows) companion app that also flashes the firmware. ([demo](https://tobymarks.github.io/esp32-ai-monitor/assets/display-chatgpt-front.jpg)) `Sunton ESP32-2432S028R`"
+  },
+  "khlebobul/esp_busy_tag": {
+    "repository": "khlebobul/esp_busy_tag",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp_busy_tag",
+    "directoryDescription": "- [esp_busy_tag](https://github.com/khlebobul/esp_busy_tag) - Open-source Busy Tag alternative that shows a FREE/BUSY/MEETING availability sign full-screen, switched with the onboard button or driven from a computer over USB serial, with a printable table dock. `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "aliceisjustplaying/tinydraw": {
+    "repository": "aliceisjustplaying/tinydraw",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "tinydraw",
+    "directoryDescription": "- [tinydraw](https://github.com/aliceisjustplaying/tinydraw) - Finger-drawing app for the Waveshare ESP32-S3-Touch-AMOLED-1.8 and RP2350-Touch-AMOLED-1.8, with variable-width ink, zoom, undo, and SVG/PNG export. ([demo](https://x.com/aliceisplaying/status/2087153749240217805)) `Waveshare ESP32-S3-Touch-AMOLED-1.8` or `Waveshare RP2350-Touch-AMOLED-1.8`"
+  },
+  "mikewilson/infinite-golf": {
+    "repository": "MikeWilson/infinite-golf",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "infinite-golf",
+    "directoryDescription": "- [infinite-golf](https://github.com/MikeWilson/infinite-golf) - Procedurally generated mini-golf on a Waveshare ESP32-S3-Touch-AMOLED-1.8; you physically swing the device and the IMU measures the shot. ([demo](https://x.com/mk_wlsn/status/2087389762042958242)) `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "mikewilson/esp32-gameos": {
+    "repository": "MikeWilson/esp32-gameos",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp32-gameos",
+    "directoryDescription": "- [esp32-gameos](https://github.com/MikeWilson/esp32-gameos) - A handheld gaming OS for the Waveshare ESP32-S3-Touch-AMOLED-1.8: launcher plus six fully procedural games at 60 fps, no engine, no asset files. ([demo](https://x.com/mk_wlsn/status/2089740913195274284)) `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "v4c38/esp32-fluidbox": {
+    "repository": "V4C38/esp32-fluidbox",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp32-fluidbox",
+    "directoryDescription": "- [esp32-fluidbox](https://github.com/V4C38/esp32-fluidbox) - A 3D particle fluid living inside the case of a Waveshare ESP32-S3-Touch-AMOLED-1.8: ~900 particles slosh with the accelerometer as if liquid sat behind the screen. ([demo](https://x.com/JohannesTscharn/status/2085248949061922855)) `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "s0lness/puck": {
+    "repository": "s0lness/puck",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "puck",
+    "directoryDescription": "- [puck apps](https://github.com/s0lness/puck/tree/master/apps) - Clock, connect 4, and friends: small apps written once against the puck convention, each running on both the Waveshare ESP32-S3-Touch-AMOLED-1.8 and the RP2350-Touch-AMOLED-1.8. ([live gallery](https://puck.sylve.org)) `Waveshare ESP32-S3-Touch-AMOLED-1.8` and `Waveshare RP2350-Touch-AMOLED-1.8`"
+  },
+  "canwar-dj/67": {
+    "repository": "canwar-dj/67",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "67",
+    "directoryDescription": "- [67](https://github.com/canwar-dj/67) - Throw-and-catch party game for a Waveshare ESP32-S3-Touch-AMOLED-2.06; the screen flickers random numbers while airborne and locks in on catch, landing on a red 67 one time in five to pick a loser. ([demo](https://x.com/kanwardigvijay/status/2090090888659898500)) `Waveshare ESP32-S3-Touch-AMOLED-2.06`"
+  },
+  "geh00073/microlink_crawler": {
+    "repository": "GEH00073/MicroLink_Crawler",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "MicroLink Crawler",
+    "directoryDescription": "- [MicroLink Crawler](https://github.com/GEH00073/MicroLink_Crawler) - Pocket FPV exploration rover on 7 mm 3D-printed linked tracks, needing all four of an M5Stamp Pico for the motors, an M5Stack AtomS3R-CAM for live video and red-object detection, an M5Stack Atom JoyStick to drive it, and an M5Stack Core2 as the monitor. ([demo](https://www.hackster.io/user2729037/microlink-crawler-379ff1)) `M5Stamp Pico` and `M5Stack AtomS3R-CAM` and `M5Stack Atom JoyStick` and `M5Stack Core2`"
+  },
+  "arendst/tasmota": {
+    "repository": "arendst/Tasmota",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "Tasmota",
+    "directoryDescription": "- [Tasmota](https://github.com/arendst/Tasmota) - Flash-and-forget firmware giving off-the-shelf smart plugs and lights local MQTT control, on a device list of its own that runs to thousands."
+  },
+  "aircoookie/wled": {
+    "repository": "Aircoookie/WLED",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "WLED",
+    "directoryDescription": "- [WLED](https://github.com/Aircoookie/WLED) - The addressable-LED firmware, with effects, segments, and an ecosystem of controllers built around it."
+  },
+  "northstrix/lantern": {
+    "repository": "Northstrix/Lantern",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "The Lantern Project",
+    "directoryDescription": "- [The Lantern Project](https://github.com/Northstrix/Lantern) - Addressable RGB LED strip controller you build as a pair: an ESP32 remote with 32 modes and 14 lock screens, talking to an ESP8266 that drives the strip. ([demo](https://www.instructables.com/DIY-Addressable-RGB-LED-Strip-Controller/))"
+  },
+  "meshtastic/firmware": {
+    "repository": "meshtastic/firmware",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "Meshtastic",
+    "directoryDescription": "- [Meshtastic](https://github.com/meshtastic/firmware) - Off-grid, encrypted LoRa mesh messaging on the LoRa boards it lists itself; the reference ESP32 radio project."
+  },
+  "alviso/waycast": {
+    "repository": "alviso/waycast",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "Waycast",
+    "directoryDescription": "- [Waycast](https://github.com/alviso/waycast) - Car-to-car LoRa mesh on a Waveshare ESP32-P4-Module-DEV-KIT with a 7-inch touch panel, a USB LoRa dongle and a USB GPS: geo-ephemeral hazard reports, convoy position sharing, and offline maps, with no cellular dependency. ([site](https://waycast.io)) `Waveshare ESP32-P4-Module-DEV-KIT`"
+  },
+  "f86pilot/familybox": {
+    "repository": "F86Pilot/familybox",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "familybox",
+    "directoryDescription": "- [familybox](https://github.com/F86Pilot/familybox) - Photo and voice messages between a travelling parent and a child too young to read: the phone sends, a Waveshare ESP32-S3-Touch-AMOLED-1.8 shows the photo, and two buttons play the note or record a reply. ([demo](https://x.com/pmtiegs/status/2090134879875051709)) `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "jo3alt/tinysstv": {
+    "repository": "JO3ALT/TinySSTV",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "TinySSTV",
+    "directoryDescription": "- [TinySSTV](https://github.com/JO3ALT/TinySSTV) - Martin M1 SSTV transmitter that accepts images over its own Wi-Fi, stores 24-bit colour images on microSD, and synthesizes the SSTV audio directly on an ESP32-C3 GPIO. `Seeed Studio XIAO ESP32-C3`"
+  },
+  "sle118/squeezelite-esp32": {
+    "repository": "sle118/squeezelite-esp32",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "squeezelite-esp32",
+    "directoryDescription": "- [squeezelite-esp32](https://github.com/sle118/squeezelite-esp32) - Multi-room audio player and AirPlay/Spotify/Bluetooth endpoint on a bare ESP32."
+  },
+  "marcel-licence/esp32_basic_synth": {
+    "repository": "marcel-licence/esp32_basic_synth",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp32_basic_synth",
+    "directoryDescription": "- [esp32_basic_synth](https://github.com/marcel-licence/esp32_basic_synth) - A polyphonic MIDI synthesizer from one chip and a DAC."
+  },
+  "seichris/esp32-spotify-remote": {
+    "repository": "seichris/esp32-spotify-remote",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp32-spotify-remote",
+    "directoryDescription": "- [esp32-spotify-remote](https://github.com/seichris/esp32-spotify-remote) - A touchscreen Spotify playback controller with previous, play/pause, and next controls, now-playing metadata, album artwork, and PKCE authorization. `Waveshare ESP32-S3-Touch-AMOLED-2.06`"
+  },
+  "espkvm/espkvm": {
+    "repository": "espkvm/espkvm",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "ESP-KVM",
+    "directoryDescription": "- [ESP-KVM](https://github.com/espkvm/espkvm) - IP-KVM on a Waveshare ESP32-P4-ETH and a TC358743 HDMI bridge: captures the target machine's screen, presents itself to that machine as a USB keyboard and mouse, and puts both in a browser, down to the BIOS of a box with no working OS. ([demo](https://espkvm.io/demo/)) `Waveshare ESP32-P4-ETH`"
+  },
+  "northstrix/midbar": {
+    "repository": "Northstrix/Midbar",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "Midbar",
+    "directoryDescription": "- [Midbar](https://github.com/Northstrix/Midbar) - Hardware data vault for credentials and notes, built across a dozen MCUs including the ESP32: keys derive from the boot-time master password, joined by RFID cards on some versions."
+  },
+  "doublemarkpro/homeworktimer-esp32-s3-touch-lcd-3.49": {
+    "repository": "doublemarkpro/HomeworkTimer-ESP32-S3-Touch-LCD-3.49",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "demo",
+    "directoryDescription": "- [HomeworkTimer](https://github.com/doublemarkpro/HomeworkTimer-ESP32-S3-Touch-LCD-3.49) - Homework timer for children with per-subject tracking, weekly reports, schedules, alarms, weather, Wi-Fi time sync and a low-power lock screen. ([demo](https://github.com/doublemarkpro/HomeworkTimer-ESP32-S3-Touch-LCD-3.49/blob/main/docs/hardware/home-screen.jpg)) `Waveshare ESP32-S3-Touch-LCD-3.49B`"
+  },
+  "seichris/open-bike-computer": {
+    "repository": "seichris/open-bike-computer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "open-bike-computer",
+    "directoryDescription": "- [open-bike-computer](https://github.com/seichris/open-bike-computer) - Garmin-mounted bike computer paired with its iPhone and Apple Watch app: Apple Maps navigation, live workout stats, Apple Health and Strava sync, power-meter and cadence sensors. `Waveshare ESP32-S3-Touch-AMOLED-1.75` or `Waveshare ESP32-S3-Touch-AMOLED-2.06`"
+  },
+  "aideahandesen-dvs/tempmeter": {
+    "repository": "AideaHandesen-dvs/tempmeter",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "tempmeter",
+    "directoryDescription": "- [tempmeter](https://github.com/AideaHandesen-dvs/tempmeter) - Room thermometer built from an ESP32-C3 and a BME280 for about ¥1,500: temperature and humidity alternate on a TM1637 7-segment display, pressure and a JSON endpoint arrive over Wi-Fi, and the network is set from a phone through a captive portal. ([demo](https://youtu.be/Tk6F4vo_uOE))"
+  },
+  "khlebobul/esp_ble_finder": {
+    "repository": "khlebobul/esp_ble_finder",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp_ble_finder",
+    "directoryDescription": "- [esp_ble_finder](https://github.com/khlebobul/esp_ble_finder) - BLE finder that hunts a misplaced phone by RSSI, with a dark dotted direction UI, a bar that fills as you close in, and speaker clicks that speed up with signal strength. `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "curisama/the-badge": {
+    "repository": "curisama/The-Badge",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "demo",
+    "directoryDescription": "- [The Badge](https://github.com/curisama/The-Badge) - Wearable round-screen tool that drives a computer over Bluetooth HID: a touchpad and an IMU air mouse, twelve keys a phone's soft keyboard does not have, a clock with timer and alarm, a recorder that mounts as a USB drive, and accelerometer fidgets, flashable from the browser and buildable against a desktop simulator. ([demo](https://github.com/curisama/The-Badge/blob/main/docs/img/real/desk.jpg)) `Waveshare ESP32-S3-Touch-AMOLED-1.75C`"
+  },
+  "rmno21/esp32-calculator": {
+    "repository": "RMNO21/ESP32-Calculator",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "demo",
+    "directoryDescription": "- [ESP32-Calculator](https://github.com/RMNO21/ESP32-Calculator) - Hardware-driven advanced engineering calculator with SSD1306 OLED and matrix keypad running MicroPython, featuring calculus solvers, matrix operations, and function graphing. ([demo](https://github.com/RMNO21/ESP32-Calculator#features))"
+  },
+  "lpolasek/openrunn": {
+    "repository": "lpolasek/OpenRUNN",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "demo",
+    "directoryDescription": "- [OpenRUNN](https://github.com/lpolasek/OpenRUNN) - Open-source treadmill running sensor that detects a belt marker with a TCRT5000 and broadcasts speed and distance over BLE RSC; includes a Wi-Fi dashboard and a 3D-printable enclosure. ([demo](https://github.com/lpolasek/OpenRUNN/blob/main/assets/videos/openrunn_live.mp4)) `ESP32-C3-DevKitM-1`"
+  },
+  "khlebobul/esp_pomodoro_timer": {
+    "repository": "khlebobul/esp_pomodoro_timer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp_pomodoro_timer",
+    "directoryDescription": "- [esp_pomodoro_timer](https://github.com/khlebobul/esp_pomodoro_timer) - Orientation-controlled Pomodoro timer that starts one of four presets when placed on a side, pauses when laid flat, and includes a customizable 3D-printable enclosure. `Waveshare ESP32-S3-Touch-AMOLED-1.8`"
+  },
+  "espressif/esp-idf": {
+    "repository": "espressif/esp-idf",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "ESP-IDF",
+    "directoryDescription": "- [ESP-IDF](https://github.com/espressif/esp-idf) - Espressif's official development framework."
+  },
+  "esp-rs/esp-hal": {
+    "repository": "esp-rs/esp-hal",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "esp-hal",
+    "directoryDescription": "- [esp-hal](https://github.com/esp-rs/esp-hal) - Bare-metal Rust for ESP32 chips."
+  },
+  "micropython/micropython": {
+    "repository": "micropython/micropython",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "MicroPython",
+    "directoryDescription": "- [MicroPython](https://github.com/micropython/micropython) - Python on the chip, with first-class ESP32 support."
+  },
+  "esphome/esphome": {
+    "repository": "esphome/esphome",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "ESPHome",
+    "directoryDescription": "- [ESPHome](https://github.com/esphome/esphome) - Describe a device in YAML, get firmware; the default way ESP32s enter Home Assistant."
+  },
+  "family-mruby/family-mruby": {
+    "repository": "family-mruby/family-mruby",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "Family mruby",
+    "directoryDescription": "- [Family mruby](https://github.com/family-mruby/family-mruby) - Multitasking OS running mruby, MicroPython, Lua and BASIC on the chip, with a windowed desktop and an on-device editor. ([demo](https://www.youtube.com/watch?v=9vkRaOoxJJI)) `M5Stack Tab5` or `Narya board`"
+  },
+  "esphome/esp-web-tools": {
+    "repository": "esphome/esp-web-tools",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "ESP Web Tools",
+    "directoryDescription": "- [ESP Web Tools](https://github.com/esphome/esp-web-tools) - Flash firmware from the browser over WebSerial, no toolchain installed."
+  },
+  "haswitchplate/openhasp": {
+    "repository": "HASwitchPlate/openHASP",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32",
+      "https://m5ware.com/projects/396"
+    ],
+    "reason": null,
+    "directoryTitle": "openHASP",
+    "directoryDescription": "- [openHASP](https://github.com/HASwitchPlate/openHASP) - Build custom touchscreen control panels for home automation, driven over MQTT.",
+    "m5wareDescription": "MW Core2 / Tough FW Firmware Open HASP by  HASwitchPlate HomeAutomation Switchplate based on lvgl for ESP32 C++ 1  firmware builds Core2 / Tough   1,015  stars   Sep 4, 2026"
+  },
+  "aap/psiop": {
+    "repository": "aap/psiop",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "psiop",
+    "directoryDescription": "- [psiop](https://github.com/aap/psiop) - A compact software 3D rendering library for the ESP32. ([demo](https://x.com/Alacritic_Super/status/2089987821352403387))"
+  },
+  "openai/openai-realtime-embedded": {
+    "repository": "openai/openai-realtime-embedded",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "openai-realtime-embedded",
+    "directoryDescription": "- [openai-realtime-embedded](https://github.com/openai/openai-realtime-embedded) - OpenAI's official SDK for talking to the Realtime API over WebRTC from an ESP32-S3."
+  },
+  "s-iwaki-d/esp32drop": {
+    "repository": "s-iwaki-d/ESP32Drop",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "ESP32Drop",
+    "directoryDescription": "- [ESP32Drop](https://github.com/s-iwaki-d/ESP32Drop) - Arduino library that speaks Apple Wireless Direct Link so an ESP32-S3 shows up in the AirDrop share sheet and receives a photo from an iPhone or Mac, or sends one back, with no pairing and no Wi-Fi network. ([demo](https://youtu.be/D7EdZe_lp2o)) `M5Stack StopWatch`"
+  },
+  "espressif/qemu": {
+    "repository": "espressif/qemu",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:20:51+00:00",
+    "sources": [
+      "https://github.com/s0lness/awesome-esp32"
+    ],
+    "reason": null,
+    "directoryTitle": "espressif/qemu",
+    "directoryDescription": "- [espressif/qemu](https://github.com/espressif/qemu) - Espressif's QEMU fork: full-system ESP32 emulation for CI and debugging."
+  },
+  "justcallmekoko/esp32marauder": {
+    "repository": "justcallmekoko/ESP32Marauder",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:21:36+00:00",
+    "sources": [
+      "https://m5ware.com/projects/384",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 4 more FW Firmware ESP32 Marauder by  justcallmekoko A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32 C++ 15  firmware builds Cardputer + 4 more   12,221  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer + 4 more FW Firmware ESP32 Marauder by  justcallmekoko A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32 C++ 15  firmware builds Cardputer + 4 more   12,221  stars   Sep 5, 2026",
+    "directoryDescription": "- [Cardputer Marauder ESP32](https://github.com/justcallmekoko/ESP32Marauder)"
+  },
+  "brucedevices/firmware": {
+    "repository": "BruceDevices/firmware",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:21:40+00:00",
+    "sources": [
+      "https://m5ware.com/projects/385"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 8 more FW Firmware Bruce by  BruceDevices Predatory ESP32 Firmware C++ 35  firmware builds Cardputer + 8 more   6,654  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer + 8 more FW Firmware Bruce by  BruceDevices Predatory ESP32 Firmware C++ 35  firmware builds Cardputer + 8 more   6,654  stars   Sep 5, 2026"
+  },
+  "geo-tp/esp32-bit-pirate": {
+    "repository": "geo-tp/ESP32-Bit-Pirate",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:21:43+00:00",
+    "sources": [
+      "https://m5ware.com/projects/386"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified LAB Security ESP32 Bit Pirate by  geo-tp A Hardware Hacking Tool with Web-Based CLI That Speaks Every Protocol C++ Device not specified   5,689  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Device not specified LAB Security ESP32 Bit Pirate by  geo-tp A Hardware Hacking Tool with Web-Based CLI That Speaks Every Protocol C++ Device not specified   5,689  stars   Sep 5, 2026"
+  },
+  "7h30th3r0n3/evil-m5project": {
+    "repository": "7h30th3r0n3/Evil-M5Project",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:21:46+00:00",
+    "sources": [
+      "https://m5ware.com/projects/387",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 5 more LAB Security Evil M5 Project by  7h30th3r0n3 Evil-M5Project is an innovative tool developed for ethical hacking and exploration of WiFi networks. It's compatible with Cardputer, Atoms3, Fire, core2. You can scan, monitor, and interact with WiFi networks in a controlled environment. This project is designed for educational purposes, aiding in understanding network security and vulnerabilities C++ 10  firmware builds Cardputer + 5 more   2,574  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer + 5 more LAB Security Evil M5 Project by  7h30th3r0n3 Evil-M5Project is an innovative tool developed for ethical hacking and exploration of WiFi networks. It's compatible with Cardputer, Atoms3, Fire, core2. You can scan, monitor, and interact with WiFi networks in a controlled environment. This project is designed for educational purposes, aiding in understanding network security and vulnerabilities C++ 10  firmware builds Cardputer + 5 more   2,574  stars   Sep 5, 2026",
+    "directoryDescription": "- [Evil-M5Project](https://github.com/7h30th3r0n3/Evil-M5Project)"
+  },
+  "bmorcelli/launcher": {
+    "repository": "bmorcelli/Launcher",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:21:49+00:00",
+    "sources": [
+      "https://m5ware.com/projects/388",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 8 more OS Launchers & OS Launcher by  bmorcelli Firmware Launcher for ESP32 boards like: M5Stack, Lilygo, Marauder and CYD devices. C++ 20  firmware builds Cardputer + 8 more   2,063  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer + 8 more OS Launchers & OS Launcher by  bmorcelli Firmware Launcher for ESP32 boards like: M5Stack, Lilygo, Marauder and CYD devices. C++ 20  firmware builds Cardputer + 8 more   2,063  stars   Sep 5, 2026",
+    "directoryDescription": "- [M5 Launcher](https://github.com/bmorcelli/Launcher) - App launcher for M5StickC, M5StickC Plus, M5StickC Plus 2 and M5Cardputer"
+  },
+  "stack-chan/stack-chan": {
+    "repository": "stack-chan/stack-chan",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:21:49+00:00",
+    "sources": [
+      "https://m5ware.com/projects/390"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StackChan HW Hardware Stack-chan by  stack-chan A JavaScript-driven M5Stack-embedded super-kawaii robot. TypeScript StackChan   1,694  stars   Sep 5, 2026",
+    "m5wareDescription": "MW StackChan HW Hardware Stack-chan by  stack-chan A JavaScript-driven M5Stack-embedded super-kawaii robot. TypeScript StackChan   1,694  stars   Sep 5, 2026"
+  },
+  "m5stack/stackchan": {
+    "repository": "m5stack/StackChan",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:21:51+00:00",
+    "sources": [
+      "https://m5ware.com/projects/2"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StackChan EXP Experiments Stack Chan by  m5stack StackChan open source! Go StackChan   1,377  stars   Oct 15, 2026",
+    "m5wareDescription": "MW StackChan EXP Experiments Stack Chan by  m5stack StackChan open source! Go StackChan   1,377  stars   Oct 15, 2026"
+  },
+  "n0xa/m5stick-nemo": {
+    "repository": "n0xa/m5stick-nemo",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:21:54+00:00",
+    "sources": [
+      "https://m5ware.com/projects/392",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 4 more FW Firmware Nemo for M5Stick by  n0xa M5 Stick C firmware for high-tech pranks and digital self defense C 32  firmware builds Cardputer + 4 more   1,300  stars   Sep 3, 2026",
+    "m5wareDescription": "MW Cardputer + 4 more FW Firmware Nemo for M5Stick by  n0xa M5 Stick C firmware for high-tech pranks and digital self defense C 32  firmware builds Cardputer + 4 more   1,300  stars   Sep 3, 2026",
+    "directoryDescription": "- [M5 Stick NEMO](https://github.com/n0xa/m5stick-nemo) - Hacking tools for cardputer"
+  },
+  "7h30th3r0n3/raspyjack": {
+    "repository": "7h30th3r0n3/Raspyjack",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:21:57+00:00",
+    "sources": [
+      "https://m5ware.com/projects/393"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Raspyjack by  7h30th3r0n3 Small offensive network toolkit for Raspberry Pi (+ Waveshare 1.44″ LCD HAT) and Cardputer Zero inspired by pager and sharkjack fonctionnalities. For redteam and educational purposes only. Python 1  firmware builds Cardputer   1,221  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Raspyjack by  7h30th3r0n3 Small offensive network toolkit for Raspberry Pi (+ Waveshare 1.44″ LCD HAT) and Cardputer Zero inspired by pager and sharkjack fonctionnalities. For redteam and educational purposes only. Python 1  firmware builds Cardputer   1,221  stars   Sep 5, 2026"
+  },
+  "rzeldent/esp32cam-rtsp": {
+    "repository": "rzeldent/esp32cam-rtsp",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:00+00:00",
+    "sources": [
+      "https://m5ware.com/projects/394"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified TOOL Tools Esp32cam Rtsp by  rzeldent Simple RTSP (streaming image) server for the ESP32CAM. Easy configuration and monitoring through the web interface. C++ Device not specified   1,182  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Device not specified TOOL Tools Esp32cam Rtsp by  rzeldent Simple RTSP (streaming image) server for the ESP32CAM. Easy configuration and monitoring through the web interface. C++ Device not specified   1,182  stars   Sep 5, 2026"
+  },
+  "g4lile0/esp32-wifi-hash-monster": {
+    "repository": "G4lile0/ESP32-WiFi-Hash-Monster",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:02+00:00",
+    "sources": [
+      "https://m5ware.com/projects/395"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Core / Fire FW Firmware ESP32 Wi Fi Hash Monster by  G4lile0 WiFi Hash Purple Monster, store EAPOL & PMKID packets in an SD CARD using a M5STACK / ESP32 device C 2  firmware builds Core / Fire   1,095  stars   Aug 11, 2026",
+    "m5wareDescription": "MW Core / Fire FW Firmware ESP32 Wi Fi Hash Monster by  G4lile0 WiFi Hash Purple Monster, store EAPOL & PMKID packets in an SD CARD using a M5STACK / ESP32 device C 2  firmware builds Core / Fire   1,095  stars   Aug 11, 2026"
+  },
+  "0ct0sec/m5porkchop": {
+    "repository": "0ct0sec/M5PORKCHOP",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:08+00:00",
+    "sources": [
+      "https://m5ware.com/projects/397",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 3 more LAB Security M5PORKCHOP by  0ct0sec ON NO! Someone put an RPG in a packet sniffer C++ 7  firmware builds Cardputer + 3 more   853  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer + 3 more LAB Security M5PORKCHOP by  0ct0sec ON NO! Someone put an RPG in a packet sniffer C++ 7  firmware builds Cardputer + 3 more   853  stars   Sep 5, 2026",
+    "directoryDescription": "- [M5PORKCHOP](https://github.com/0ct0sec/M5PORKCHOP)"
+  },
+  "terremoth/awesome-m5stack-cardputer": {
+    "repository": "terremoth/awesome-m5stack-cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:11+00:00",
+    "sources": [
+      "https://m5ware.com/projects/398"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer EXP Experiments Awesome M5stack Cardputer by  terremoth Awesome M5Stack Cardputer Cardputer   735  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer EXP Experiments Awesome M5stack Cardputer by  terremoth Awesome M5Stack Cardputer Cardputer   735  stars   Sep 5, 2026"
+  },
+  "seenkid/flipper-zero-bad-usb": {
+    "repository": "SeenKid/flipper-zero-bad-usb",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:13+00:00",
+    "sources": [
+      "https://m5ware.com/projects/399"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 FW Firmware Flipper Zero Bad Usb by  SeenKid My collection of BadUSB scripts for the Flipper Zero. By downloading the files, you automatically agree to the license and the specific terms in the ReadMe. Batchfile StickC / StickS3   664  stars   Sep 2, 2026",
+    "m5wareDescription": "MW StickC / StickS3 FW Firmware Flipper Zero Bad Usb by  SeenKid My collection of BadUSB scripts for the Flipper Zero. By downloading the files, you automatically agree to the license and the specific terms in the ReadMe. Batchfile StickC / StickS3   664  stars   Sep 2, 2026"
+  },
+  "landonr/homething": {
+    "repository": "landonr/homeThing",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:19+00:00",
+    "sources": [
+      "https://m5ware.com/projects/402"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 EXP Experiments Home Thing by  landonr Wifi Smart Home Remotes that run on ESPHome C++ StickC / StickS3   546  stars   Aug 28, 2026",
+    "m5wareDescription": "MW StickC / StickS3 EXP Experiments Home Thing by  landonr Wifi Smart Home Remotes that run on ESPHome C++ StickC / StickS3   546  stars   Aug 28, 2026"
+  },
+  "m5stack/m5cardputer": {
+    "repository": "m5stack/M5Cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:21+00:00",
+    "sources": [
+      "https://m5ware.com/projects/6"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware M5Cardputer by  m5stack M5Cardputer user demo for hardware evaluation. C++ 1  firmware builds Cardputer   392  stars   Oct 13, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware M5Cardputer by  m5stack M5Cardputer user demo for hardware evaluation. C++ 1  firmware builds Cardputer   392  stars   Oct 13, 2026"
+  },
+  "m5ez/m5ez": {
+    "repository": "M5ez/M5ez",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:24+00:00",
+    "sources": [
+      "https://m5ware.com/projects/404"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Core / Fire EXP Experiments M5ez by  M5ez Complete interface builder for the M5Stack, an ESP32 based mini tinker-computer C++ Core / Fire   387  stars   Aug 27, 2026",
+    "m5wareDescription": "MW Core / Fire EXP Experiments M5ez by  M5ez Complete interface builder for the M5Stack, an ESP32 based mini tinker-computer C++ Core / Fire   387  stars   Aug 27, 2026"
+  },
+  "oceantroop/orca-one": {
+    "repository": "OceanTroop/orca-one",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:27+00:00",
+    "sources": [
+      "https://m5ware.com/projects/405"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 FW Firmware Orca One by  OceanTroop A collection of alternatives for running Flipper Zero functions on more affordable devices such as M5Stack, Liligo and ESP32 in general. C++ 1  firmware builds Archived StickC / StickS3   373  stars   Aug 28, 2026",
+    "m5wareDescription": "MW StickC / StickS3 FW Firmware Orca One by  OceanTroop A collection of alternatives for running Flipper Zero functions on more affordable devices such as M5Stack, Liligo and ESP32 in general. C++ 1  firmware builds Archived StickC / StickS3   373  stars   Aug 28, 2026"
+  },
+  "tobozo/esp32-blecollector": {
+    "repository": "tobozo/ESP32-BLECollector",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:29+00:00",
+    "sources": [
+      "https://m5ware.com/projects/406"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Core2 / Tough EXP Experiments ESP32 BLECollector by  tobozo ᛡᛒ BLE Scanner + Data persistence on SD Card for M5Stack, M5Core2, Odroid-Go, ESP32-Wrover-Kit and other models C Core2 / Tough   363  stars   Sep 2, 2026",
+    "m5wareDescription": "MW Core2 / Tough EXP Experiments ESP32 BLECollector by  tobozo ᛡᛒ BLE Scanner + Data persistence on SD Card for M5Stack, M5Core2, Odroid-Go, ESP32-Wrover-Kit and other models C Core2 / Tough   363  stars   Sep 2, 2026"
+  },
+  "m5stack/m5cardputer-userdemo": {
+    "repository": "m5stack/M5Cardputer-UserDemo",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:32+00:00",
+    "sources": [
+      "https://m5ware.com/projects/9",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer HW Hardware M5Cardputer User Demo by  m5stack M5Cardputer user demo for hardware evaluation. C 2  firmware builds Cardputer   353  stars   Oct 14, 2026",
+    "m5wareDescription": "MW Cardputer HW Hardware M5Cardputer User Demo by  m5stack M5Cardputer user demo for hardware evaluation. C 2  firmware builds Cardputer   353  stars   Oct 14, 2026",
+    "directoryDescription": "These builtin apps can be found at: https://github.com/m5stack/M5Cardputer-UserDemo"
+  },
+  "tobozo/m5stack-sd-updater": {
+    "repository": "tobozo/M5Stack-SD-Updater",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:35+00:00",
+    "sources": [
+      "https://m5ware.com/projects/407"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 3 more OS Launchers & OS M5Stack SD Updater by  tobozo 💾 Customizable menu system for M5Stack, M5Unified and ESP32-Chimera-Core - loads apps from the Micro SD card. Easily add you own apps C++ 3  firmware builds Cardputer + 3 more   348  stars   Aug 19, 2026",
+    "m5wareDescription": "MW Cardputer + 3 more OS Launchers & OS M5Stack SD Updater by  tobozo 💾 Customizable menu system for M5Stack, M5Unified and ESP32-Chimera-Core - loads apps from the Micro SD card. Easily add you own apps C++ 3  firmware builds Cardputer + 3 more   348  stars   Aug 19, 2026"
+  },
+  "m5stack/m5_hardware": {
+    "repository": "m5stack/M5_Hardware",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:37+00:00",
+    "sources": [
+      "https://m5ware.com/projects/10"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified HW Hardware M5 Hardware by  m5stack M5Stack hardware related documents, etc. Device not specified   334  stars   Oct 13, 2026",
+    "m5wareDescription": "MW Device not specified HW Hardware M5 Hardware by  m5stack M5Stack hardware related documents, etc. Device not specified   334  stars   Oct 13, 2026"
+  },
+  "beryllium-org/micro": {
+    "repository": "beryllium-org/Micro",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:40+00:00",
+    "sources": [
+      "https://m5ware.com/projects/408"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer OS Launchers & OS Micro by  beryllium-org Beryllium OS Micro, a unix-like operating system for CircuitPython powered microcontrollers. Python Cardputer   325  stars   Aug 28, 2026",
+    "m5wareDescription": "MW Cardputer OS Launchers & OS Micro by  beryllium-org Beryllium OS Micro, a unix-like operating system for CircuitPython powered microcontrollers. Python Cardputer   325  stars   Aug 28, 2026"
+  },
+  "jblanked/picoware": {
+    "repository": "jblanked/Picoware",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:43+00:00",
+    "sources": [
+      "https://m5ware.com/projects/409"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Picoware by  jblanked Open-source custom firmware for PicoCalc, Cardputer ADV, Flipper Zero, and other ESP32/Raspberry Pi Pico devices C 1  firmware builds Cardputer   324  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Picoware by  jblanked Open-source custom firmware for PicoCalc, Cardputer ADV, Flipper Zero, and other ESP32/Raspberry Pi Pico devices C 1  firmware builds Cardputer   324  stars   Sep 5, 2026"
+  },
+  "echo-lalia/microhydra": {
+    "repository": "echo-lalia/MicroHydra",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:45+00:00",
+    "sources": [
+      "https://m5ware.com/projects/410",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer OS Launchers & OS Micro Hydra by  echo-lalia MicroHydra is a simple, 'OS-like', MicroPython based app switcher designed for ESP32 based devices. Python Cardputer   314  stars   Aug 21, 2026",
+    "m5wareDescription": "MW Cardputer OS Launchers & OS Micro Hydra by  echo-lalia MicroHydra is a simple, 'OS-like', MicroPython based app switcher designed for ESP32 based devices. Python Cardputer   314  stars   Aug 21, 2026",
+    "directoryDescription": "- [MicroHydra Launcher](https://github.com/echo-lalia/MicroHydra)"
+  },
+  "amcchord/m5tab-macintosh": {
+    "repository": "amcchord/M5Tab-Macintosh",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:48+00:00",
+    "sources": [
+      "https://m5ware.com/projects/411"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Tab5 EMU Emulators M5Tab Macintosh by  amcchord BasiliskII Macintosh 68k emulator ported to ESP32-P4 / M5Stack Tab5 - Run classic Mac OS on embedded hardware C++ 1  firmware builds Tab5   276  stars   Aug 27, 2026",
+    "m5wareDescription": "MW Tab5 EMU Emulators M5Tab Macintosh by  amcchord BasiliskII Macintosh 68k emulator ported to ESP32-P4 / M5Stack Tab5 - Run classic Mac OS on embedded hardware C++ 1  firmware builds Tab5   276  stars   Aug 27, 2026"
+  },
+  "alutov/esp32-r4sgate-for-redmond": {
+    "repository": "alutov/ESP32-R4sGate-for-Redmond",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:51+00:00",
+    "sources": [
+      "https://m5ware.com/projects/412"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified TOOL Tools ESP32 R4s Gate For Redmond by  alutov ESP32 Ready4Sky (R4S) Gateway for Redmond+ devices C Device not specified   257  stars   Sep 3, 2026",
+    "m5wareDescription": "MW Device not specified TOOL Tools ESP32 R4s Gate For Redmond by  alutov ESP32 Ready4Sky (R4S) Gateway for Redmond+ devices C Device not specified   257  stars   Sep 3, 2026"
+  },
+  "geo-tp/cardputer-game-station-emulators": {
+    "repository": "geo-tp/Cardputer-Game-Station-Emulators",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:54+00:00",
+    "sources": [
+      "https://m5ware.com/projects/414",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer EMU Emulators Cardputer Game Station Emulators by  geo-tp Emulators running NES, SNES, GameBoy, GameGear, Master System, Megadrive, Neo Geo Pocket, WonderSwan, Lynx, Atari7800, Atari2600, PC-Engine, Coleco, SG1000, GX4000 and MSX on ESP32 with 320KB of RAM C 1  firmware builds Cardputer   241  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer EMU Emulators Cardputer Game Station Emulators by  geo-tp Emulators running NES, SNES, GameBoy, GameGear, Master System, Megadrive, Neo Geo Pocket, WonderSwan, Lynx, Atari7800, Atari2600, PC-Engine, Coleco, SG1000, GX4000 and MSX on ESP32 with 320KB of RAM C 1  firmware builds Cardputer   241  stars   Sep 5, 2026",
+    "directoryDescription": "- [Cardputer Game Station Emulators](https://github.com/geo-tp/Cardputer-Game-Station-Emulators) - Emulator for cardputer that supports ten different consoles"
+  },
+  "m5stack/m5stack_micropython": {
+    "repository": "m5stack/M5Stack_MicroPython",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:56+00:00",
+    "sources": [
+      "https://m5ware.com/projects/13"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Stack Micro Python by  m5stack MicroPython for ESP32 with psRAM support C Archived Device not specified   234  stars   Sep 10, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Stack Micro Python by  m5stack MicroPython for ESP32 with psRAM support C Archived Device not specified   234  stars   Sep 10, 2026"
+  },
+  "gkoh/furble": {
+    "repository": "gkoh/furble",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:22:59+00:00",
+    "sources": [
+      "https://m5ware.com/projects/416"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified TOOL Tools Furble by  gkoh A bluetooth wireless remote shutter release for Fujifilm X/GFX, Canon EOS, Ricoh, Nikon and Sony cameras. C Device not specified   231  stars   Sep 1, 2026",
+    "m5wareDescription": "MW Device not specified TOOL Tools Furble by  gkoh A bluetooth wireless remote shutter release for Fujifilm X/GFX, Canon EOS, Ricoh, Nikon and Sony cameras. C Device not specified   231  stars   Sep 1, 2026"
+  },
+  "atomnft/m5stick-marauder": {
+    "repository": "ATOMNFT/M5stick-Marauder",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:02+00:00",
+    "sources": [
+      "https://m5ware.com/projects/417"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 LAB Security M5stick Marauder by  ATOMNFT Wifi Marauder (Newest) for M5stickC Plus & Plus2. This version contains the ble swift pair fix. C++ 5  firmware builds Archived StickC / StickS3   227  stars   Aug 18, 2026",
+    "m5wareDescription": "MW StickC / StickS3 LAB Security M5stick Marauder by  ATOMNFT Wifi Marauder (Newest) for M5stickC Plus & Plus2. This version contains the ble swift pair fix. C++ 5  firmware builds Archived StickC / StickS3   227  stars   Aug 18, 2026"
+  },
+  "m5stack/m5stack-camera": {
+    "repository": "m5stack/M5Stack-Camera",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:05+00:00",
+    "sources": [
+      "https://m5ware.com/projects/15"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Stack Camera by  m5stack Base espressif esp32-camera C Archived Device not specified   227  stars   Oct 4, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Stack Camera by  m5stack Base espressif esp32-camera C Archived Device not specified   227  stars   Oct 4, 2026"
+  },
+  "c5lab/m5monsterc5-cardputeradv": {
+    "repository": "C5Lab/M5MonsterC5-CardputerADV",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:07+00:00",
+    "sources": [
+      "https://m5ware.com/projects/419"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware M5Monster C5 Cardputer ADV by  C5Lab M5MonsterC5-CardputerADV is an add-on board built around the M5MonsterC5 platform and based on JanOS from the Project Zero repository. It is intended for M5Stack Cardputer AVD and Tab5 devices, and it can also be used with Android and PC/MacOS over a USB connection. C 1  firmware builds Cardputer   215  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware M5Monster C5 Cardputer ADV by  C5Lab M5MonsterC5-CardputerADV is an add-on board built around the M5MonsterC5 platform and based on JanOS from the Project Zero repository. It is intended for M5Stack Cardputer AVD and Tab5 devices, and it can also be used with Android and PC/MacOS over a USB connection. C 1  firmware builds Cardputer   215  stars   Sep 5, 2026"
+  },
+  "m5stack/uiflow-micropython": {
+    "repository": "m5stack/uiflow-micropython",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:10+00:00",
+    "sources": [
+      "https://m5ware.com/projects/16"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 14 more FW Firmware Uiflow Micropython by  m5stack uiflow micropython project C 19  firmware builds Cardputer + 14 more   213  stars   Oct 13, 2026",
+    "m5wareDescription": "MW Cardputer + 14 more FW Firmware Uiflow Micropython by  m5stack uiflow micropython project C 19  firmware builds Cardputer + 14 more   213  stars   Oct 13, 2026"
+  },
+  "botofancalin/m5stack-multiapp-advanced": {
+    "repository": "botofancalin/M5Stack-MultiApp-Advanced",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:13+00:00",
+    "sources": [
+      "https://m5ware.com/projects/422"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified FW Firmware M5Stack Multi App Advanced by  botofancalin A M5Stack firmware made on PlatformIO C Device not specified   204  stars   Jul 25, 2026",
+    "m5wareDescription": "MW Device not specified FW Firmware M5Stack Multi App Advanced by  botofancalin A M5Stack firmware made on PlatformIO C Device not specified   204  stars   Jul 25, 2026"
+  },
+  "d3crypt-1/infiltra-firmware": {
+    "repository": "D3CRYPT-1/Infiltra-Firmware",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:16+00:00",
+    "sources": [
+      "https://m5ware.com/projects/423"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 1 more LAB Security Infiltra Firmware by  D3CRYPT-1 Infiltra Firmware is an open-source firmware for wireless security testing, network analysis, and hardware hacking. FLASH IT BELOW USING OUR WEB FLAHSER! C++ 7  firmware builds Cardputer + 1 more   202  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer + 1 more LAB Security Infiltra Firmware by  D3CRYPT-1 Infiltra Firmware is an open-source firmware for wireless security testing, network analysis, and hardware hacking. FLASH IT BELOW USING OUR WEB FLAHSER! C++ 7  firmware builds Cardputer + 1 more   202  stars   Sep 5, 2026"
+  },
+  "geo-tp/ultimate-remote": {
+    "repository": "geo-tp/Ultimate-Remote",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:18+00:00",
+    "sources": [
+      "https://m5ware.com/projects/425",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Ultimate Remote by  geo-tp Universal remote control for the M5Cardputer, contains 3498 remote profiles from 636 different brands. Also compatible with Flipper-IRDB files C++ 1  firmware builds Cardputer   200  stars   Sep 1, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Ultimate Remote by  geo-tp Universal remote control for the M5Cardputer, contains 3498 remote profiles from 636 different brands. Also compatible with Flipper-IRDB files C++ 1  firmware builds Cardputer   200  stars   Sep 1, 2026",
+    "directoryDescription": "- [Universal remote control](https://github.com/geo-tp/Ultimate-Remote)"
+  },
+  "lovyan03/m5stack_lovyanlauncher": {
+    "repository": "lovyan03/M5Stack_LovyanLauncher",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:21+00:00",
+    "sources": [
+      "https://m5ware.com/projects/427"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified OS Launchers & OS M5Stack Lovyan Launcher by  lovyan03 M5Stack Tools & Application Launcher C++ Device not specified   193  stars   Aug 19, 2026",
+    "m5wareDescription": "MW Device not specified OS Launchers & OS M5Stack Lovyan Launcher by  lovyan03 M5Stack Tools & Application Launcher C++ Device not specified   193  stars   Aug 19, 2026"
+  },
+  "ryuzaki-mrl/espeon": {
+    "repository": "Ryuzaki-MrL/Espeon",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:24+00:00",
+    "sources": [
+      "https://m5ware.com/projects/428"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Stamp / StampS3 EMU Emulators Espeon by  Ryuzaki-MrL Gameboy emulator for the ESP32 C++ 1  firmware builds Stamp / StampS3   186  stars   Aug 20, 2026",
+    "m5wareDescription": "MW Stamp / StampS3 EMU Emulators Espeon by  Ryuzaki-MrL Gameboy emulator for the ESP32 C++ 1  firmware builds Stamp / StampS3   186  stars   Aug 20, 2026"
+  },
+  "ugomeda/home-assistant-epaper-remote": {
+    "repository": "ugomeda/home-assistant-epaper-remote",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:26+00:00",
+    "sources": [
+      "https://m5ware.com/projects/429"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified TOOL Tools Home Assistant Epaper Remote by  ugomeda An e-ink remote for Home-Assistant built with FastEPD C++ Device not specified   186  stars   Aug 27, 2026",
+    "m5wareDescription": "MW Device not specified TOOL Tools Home Assistant Epaper Remote by  ugomeda An e-ink remote for Home-Assistant built with FastEPD C++ Device not specified   186  stars   Aug 27, 2026"
+  },
+  "retiredwizard/pydos": {
+    "repository": "RetiredWizard/PyDOS",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:29+00:00",
+    "sources": [
+      "https://m5ware.com/projects/431",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer OS Launchers & OS Py DOS by  RetiredWizard DOS-like OS for microcontroller boards running Micropython or Circuitpython Python Cardputer   179  stars   Aug 17, 2026",
+    "m5wareDescription": "MW Cardputer OS Launchers & OS Py DOS by  RetiredWizard DOS-like OS for microcontroller boards running Micropython or Circuitpython Python Cardputer   179  stars   Aug 17, 2026",
+    "directoryDescription": "- [PyDOS + PyBASIC](https://github.com/RetiredWizard/PyDOS)"
+  },
+  "devsur11/m5gotchi": {
+    "repository": "Devsur11/M5Gotchi",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:32+00:00",
+    "sources": [
+      "https://m5ware.com/projects/433"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 1 more FW Firmware M5Gotchi by  Devsur11 Pwnagothi recreation for M5Stack devices C++ 2  firmware builds Cardputer + 1 more   176  stars   Aug 29, 2026",
+    "m5wareDescription": "MW Cardputer + 1 more FW Firmware M5Gotchi by  Devsur11 Pwnagothi recreation for M5Stack devices C++ 2  firmware builds Cardputer + 1 more   176  stars   Aug 29, 2026"
+  },
+  "d4rkmen/plai": {
+    "repository": "d4rkmen/plai",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:35+00:00",
+    "sources": [
+      "https://m5ware.com/projects/434"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Plai by  d4rkmen Standalone Meshtastic node for CardPuter ADV C 1  firmware builds Cardputer   175  stars   Aug 24, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Plai by  d4rkmen Standalone Meshtastic node for CardPuter ADV C 1  firmware builds Cardputer   175  stars   Aug 24, 2026"
+  },
+  "generaldussduss/poseidon": {
+    "repository": "GeneralDussDuss/poseidon",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:37+00:00",
+    "sources": [
+      "https://m5ware.com/projects/437"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer LAB Security Poseidon by  GeneralDussDuss 80+ feature pentesting firmware for M5Stack Cardputer-Adv. WiFi, BLE, sub-GHz (CC1101), 2.4GHz (nRF24), LoRa (SX1262), IR, BadUSB, DHCP attacks, WPAD, MouseJack, BLE spam, signal replay, 6 themes. Supports LoRa-GNSS + Hydra RF hats + ESP32-C5 companion. C++ 5  firmware builds Cardputer   168  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer LAB Security Poseidon by  GeneralDussDuss 80+ feature pentesting firmware for M5Stack Cardputer-Adv. WiFi, BLE, sub-GHz (CC1101), 2.4GHz (nRF24), LoRa (SX1262), IR, BadUSB, DHCP attacks, WPAD, MouseJack, BLE spam, signal replay, 6 themes. Supports LoRa-GNSS + Hydra RF hats + ESP32-C5 companion. C++ 5  firmware builds Cardputer   168  stars   Sep 5, 2026"
+  },
+  "op7418/m5-paper-buddy": {
+    "repository": "op7418/m5-paper-buddy",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:40+00:00",
+    "sources": [
+      "https://m5ware.com/projects/438"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Paper / CoreInk HW Hardware M5 Paper Buddy by  op7418 📟 Claude Code physical companion on M5Paper V1.1 e-ink. Multi-session dashboard, hardware approval (buttons + touch), AskUserQuestion option cards, CJK, USB/BLE, installable as a Claude Code plugin. / Claude Code 实体搭档，把 M5Paper 变成 Claude Code 的多会话看板 + 硬件审批面板。 C++ Paper / CoreInk   160  stars   Aug 21, 2026",
+    "m5wareDescription": "MW Paper / CoreInk HW Hardware M5 Paper Buddy by  op7418 📟 Claude Code physical companion on M5Paper V1.1 e-ink. Multi-session dashboard, hardware approval (buttons + touch), AskUserQuestion option cards, CJK, USB/BLE, installable as a Claude Code plugin. / Claude Code 实体搭档，把 M5Paper 变成 Claude Code 的多会话看板 + 硬件审批面板。 C++ Paper / CoreInk   160  stars   Aug 21, 2026"
+  },
+  "bastelschlumpf/m5paperweather": {
+    "repository": "Bastelschlumpf/M5PaperWeather",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:43+00:00",
+    "sources": [
+      "https://m5ware.com/projects/441"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Paper / CoreInk EXP Experiments M5Paper Weather by  Bastelschlumpf M5Paper project with weather information from openweathermap C Paper / CoreInk   150  stars   Aug 31, 2026",
+    "m5wareDescription": "MW Paper / CoreInk EXP Experiments M5Paper Weather by  Bastelschlumpf M5Paper project with weather information from openweathermap C Paper / CoreInk   150  stars   Aug 31, 2026"
+  },
+  "bryant24hao/clawputer": {
+    "repository": "bryant24hao/ClawPuter",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:45+00:00",
+    "sources": [
+      "https://m5ware.com/projects/442"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer EXP Experiments Claw Puter by  bryant24hao ClawPuter — pixel desktop companion for M5Stack Cardputer (ESP32-S3). AI chat, voice input, real-time weather, synced macOS desktop pet. C++ Cardputer   150  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer EXP Experiments Claw Puter by  bryant24hao ClawPuter — pixel desktop companion for M5Stack Cardputer (ESP32-S3). AI chat, voice input, real-time weather, synced macOS desktop pet. C++ Cardputer   150  stars   Sep 5, 2026"
+  },
+  "m5stack/m5-schematic": {
+    "repository": "m5stack/M5-Schematic",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:48+00:00",
+    "sources": [
+      "https://m5ware.com/projects/18"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 HW Hardware M5 Schematic by  m5stack Most of the schematics of M5Stack boards Shell Archived StickC / StickS3   149  stars   Jul 25, 2026",
+    "m5wareDescription": "MW StickC / StickS3 HW Hardware M5 Schematic by  m5stack Most of the schematics of M5Stack boards Shell Archived StickC / StickS3   149  stars   Jul 25, 2026"
+  },
+  "voidnoi/badcard": {
+    "repository": "VoidNoi/BadCard",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:51+00:00",
+    "sources": [
+      "https://m5ware.com/projects/444"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Bad Card by  VoidNoi BadUSB for the Cardputer with ducky script support and extra functionality C++ 1  firmware builds Cardputer   148  stars   Aug 26, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Bad Card by  VoidNoi BadUSB for the Cardputer with ducky script support and extra functionality C++ 1  firmware builds Cardputer   148  stars   Aug 26, 2026"
+  },
+  "ronron-gh/ai_stackchan_ex": {
+    "repository": "ronron-gh/AI_StackChan_Ex",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:53+00:00",
+    "sources": [
+      "https://m5ware.com/projects/446"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StackChan FW Firmware AI Stack Chan Ex by  ronron-gh robo8080さんのAIｽﾀｯｸﾁｬﾝをベースに、対応AIサービスの追加、YAMLへの対応など機能拡張しています。 C++ 1  firmware builds StackChan   147  stars   Sep 4, 2026",
+    "m5wareDescription": "MW StackChan FW Firmware AI Stack Chan Ex by  ronron-gh robo8080さんのAIｽﾀｯｸﾁｬﾝをベースに、対応AIサービスの追加、YAMLへの対応など機能拡張しています。 C++ 1  firmware builds StackChan   147  stars   Sep 4, 2026"
+  },
+  "m5stack/m5cloud": {
+    "repository": "m5stack/M5Cloud",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:56+00:00",
+    "sources": [
+      "https://m5ware.com/projects/19"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Cloud by  m5stack Micropython Web IDE beta version Python Archived Device not specified   145  stars   Mar 7, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Cloud by  m5stack Micropython Web IDE beta version Python Archived Device not specified   145  stars   Mar 7, 2026"
+  },
+  "botofancalin/m5stack-esp32-oscilloscope": {
+    "repository": "botofancalin/M5Stack-ESP32-Oscilloscope",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:23:59+00:00",
+    "sources": [
+      "https://m5ware.com/projects/447"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Core2 / Tough FW Firmware M5Stack ESP32 Oscilloscope by  botofancalin A fully functional oscilloscope based on ESp32 M5Stack C++ 1  firmware builds Core2 / Tough   143  stars   Jul 10, 2026",
+    "m5wareDescription": "MW Core2 / Tough FW Firmware M5Stack ESP32 Oscilloscope by  botofancalin A fully functional oscilloscope based on ESp32 M5Stack C++ 1  firmware builds Core2 / Tough   143  stars   Jul 10, 2026"
+  },
+  "kikuchan/pngle": {
+    "repository": "kikuchan/pngle",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:24:04+00:00",
+    "sources": [
+      "https://m5ware.com/projects/450"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments Pngle by  kikuchan Pngle - PNG Loader for Embedding C Device not specified   138  stars   Jul 5, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments Pngle by  kikuchan Pngle - PNG Loader for Embedding C Device not specified   138  stars   Jul 5, 2026"
+  },
+  "stachugit/meshcore-cardputer-adv": {
+    "repository": "Stachugit/MeshCore-Cardputer-ADV",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:24:07+00:00",
+    "sources": [
+      "https://m5ware.com/projects/451"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Mesh Core Cardputer ADV by  Stachugit ⚠️ WARNING – DATA WILL BE ERASED Flashing this firmware will completely erase all data on your device. Back up anything important before flashing, you can do it in MESHCORE app settings MeshCore-Cardputer-ADV is an enhanced TFT chat-style UI firmware for the M5Stack Cardputer-Adv, designed specifically for the M5Stack Cap LoRa1262 for Cardputer-Adv expansion module. It delivers a modern chat experience with clean chat bubbles, notifications, theme customization, brightness control, and full QWERTY keyboard support, turning the Cardputer-Adv + Cap LoRa1262 combo into a compact, portable LoRa mesh chat terminal. Built and tested on real hardware with care and late-night debugging sessions. If you enjoy the project and find it useful, consider supporting development: ☕ Buy me a coffee: https://buymeacoffee.com/stachu C 2  firmware builds Cardputer   134  stars   Sep 3, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Mesh Core Cardputer ADV by  Stachugit ⚠️ WARNING – DATA WILL BE ERASED Flashing this firmware will completely erase all data on your device. Back up anything important before flashing, you can do it in MESHCORE app settings MeshCore-Cardputer-ADV is an enhanced TFT chat-style UI firmware for the M5Stack Cardputer-Adv, designed specifically for the M5Stack Cap LoRa1262 for Cardputer-Adv expansion module. It delivers a modern chat experience with clean chat bubbles, notifications, theme customization, brightness control, and full QWERTY keyboard support, turning the Cardputer-Adv + Cap LoRa1262 combo into a compact, portable LoRa mesh chat terminal. Built and tested on real hardware with care and late-night debugging sessions. If you enjoy the project and find it useful, consider supporting development: ☕ Buy me a coffee: https://buymeacoffee.com/stachu C 2  firmware builds Cardputer   134  stars   Sep 3, 2026"
+  },
+  "cyberwisk/m5cardputer_webradio": {
+    "repository": "cyberwisk/M5Cardputer_WebRadio",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:24:10+00:00",
+    "sources": [
+      "https://m5ware.com/projects/452",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 2 more FW Firmware M5Cardputer Web Radio by  cyberwisk M5Cardputer_WebRadio C++ 1  firmware builds Cardputer + 2 more   130  stars   Sep 4, 2026",
+    "m5wareDescription": "MW Cardputer + 2 more FW Firmware M5Cardputer Web Radio by  cyberwisk M5Cardputer_WebRadio C++ 1  firmware builds Cardputer + 2 more   130  stars   Sep 4, 2026",
+    "directoryDescription": "- [Cardputer WebRadio](https://github.com/cyberwisk/M5Cardputer_WebRadio)"
+  },
+  "kisaragi-mochi/stackchan-mcp": {
+    "repository": "kisaragi-mochi/stackchan-mcp",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:24:13+00:00",
+    "sources": [
+      "https://m5ware.com/projects/454"
+    ],
+    "reason": null,
+    "directoryTitle": "MW CoreS3 + 1 more FW Firmware Stackchan Mcp by  kisaragi-mochi MCP gateway for StackChan (xiaozhi-esp32): bridge any MCP client to a CoreS3 + servo + camera robot C++ 1  firmware builds CoreS3 + 1 more   127  stars   Sep 5, 2026",
+    "m5wareDescription": "MW CoreS3 + 1 more FW Firmware Stackchan Mcp by  kisaragi-mochi MCP gateway for StackChan (xiaozhi-esp32): bridge any MCP client to a CoreS3 + servo + camera robot C++ 1  firmware builds CoreS3 + 1 more   127  stars   Sep 5, 2026"
+  },
+  "bareboat-necessities/bbn-m5stack-tough": {
+    "repository": "bareboat-necessities/bbn-m5stack-tough",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:24:16+00:00",
+    "sources": [
+      "https://m5ware.com/projects/453"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Core2 / Tough EXP Experiments Bbn M5stack Tough by  bareboat-necessities M5Stack Tough (ESP-32) Sailing Instruments Display and Autopilot Control C Core2 / Tough   127  stars   Jul 8, 2026",
+    "m5wareDescription": "MW Core2 / Tough EXP Experiments Bbn M5stack Tough by  bareboat-necessities M5Stack Tough (ESP-32) Sailing Instruments Display and Autopilot Control C Core2 / Tough   127  stars   Jul 8, 2026"
+  },
+  "m5stack/core2-for-aws-iot-kit": {
+    "repository": "m5stack/Core2-for-AWS-IoT-Kit",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:24:18+00:00",
+    "sources": [
+      "https://m5ware.com/projects/20"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Core2 / Tough EXP Experiments Core2 For AWS Io T Kit by  m5stack Accompanying code for use with AWS IoT Kit content. Works with PlatformIO and ESP-IDF v4.2. C Core2 / Tough   126  stars   May 17, 2026",
+    "m5wareDescription": "MW Core2 / Tough EXP Experiments Core2 For AWS Io T Kit by  m5stack Accompanying code for use with AWS IoT Kit content. Works with PlatformIO and ESP-IDF v4.2. C Core2 / Tough   126  stars   May 17, 2026"
+  },
+  "m5stack/m5stickcplus2": {
+    "repository": "m5stack/M5StickCPlus2",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:24:21+00:00",
+    "sources": [
+      "https://m5ware.com/projects/21"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 EXP Experiments M5Stick CPlus2 by  m5stack M5Stick CPlus2 is a community project by m5stack. Indexed for StickC / StickS3. Written in C++. C++ StickC / StickS3   124  stars   Sep 29, 2026",
+    "m5wareDescription": "MW StickC / StickS3 EXP Experiments M5Stick CPlus2 by  m5stack M5Stick CPlus2 is a community project by m5stack. Indexed for StickC / StickS3. Written in C++. C++ StickC / StickS3   124  stars   Sep 29, 2026"
+  },
+  "nonik0/cardputerlorachat": {
+    "repository": "nonik0/CardputerLoRaChat",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:24:24+00:00",
+    "sources": [
+      "https://m5ware.com/projects/455",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Cardputer Lo Ra Chat by  nonik0 A simple chat app for Cardputer. To chat over LoRa, the M5 E220 LoRa module is required. Also supports chatting over ESP-NOW, no extra hardware required. C++ 1  firmware builds Cardputer   121  stars   Sep 1, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Cardputer Lo Ra Chat by  nonik0 A simple chat app for Cardputer. To chat over LoRa, the M5 E220 LoRa module is required. Also supports chatting over ESP-NOW, no extra hardware required. C++ 1  firmware builds Cardputer   121  stars   Sep 1, 2026",
+    "directoryDescription": "- [Lora Chat App](https://github.com/nonik0/CardputerLoRaChat)"
+  },
+  "ah2005na/m5stick-shark": {
+    "repository": "AH2005NA/m5stick-shark",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:24:26+00:00",
+    "sources": [
+      "https://m5ware.com/projects/457"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 3 more FW Firmware M5stick Shark by  AH2005NA PLEASE CHOOSE RIGHT LANGUAGE! DEV 1.0.5 RFID (With SD) DEV 1.0.4 Btn G0 presst After Startup: no Startupsound add an option to disable the Startupsound 2 new language: Italian (IT_IT), French (FR_FR) Fixed IRAH Bug Updated version of M5Stickc-NEMO https://github.com/n0xa/m5stick-nemo. Please Report Bugs on Github C++ 7  firmware builds Cardputer + 3 more   118  stars   Aug 14, 2026",
+    "m5wareDescription": "MW Cardputer + 3 more FW Firmware M5stick Shark by  AH2005NA PLEASE CHOOSE RIGHT LANGUAGE! DEV 1.0.5 RFID (With SD) DEV 1.0.4 Btn G0 presst After Startup: no Startupsound add an option to disable the Startupsound 2 new language: Italian (IT_IT), French (FR_FR) Fixed IRAH Bug Updated version of M5Stickc-NEMO https://github.com/n0xa/m5stick-nemo. Please Report Bugs on Github C++ 7  firmware builds Cardputer + 3 more   118  stars   Aug 14, 2026"
+  },
+  "m5stack/esp32-cam-demo": {
+    "repository": "m5stack/esp32-cam-demo",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:24:29+00:00",
+    "sources": [
+      "https://m5ware.com/projects/22"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments Esp32 Cam Demo by  m5stack Demo for working with a camera on ESP32 C Archived Device not specified   117  stars   Apr 11, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments Esp32 Cam Demo by  m5stack Demo for working with a camera on ESP32 C Archived Device not specified   117  stars   Apr 11, 2026"
+  },
+  "urtubia/miniacid": {
+    "repository": "urtubia/miniacid",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:31+00:00",
+    "sources": [
+      "https://m5ware.com/projects/462",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Miniacid by  urtubia An Acid style mini groovebox for the M5Stack Cardputer ADV C++ 1  firmware builds Cardputer   105  stars   Sep 1, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Miniacid by  urtubia An Acid style mini groovebox for the M5Stack Cardputer ADV C++ 1  firmware builds Cardputer   105  stars   Sep 1, 2026",
+    "directoryDescription": "- [MiniAcid](https://github.com/urtubia/miniacid)"
+  },
+  "elect-gombe/esp32_mmd": {
+    "repository": "elect-gombe/esp32_mmd",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:33+00:00",
+    "sources": [
+      "https://m5ware.com/projects/460"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments Esp32 Mmd by  elect-gombe esp32でmmd C Device not specified   105  stars   Jul 13, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments Esp32 Mmd by  elect-gombe esp32でmmd C Device not specified   105  stars   Jul 13, 2026"
+  },
+  "geo-tp/m5cardputer-audio-stream-server": {
+    "repository": "geo-tp/M5Cardputer-Audio-Stream-Server",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:36+00:00",
+    "sources": [
+      "https://m5ware.com/projects/463",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware M5Cardputer Audio Stream Server by  geo-tp It sets up an audio stream server on an M5Cardputer, capturing microphone input and streaming it over a Wi-Fi connection to a web page. C 1  firmware builds Cardputer   104  stars   Sep 2, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware M5Cardputer Audio Stream Server by  geo-tp It sets up an audio stream server on an M5Cardputer, capturing microphone input and streaming it over a Wi-Fi connection to a web page. C 1  firmware builds Cardputer   104  stars   Sep 2, 2026",
+    "directoryDescription": "- [Audio Stream Server](https://github.com/geo-tp/M5Cardputer-Audio-Stream-Server)"
+  },
+  "m5stack/m5paper_factorytest": {
+    "repository": "m5stack/M5Paper_FactoryTest",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:39+00:00",
+    "sources": [
+      "https://m5ware.com/projects/23"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Paper / CoreInk EXP Experiments M5Paper Factory Test by  m5stack M5Paper Factory Test is a community project by m5stack. Indexed for Paper / CoreInk. Written in C. C Paper / CoreInk   102  stars   Aug 11, 2026",
+    "m5wareDescription": "MW Paper / CoreInk EXP Experiments M5Paper Factory Test by  m5stack M5Paper Factory Test is a community project by m5stack. Indexed for Paper / CoreInk. Written in C. C Paper / CoreInk   102  stars   Aug 11, 2026"
+  },
+  "m5stack/m5atoms3": {
+    "repository": "m5stack/M5AtomS3",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:42+00:00",
+    "sources": [
+      "https://m5ware.com/projects/24"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Atom / AtomS3 EXP Experiments M5Atom S3 by  m5stack M5Atom S3 is a community project by m5stack. Indexed for Atom / AtomS3. Written in C++. C++ Atom / AtomS3   102  stars   Oct 5, 2026",
+    "m5wareDescription": "MW Atom / AtomS3 EXP Experiments M5Atom S3 by  m5stack M5Atom S3 is a community project by m5stack. Indexed for Atom / AtomS3. Written in C++. C++ Atom / AtomS3   102  stars   Oct 5, 2026"
+  },
+  "zeloksa/cardputer-adv-csi-radar": {
+    "repository": "Zeloksa/Cardputer-ADV-CSI-Radar",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:44+00:00",
+    "sources": [
+      "https://m5ware.com/projects/464"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Cardputer ADV CSI Radar by  Zeloksa Radar V1.5 ADV: High-performance Wi-Fi CSI sensing for M5Stack Cardputer ADV. Features Dual-Core FreeRTOS architecture, 200+ PPS capture, 2D spatial profiles, and Smart Power Management. 1  firmware builds Cardputer   101  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Cardputer ADV CSI Radar by  Zeloksa Radar V1.5 ADV: High-performance Wi-Fi CSI sensing for M5Stack Cardputer ADV. Features Dual-Core FreeRTOS architecture, 200+ PPS capture, 2D spatial profiles, and Smart Power Management. 1  firmware builds Cardputer   101  stars   Sep 5, 2026"
+  },
+  "acpayers-alt/raising-hell-cardputer": {
+    "repository": "acpayers-alt/raising-hell-cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:47+00:00",
+    "sources": [
+      "https://m5ware.com/projects/466"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer PLAY Games Raising Hell Cardputer by  acpayers-alt Open-source virtual pet firmware for the M5Stack Cardputer. C++ 1  firmware builds Cardputer   98  stars   Sep 1, 2026",
+    "m5wareDescription": "MW Cardputer PLAY Games Raising Hell Cardputer by  acpayers-alt Open-source virtual pet firmware for the M5Stack Cardputer. C++ 1  firmware builds Cardputer   98  stars   Sep 1, 2026"
+  },
+  "eggfly/stickwatch": {
+    "repository": "eggfly/StickWatch",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:50+00:00",
+    "sources": [
+      "https://m5ware.com/projects/467"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 EXP Experiments Stick Watch by  eggfly A DIY smart watch based on M5Stick of ESP32 C++ StickC / StickS3   96  stars   Jan 30, 2026",
+    "m5wareDescription": "MW StickC / StickS3 EXP Experiments Stick Watch by  eggfly A DIY smart watch based on M5Stick of ESP32 C++ StickC / StickS3   96  stars   Jan 30, 2026"
+  },
+  "m5stack/m5stampfly": {
+    "repository": "m5stack/M5StampFly",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:52+00:00",
+    "sources": [
+      "https://m5ware.com/projects/25"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Stamp / StampS3 FW Firmware M5Stamp Fly by  m5stack StampFly Firmware C 1  firmware builds Stamp / StampS3   92  stars   Sep 25, 2026",
+    "m5wareDescription": "MW Stamp / StampS3 FW Firmware M5Stamp Fly by  m5stack StampFly Firmware C 1  firmware builds Stamp / StampS3   92  stars   Sep 25, 2026"
+  },
+  "bomberman30/advanceos-for-cardputer": {
+    "repository": "bomberman30/AdvanceOS-for-cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:55+00:00",
+    "sources": [
+      "https://m5ware.com/projects/469"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Advance OS For Cardputer by  bomberman30 AdvanceOS is software for cardputerADV, primarily designed for media playback and file display. Currently, it can play MP3 WAV files, features for viewing and editing text, as well as viewing images. C++ 1  firmware builds Cardputer   92  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Advance OS For Cardputer by  bomberman30 AdvanceOS is software for cardputerADV, primarily designed for media playback and file display. Currently, it can play MP3 WAV files, features for viewing and editing text, as well as viewing images. C++ 1  firmware builds Cardputer   92  stars   Sep 5, 2026"
+  },
+  "m5stack/m5tab5-userdemo": {
+    "repository": "m5stack/M5Tab5-UserDemo",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:45:58+00:00",
+    "sources": [
+      "https://m5ware.com/projects/27"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Tab5 HW Hardware M5Tab5 User Demo by  m5stack M5Tab5 user demo for hardware evaluation. C Tab5   91  stars   Oct 14, 2026",
+    "m5wareDescription": "MW Tab5 HW Hardware M5Tab5 User Demo by  m5stack M5Tab5 user demo for hardware evaluation. C Tab5   91  stars   Oct 14, 2026"
+  },
+  "tuupola/micropython-m5stack": {
+    "repository": "tuupola/micropython-m5stack",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:01+00:00",
+    "sources": [
+      "https://m5ware.com/projects/471"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments Micropython M5stack by  tuupola MicroPython Kitchen Sink for M5Stack Python Device not specified   91  stars   Jun 10, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments Micropython M5stack by  tuupola MicroPython Kitchen Sink for M5Stack Python Device not specified   91  stars   Jun 10, 2026"
+  },
+  "d4rkmen/m5apps": {
+    "repository": "d4rkmen/M5Apps",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:03+00:00",
+    "sources": [
+      "https://m5ware.com/projects/472"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware M5Apps by  d4rkmen Multi-app installer for M5 CardPuter v1.0, v1.1 and ADV with a set of built-in tools C 1  firmware builds Cardputer   90  stars   Aug 28, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware M5Apps by  d4rkmen Multi-app installer for M5 CardPuter v1.0, v1.1 and ADV with a set of built-in tools C 1  firmware builds Cardputer   90  stars   Aug 28, 2026"
+  },
+  "m5stack/lv_m5_emulator": {
+    "repository": "m5stack/lv_m5_emulator",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:06+00:00",
+    "sources": [
+      "https://m5ware.com/projects/28"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EMU Emulators Lv M5 Emulator by  m5stack Running the M5Stack LVGL device emulator via PlatformIO, support V8 & V9 C Device not specified   90  stars   Oct 13, 2026",
+    "m5wareDescription": "MW Device not specified EMU Emulators Lv M5 Emulator by  m5stack Running the M5Stack LVGL device emulator via PlatformIO, support V8 & V9 C Device not specified   90  stars   Oct 13, 2026"
+  },
+  "nopnop2002/esp-idf-mpu6050-dmp": {
+    "repository": "nopnop2002/esp-idf-mpu6050-dmp",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:09+00:00",
+    "sources": [
+      "https://m5ware.com/projects/473"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Core2 / Tough + 2 more EXP Experiments Esp Idf Mpu6050 Dmp by  nopnop2002 A demo showing the pose of the mpu6050 in 3D using esp-idf C++ Core2 / Tough + 2 more   90  stars   Aug 20, 2026",
+    "m5wareDescription": "MW Core2 / Tough + 2 more EXP Experiments Esp Idf Mpu6050 Dmp by  nopnop2002 A demo showing the pose of the mpu6050 in 3D using esp-idf C++ Core2 / Tough + 2 more   90  stars   Aug 20, 2026"
+  },
+  "mr-paui/gameboy-enhanced-firmware-m5stack-cardputer-": {
+    "repository": "Mr-PauI/Gameboy-Enhanced-Firmware-m5stack-cardputer-",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:12+00:00",
+    "sources": [
+      "https://m5ware.com/projects/477",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer EMU Emulators Gameboy Enhanced Firmware M5stack Cardputer by  Mr-PauI This began as a little enhancement and polish added to Matteo Forlani's M5Stack Cardputer concept implementation of Peanut-GB; then I decided I might as well just finish it myself when the original project was archived. I wound up creating my own Walnut-CGB enhanced implementation which powers Gameboy Enhanced Firmware. C 1  firmware builds Cardputer   85  stars   Jul 22, 2026",
+    "m5wareDescription": "MW Cardputer EMU Emulators Gameboy Enhanced Firmware M5stack Cardputer by  Mr-PauI This began as a little enhancement and polish added to Matteo Forlani's M5Stack Cardputer concept implementation of Peanut-GB; then I decided I might as well just finish it myself when the original project was archived. I wound up creating my own Walnut-CGB enhanced implementation which powers Gameboy Enhanced Firmware. C 1  firmware builds Cardputer   85  stars   Jul 22, 2026",
+    "directoryDescription": "- [Gameboy emulator](https://github.com/Mr-PauI/Gameboy-Enhanced-Firmware-m5stack-cardputer-)"
+  },
+  "m5stack/m5dial": {
+    "repository": "m5stack/M5Dial",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:14+00:00",
+    "sources": [
+      "https://m5ware.com/projects/29"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Dial EXP Experiments M5Dial by  m5stack M5Dial is a community project by m5stack. Indexed for Dial. Written in C++. C++ Dial   84  stars   Sep 25, 2026",
+    "m5wareDescription": "MW Dial EXP Experiments M5Dial by  m5stack M5Dial is a community project by m5stack. Indexed for Dial. Written in C++. C++ Dial   84  stars   Sep 25, 2026"
+  },
+  "echo-lalia/microhydra-apps": {
+    "repository": "echo-lalia/MicroHydra-Apps",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:17+00:00",
+    "sources": [
+      "https://m5ware.com/projects/478",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments Micro Hydra Apps by  echo-lalia This is a companion repository with a collection of apps for MicroHydra. Python Device not specified   84  stars   Aug 21, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments Micro Hydra Apps by  echo-lalia This is a companion repository with a collection of apps for MicroHydra. Python Device not specified   84  stars   Aug 21, 2026",
+    "directoryDescription": "- [MicroHydra Apps](https://github.com/echo-lalia/MicroHydra-Apps)"
+  },
+  "henriquesebastiao/saturn": {
+    "repository": "henriquesebastiao/saturn",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:20+00:00",
+    "sources": [
+      "https://m5ware.com/projects/480"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 1 more HW Hardware Saturn by  henriquesebastiao Firmware to do cool things with Cardputer C 1  firmware builds Cardputer + 1 more   83  stars   Aug 10, 2026",
+    "m5wareDescription": "MW Cardputer + 1 more HW Hardware Saturn by  henriquesebastiao Firmware to do cool things with Cardputer C 1  firmware builds Cardputer + 1 more   83  stars   Aug 10, 2026"
+  },
+  "romalik/m5cardputer_doom": {
+    "repository": "romalik/m5cardputer_doom",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:23+00:00",
+    "sources": [
+      "https://m5ware.com/projects/481"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware M5cardputer Doom by  romalik Controls: Forward: \";\" Backward: \".\" Left: \"L\" Right: ' Fire: opt Strafe left: ctrl Strafe right: alt Use: fn Map: tab Weapon: 1-7 Incompatible with M5Launcher (will work on that) V Scroll down for details Save-load works with SD card Save-load crashes without SD card ... Sometimes crashes randomly Cheats: - iddqd - god mode - idkfa - keys, weapons, armor - idc - jump to level E M (eg. idc14 jumps to E1M4) Done - User input - Sounds (SFX) - Music - Save & Load - Optimize user input - Cheats! To do - Load WAD from SD card (somehow, mmap?) - Fix minor music issues C 2  firmware builds Cardputer   82  stars   Sep 2, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware M5cardputer Doom by  romalik Controls: Forward: \";\" Backward: \".\" Left: \"L\" Right: ' Fire: opt Strafe left: ctrl Strafe right: alt Use: fn Map: tab Weapon: 1-7 Incompatible with M5Launcher (will work on that) V Scroll down for details Save-load works with SD card Save-load crashes without SD card ... Sometimes crashes randomly Cheats: - iddqd - god mode - idkfa - keys, weapons, armor - idc - jump to level E M (eg. idc14 jumps to E1M4) Done - User input - Sounds (SFX) - Music - Save & Load - Optimize user input - Cheats! To do - Load WAD from SD card (somehow, mmap?) - Fix minor music issues C 2  firmware builds Cardputer   82  stars   Sep 2, 2026"
+  },
+  "m5stack/m5stack-nesemu": {
+    "repository": "m5stack/M5Stack-nesemu",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:25+00:00",
+    "sources": [
+      "https://m5ware.com/projects/30"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Stack Nesemu by  m5stack forked from https://github.com/espressif/esp32-nesemu C Device not specified   82  stars   Oct 4, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Stack Nesemu by  m5stack forked from https://github.com/espressif/esp32-nesemu C Device not specified   82  stars   Oct 4, 2026"
+  },
+  "viniciusbo/m5-palnagotchi": {
+    "repository": "viniciusbo/m5-palnagotchi",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:28+00:00",
+    "sources": [
+      "https://m5ware.com/projects/483",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware M5 Palnagotchi by  viniciusbo For those times when your Pwnagotchi feels lonely C++ 1  firmware builds Cardputer   81  stars   Aug 4, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware M5 Palnagotchi by  viniciusbo For those times when your Pwnagotchi feels lonely C++ 1  firmware builds Cardputer   81  stars   Aug 4, 2026",
+    "directoryDescription": "- [Palnagotchi](https://github.com/viniciusbo/m5-palnagotchi)"
+  },
+  "flopperonttv/hackstarterpack-m5stickcplus2": {
+    "repository": "FlopperOnTTv/HackStarterPack-M5StickCPlus2",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:31+00:00",
+    "sources": [
+      "https://m5ware.com/projects/482"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 LAB Security Hack Starter Pack M5Stick CPlus2 by  FlopperOnTTv A beginner-friendly hacking toolkit for the M5Stick C Plus 2. This educational repo includes curated IR signals, Sub-GHz protocols, BadUSB/BLE scripts, evil portal templates, wiring diagrams, and hands-on tutorials to help you explore, understand, and defend against modern exploits. For educational use only. HTML StickC / StickS3   81  stars   Sep 2, 2026",
+    "m5wareDescription": "MW StickC / StickS3 LAB Security Hack Starter Pack M5Stick CPlus2 by  FlopperOnTTv A beginner-friendly hacking toolkit for the M5Stick C Plus 2. This educational repo includes curated IR signals, Sub-GHz protocols, BadUSB/BLE scripts, evil portal templates, wiring diagrams, and hands-on tutorials to help you explore, understand, and defend against modern exploits. For educational use only. HTML StickC / StickS3   81  stars   Sep 2, 2026"
+  },
+  "therezor/cardputer-ai": {
+    "repository": "therezor/cardputer-ai",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:34+00:00",
+    "sources": [
+      "https://m5ware.com/projects/485"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Cardputer Ai by  therezor Fully offline tiny LLM chatbot on the ESP32-S3 Cardputer ADV - 8M params, Q4 weights baked into the firmware, ~5 tok/s. C++ 1  firmware builds Cardputer   80  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Cardputer Ai by  therezor Fully offline tiny LLM chatbot on the ESP32-S3 Cardputer ADV - 8M params, Q4 weights baked into the firmware, ~5 tok/s. C++ 1  firmware builds Cardputer   80  stars   Sep 5, 2026"
+  },
+  "dlazder/m5_crystal_firmware": {
+    "repository": "Dlazder/m5_crystal_firmware",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:36+00:00",
+    "sources": [
+      "https://m5ware.com/projects/489"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 1 more FW Firmware M5 Crystal Firmware by  Dlazder A multifunctional firmware for pentesting and everyday use. Built for M5Stack devices. C 2  firmware builds Cardputer + 1 more   77  stars   Sep 3, 2026",
+    "m5wareDescription": "MW Cardputer + 1 more FW Firmware M5 Crystal Firmware by  Dlazder A multifunctional firmware for pentesting and everyday use. Built for M5Stack devices. C 2  firmware builds Cardputer + 1 more   77  stars   Sep 3, 2026"
+  },
+  "eggfly/m5stickcprojects": {
+    "repository": "eggfly/M5StickCProjects",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:39+00:00",
+    "sources": [
+      "https://m5ware.com/projects/490"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 EXP Experiments M5Stick CProjects by  eggfly StickWatch2 and some interesting projects based on M5StickC C StickC / StickS3   76  stars   Dec 5, 2025",
+    "m5wareDescription": "MW StickC / StickS3 EXP Experiments M5Stick CProjects by  eggfly StickWatch2 and some interesting projects based on M5StickC C StickC / StickS3   76  stars   Dec 5, 2025"
+  },
+  "frittna/crypto_coin_ticker": {
+    "repository": "frittna/Crypto_Coin_Ticker",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:42+00:00",
+    "sources": [
+      "https://m5ware.com/projects/492"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments Crypto Coin Ticker by  frittna Bitcoin and Multi Crypto Coin Price Ticker with candlestick chart (Binance API Websocket) - SD-Config File Version - BTC C++ Device not specified   75  stars   Sep 2, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments Crypto Coin Ticker by  frittna Bitcoin and Multi Crypto Coin Price Ticker with candlestick chart (Binance API Websocket) - SD-Config File Version - BTC C++ Device not specified   75  stars   Sep 2, 2026"
+  },
+  "m5stack/stackflow": {
+    "repository": "m5stack/StackFlow",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:44+00:00",
+    "sources": [
+      "https://m5ware.com/projects/31"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments Stack Flow by  m5stack Stack Flow is a community project by m5stack. Device support has not been specified in the index. Written in C++. C++ Device not specified   73  stars   Sep 20, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments Stack Flow by  m5stack Stack Flow is a community project by m5stack. Device support has not been specified in the index. Written in C++. C++ Device not specified   73  stars   Sep 20, 2026"
+  },
+  "m5stack/esphome-yaml": {
+    "repository": "m5stack/esphome-yaml",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:47+00:00",
+    "sources": [
+      "https://m5ware.com/projects/32"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified FW Firmware Esphome Yaml by  m5stack M5Stack ESPHome Integrations C++ Device not specified   72  stars   Oct 8, 2026",
+    "m5wareDescription": "MW Device not specified FW Firmware Esphome Yaml by  m5stack M5Stack ESPHome Integrations C++ Device not specified   72  stars   Oct 8, 2026"
+  },
+  "d4rkmen/m5gemini": {
+    "repository": "d4rkmen/M5Gemini",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:50+00:00",
+    "sources": [
+      "https://m5ware.com/projects/495"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware M5Gemini by  d4rkmen Conversational AI assistant for the ESP32-S3 powered M5 Cardputer mini PC C 1  firmware builds Cardputer   71  stars   Sep 3, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware M5Gemini by  d4rkmen Conversational AI assistant for the ESP32-S3 powered M5 Cardputer mini PC C 1  firmware builds Cardputer   71  stars   Sep 3, 2026"
+  },
+  "matteofo/gb_cardputer": {
+    "repository": "matteofo/gb_cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:52+00:00",
+    "sources": [
+      "https://m5ware.com/projects/497"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer EMU Emulators Gb Cardputer by  matteofo M5Stack Cardputer \"Port\" of Peanut-GB C Archived Cardputer   71  stars   Jul 29, 2026",
+    "m5wareDescription": "MW Cardputer EMU Emulators Gb Cardputer by  matteofo M5Stack Cardputer \"Port\" of Peanut-GB C Archived Cardputer   71  stars   Jul 29, 2026"
+  },
+  "sosprz/meshcore-cardputer-adv": {
+    "repository": "sosprz/meshcore-cardputer-adv",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:55+00:00",
+    "sources": [
+      "https://m5ware.com/projects/500"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Meshcore Cardputer Adv by  sosprz meshcore client for cardputer adv 1  firmware builds Cardputer   69  stars   Sep 2, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Meshcore Cardputer Adv by  sosprz meshcore client for cardputer adv 1  firmware builds Cardputer   69  stars   Sep 2, 2026"
+  },
+  "wisnc/stellar-map": {
+    "repository": "wisnc/stellar-map",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:46:58+00:00",
+    "sources": [
+      "https://m5ware.com/projects/501"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Stellar Map by  wisnc a Stellarium inspired planetarium firmware for the M5Stack Cardputer ADV C++ 1  firmware builds Cardputer   68  stars   Aug 29, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Stellar Map by  wisnc a Stellarium inspired planetarium firmware for the M5Stack Cardputer ADV C++ 1  firmware builds Cardputer   68  stars   Aug 29, 2026"
+  },
+  "juicecultus/crosspoint-reader-papers3": {
+    "repository": "juicecultus/crosspoint-reader-papers3",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:00+00:00",
+    "sources": [
+      "https://m5ware.com/projects/503"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Paper / CoreInk FW Firmware Crosspoint Reader Papers3 by  juicecultus Crosspoint port for M5Stack Paper S3 C 1  firmware builds Paper / CoreInk   67  stars   Aug 30, 2026",
+    "m5wareDescription": "MW Paper / CoreInk FW Firmware Crosspoint Reader Papers3 by  juicecultus Crosspoint port for M5Stack Paper S3 C 1  firmware builds Paper / CoreInk   67  stars   Aug 30, 2026"
+  },
+  "fernandofatech/tool-m5cardputer-sshclient": {
+    "repository": "fernandofatech/tool-m5cardputer-sshclient",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:03+00:00",
+    "sources": [
+      "https://m5ware.com/projects/502"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer TOOL Tools Tool M5cardputer Sshclient by  fernandofatech M5Cardputer SSH client experiment for embedded, IoT and developer tooling portfolio work. C++ Cardputer   67  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer TOOL Tools Tool M5cardputer Sshclient by  fernandofatech M5Cardputer SSH client experiment for embedded, IoT and developer tooling portfolio work. C++ Cardputer   67  stars   Sep 5, 2026"
+  },
+  "geo-tp/bluetooth-keyboard-mouse-emulator": {
+    "repository": "geo-tp/Bluetooth-Keyboard-Mouse-Emulator",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:06+00:00",
+    "sources": [
+      "https://m5ware.com/projects/504"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer EMU Emulators Bluetooth Keyboard Mouse Emulator by  geo-tp Implement a USB/BLE HID device that can switch between mouse and keyboard modes for the M5Cardputer C++ 1  firmware builds Cardputer   66  stars   Aug 30, 2026",
+    "m5wareDescription": "MW Cardputer EMU Emulators Bluetooth Keyboard Mouse Emulator by  geo-tp Implement a USB/BLE HID device that can switch between mouse and keyboard modes for the M5Cardputer C++ 1  firmware builds Cardputer   66  stars   Aug 30, 2026"
+  },
+  "lemariva/micropython-core2": {
+    "repository": "lemariva/micropython-core2",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:08+00:00",
+    "sources": [
+      "https://m5ware.com/projects/508"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Core2 / Tough EXP Experiments Micropython Core2 by  lemariva MicroPython version for the M5Stack CORE2 C Core2 / Tough   64  stars   May 30, 2026",
+    "m5wareDescription": "MW Core2 / Tough EXP Experiments Micropython Core2 by  lemariva MicroPython version for the M5Stack CORE2 C Core2 / Tough   64  stars   May 30, 2026"
+  },
+  "m5stack/m5dial-userdemo": {
+    "repository": "m5stack/M5Dial-UserDemo",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:11+00:00",
+    "sources": [
+      "https://m5ware.com/projects/33"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Dial HW Hardware M5Dial User Demo by  m5stack M5Dial user demo for hardware evaluation. C 1  firmware builds Dial   63  stars   Sep 26, 2026",
+    "m5wareDescription": "MW Dial HW Hardware M5Dial User Demo by  m5stack M5Dial user demo for hardware evaluation. C 1  firmware builds Dial   63  stars   Sep 26, 2026"
+  },
+  "hanminyin/vibestick-for-mac": {
+    "repository": "HanminYIN/VibeStick-for-Mac",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:14+00:00",
+    "sources": [
+      "https://m5ware.com/projects/510"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 EXP Experiments Vibe Stick For Mac by  HanminYIN Privacy-conscious native macOS and StickS3 companion for Codex and local coding agents C StickC / StickS3   63  stars   Sep 5, 2026",
+    "m5wareDescription": "MW StickC / StickS3 EXP Experiments Vibe Stick For Mac by  HanminYIN Privacy-conscious native macOS and StickS3 companion for Codex and local coding agents C StickC / StickS3   63  stars   Sep 5, 2026"
+  },
+  "nishad2m8/pdaputer": {
+    "repository": "nishad2m8/PDAputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:17+00:00",
+    "sources": [
+      "https://m5ware.com/projects/514",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware PDAputer by  nishad2m8 PDA-style interface for the Cardputer, made with passion. Refer to Git for more details and configuration. ☕ https://buymeacoffee.com/nishad2m8 🎥 https://www.youtube.com/nishad2m8 C 1  firmware builds Cardputer   62  stars   Sep 4, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware PDAputer by  nishad2m8 PDA-style interface for the Cardputer, made with passion. Refer to Git for more details and configuration. ☕ https://buymeacoffee.com/nishad2m8 🎥 https://www.youtube.com/nishad2m8 C 1  firmware builds Cardputer   62  stars   Sep 4, 2026",
+    "directoryDescription": "- [PDAputer](https://github.com/nishad2m8/PDAputer)"
+  },
+  "aat440hz/sshclient-m5cardputer": {
+    "repository": "aat440hz/SSHClient-M5Cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:19+00:00",
+    "sources": [
+      "https://m5ware.com/projects/512",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer TOOL Tools SSHClient M5Cardputer by  aat440hz SSHClient M5Cardputer is a tool project by aat440hz. Indexed for Cardputer. Written in C++. C++ Cardputer   62  stars   Aug 28, 2026",
+    "m5wareDescription": "MW Cardputer TOOL Tools SSHClient M5Cardputer by  aat440hz SSHClient M5Cardputer is a tool project by aat440hz. Indexed for Cardputer. Written in C++. C++ Cardputer   62  stars   Aug 28, 2026",
+    "directoryDescription": "- [SSH Client By aat440z](https://github.com/aat440hz/SSHClient-M5Cardputer) | [By fernandofatech](https://github.com/fernandofatech/M5Cardputer-SSHClient) | [By SUB0PT1MAL](https://github.com/aat440hz/SSHClient-M5Cardputer)"
+  },
+  "shikarunochi/cardputersimplelaucher": {
+    "repository": "shikarunochi/CardputerSimpleLaucher",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:22+00:00",
+    "sources": [
+      "https://m5ware.com/projects/515",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer OS Launchers & OS Cardputer Simple Laucher by  shikarunochi Simple Application Launcher for M5Cardputer C++ Cardputer   61  stars   Apr 4, 2026",
+    "m5wareDescription": "MW Cardputer OS Launchers & OS Cardputer Simple Laucher by  shikarunochi Simple Application Launcher for M5Cardputer C++ Cardputer   61  stars   Apr 4, 2026",
+    "directoryDescription": "- [Simple App Launcher for Cardputer](https://github.com/shikarunochi/CardputerSimpleLaucher)"
+  },
+  "mangox0567/m5stack-cardputer-ssh": {
+    "repository": "MangoX0567/M5Stack-Cardputer-SSH",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:25+00:00",
+    "sources": [
+      "https://m5ware.com/projects/520"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 1 more FW Firmware M5Stack Cardputer SSH by  MangoX0567 A portable generic SSH client for M5Stack Cardputer ADV C++ 1  firmware builds Cardputer + 1 more   58  stars   Aug 31, 2026",
+    "m5wareDescription": "MW Cardputer + 1 more FW Firmware M5Stack Cardputer SSH by  MangoX0567 A portable generic SSH client for M5Stack Cardputer ADV C++ 1  firmware builds Cardputer + 1 more   58  stars   Aug 31, 2026"
+  },
+  "vanshksingh/m5cardputer-chat-with-gemini-api": {
+    "repository": "vanshksingh/M5Cardputer-Chat-with-Gemini-API",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:27+00:00",
+    "sources": [
+      "https://m5ware.com/projects/522"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware M5Cardputer Chat With Gemini API by  vanshksingh M5Cardputer Chat with Gemini API: An application that uses M5Cardputer to interact with the Gemini API for generating responses based on user input. This project includes code for managing Wi-Fi connectivity, user input handling, API requests, and displaying responses on the M5Cardputer's screen. C 1  firmware builds Cardputer   58  stars   Jul 21, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware M5Cardputer Chat With Gemini API by  vanshksingh M5Cardputer Chat with Gemini API: An application that uses M5Cardputer to interact with the Gemini API for generating responses based on user input. This project includes code for managing Wi-Fi connectivity, user input handling, API requests, and displaying responses on the M5Cardputer's screen. C 1  firmware builds Cardputer   58  stars   Jul 21, 2026"
+  },
+  "m5stack/m5unit-env": {
+    "repository": "m5stack/M5Unit-ENV",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:30+00:00",
+    "sources": [
+      "https://m5ware.com/projects/34"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Unit / Module / HAT HW Hardware M5Unit ENV by  m5stack Contains M5Stack-UNIT ENV series related case programs.ENV is an environmental sensor with integrated SHT30 and QMP6988 internally to detect temperature, humidity, and atmospheric pressure data. C++ Unit / Module / HAT   58  stars   Oct 13, 2026",
+    "m5wareDescription": "MW Unit / Module / HAT HW Hardware M5Unit ENV by  m5stack Contains M5Stack-UNIT ENV series related case programs.ENV is an environmental sensor with integrated SHT30 and QMP6988 internally to detect temperature, humidity, and atmospheric pressure data. C++ Unit / Module / HAT   58  stars   Oct 13, 2026"
+  },
+  "volosr/m5cardremote": {
+    "repository": "VolosR/M5CardRemote",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:33+00:00",
+    "sources": [
+      "https://m5ware.com/projects/527",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Stamp / StampS3 FW Firmware M5Card Remote by  VolosR I did not create this. I just compiled it and uploaded it here. A TV remote control from Volos Projects that can control some Samsung and T-COM devices. Works on my Samsung Freestyle Projector just fine. C 1  firmware builds Stamp / StampS3   56  stars   Jul 6, 2026",
+    "m5wareDescription": "MW Stamp / StampS3 FW Firmware M5Card Remote by  VolosR I did not create this. I just compiled it and uploaded it here. A TV remote control from Volos Projects that can control some Samsung and T-COM devices. Works on my Samsung Freestyle Projector just fine. C 1  firmware builds Stamp / StampS3   56  stars   Jul 6, 2026",
+    "directoryDescription": "- [Volos Cardputer TV Remote](https://github.com/VolosR/M5CardRemote/)"
+  },
+  "indecenti/nucleoos": {
+    "repository": "indecenti/NucleoOs",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:35+00:00",
+    "sources": [
+      "https://m5ware.com/projects/524"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer OS Launchers & OS Nucleo Os by  indecenti Web-native OS for the M5Stack Cardputer (ESP32-S3): native firmware + a desktop-class browser shell, offline AI assistant (ANIMA), bilingual voice, games, a security lab, OTA. C Cardputer   56  stars   Sep 5, 2026",
+    "m5wareDescription": "MW Cardputer OS Launchers & OS Nucleo Os by  indecenti Web-native OS for the M5Stack Cardputer (ESP32-S3): native firmware + a desktop-class browser shell, offline AI assistant (ANIMA), bilingual voice, games, a security lab, OTA. C Cardputer   56  stars   Sep 5, 2026"
+  },
+  "knifter/dualpid": {
+    "repository": "knifter/DualPID",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:38+00:00",
+    "sources": [
+      "https://m5ware.com/projects/525"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Core / Fire TOOL Tools Dual PID by  knifter Multi Channel Configurable PID regulator on M5Stack Core C++ Core / Fire   56  stars   Aug 29, 2026",
+    "m5wareDescription": "MW Core / Fire TOOL Tools Dual PID by  knifter Multi Channel Configurable PID regulator on M5Stack Core C++ Core / Fire   56  stars   Aug 29, 2026"
+  },
+  "trentct/m5stack-stopwatch-avatar": {
+    "repository": "Trentct/m5stack-stopwatch-avatar",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:41+00:00",
+    "sources": [
+      "https://m5ware.com/projects/526"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5stack Stopwatch Avatar by  Trentct KK — a procedural 60fps avatar for the M5Stack StopWatch C++ Device not specified   56  stars   Sep 1, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5stack Stopwatch Avatar by  Trentct KK — a procedural 60fps avatar for the M5Stack StopWatch C++ Device not specified   56  stars   Sep 1, 2026"
+  },
+  "henriquesebastiao/external-cardputer-antenna": {
+    "repository": "henriquesebastiao/external-cardputer-antenna",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:44+00:00",
+    "sources": [
+      "https://m5ware.com/projects/529"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 1 more HW Hardware External Cardputer Antenna by  henriquesebastiao Guia de como instalar uma antena externa no M5Stack Cardputer. Archived Cardputer + 1 more   55  stars   Sep 2, 2026",
+    "m5wareDescription": "MW Cardputer + 1 more HW Hardware External Cardputer Antenna by  henriquesebastiao Guia de como instalar uma antena externa no M5Stack Cardputer. Archived Cardputer + 1 more   55  stars   Sep 2, 2026"
+  },
+  "marivaaldo/evil-portal-m5stack": {
+    "repository": "marivaaldo/evil-portal-m5stack",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:46+00:00",
+    "sources": [
+      "https://m5ware.com/projects/534"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 1 more FW Firmware Evil Portal M5stack by  marivaaldo SDCard NOT required When SD Card inserted the credentials is stored in /evil-portal-creds.txt To see captured credentials access: http://172.0.0.1/creds Based on: https://github.com/n0xa/M5Stick-Stuph/blob/main/CaptPort/CaptPort.ino C++ 2  firmware builds Cardputer + 1 more   54  stars   Jul 22, 2026",
+    "m5wareDescription": "MW Cardputer + 1 more FW Firmware Evil Portal M5stack by  marivaaldo SDCard NOT required When SD Card inserted the credentials is stored in /evil-portal-creds.txt To see captured credentials access: http://172.0.0.1/creds Based on: https://github.com/n0xa/M5Stick-Stuph/blob/main/CaptPort/CaptPort.ino C++ 2  firmware builds Cardputer + 1 more   54  stars   Jul 22, 2026"
+  },
+  "koenvervloesem/m5stack-air-quality-esphome": {
+    "repository": "koenvervloesem/M5Stack-Air-Quality-ESPHome",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:49+00:00",
+    "sources": [
+      "https://m5ware.com/projects/532"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Stack Air Quality ESPHome by  koenvervloesem ESPHome configuration for M5Stack's PM2.5 Air Quality Kit with the PMSA003 particulate matter sensor and the SHT20 temperature and humidity sensor C++ Device not specified   54  stars   Oct 26, 2025",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Stack Air Quality ESPHome by  koenvervloesem ESPHome configuration for M5Stack's PM2.5 Air Quality Kit with the PMSA003 particulate matter sensor and the SHT20 temperature and humidity sensor C++ Device not specified   54  stars   Oct 26, 2025"
+  },
+  "lukeswitz/pathshield": {
+    "repository": "lukeswitz/PathShield",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:52+00:00",
+    "sources": [
+      "https://m5ware.com/projects/533"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 LAB Security Path Shield by  lukeswitz PathShield is an anti-tracking tool for M5StickC Plus v1/2 that uses BLE & WiFI scanning to detect and alert you to devices following you. C StickC / StickS3   54  stars   Jul 21, 2026",
+    "m5wareDescription": "MW StickC / StickS3 LAB Security Path Shield by  lukeswitz PathShield is an anti-tracking tool for M5StickC Plus v1/2 that uses BLE & WiFI scanning to detect and alert you to devices following you. C StickC / StickS3   54  stars   Jul 21, 2026"
+  },
+  "m5stack/stackchan-bsp": {
+    "repository": "m5stack/StackChan-BSP",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:55+00:00",
+    "sources": [
+      "https://m5ware.com/projects/38"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StackChan EXP Experiments Stack Chan BSP by  m5stack StackChan board support package for Arduino develop. C++ StackChan   53  stars   Oct 6, 2026",
+    "m5wareDescription": "MW StackChan EXP Experiments Stack Chan BSP by  m5stack StackChan board support package for Arduino develop. C++ StackChan   53  stars   Oct 6, 2026"
+  },
+  "megabitsenmzq/esp32-homekit-remote": {
+    "repository": "megabitsenmzq/ESP32-HomeKit-Remote",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:47:57+00:00",
+    "sources": [
+      "https://m5ware.com/projects/537"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Atom / AtomS3 TOOL Tools ESP32 Home Kit Remote by  megabitsenmzq Use the Home app on iOS to control my air conditioner. C Atom / AtomS3   53  stars   May 28, 2026",
+    "m5wareDescription": "MW Atom / AtomS3 TOOL Tools ESP32 Home Kit Remote by  megabitsenmzq Use the Home app on iOS to control my air conditioner. C Atom / AtomS3   53  stars   May 28, 2026"
+  },
+  "incursiohack/esp-game-server": {
+    "repository": "IncursioHack/ESP-Game-Server",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:00+00:00",
+    "sources": [
+      "https://m5ware.com/projects/541",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 1 more EMU Emulators ESP Game Server by  IncursioHack Project that transforms ESP32 and M5 Cardputer into a Classic Console Emulator Server, the user can take advantage of this feature via a browser on an Android and IOS smartphone, computer, SmartTV or any device that has a modern browser. JavaScript 2  firmware builds Cardputer + 1 more   52  stars   Aug 3, 2026",
+    "m5wareDescription": "MW Cardputer + 1 more EMU Emulators ESP Game Server by  IncursioHack Project that transforms ESP32 and M5 Cardputer into a Classic Console Emulator Server, the user can take advantage of this feature via a browser on an Android and IOS smartphone, computer, SmartTV or any device that has a modern browser. JavaScript 2  firmware builds Cardputer + 1 more   52  stars   Aug 3, 2026",
+    "directoryDescription": "- [ESP Console Emulator Server](https://github.com/IncursioHack/ESP-Game-Server)"
+  },
+  "shinemoon/m5readpaper": {
+    "repository": "shinemoon/M5ReadPaper",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:03+00:00",
+    "sources": [
+      "https://m5ware.com/projects/543"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Paper / CoreInk FW Firmware M5Read Paper by  shinemoon Readpaper Firmware for PaperS3 C++ 1  firmware builds Paper / CoreInk   52  stars   Jul 23, 2026",
+    "m5wareDescription": "MW Paper / CoreInk FW Firmware M5Read Paper by  shinemoon Readpaper Firmware for PaperS3 C++ 1  firmware builds Paper / CoreInk   52  stars   Jul 23, 2026"
+  },
+  "ayutaz/sanotts-jp": {
+    "repository": "ayutaz/sanoTTS-jp",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:05+00:00",
+    "sources": [
+      "https://m5ware.com/projects/539"
+    ],
+    "reason": null,
+    "directoryTitle": "MW CoreS3 + 1 more EXP Experiments Sano TTS Jp by  ayutaz 559 K パラメータの日本語 TTS を ESP32-S3 で実時間合成。漢字かな交じり文の形態素解析・アクセント推定まで端末内で走る（M5Stack CoreS3 実機で確認）。推論は依存ゼロの C99、ブラウザ demo あり。arXiv:2608.21378 sanoTTS の日本語 clean-room 再実装 Python CoreS3 + 1 more   52  stars   Sep 5, 2026",
+    "m5wareDescription": "MW CoreS3 + 1 more EXP Experiments Sano TTS Jp by  ayutaz 559 K パラメータの日本語 TTS を ESP32-S3 で実時間合成。漢字かな交じり文の形態素解析・アクセント推定まで端末内で走る（M5Stack CoreS3 実機で確認）。推論は依存ゼロの C99、ブラウザ demo あり。arXiv:2608.21378 sanoTTS の日本語 clean-room 再実装 Python CoreS3 + 1 more   52  stars   Sep 5, 2026"
+  },
+  "geo-tp/retro-zero": {
+    "repository": "geo-tp/Retro-Zero",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:08+00:00",
+    "sources": [
+      "https://m5ware.com/projects/540"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer EMU Emulators Retro Zero by  geo-tp Libretro-based emulator frontend running NES, SNES, GB, GBC, GBA, N64, Mega Drive, Master System, Game Gear, Dreamcast, PSP, PS1, Neo Geo, Neo Geo Pocket, FBNeo, MAME, PC Engine, MSX, Atari 2600, Atari 7800, Atari Lynx and WonderSwan on the Cardputer Zero C++ Cardputer   52  stars   Aug 26, 2026",
+    "m5wareDescription": "MW Cardputer EMU Emulators Retro Zero by  geo-tp Libretro-based emulator frontend running NES, SNES, GB, GBC, GBA, N64, Mega Drive, Master System, Game Gear, Dreamcast, PSP, PS1, Neo Geo, Neo Geo Pocket, FBNeo, MAME, PC Engine, MSX, Atari 2600, Atari 7800, Atari Lynx and WonderSwan on the Cardputer Zero C++ Cardputer   52  stars   Aug 26, 2026"
+  },
+  "mongonta0716/m5stack-avatar-mic": {
+    "repository": "mongonta0716/m5stack-avatar-mic",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:11+00:00",
+    "sources": [
+      "https://m5ware.com/projects/546"
+    ],
+    "reason": null,
+    "directoryTitle": "MW CoreS3 + 3 more FW Firmware M5stack Avatar Mic by  mongonta0716 マイクを使ったM5Stack Avatarの例です。 C++ 4  firmware builds CoreS3 + 3 more   51  stars   Jul 28, 2026",
+    "m5wareDescription": "MW CoreS3 + 3 more FW Firmware M5stack Avatar Mic by  mongonta0716 マイクを使ったM5Stack Avatarの例です。 C++ 4  firmware builds CoreS3 + 3 more   51  stars   Jul 28, 2026"
+  },
+  "volosr/cardputer": {
+    "repository": "VolosR/Cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:14+00:00",
+    "sources": [
+      "https://m5ware.com/projects/549"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Cardputer by  VolosR I wanted a version of this for the cardputer, couldn't find one, so I went to reddit, https://www.reddit.com/r/CardPuter/comments/1cwpceu/resistor_calculator_for_cardputer/ and then u/Dissy614 said that you hat to compile it your self, but because I'm lazy I used his google drive link (https://drive.google.com/drive/folders/1E9A71coH6INE73f6mpYb5nvSGGuwr_U5) and downloaded the compiled .bin that he had C 2  firmware builds Cardputer   51  stars   Jul 22, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Cardputer by  VolosR I wanted a version of this for the cardputer, couldn't find one, so I went to reddit, https://www.reddit.com/r/CardPuter/comments/1cwpceu/resistor_calculator_for_cardputer/ and then u/Dissy614 said that you hat to compile it your self, but because I'm lazy I used his google drive link (https://drive.google.com/drive/folders/1E9A71coH6INE73f6mpYb5nvSGGuwr_U5) and downloaded the compiled .bin that he had C 2  firmware builds Cardputer   51  stars   Jul 22, 2026"
+  },
+  "fwz233-re/m5claw": {
+    "repository": "fwz233-RE/M5Claw",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:16+00:00",
+    "sources": [
+      "https://m5ware.com/projects/545"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware M5Claw by  fwz233-RE M5Stack Cardputer（自带屏幕、键盘、麦克风、扬声器）上实现 MimiClaw C++ 1  firmware builds Cardputer   51  stars   Aug 19, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware M5Claw by  fwz233-RE M5Stack Cardputer（自带屏幕、键盘、麦克风、扬声器）上实现 MimiClaw C++ 1  firmware builds Cardputer   51  stars   Aug 19, 2026"
+  },
+  "engneer-hamachan/area512": {
+    "repository": "engneer-hamachan/area512",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:19+00:00",
+    "sources": [
+      "https://m5ware.com/projects/551"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 1 more FW Firmware Area512 by  engneer-hamachan A self-contained Ruby & Python development environment for the 512KB M5Stack Cardputer. C 4  firmware builds Cardputer + 1 more   50  stars   Sep 4, 2026",
+    "m5wareDescription": "MW Cardputer + 1 more FW Firmware Area512 by  engneer-hamachan A self-contained Ruby & Python development environment for the 512KB M5Stack Cardputer. C 4  firmware builds Cardputer + 1 more   50  stars   Sep 4, 2026"
+  },
+  "naninunenoy/axisorange": {
+    "repository": "naninunenoy/AxisOrange",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:22+00:00",
+    "sources": [
+      "https://m5ware.com/projects/553"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 EXP Experiments Axis Orange by  naninunenoy Sending M5 series IMU sensor data by Bluetooth SPP. C++ StickC / StickS3   50  stars   Aug 19, 2026",
+    "m5wareDescription": "MW StickC / StickS3 EXP Experiments Axis Orange by  naninunenoy Sending M5 series IMU sensor data by Bluetooth SPP. C++ StickC / StickS3   50  stars   Aug 19, 2026"
+  },
+  "m5stack/atom-echo": {
+    "repository": "m5stack/ATOM-ECHO",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:24+00:00",
+    "sources": [
+      "https://m5ware.com/projects/37"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Atom / AtomS3 EXP Experiments ATOM ECHO by  m5stack ATOM ECHO is a community project by m5stack. Indexed for Atom / AtomS3. Atom / AtomS3   49  stars   Aug 11, 2026",
+    "m5wareDescription": "MW Atom / AtomS3 EXP Experiments ATOM ECHO by  m5stack ATOM ECHO is a community project by m5stack. Indexed for Atom / AtomS3. Atom / AtomS3   49  stars   Aug 11, 2026"
+  },
+  "lovyan03/m5stack_onscreenkeyboard": {
+    "repository": "lovyan03/M5Stack_OnScreenKeyboard",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:27+00:00",
+    "sources": [
+      "https://m5ware.com/projects/555"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Stack On Screen Keyboard by  lovyan03 M5Stack OnScreenKeyboard オンスクリーン キーボード C++ Device not specified   49  stars   Aug 19, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Stack On Screen Keyboard by  lovyan03 M5Stack OnScreenKeyboard オンスクリーン キーボード C++ Device not specified   49  stars   Aug 19, 2026"
+  },
+  "andyaicardputer/zx-spectrum-cardputer-external": {
+    "repository": "AndyAiCardputer/zx-spectrum-cardputer-external",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:30+00:00",
+    "sources": [
+      "https://m5ware.com/projects/557"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer EMU Emulators Zx Spectrum Cardputer External by  AndyAiCardputer ZX Spectrum 48K emulator for M5Stack Cardputer-Adv with external ILI9488 display support C++ 2  firmware builds Cardputer   48  stars   Aug 26, 2026",
+    "m5wareDescription": "MW Cardputer EMU Emulators Zx Spectrum Cardputer External by  AndyAiCardputer ZX Spectrum 48K emulator for M5Stack Cardputer-Adv with external ILI9488 display support C++ 2  firmware builds Cardputer   48  stars   Aug 26, 2026"
+  },
+  "jcldf/m5stackprojects": {
+    "repository": "jcldf/M5STACKPROJECTS",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:33+00:00",
+    "sources": [
+      "https://m5ware.com/projects/558"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer + 2 more FW Firmware M5STACKPROJECTS by  jcldf THESE ARE ALL MY PROJECTS USING M5STACK OR ITS DERIVATIVES C++ 1  firmware builds Cardputer + 2 more   48  stars   Jul 25, 2026",
+    "m5wareDescription": "MW Cardputer + 2 more FW Firmware M5STACKPROJECTS by  jcldf THESE ARE ALL MY PROJECTS USING M5STACK OR ITS DERIVATIVES C++ 1  firmware builds Cardputer + 2 more   48  stars   Jul 25, 2026"
+  },
+  "tuupola/esp_effects": {
+    "repository": "tuupola/esp_effects",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:35+00:00",
+    "sources": [
+      "https://m5ware.com/projects/559"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments Esp Effects by  tuupola Old school demo effects for ESP32 C Device not specified   48  stars   Aug 16, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments Esp Effects by  tuupola Old school demo effects for ESP32 C Device not specified   48  stars   Aug 16, 2026"
+  },
+  "sanchitminda/mp3playerform5cardputer": {
+    "repository": "sanchitminda/MP3PlayerForM5Cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:38+00:00",
+    "sources": [
+      "https://m5ware.com/projects/564"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware MP3Player For M5Cardputer by  sanchitminda MP3 player for Cardputer and Adv. How to use :Copy '.mp3' files into sd card and pulg into Cardputer. Tutorial:General- https://youtu.be/yEPD5ywVLRw Details Funtions: https://youtu.be/scBqeBU-HYQ Also Checkout my other project 'SAMWIN OS' - its windows implementation and mouse use in cardputer V5.2 : Japanese supported, now navigate through folders in playlist mode(< , ?). can change to slightly bigger fonts Ver 1.0 Basic MP3 Player Ver 2.0 Fixed all bugs, New UI and many added features Finally 3.5mm jack supported with Adv Ver 3.0 Much comfortable UI and better controls Addition of settings Might finally conclude this and work on another project, do check them out. Please report any bug on github and feel free to provide sugesstions v3.1: control on the go with Btn A 1 click : Play / Pause 2 / 3 : Next / Prev Song Screen Wont turn on V3.2: add more than 2000 songs V4.0: Use the WebUI to play your songs on cardputer V4.1 Enhaced webUI, added acces point and Powersavar mode V4.2 Added support for additional audio formats (FLAC, AAC, WAV) and improved configuration management with NVS. Enhanced UI elements amd WebUI and audio playback features. With finally THEMES!!! C++ 1  firmware builds Cardputer   47  stars   Aug 27, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware MP3Player For M5Cardputer by  sanchitminda MP3 player for Cardputer and Adv. How to use :Copy '.mp3' files into sd card and pulg into Cardputer. Tutorial:General- https://youtu.be/yEPD5ywVLRw Details Funtions: https://youtu.be/scBqeBU-HYQ Also Checkout my other project 'SAMWIN OS' - its windows implementation and mouse use in cardputer V5.2 : Japanese supported, now navigate through folders in playlist mode(< , ?). can change to slightly bigger fonts Ver 1.0 Basic MP3 Player Ver 2.0 Fixed all bugs, New UI and many added features Finally 3.5mm jack supported with Adv Ver 3.0 Much comfortable UI and better controls Addition of settings Might finally conclude this and work on another project, do check them out. Please report any bug on github and feel free to provide sugesstions v3.1: control on the go with Btn A 1 click : Play / Pause 2 / 3 : Next / Prev Song Screen Wont turn on V3.2: add more than 2000 songs V4.0: Use the WebUI to play your songs on cardputer V4.1 Enhaced webUI, added acces point and Powersavar mode V4.2 Added support for additional audio formats (FLAC, AAC, WAV) and improved configuration management with NVS. Enhanced UI elements amd WebUI and audio playback features. With finally THEMES!!! C++ 1  firmware builds Cardputer   47  stars   Aug 27, 2026"
+  },
+  "m5stack/faces-firmware": {
+    "repository": "m5stack/FACES-Firmware",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:41+00:00",
+    "sources": [
+      "https://m5ware.com/projects/39"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EMU Emulators FACES Firmware by  m5stack Firmware for 3 keyboards(QWERTY, GameBoy, Calculator). They are based on MEGA328 chip. C++ Archived Device not specified   47  stars   Aug 11, 2026",
+    "m5wareDescription": "MW Device not specified EMU Emulators FACES Firmware by  m5stack Firmware for 3 keyboards(QWERTY, GameBoy, Calculator). They are based on MEGA328 chip. C++ Archived Device not specified   47  stars   Aug 11, 2026"
+  },
+  "bmorcelli/io433": {
+    "repository": "bmorcelli/io433",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:43+00:00",
+    "sources": [
+      "https://m5ware.com/projects/561",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 EXP Experiments Io433 by  bmorcelli M5StickC Plus2 compatibility C++ StickC / StickS3   47  stars   Aug 26, 2026",
+    "m5wareDescription": "MW StickC / StickS3 EXP Experiments Io433 by  bmorcelli M5StickC Plus2 compatibility C++ StickC / StickS3   47  stars   Aug 26, 2026",
+    "directoryDescription": "- [433Mhz sniffer](https://github.com/bmorcelli/io433)"
+  },
+  "ryu10/m5cardforth": {
+    "repository": "ryu10/M5CardForth",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:46+00:00",
+    "sources": [
+      "https://m5ware.com/projects/563",
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Card Forth by  ryu10 M5Card Forth is a community project by ryu10. Device support has not been specified in the index. Written in C++. C++ Device not specified   47  stars   Sep 4, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Card Forth by  ryu10 M5Card Forth is a community project by ryu10. Device support has not been specified in the index. Written in C++. C++ Device not specified   47  stars   Sep 4, 2026",
+    "directoryDescription": "- [M5CardForth - Forth Programming Language for Cardputer](https://github.com/ryu10/M5CardForth)"
+  },
+  "justinknight93/doolittle": {
+    "repository": "justinknight93/Doolittle",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:49+00:00",
+    "sources": [
+      "https://m5ware.com/projects/565"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Doolittle by  justinknight93 An application loader for the M5 Cardputer that runs Javascript. C++ 1  firmware builds Cardputer   46  stars   Aug 17, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Doolittle by  justinknight93 An application loader for the M5 Cardputer that runs Javascript. C++ 1  firmware builds Cardputer   46  stars   Aug 17, 2026"
+  },
+  "geo-tp/microcom": {
+    "repository": "geo-tp/MicroCOM",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:51+00:00",
+    "sources": [
+      "https://m5ware.com/projects/568"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Micro COM by  geo-tp Serial UART communication software for the M5Cardputer C++ 1  firmware builds Cardputer   44  stars   Aug 8, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Micro COM by  geo-tp Serial UART communication software for the M5Cardputer C++ 1  firmware builds Cardputer   44  stars   Aug 8, 2026"
+  },
+  "joejee90/tiny-journal": {
+    "repository": "joejee90/Tiny-Journal",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:54+00:00",
+    "sources": [
+      "https://m5ware.com/projects/569"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Tiny Journal by  joejee90 Write on the go with your Cardputer C++ 1  firmware builds Cardputer   44  stars   Aug 12, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Tiny Journal by  joejee90 Write on the go with your Cardputer C++ 1  firmware builds Cardputer   44  stars   Aug 12, 2026"
+  },
+  "zeloksa/cardputer-adv-wifi-ble-radar": {
+    "repository": "Zeloksa/Cardputer-ADV-WiFi-BLE-Radar",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:57+00:00",
+    "sources": [
+      "https://m5ware.com/projects/571"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Cardputer ADV Wi Fi BLE Radar by  Zeloksa Advanced Wi-Fi & BLE Radar V3.1 for M5Stack Cardputer ADV. Features: Spectrum Analyzer, Smart Channel Advisor, Dual-band TDM, Anti-tracking bypass, and Retro CRT UI. (Pre-compiled .bin only) 1  firmware builds Cardputer   44  stars   Sep 3, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Cardputer ADV Wi Fi BLE Radar by  Zeloksa Advanced Wi-Fi & BLE Radar V3.1 for M5Stack Cardputer ADV. Features: Spectrum Analyzer, Smart Channel Advisor, Dual-band TDM, Anti-tracking bypass, and Retro CRT UI. (Pre-compiled .bin only) 1  firmware builds Cardputer   44  stars   Sep 3, 2026"
+  },
+  "neodoggy/bettermochi": {
+    "repository": "NeoDoggy/BetterMochi",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:48:59+00:00",
+    "sources": [
+      "https://m5ware.com/projects/570"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Dial EXP Experiments Better Mochi by  NeoDoggy Based on Dasai™ Mochi C Dial   44  stars   Aug 19, 2026",
+    "m5wareDescription": "MW Dial EXP Experiments Better Mochi by  NeoDoggy Based on Dasai™ Mochi C Dial   44  stars   Aug 19, 2026"
+  },
+  "ak-homberger/m5stack-nmea-2000-display-can-bus": {
+    "repository": "AK-Homberger/M5Stack-NMEA-2000-Display-CAN-BUS",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:02+00:00",
+    "sources": [
+      "https://m5ware.com/projects/572"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Stack NMEA 2000 Display CAN BUS by  AK-Homberger This repository shows how to use the M5Stack as NMEA 2000 Display and WiFi Gateway. C++ Device not specified   43  stars   Jul 12, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Stack NMEA 2000 Display CAN BUS by  AK-Homberger This repository shows how to use the M5Stack as NMEA 2000 Display and WiFi Gateway. C++ Device not specified   43  stars   Jul 12, 2026"
+  },
+  "robo8080/ai_stackchan2_readme": {
+    "repository": "robo8080/AI_StackChan2_README",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:05+00:00",
+    "sources": [
+      "https://m5ware.com/projects/578"
+    ],
+    "reason": null,
+    "directoryTitle": "MW CoreS3 + 1 more FW Firmware AI Stack Chan2 README by  robo8080 AI_StackChan2_README 3  firmware builds CoreS3 + 1 more   42  stars   Aug 6, 2026",
+    "m5wareDescription": "MW CoreS3 + 1 more FW Firmware AI Stack Chan2 README by  robo8080 AI_StackChan2_README 3  firmware builds CoreS3 + 1 more   42  stars   Aug 6, 2026"
+  },
+  "m5stack/aiflow": {
+    "repository": "m5stack/AIFlow",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:08+00:00",
+    "sources": [
+      "https://m5ware.com/projects/42"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware AIFlow by  m5stack https://github.com/m5stack/AIFlow TypeScript 1  firmware builds Cardputer   42  stars   Oct 13, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware AIFlow by  m5stack https://github.com/m5stack/AIFlow TypeScript 1  firmware builds Cardputer   42  stars   Oct 13, 2026"
+  },
+  "geo-tp/bitcoin-card-wallet": {
+    "repository": "geo-tp/Bitcoin-Card-Wallet",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:10+00:00",
+    "sources": [
+      "https://m5ware.com/projects/574"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer HW Hardware Bitcoin Card Wallet by  geo-tp Bitcoin cold wallet designed for esp32. Manage wallets, create, restore, sign transactions C++ 1  firmware builds Cardputer   42  stars   Aug 11, 2026",
+    "m5wareDescription": "MW Cardputer HW Hardware Bitcoin Card Wallet by  geo-tp Bitcoin cold wallet designed for esp32. Manage wallets, create, restore, sign transactions C++ 1  firmware builds Cardputer   42  stars   Aug 11, 2026"
+  },
+  "remixer-dec/mpy-img-decoder": {
+    "repository": "remixer-dec/mpy-img-decoder",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:13+00:00",
+    "sources": [
+      "https://m5ware.com/projects/576"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments Mpy Img Decoder by  remixer-dec PNG and JPEG decoder / parser / renderer in pure micropython Python Device not specified   42  stars   Aug 7, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments Mpy Img Decoder by  remixer-dec PNG and JPEG decoder / parser / renderer in pure micropython Python Device not specified   42  stars   Aug 7, 2026"
+  },
+  "rhannink/m5stack-ha-alarm-panel": {
+    "repository": "rhannink/M5Stack-HA-Alarm-panel",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:16+00:00",
+    "sources": [
+      "https://m5ware.com/projects/577"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified LAB Security M5Stack HA Alarm Panel by  rhannink M5stack alarm panel with RFID face to control Home Assistant MQTT alarm panel C++ Device not specified   42  stars   Aug 18, 2026",
+    "m5wareDescription": "MW Device not specified LAB Security M5Stack HA Alarm Panel by  rhannink M5stack alarm panel with RFID face to control Home Assistant MQTT alarm panel C++ Device not specified   42  stars   Aug 18, 2026"
+  },
+  "raibisch/m5isobusvt": {
+    "repository": "raibisch/M5IsobusVT",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:18+00:00",
+    "sources": [
+      "https://m5ware.com/projects/581"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Isobus VT by  raibisch implementation of an ISOBUS-VT on ESP32 device \"M5Stack\" C Device not specified   41  stars   Aug 11, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Isobus VT by  raibisch implementation of an ISOBUS-VT on ESP32 device \"M5Stack\" C Device not specified   41  stars   Aug 11, 2026"
+  },
+  "yokohama-miyazawa/m5hlsplayer": {
+    "repository": "Yokohama-Miyazawa/M5HLSPlayer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:21+00:00",
+    "sources": [
+      "https://m5ware.com/projects/583"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 EXP Experiments M5HLSPlayer by  Yokohama-Miyazawa Web radio player for M5Stack and M5StickC in HTTP Live Streaming(HLS). Support for .m3u8 format (both .aac and .ts). C++ StickC / StickS3   41  stars   Jul 18, 2026",
+    "m5wareDescription": "MW StickC / StickS3 EXP Experiments M5HLSPlayer by  Yokohama-Miyazawa Web radio player for M5Stack and M5StickC in HTTP Live Streaming(HLS). Support for .m3u8 format (both .aac and .ts). C++ StickC / StickS3   41  stars   Jul 18, 2026"
+  },
+  "m5stack/m5stickc-plus-tlite-fw": {
+    "repository": "m5stack/M5StickC-Plus-TLite-FW",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:24+00:00",
+    "sources": [
+      "https://m5ware.com/projects/41"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 + 1 more FW Firmware M5Stick C Plus TLite FW by  m5stack M5StickT-Lite internal firmware (M5StickC-Plus + MLX90640 HAT) C++ 1  firmware builds StickC / StickS3 + 1 more   40  stars   Oct 8, 2026",
+    "m5wareDescription": "MW StickC / StickS3 + 1 more FW Firmware M5Stick C Plus TLite FW by  m5stack M5StickT-Lite internal firmware (M5StickC-Plus + MLX90640 HAT) C++ 1  firmware builds StickC / StickS3 + 1 more   40  stars   Oct 8, 2026"
+  },
+  "johnhw/cardputer_drums": {
+    "repository": "johnhw/cardputer_drums",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:26+00:00",
+    "sources": [
+      "https://m5ware.com/projects/584"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Cardputer Drums by  johnhw Simple drum machine for M5Cardputer C++ 1  firmware builds Cardputer   40  stars   Aug 12, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Cardputer Drums by  johnhw Simple drum machine for M5Cardputer C++ 1  firmware builds Cardputer   40  stars   Aug 12, 2026"
+  },
+  "marcvermeeren/clawy": {
+    "repository": "marcvermeeren/clawy",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:29+00:00",
+    "sources": [
+      "https://m5ware.com/projects/585"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments Clawy by  marcvermeeren A cute pixel companion for Claude Code sessions. C Device not specified   40  stars   Aug 9, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments Clawy by  marcvermeeren A cute pixel companion for Claude Code sessions. C Device not specified   40  stars   Aug 9, 2026"
+  },
+  "eggfly/m5stickvcomputer": {
+    "repository": "eggfly/M5StickVComputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:32+00:00",
+    "sources": [
+      "https://m5ware.com/projects/588"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickV / UnitV OS Launchers & OS M5Stick VComputer by  eggfly A pure python operating system on M5StickV Python StickV / UnitV   39  stars   Aug 25, 2026",
+    "m5wareDescription": "MW StickV / UnitV OS Launchers & OS M5Stick VComputer by  eggfly A pure python operating system on M5StickV Python StickV / UnitV   39  stars   Aug 25, 2026"
+  },
+  "hugobloem/m5stack_homecontrol": {
+    "repository": "hugobloem/M5Stack_HomeControl",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:35+00:00",
+    "sources": [
+      "https://m5ware.com/projects/589"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Core2 / Tough EXP Experiments M5Stack Home Control by  hugobloem Control Home Assistant devices with your M5Stack device. Python Core2 / Tough   39  stars   Apr 11, 2026",
+    "m5wareDescription": "MW Core2 / Tough EXP Experiments M5Stack Home Control by  hugobloem Control Home Assistant devices with your M5Stack device. Python Core2 / Tough   39  stars   Apr 11, 2026"
+  },
+  "m5stack/m5stickcplus2-userdemo": {
+    "repository": "m5stack/M5StickCPlus2-UserDemo",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:37+00:00",
+    "sources": [
+      "https://m5ware.com/projects/43"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 HW Hardware M5Stick CPlus2 User Demo by  m5stack M5StickCPlus2 user demo for hardware evaluation. C 1  firmware builds StickC / StickS3   38  stars   Jul 1, 2026",
+    "m5wareDescription": "MW StickC / StickS3 HW Hardware M5Stick CPlus2 User Demo by  m5stack M5StickCPlus2 user demo for hardware evaluation. C 1  firmware builds StickC / StickS3   38  stars   Jul 1, 2026"
+  },
+  "zhaoker/m5stack_tab5_aio_box": {
+    "repository": "zhaoker/M5stack_Tab5_AIO_box",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:40+00:00",
+    "sources": [
+      "https://m5ware.com/projects/596"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Tab5 FW Firmware M5stack Tab5 AIO Box by  zhaoker Turn your M5stack Tab5 into a Swiss Army knife for your ESP32! 1  firmware builds Tab5   38  stars   Sep 4, 2026",
+    "m5wareDescription": "MW Tab5 FW Firmware M5stack Tab5 AIO Box by  zhaoker Turn your M5stack Tab5 into a Swiss Army knife for your ESP32! 1  firmware builds Tab5   38  stars   Sep 4, 2026"
+  },
+  "geo-tp/m5cardputer-gps-logger": {
+    "repository": "geo-tp/M5Cardputer-GPS-Logger",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:43+00:00",
+    "sources": [
+      "https://m5ware.com/projects/599"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware M5Cardputer GPS Logger by  geo-tp A GPS logger using the M5Cardputer platform. It reads GPS data, displays it on the screen, and saves the data to an SD card. C++ 1  firmware builds Cardputer   37  stars   Aug 7, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware M5Cardputer GPS Logger by  geo-tp A GPS logger using the M5Cardputer platform. It reads GPS data, displays it on the screen, and saves the data to an SD card. C++ 1  firmware builds Cardputer   37  stars   Aug 7, 2026"
+  },
+  "m5stack/m5unit-uhf-rfid": {
+    "repository": "m5stack/M5Unit-UHF-RFID",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:46+00:00",
+    "sources": [
+      "https://m5ware.com/projects/44"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Unit / Module / HAT LAB Security M5Unit UHF RFID by  m5stack Contains M5Stack-UNIT UHF RFID series related case programs C++ Unit / Module / HAT   37  stars   Aug 16, 2026",
+    "m5wareDescription": "MW Unit / Module / HAT LAB Security M5Unit UHF RFID by  m5stack Contains M5Stack-UNIT UHF RFID series related case programs C++ Unit / Module / HAT   37  stars   Aug 16, 2026"
+  },
+  "m5stack/m5stack-idf": {
+    "repository": "m5stack/M5Stack-IDF",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:48+00:00",
+    "sources": [
+      "https://m5ware.com/projects/46"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Stack IDF by  m5stack M5Stack Arduino on ESP-IDF project template C++ Archived Device not specified   37  stars   Oct 4, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Stack IDF by  m5stack M5Stack Arduino on ESP-IDF project template C++ Archived Device not specified   37  stars   Oct 4, 2026"
+  },
+  "gandro/micropython-m5stickc-plus": {
+    "repository": "gandro/micropython-m5stickc-plus",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:51+00:00",
+    "sources": [
+      "https://m5ware.com/projects/598"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 EXP Experiments Micropython M5stickc Plus by  gandro Micropython modules for the M5StickC Plus Python StickC / StickS3   37  stars   Aug 27, 2026",
+    "m5wareDescription": "MW StickC / StickS3 EXP Experiments Micropython M5stickc Plus by  gandro Micropython modules for the M5StickC Plus Python StickC / StickS3   37  stars   Aug 27, 2026"
+  },
+  "tobozo/m5tube": {
+    "repository": "tobozo/M5Tube",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:54+00:00",
+    "sources": [
+      "https://m5ware.com/projects/604"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Device not specified EXP Experiments M5Tube by  tobozo Video player for M5Stack with Docker conversion support C++ Device not specified   37  stars   Apr 30, 2026",
+    "m5wareDescription": "MW Device not specified EXP Experiments M5Tube by  tobozo Video player for M5Stack with Docker conversion support C++ Device not specified   37  stars   Apr 30, 2026"
+  },
+  "bradmcnally/bitmap16dx": {
+    "repository": "bradmcnally/bitmap16dx",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:56+00:00",
+    "sources": [
+      "https://m5ware.com/projects/605"
+    ],
+    "reason": null,
+    "directoryTitle": "MW Cardputer FW Firmware Bitmap16dx by  bradmcnally A tiny pixel art sketchbook for the M5Stack Cardputer ADV. C++ 1  firmware builds Cardputer   36  stars   Aug 25, 2026",
+    "m5wareDescription": "MW Cardputer FW Firmware Bitmap16dx by  bradmcnally A tiny pixel art sketchbook for the M5Stack Cardputer ADV. C++ 1  firmware builds Cardputer   36  stars   Aug 25, 2026"
+  },
+  "tobozo/wifichanviz": {
+    "repository": "tobozo/WiFiChanViz",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T17:49:59+00:00",
+    "sources": [
+      "https://m5ware.com/projects/612"
+    ],
+    "reason": null,
+    "directoryTitle": "MW StickC / StickS3 FW Firmware Wi Fi Chan Viz by  tobozo WiFi scanner with visual persistence, intended to find the idlest channel e.g. to assign to a ZigBee device C 1  firmware builds StickC / StickS3   36  stars   May 29, 2026",
+    "m5wareDescription": "MW StickC / StickS3 FW Firmware Wi Fi Chan Viz by  tobozo WiFi scanner with visual persistence, intended to find the idlest channel e.g. to assign to a ZigBee device C 1  firmware builds StickC / StickS3   36  stars   May 29, 2026"
+  },
+  "pixeldud/cardputer-picochat": {
+    "repository": "PixelDud/CardPuter-PicoChat",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [PicoChat Client](https://github.com/PixelDud/CardPuter-PicoChat) To use with MicroHydra"
+  },
+  "gabriel-f-sousa/hydramenu": {
+    "repository": "Gabriel-F-Sousa/HydraMenu",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [HydraMenu app](https://github.com/Gabriel-F-Sousa/HydraMenu)"
+  },
+  "wauhundeland/hydraos": {
+    "repository": "WauHundeland/HydraOS",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [HydraOS](https://github.com/WauHundeland/HydraOS) - Micro OS for Cardputer"
+  },
+  "beryllium-org/os": {
+    "repository": "beryllium-org/OS",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [BerylliumOS](https://github.com/beryllium-org/OS) - Another Micro OS for Cardputer"
+  },
+  "pr3y/bruce": {
+    "repository": "pr3y/Bruce",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Bruce](https://github.com/pr3y/Bruce)"
+  },
+  "geo-tp/esp32-bus-pirate": {
+    "repository": "geo-tp/ESP32-Bus-Pirate",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [ESP32 Bus Pirate](https://github.com/geo-tp/ESP32-Bus-Pirate)"
+  },
+  "foopod/tinyknight": {
+    "repository": "foopod/tinyKnight",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [TinyKnight Game](https://github.com/foopod/tinyKnight)"
+  },
+  "treblewolf/m5cardputer-sun-rider": {
+    "repository": "Treblewolf/M5Cardputer-Sun-Rider",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Sun Rider Game](https://github.com/Treblewolf/M5Cardputer-Sun-Rider)"
+  },
+  "ostaquet/m5snake": {
+    "repository": "ostaquet/M5Snake",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Classic Snake Game](https://github.com/ostaquet/M5Snake/tree/master/src/M5Snake)"
+  },
+  "thebricktop/anarch-cardputer": {
+    "repository": "TheBricktop/Anarch-Cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Anarch Game port from ESPBoy](https://github.com/TheBricktop/Anarch-Cardputer)"
+  },
+  "logimancer/cardputer-doom": {
+    "repository": "Logimancer/Cardputer-doom",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [DOOM port](https://github.com/Logimancer/Cardputer-doom) - Yes, of course we have Doom"
+  },
+  "polyphasicdevs/cardputer-experiments": {
+    "repository": "polyphasicdevs/Cardputer-experiments",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Some games experiments](https://github.com/polyphasicdevs/Cardputer-experiments)"
+  },
+  "mystereon/cardlife": {
+    "repository": "Mystereon/CardLife",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Conway's Game of Life](https://github.com/Mystereon/CardLife)"
+  },
+  "seanbutler/m5cardputermathgame": {
+    "repository": "seanbutler/M5CardputerMathGame",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Math Game](https://github.com/seanbutler/M5CardputerMathGame)"
+  },
+  "matthew-5pl/gb_cardputer": {
+    "repository": "matthew-5pl/gb_cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Gameboy Emulator Port of Peanut-GB by matthew-5pl](https://github.com/matthew-5pl/gb_cardputer) | [By yonxji](https://github.com/yongxji/cardputer-gameboy-emu) | [By Mr-Paul](https://github.com/Mr-PauI/Gameboy-Enhanced-Firmware-m5stack-cardputer-) | By geo-tp (see next on the list)"
+  },
+  "yongxji/cardputer-gameboy-emu": {
+    "repository": "yongxji/cardputer-gameboy-emu",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Gameboy Emulator Port of Peanut-GB by matthew-5pl](https://github.com/matthew-5pl/gb_cardputer) | [By yonxji](https://github.com/yongxji/cardputer-gameboy-emu) | [By Mr-Paul](https://github.com/Mr-PauI/Gameboy-Enhanced-Firmware-m5stack-cardputer-) | By geo-tp (see next on the list)"
+  },
+  "mindovermiles262/tamaputer": {
+    "repository": "mindovermiles262/tamaputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Tamaputer Tamagotchi P1 Emulator](https://github.com/mindovermiles262/tamaputer)"
+  },
+  "question-and-answer/cave-mine-cardputer-alpha1": {
+    "repository": "question-and-answer/cave-mine-cardputer-alpha1",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Cave-Mine](https://github.com/question-and-answer/cave-mine-cardputer-alpha1)"
+  },
+  "genkigenki/hotspot-arcade-cardputer": {
+    "repository": "genkigenki/hotspot-arcade-cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Hotspot Arcade](https://github.com/genkigenki/hotspot-arcade-cardputer) - Several offline party games your guests play from their phones"
+  },
+  "johnz03/m5cardputer-userdemo": {
+    "repository": "JohnZ03/M5Cardputer-UserDemo",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [User Demo extended with some more apps](https://github.com/JohnZ03/M5Cardputer-UserDemo)"
+  },
+  "rolandbreedveld/m5cardputer_webradio_dutch": {
+    "repository": "rolandbreedveld/M5Cardputer_WebRadio_Dutch",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [M5Cardputer WebRadio Dutch version](https://github.com/rolandbreedveld/M5Cardputer_WebRadio_Dutch/)"
+  },
+  "gitshaoxiang/m5cardputer-ble-hid-keyboard": {
+    "repository": "Gitshaoxiang/M5Cardputer-BLE-HID-Keyboard",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [HID Bluetooth Keyboard](https://github.com/Gitshaoxiang/M5Cardputer-BLE-HID-Keyboard)"
+  },
+  "fernandofatech/m5cardputer-sshclient": {
+    "repository": "fernandofatech/M5Cardputer-SSHClient",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [SSH Client By aat440z](https://github.com/aat440hz/SSHClient-M5Cardputer) | [By fernandofatech](https://github.com/fernandofatech/M5Cardputer-SSHClient) | [By SUB0PT1MAL](https://github.com/aat440hz/SSHClient-M5Cardputer)"
+  },
+  "aat440hz/telnetclient-m5cardputer": {
+    "repository": "aat440hz/TelnetClient-M5Cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Telnet Client](https://github.com/aat440hz/TelnetClient-M5Cardputer)"
+  },
+  "layer812/mdxpc": {
+    "repository": "Layer812/mdxPC",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [MDX (mxdrv) file Player for Cardputer](https://github.com/Layer812/mdxPC)"
+  },
+  "layer812/vgmpc": {
+    "repository": "Layer812/vgmPC",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [VGM Player for Cardputer](https://github.com/Layer812/vgmPC)"
+  },
+  "iele/m5cardputer-c64-emulator": {
+    "repository": "iele/M5Cardputer-C64-Emulator",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [M5Cardputer C64 Emulator](https://github.com/iele/M5Cardputer-C64-Emulator)"
+  },
+  "layer812/cardputer_eliza": {
+    "repository": "Layer812/cardputer_eliza",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Eliza Chatbot](https://github.com/Layer812/cardputer_eliza)"
+  },
+  "prashantkamdar/m5stickcplus.fakewinxp": {
+    "repository": "prashantkamdar/M5StickCPLUS.fakeWinXP",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Fake Windows XP UI](https://github.com/prashantkamdar/M5StickCPLUS.fakeWinXP)"
+  },
+  "jeftheone/m5cardputeraiwificonnection": {
+    "repository": "jeftheone/M5CardputerAIWiFiConnection",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [AI Gadget assistant for Cardputer](https://github.com/jeftheone/M5CardputerAIWiFiConnection)"
+  },
+  "kezii/rust-m5stack-cardputer": {
+    "repository": "Kezii/Rust-M5Stack-Cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Rust firmware hal and examples](https://github.com/Kezii/Rust-M5Stack-Cardputer)"
+  },
+  "qubix00/stopwatch-cardputer": {
+    "repository": "qubiX00/stopwatch-cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Simple StopWatch](https://github.com/qubiX00/stopwatch-cardputer)"
+  },
+  "qubix00/weather-cardputer": {
+    "repository": "qubiX00/weather-cardputer",
+    "status": "discovered",
+    "discoveredAt": "2026-10-15T18:25:37+00:00",
+    "sources": [
+      "https://github.com/terremoth/awesome-m5stack-cardputer"
+    ],
+    "reason": null,
+    "directoryDescription": "- [Weather App](https://github.com/qubiX00/weather-cardputer)"
+  }
+}

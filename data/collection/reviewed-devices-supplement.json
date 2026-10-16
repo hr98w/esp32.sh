@@ -1,0 +1,3316 @@
+[
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-c3-devkitm-1",
+      "name": "ESP32-C3-DevKitM-1",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32-C3",
+      "summary": {
+        "zh": "基于 ESP32-C3-MINI-1 系列模块的入门开发板。",
+        "en": "Entry-level board based on ESP32-C3-MINI-1 series modules.",
+        "ja": "ESP32-C3-MINI-1シリーズのモジュールを使う入門用ボード。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitm-1/index.html",
+      "aliases": [
+        "Espressif ESP32-C3-DevKitM-1"
+      ],
+      "features": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c3-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:03+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitm-1/index.html",
+          "checkedAt": "2026-10-15T17:41:20+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-c6-devkitc-1",
+      "name": "ESP32-C6-DevKitC-1",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32-C6",
+      "summary": {
+        "zh": "面向 Wi-Fi、蓝牙 LE、Zigbee 与 Thread 实验的开发板。",
+        "en": "Development board for Wi-Fi, Bluetooth LE, Zigbee, and Thread experiments.",
+        "ja": "Wi-Fi、Bluetooth LE、Zigbee、Threadの実験向け開発ボード。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/index.html",
+      "aliases": [
+        "Espressif ESP32-C6-DevKitC-1"
+      ],
+      "features": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c6-devkitc-1/",
+          "checkedAt": "2026-10-15T17:39:10+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/index.html",
+          "checkedAt": "2026-10-15T17:41:26+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-c6-devkitm-1",
+      "name": "ESP32-C6-DevKitM-1",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32-C6",
+      "summary": {
+        "zh": "基于 ESP32-C6-MINI-1 系列模块的无线开发板。",
+        "en": "Wireless development board based on ESP32-C6-MINI-1 series modules.",
+        "ja": "ESP32-C6-MINI-1シリーズのモジュールを使う無線開発ボード。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/index.html",
+      "aliases": [
+        "Espressif ESP32-C6-DevKitM-1"
+      ],
+      "features": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c6-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:13+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/index.html",
+          "checkedAt": "2026-10-15T17:41:28+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-devkitc",
+      "name": "ESP32-DevKitC",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "通过两侧排针连接外设的通用开发板。",
+        "en": "General-purpose board with pin headers for connecting peripherals.",
+        "ja": "両側のピンヘッダーから周辺機器を接続できる汎用開発ボード。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/index.html",
+      "aliases": [
+        "Espressif ESP32-DevKitC"
+      ],
+      "features": [
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-devkitc/",
+          "checkedAt": "2026-10-15T17:39:16+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/index.html",
+          "checkedAt": "2026-10-15T17:41:30+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-devkitm-1",
+      "name": "ESP32-DevKitM-1",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "基于 ESP32-MINI-1 模块的开发板。",
+        "en": "Development board based on the ESP32-MINI-1 module.",
+        "ja": "ESP32-MINI-1モジュールを使う開発ボード。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitm-1/index.html",
+      "aliases": [
+        "Espressif ESP32-DevKitM-1"
+      ],
+      "features": [
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:18+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitm-1/index.html",
+          "checkedAt": "2026-10-15T17:41:32+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-ethernet-kit",
+      "name": "ESP32-Ethernet-Kit",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "用于以太网与 Wi-Fi 互连实验的开发套件。",
+        "en": "Development kit for Ethernet-to-Wi-Fi connectivity experiments.",
+        "ja": "EthernetとWi-Fiの相互接続を試すための開発キット。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-ethernet-kit.html",
+      "aliases": [
+        "Espressif ESP32-Ethernet-Kit"
+      ],
+      "features": [
+        "ethernet"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-ethernet-kit/",
+          "checkedAt": "2026-10-15T17:39:21+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-ethernet-kit.html",
+          "checkedAt": "2026-10-15T17:41:34+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-h2-devkitm-1",
+      "name": "ESP32-H2-DevKitM-1",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32-H2",
+      "summary": {
+        "zh": "基于 ESP32-H2-MINI-1 系列模块的蓝牙 LE 与 IEEE 802.15.4 开发板，不集成 Wi-Fi。",
+        "en": "Bluetooth LE and IEEE 802.15.4 board based on ESP32-H2-MINI-1 series modules, without integrated Wi-Fi.",
+        "ja": "ESP32-H2-MINI-1シリーズを使うBluetooth LE・IEEE 802.15.4ボード。Wi-Fiは内蔵していません。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/index.html",
+      "aliases": [
+        "Espressif ESP32-H2-DevKitM-1"
+      ],
+      "features": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-h2-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:23+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/index.html",
+          "checkedAt": "2026-10-15T17:41:36+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-lcdkit",
+      "name": "ESP32-LCDKit",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "需搭配 ESP32-DevKitC 使用的人机界面扩展板，可连接外部显示屏。",
+        "en": "HMI expansion board used with ESP32-DevKitC and an external display.",
+        "ja": "ESP32-DevKitCと外部ディスプレイを組み合わせて使うHMI拡張ボード。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32/esp32-lcdkit/user_guide.html",
+      "aliases": [
+        "Espressif ESP32-LCDKit"
+      ],
+      "features": [
+        "audio",
+        "sd"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-lcdkit/",
+          "checkedAt": "2026-10-15T17:39:28+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32/esp32-lcdkit/user_guide.html",
+          "checkedAt": "2026-10-15T17:41:38+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-pico-devkitm-2",
+      "name": "ESP32-PICO-DevKitM-2",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带 USB 转串口下载调试电路的开发板。",
+        "en": "Development board with a USB-to-UART bridge for flashing and debugging.",
+        "ja": "書き込み・デバッグ用のUSB-UART変換回路を備える開発ボード。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-pico-devkitm-2.html",
+      "aliases": [
+        "Espressif ESP32-PICO-DevKitM-2"
+      ],
+      "features": [
+        "usb"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-pico-devkitm-2/",
+          "checkedAt": "2026-10-15T17:39:41+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-pico-devkitm-2.html",
+          "checkedAt": "2026-10-15T17:41:45+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-pico-kit-1",
+      "name": "ESP32-PICO-KIT-1",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "用于探索 ESP32 功能的紧凑型开发板。",
+        "en": "Compact development board for exploring ESP32 capabilities.",
+        "ja": "ESP32の機能を試すための小型開発ボード。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-pico-kit-1.html",
+      "aliases": [
+        "Espressif ESP32-PICO-KIT-1"
+      ],
+      "features": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-pico-kit-1/",
+          "checkedAt": "2026-10-15T17:39:43+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-pico-kit-1.html",
+          "checkedAt": "2026-10-15T17:41:47+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-s2-devkitc-1",
+      "name": "ESP32-S2-DevKitC-1",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "引出大部分 I/O 的 Wi-Fi 入门开发板。",
+        "en": "Entry-level Wi-Fi development board with most I/O pins broken out.",
+        "ja": "多くのI/Oピンを引き出したWi-Fi入門用開発ボード。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s2/esp32-s2-devkitc-1/index.html",
+      "aliases": [
+        "Espressif ESP32-S2-DevKitC-1"
+      ],
+      "features": [
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s2-devkitc-1/",
+          "checkedAt": "2026-10-15T17:39:50+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s2/esp32-s2-devkitc-1/index.html",
+          "checkedAt": "2026-10-15T17:41:49+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-s2-devkitm-1",
+      "name": "ESP32-S2-DevKitM-1",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "用于固件与外设实验的入门开发板；官方文档已标注停产。",
+        "en": "Entry-level board for firmware and peripheral experiments; official documentation marks it discontinued.",
+        "ja": "ファームウェアや周辺機器を試す入門用ボード。公式資料では生産終了と案内されています。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s2/esp32-s2-devkitm-1/index.html",
+      "aliases": [
+        "Espressif ESP32-S2-DevKitM-1"
+      ],
+      "features": [
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s2-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:53+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s2/esp32-s2-devkitm-1/index.html",
+          "checkedAt": "2026-10-15T17:41:51+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-s3-devkitm-1",
+      "name": "ESP32-S3-DevKitM-1",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "基于 ESP32-S3-MINI-1 系列模块的开发板；官方文档已标注停产。",
+        "en": "Development board based on ESP32-S3-MINI-1 series modules; official documentation marks it discontinued.",
+        "ja": "ESP32-S3-MINI-1シリーズを使う開発ボード。公式資料では生産終了と案内されています。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitm-1.html",
+      "aliases": [
+        "Espressif ESP32-S3-DevKitM-1"
+      ],
+      "features": [
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s3-devkitm-1/",
+          "checkedAt": "2026-10-15T17:39:55+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitm-1.html",
+          "checkedAt": "2026-10-15T17:41:53+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-s3-usb-bridge",
+      "name": "ESP32-S3-USB-Bridge",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "在计算机与微控制器之间提供下载和调试桥接的开发板。",
+        "en": "Development board providing a flashing and debugging bridge between computers and microcontrollers.",
+        "ja": "PCとマイコンの間で書き込み・デバッグを橋渡しする開発ボード。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-usb-bridge/index.html",
+      "aliases": [
+        "Espressif ESP32-S3-USB-Bridge"
+      ],
+      "features": [
+        "usb"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s3-usb-bridge/",
+          "checkedAt": "2026-10-15T17:40:05+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-usb-bridge/index.html",
+          "checkedAt": "2026-10-15T17:41:57+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "seeed-reterminal-e1001",
+      "name": "reTerminal E1001",
+      "manufacturer": {
+        "id": "seeed-studio",
+        "name": "Seeed Studio"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "基于 ESP32-S3 的 7.5 英寸黑白电子纸信息终端。",
+        "en": "7.5-inch monochrome e-paper information terminal based on ESP32-S3.",
+        "ja": "ESP32-S3を使う7.5インチのモノクロ電子ペーパー情報端末。"
+      },
+      "officialUrl": "https://wiki.seeedstudio.com/getting_started_with_reterminal_e1001/",
+      "aliases": [
+        "reTerminal E1001"
+      ],
+      "features": [
+        "epaper",
+        "battery",
+        "sd",
+        "usb"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/reterminal-e1001/",
+          "checkedAt": "2026-10-15T17:25:28+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/getting_started_with_reterminal_e1001/",
+          "checkedAt": "2026-10-15T17:56:15+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "seeed-reterminal-e1002",
+      "name": "reTerminal E1002",
+      "manufacturer": {
+        "id": "seeed-studio",
+        "name": "Seeed Studio"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "基于 ESP32-S3 的 7.3 英寸彩色电子纸相框与信息终端。",
+        "en": "7.3-inch color e-paper photo-frame and information terminal based on ESP32-S3.",
+        "ja": "ESP32-S3を使う7.3インチのカラー電子ペーパー写真・情報端末。"
+      },
+      "officialUrl": "https://wiki.seeedstudio.com/getting_started_with_reterminal_e1002/",
+      "aliases": [
+        "reTerminal E1002"
+      ],
+      "features": [
+        "epaper",
+        "battery",
+        "sd",
+        "usb"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/reterminal-e1002/",
+          "checkedAt": "2026-10-15T17:25:31+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/getting_started_with_reterminal_e1002/",
+          "checkedAt": "2026-10-15T17:56:27+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "seeed-xiao-esp32s3-wio-sx1262-kit",
+      "name": "XIAO ESP32S3 & Wio-SX1262 Kit",
+      "manufacturer": {
+        "id": "seeed-studio",
+        "name": "Seeed Studio"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "将 XIAO ESP32S3 与 SX1262 无线模块组合的 LoRa 开发套件。",
+        "en": "LoRa development kit combining XIAO ESP32S3 with an SX1262 radio module.",
+        "ja": "XIAO ESP32S3とSX1262無線モジュールを組み合わせたLoRa開発キット。"
+      },
+      "officialUrl": "https://wiki.seeedstudio.com/wio_sx1262_with_xiao_esp32s3_kit/",
+      "aliases": [
+        "Seeed XIAO ESP32S3 Wio-SX1262 Kit"
+      ],
+      "features": [
+        "lora",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/seeed-xiao-esp32s3-wio-sx1262-kit/",
+          "checkedAt": "2026-10-15T17:25:34+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/wio_sx1262_with_xiao_esp32s3_kit/",
+          "checkedAt": "2026-10-15T17:56:38+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "waveshare-esp32-s3-eth",
+      "name": "ESP32-S3-ETH",
+      "manufacturer": {
+        "id": "waveshare",
+        "name": "Waveshare"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "带以太网接口与存储卡插槽的 ESP32-S3 联网开发板。",
+        "en": "ESP32-S3 network development board with Ethernet and a memory-card slot.",
+        "ja": "Ethernetとメモリーカードスロットを備えたESP32-S3ネットワーク開発ボード。"
+      },
+      "officialUrl": "https://www.waveshare.com/wiki/ESP32-S3-ETH",
+      "aliases": [
+        "Waveshare ESP32-S3-ETH"
+      ],
+      "features": [
+        "ethernet",
+        "sd",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/waveshare-esp32-s3-eth/",
+          "checkedAt": "2026-10-15T17:25:15+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-S3-ETH",
+          "checkedAt": "2026-10-15T18:11:08+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "waveshare-esp32-s3-touch-lcd-4b",
+      "name": "ESP32-S3-Touch-LCD-4B",
+      "manufacturer": {
+        "id": "waveshare",
+        "name": "Waveshare"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "集成 4 英寸触控屏和运动传感器的 ESP32-S3 交互开发板。",
+        "en": "ESP32-S3 interaction board with a 4-inch touchscreen and motion sensor.",
+        "ja": "4インチのタッチ画面とモーションセンサーを備えたESP32-S3操作開発ボード。"
+      },
+      "officialUrl": "https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4B",
+      "aliases": [
+        "Waveshare ESP32-S3-Touch-LCD-4B"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "imu",
+        "microphone",
+        "usb"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/waveshare-esp32-s3-touch-lcd-4b/",
+          "checkedAt": "2026-10-15T17:25:17+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4B",
+          "checkedAt": "2026-10-15T18:11:12+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "seeed-edgebox-esp-100",
+      "name": "EdgeBox-ESP-100",
+      "manufacturer": {
+        "id": "seeed-studio",
+        "name": "Seeed Studio"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "带以太网、CAN 与 RS-485 接口的 ESP32-S3 工业控制器。",
+        "en": "ESP32-S3 industrial controller with Ethernet, CAN, and RS-485 interfaces.",
+        "ja": "Ethernet、CAN、RS-485を備えたESP32-S3産業用コントローラー。"
+      },
+      "officialUrl": "https://wiki.seeedstudio.com/Edgebox-ESP-100-Arduino/",
+      "aliases": [
+        "Edgebox-ESP-100"
+      ],
+      "features": [
+        "ethernet",
+        "rs485",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/edgebox-esp-100/",
+          "checkedAt": "2026-10-15T17:25:26+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/Edgebox-ESP-100-Arduino/",
+          "checkedAt": "2026-10-15T18:11:21+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-display-s3-amoled",
+      "name": "T-Display S3 AMOLED (non-touch)",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "配 1.91 英寸 AMOLED 的非触控 ESP32-S3 开发板；V1/V2 按上游硬件版本区分。",
+        "en": "Non-touch ESP32-S3 board with a 1.91-inch AMOLED; check upstream for V1/V2 hardware differences.",
+        "ja": "1.91インチAMOLEDを備える非タッチのESP32-S3ボード。V1/V2の違いは開発元で確認してください。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-display-s3-amoled",
+      "aliases": [
+        "LilyGo T-Display-S3 AMOLED"
+      ],
+      "features": [
+        "display",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-display-s3-amoled/",
+          "checkedAt": "2026-10-15T17:24:09+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-display-s3-amoled",
+          "checkedAt": "2026-10-15T18:32:04+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-display-s3-amoled-touch",
+      "name": "T-Display S3 AMOLED Touch",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "配 1.91 英寸 AMOLED 触控屏的 ESP32-S3 开发板。",
+        "en": "ESP32-S3 development board with a 1.91-inch AMOLED touchscreen.",
+        "ja": "1.91インチAMOLEDタッチ画面を備えるESP32-S3開発ボード。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-display-s3-amoled",
+      "aliases": [
+        "LilyGo T-Display-S3 AMOLED Touch"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-display-s3-amoled-touch/",
+          "checkedAt": "2026-10-15T17:24:07+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-display-s3-amoled",
+          "checkedAt": "2026-10-15T18:32:04+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-display-s3-touch",
+      "name": "T-Display S3 Touch",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "配 1.9 英寸 LCD 触控屏的 ESP32-S3 开发板。",
+        "en": "ESP32-S3 development board with a 1.9-inch LCD touchscreen.",
+        "ja": "1.9インチLCDタッチ画面を備えるESP32-S3開発ボード。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-display-s3",
+      "aliases": [
+        "LilyGo T-Display-S3 Touch"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-display-s3-touch/",
+          "checkedAt": "2026-10-15T17:24:12+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-display-s3",
+          "checkedAt": "2026-10-15T17:26:49+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t7-c6",
+      "name": "T7-C6",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-C6",
+      "summary": {
+        "zh": "支持 Wi-Fi 6、蓝牙 LE 与 IEEE 802.15.4 的 ESP32-C6 开发板。",
+        "en": "ESP32-C6 board supporting Wi-Fi 6, Bluetooth LE, and IEEE 802.15.4.",
+        "ja": "Wi-Fi 6、Bluetooth LE、IEEE 802.15.4に対応するESP32-C6開発ボード。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t7-c6",
+      "aliases": [
+        "LilyGO T7-C6"
+      ],
+      "features": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/t7-c6/",
+          "checkedAt": "2026-10-15T17:24:44+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t7-c6",
+          "checkedAt": "2026-10-15T18:32:07+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-ttgo-t-call",
+      "name": "T-Call SIM800L",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "将 ESP32 与 SIM800L 2G GSM/GPRS 模组组合的联网开发板。",
+        "en": "Network development board combining ESP32 with a SIM800L 2G GSM/GPRS modem.",
+        "ja": "ESP32とSIM800Lの2G GSM/GPRSモデムを組み合わせたネットワーク開発ボード。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-call-v1-4",
+      "aliases": [
+        "TTGO T-Call (LilyGO)"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/ttgo-t-call/",
+          "checkedAt": "2026-10-15T17:24:49+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-call-v1-4",
+          "checkedAt": "2026-10-15T18:32:09+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-ttgo-t-oi-plus",
+      "name": "T-OI Plus",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-C3",
+      "summary": {
+        "zh": "带 USB 与 Grove 接口的 ESP32-C3 开发板，电池座有不同配置。",
+        "en": "ESP32-C3 development board with USB and Grove; battery-holder configurations vary.",
+        "ja": "USBとGroveを備えるESP32-C3開発ボード。電池ホルダーの構成はモデルによって異なります。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-oi-plus",
+      "aliases": [
+        "TTGO T-OI PLUS RISC-V ESP32-C3"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/ttgo-t-oi-plus/",
+          "checkedAt": "2026-10-15T17:24:51+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-oi-plus",
+          "checkedAt": "2026-10-15T18:32:12+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-ttgo-t7-v13-mini32",
+      "name": "T7 Mini32 V1.3",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带 USB 转串口接口的紧凑型 ESP32 开发板，记录对应 V1.3 硬件版本。",
+        "en": "Compact ESP32 board with USB-to-serial connectivity, specifically the V1.3 hardware revision.",
+        "ja": "USB-UART変換回路を備える小型ESP32ボード。この項目はV1.3のハードウェアを指します。"
+      },
+      "officialUrl": "https://lilygo.cc/en-us/products/t7-v1-3-mini-32-esp32",
+      "aliases": [
+        "TTGO T7 V1.3 Mini32"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/ttgo-t7-v13-mini32/",
+          "checkedAt": "2026-10-15T17:24:56+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/en-us/products/t7-v1-3-mini-32-esp32",
+          "checkedAt": "2026-10-15T18:32:15+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-esp32-c6-feather",
+      "name": "ESP32-C6 Feather",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-C6",
+      "summary": {
+        "zh": "支持 Wi-Fi 6 与 IEEE 802.15.4 的 Feather 开发板；USB 为串口用途，不提供 USB 键盘功能。",
+        "en": "Feather board with Wi-Fi 6 and IEEE 802.15.4; USB is for serial connectivity, not USB keyboard operation.",
+        "ja": "Wi-Fi 6とIEEE 802.15.4に対応するFeatherボード。USBはシリアル接続用で、USBキーボードとしては動作しません。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-esp32-c6-feather",
+      "aliases": [
+        "Adafruit ESP32-C6 Feather"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-esp32-c6-feather/",
+          "checkedAt": "2026-10-15T17:55:35+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-c6-feather",
+          "checkedAt": "2026-10-15T18:51:36+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-feather-esp32-v2",
+      "name": "ESP32 Feather V2",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带 USB 转串口与 STEMMA QT 接口的新版 Feather；引脚与原版 HUZZAH32 不同。",
+        "en": "Redesigned Feather with USB-to-serial and STEMMA QT; its pinout differs from the original HUZZAH32.",
+        "ja": "USB-UART変換とSTEMMA QTを備える新設計のFeather。元のHUZZAH32とはピン配置が異なります。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-esp32-feather-v2",
+      "aliases": [
+        "Adafruit Feather ESP32 V2"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32-v2/",
+          "checkedAt": "2026-10-15T17:55:37+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-feather-v2",
+          "checkedAt": "2026-10-15T17:57:05+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-feather-esp32s2-reversetft",
+      "name": "ESP32-S2 Reverse TFT Feather",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "将彩色 TFT 屏幕和三个按键置于背面的 ESP32-S2 Feather，适合面板安装。",
+        "en": "ESP32-S2 Feather with a rear-mounted color TFT and three buttons for panel-mounted interfaces.",
+        "ja": "背面にカラーTFTと3つのボタンを配置したESP32-S2 Feather。パネル組み込み向けの構成です。"
+      },
+      "officialUrl": "https://learn.adafruit.com/esp32-s2-reverse-tft-feather",
+      "aliases": [
+        "Adafruit Feather ESP32-S2 Reverse TFT"
+      ],
+      "features": [
+        "display",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s2-reversetft/",
+          "checkedAt": "2026-10-15T17:55:40+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/esp32-s2-reverse-tft-feather",
+          "checkedAt": "2026-10-15T17:57:07+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-feather-esp32s2-tft",
+      "name": "ESP32-S2 TFT Feather",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "集成彩色 TFT 与原生 USB 的 ESP32-S2 Feather 开发板。",
+        "en": "ESP32-S2 Feather with an integrated color TFT and native USB.",
+        "ja": "カラーTFTとネイティブUSBを備えるESP32-S2 Feather開発ボード。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-esp32-s2-tft-feather/overview",
+      "aliases": [
+        "Adafruit Feather ESP32-S2 TFT"
+      ],
+      "features": [
+        "display",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s2-tft/",
+          "checkedAt": "2026-10-15T17:55:42+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-s2-tft-feather/overview",
+          "checkedAt": "2026-10-15T17:57:10+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-feather-esp32s2",
+      "name": "ESP32-S2 Feather",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "提供原生 USB 与 STEMMA QT 的 Wi-Fi 开发板，另有带环境传感器的配置。",
+        "en": "Wi-Fi development board with native USB and STEMMA QT; an environmental-sensor configuration is also sold.",
+        "ja": "ネイティブUSBとSTEMMA QTを備えるWi-Fi開発ボード。環境センサー付きの構成もあります。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-esp32-s2-feather",
+      "aliases": [
+        "Adafruit Feather ESP32-S2"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s2/",
+          "checkedAt": "2026-10-15T17:55:45+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-s2-feather",
+          "checkedAt": "2026-10-15T17:57:13+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-feather-esp32s3-nopsram",
+      "name": "ESP32-S3 Feather (No PSRAM)",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "无 PSRAM 配置的 ESP32-S3 Feather，提供原生 USB 与 STEMMA QT 接口。",
+        "en": "No-PSRAM ESP32-S3 Feather with native USB and STEMMA QT connectivity.",
+        "ja": "PSRAM非搭載構成のESP32-S3 Feather。ネイティブUSBとSTEMMA QTを備えます。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-esp32-s3-feather",
+      "aliases": [
+        "Adafruit Feather ESP32-S3 No PSRAM"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s3-nopsram/",
+          "checkedAt": "2026-10-15T17:55:47+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-s3-feather",
+          "checkedAt": "2026-10-15T17:57:16+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-feather-esp32s3-reversetft",
+      "name": "ESP32-S3 Reverse TFT Feather",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "将彩色 TFT 和三个按键置于背面的 ESP32-S3 Feather，适合嵌入式面板。",
+        "en": "ESP32-S3 Feather with a rear-mounted color TFT and three buttons for embedded panels.",
+        "ja": "背面にカラーTFTと3つのボタンを備えるESP32-S3 Feather。組み込みパネル向けの設計です。"
+      },
+      "officialUrl": "https://learn.adafruit.com/esp32-s3-reverse-tft-feather/overview",
+      "aliases": [
+        "Adafruit Feather ESP32-S3 Reverse TFT"
+      ],
+      "features": [
+        "display",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s3-reversetft/",
+          "checkedAt": "2026-10-15T17:55:50+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/esp32-s3-reverse-tft-feather/overview",
+          "checkedAt": "2026-10-15T17:57:18+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-feather-esp32s3-tft",
+      "name": "ESP32-S3 TFT Feather",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "集成彩色 TFT 与原生 USB 的 ESP32-S3 Feather 开发板。",
+        "en": "ESP32-S3 Feather development board with a color TFT and native USB.",
+        "ja": "カラーTFTとネイティブUSBを搭載したESP32-S3 Feather開発ボード。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-esp32-s3-tft-feather/overview",
+      "aliases": [
+        "Adafruit Feather ESP32-S3 TFT"
+      ],
+      "features": [
+        "display",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s3-tft/",
+          "checkedAt": "2026-10-15T17:55:52+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-s3-tft-feather/overview",
+          "checkedAt": "2026-10-15T17:57:21+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-feather-esp32s3",
+      "name": "ESP32-S3 Feather (2MB PSRAM)",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "带 2MB PSRAM 配置的 ESP32-S3 Feather，与无 PSRAM 配置分开记录。",
+        "en": "2MB-PSRAM configuration of the ESP32-S3 Feather, listed separately from the no-PSRAM model.",
+        "ja": "ESP32-S3 Featherの2MB PSRAM搭載構成。PSRAM非搭載モデルとは分けて掲載しています。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-esp32-s3-feather",
+      "aliases": [
+        "Adafruit Feather ESP32-S3 2MB PSRAM"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-feather-esp32s3/",
+          "checkedAt": "2026-10-15T17:55:55+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-esp32-s3-feather",
+          "checkedAt": "2026-10-15T17:57:16+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-funhouse-esp32s2",
+      "name": "FunHouse",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "面向家庭自动化的 ESP32-S2 设备，集成彩屏、环境传感器和触摸按键。",
+        "en": "ESP32-S2 home-automation board with a color display, environmental sensors, and touch pads.",
+        "ja": "カラー画面、環境センサー、タッチパッドを備える、家庭向け自動化用のESP32-S2ボード。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-funhouse",
+      "aliases": [
+        "Adafruit FunHouse"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-funhouse-esp32s2/",
+          "checkedAt": "2026-10-15T17:55:58+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-funhouse",
+          "checkedAt": "2026-10-15T17:57:23+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-itsybitsy-esp32",
+      "name": "ItsyBitsy ESP32",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带 STEMMA QT 与 USB 转串口的紧凑型 ESP32 开发板，USB 不提供键盘功能。",
+        "en": "Compact ESP32 board with STEMMA QT and USB-to-serial; USB keyboard operation is not supported.",
+        "ja": "STEMMA QTとUSB-UART変換を備える小型ESP32ボード。USBキーボードとしては動作しません。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-itsybitsy-esp32/overview",
+      "aliases": [
+        "Adafruit ItsyBitsy ESP32"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-itsybitsy-esp32/",
+          "checkedAt": "2026-10-15T17:56:01+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-itsybitsy-esp32/overview",
+          "checkedAt": "2026-10-15T17:57:25+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-magtag29-esp32s2",
+      "name": "MagTag 2.9",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "带 2.9 英寸灰阶电子纸的 ESP32-S2 信息板；2025 版更换了屏幕驱动，固件需匹配版本。",
+        "en": "ESP32-S2 information board with 2.9-inch grayscale e-paper; the 2025 display-driver change requires matching firmware.",
+        "ja": "2.9インチのグレースケール電子ペーパーを備えるESP32-S2情報ボード。2025年の表示ドライバー変更に対応するファームウェアが必要です。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-magtag",
+      "aliases": [
+        "Adafruit MagTag 2.9\""
+      ],
+      "features": [
+        "epaper",
+        "imu",
+        "rgb",
+        "usb"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-magtag29-esp32s2/",
+          "checkedAt": "2026-10-15T17:56:03+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-magtag",
+          "checkedAt": "2026-10-15T18:51:39+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-metro-esp32s2",
+      "name": "Metro ESP32-S2",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "采用 UNO 外形与扩展板布局的 ESP32-S2 开发板，提供原生 USB。",
+        "en": "UNO-shaped ESP32-S2 board with shield-compatible layout and native USB.",
+        "ja": "UNO型の形状とシールド向け配置を採用し、ネイティブUSBを備えるESP32-S2ボード。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-metro-esp32-s2",
+      "aliases": [
+        "Adafruit Metro ESP32-S2"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-metro-esp32s2/",
+          "checkedAt": "2026-10-15T17:56:06+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-metro-esp32-s2",
+          "checkedAt": "2026-10-15T17:57:27+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-qtpy-esp32-pico",
+      "name": "QT Py ESP32 Pico",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "使用 ESP32-PICO 的微型 QT Py，带 STEMMA QT 和 USB 转串口，不提供原生 USB HID。",
+        "en": "Miniature ESP32-PICO QT Py with STEMMA QT and USB-to-serial, without native USB HID.",
+        "ja": "ESP32-PICOを使う小型QT Py。STEMMA QTとUSB-UART変換を備え、ネイティブUSB HIDには非対応です。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-qt-py-esp32-pico",
+      "aliases": [
+        "Adafruit QT Py ESP32"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-qtpy-esp32-pico/",
+          "checkedAt": "2026-10-15T17:56:08+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-qt-py-esp32-pico",
+          "checkedAt": "2026-10-15T17:57:30+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-qtpy-esp32c3",
+      "name": "QT Py ESP32-C3",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-C3",
+      "summary": {
+        "zh": "采用 RISC-V 的微型开发板，带 STEMMA QT；USB 用于串口调试，不提供 USB 键盘功能。",
+        "en": "Miniature RISC-V board with STEMMA QT; USB provides serial debugging rather than USB keyboard operation.",
+        "ja": "STEMMA QTを備える小型RISC-Vボード。USBはシリアルデバッグ用で、USBキーボードとしては動作しません。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-qt-py-esp32-c3-wifi-dev-board",
+      "aliases": [
+        "Adafruit QT Py ESP32-C3"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-qtpy-esp32c3/",
+          "checkedAt": "2026-10-15T17:56:11+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-qt-py-esp32-c3-wifi-dev-board",
+          "checkedAt": "2026-10-15T17:57:32+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-qtpy-esp32s2",
+      "name": "QT Py ESP32-S2",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "提供原生 USB 和 STEMMA QT 的微型 ESP32-S2 开发板，仅支持 Wi-Fi 无线连接。",
+        "en": "Miniature ESP32-S2 board with native USB and STEMMA QT, supporting Wi-Fi without Bluetooth.",
+        "ja": "ネイティブUSBとSTEMMA QTを備える小型ESP32-S2ボード。無線はWi-Fiに対応し、Bluetoothには非対応です。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-qt-py-esp32-s2",
+      "aliases": [
+        "Adafruit QT Py ESP32-S2"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-qtpy-esp32s2/",
+          "checkedAt": "2026-10-15T17:56:13+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-qt-py-esp32-s2",
+          "checkedAt": "2026-10-15T17:57:34+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-qtpy-esp32s3-nopsram",
+      "name": "QT Py ESP32-S3 (No PSRAM)",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "无 PSRAM 配置的微型 ESP32-S3 开发板，提供原生 USB 与 STEMMA QT。",
+        "en": "No-PSRAM miniature ESP32-S3 development board with native USB and STEMMA QT.",
+        "ja": "PSRAM非搭載構成の小型ESP32-S3ボード。ネイティブUSBとSTEMMA QTを備えます。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-qt-py-esp32-s3",
+      "aliases": [
+        "Adafruit QT Py ESP32-S3 No PSRAM"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/adafruit-qtpy-esp32s3-nopsram/",
+          "checkedAt": "2026-10-15T17:56:16+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-qt-py-esp32-s3",
+          "checkedAt": "2026-10-15T17:57:36+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "adafruit-huzzah32",
+      "name": "HUZZAH32 ESP32 Feather",
+      "manufacturer": {
+        "id": "adafruit",
+        "name": "Adafruit"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "原版 ESP32 Feather，使用 WROOM32 模块与 USB 转串口；不同于后续 Feather V2。",
+        "en": "Original ESP32 Feather with a WROOM32 module and USB-to-serial, distinct from the later Feather V2.",
+        "ja": "WROOM32とUSB-UART変換を搭載する初代ESP32 Feather。後継のFeather V2とは異なるモデルです。"
+      },
+      "officialUrl": "https://learn.adafruit.com/adafruit-huzzah32-esp32-feather",
+      "aliases": [
+        "Adafruit ESP32 Feather"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/featheresp32/",
+          "checkedAt": "2026-10-15T17:56:19+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/adafruit-huzzah32-esp32-feather",
+          "checkedAt": "2026-10-15T18:51:41+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "dfrobot-beetle-esp32c3",
+      "name": "Beetle ESP32-C3",
+      "manufacturer": {
+        "id": "dfrobot",
+        "name": "DFRobot"
+      },
+      "chip": "ESP32-C3",
+      "summary": {
+        "zh": "面向小型物联网项目的 ESP32-C3 开发板，提供 I/O 扩展与电池管理电路。",
+        "en": "ESP32-C3 board for compact IoT projects, with I/O expansion and battery-management circuitry.",
+        "ja": "小型IoTプロジェクト向けのESP32-C3ボード。I/O拡張と電池管理回路を備えます。"
+      },
+      "officialUrl": "https://wiki.dfrobot.com/SKU_DFR0868_Beetle_ESP32_C3",
+      "aliases": [
+        "DFRobot Beetle ESP32-C3"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/dfrobot-beetle-esp32c3/",
+          "checkedAt": "2026-10-15T18:03:21+00:00"
+        },
+        {
+          "url": "https://wiki.dfrobot.com/SKU_DFR0868_Beetle_ESP32_C3",
+          "checkedAt": "2026-10-15T18:05:12+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "dfrobot-firebeetle2-esp32e",
+      "name": "FireBeetle 2 ESP32-E",
+      "manufacturer": {
+        "id": "dfrobot",
+        "name": "DFRobot"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "面向低功耗联网项目的 ESP32 开发板，提供 GDI 显示扩展接口与 USB 下载。",
+        "en": "ESP32 board for low-power connected projects, with a GDI display connector and USB programming.",
+        "ja": "低消費電力のネットワーク用途向けESP32ボード。GDI表示拡張端子とUSB書き込み機能を備えます。"
+      },
+      "officialUrl": "https://wiki.dfrobot.com/dfr0654/",
+      "aliases": [
+        "FireBeetle 2 ESP32-E"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/dfrobot-firebeetle2-esp32e/",
+          "checkedAt": "2026-10-15T18:03:24+00:00"
+        },
+        {
+          "url": "https://wiki.dfrobot.com/dfr0654/",
+          "checkedAt": "2026-10-15T18:05:15+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "dfrobot-firebeetle2-esp32s3",
+      "name": "FireBeetle 2 ESP32-S3",
+      "manufacturer": {
+        "id": "dfrobot",
+        "name": "DFRobot"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "面向图像应用的 ESP32-S3 开发设备，官方 DFR0975 配置带 OV2640 摄像头。",
+        "en": "ESP32-S3 development device for imaging; the official DFR0975 configuration includes an OV2640 camera.",
+        "ja": "画像用途向けのESP32-S3開発デバイス。公式DFR0975構成にはOV2640カメラが含まれます。"
+      },
+      "officialUrl": "https://wiki.dfrobot.com/dfr0975/",
+      "aliases": [
+        "DFRobot Firebeetle 2 ESP32-S3"
+      ],
+      "features": [
+        "camera",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/dfrobot-firebeetle2-esp32s3/",
+          "checkedAt": "2026-10-15T18:03:26+00:00"
+        },
+        {
+          "url": "https://wiki.dfrobot.com/dfr0975/",
+          "checkedAt": "2026-10-15T18:05:19+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "dfrobot-firebeetle-esp32",
+      "name": "FireBeetle ESP32",
+      "manufacturer": {
+        "id": "dfrobot",
+        "name": "DFRobot"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "使用 ESP-WROOM-32 模块的原版 FireBeetle 物联网开发板。",
+        "en": "Original FireBeetle IoT development board based on the ESP-WROOM-32 module.",
+        "ja": "ESP-WROOM-32モジュールを採用した初代FireBeetle IoT開発ボード。"
+      },
+      "officialUrl": "https://wiki.dfrobot.com/FireBeetle_ESP32_IOT_Microcontroller(V3.0)__Supports_Wi-Fi_&_Bluetooth__SKU__DFR0478",
+      "aliases": [
+        "FireBeetle-ESP32"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/firebeetle32/",
+          "checkedAt": "2026-10-15T18:03:29+00:00"
+        },
+        {
+          "url": "https://wiki.dfrobot.com/FireBeetle_ESP32_IOT_Microcontroller(V3.0)__Supports_Wi-Fi_&_Bluetooth__SKU__DFR0478",
+          "checkedAt": "2026-10-15T18:05:39+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "ai-thinker-esp32-cam",
+      "name": "ESP32-CAM",
+      "manufacturer": {
+        "id": "ai-thinker",
+        "name": "Ai-Thinker"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "采用 ESP32 与 OV2640 摄像头的 Ai-Thinker 图像开发模块，提供 UART 接口。",
+        "en": "Ai-Thinker imaging module based on ESP32 with an OV2640 camera and UART interface.",
+        "ja": "ESP32とOV2640カメラを搭載し、UARTを備えるAi-Thinkerの画像開発モジュール。"
+      },
+      "officialUrl": "https://www.waveshare.com/wiki/ESP32-CAM",
+      "aliases": [
+        "AI Thinker ESP32-CAM",
+        "安信可 ESP32-CAM"
+      ],
+      "features": [
+        "camera"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32cam/",
+          "checkedAt": "2026-10-15T18:03:16+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-CAM",
+          "checkedAt": "2026-10-15T19:00:34+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "ai-thinker-nodemcu-32s",
+      "name": "NodeMCU-32S",
+      "manufacturer": {
+        "id": "ai-thinker",
+        "name": "Ai-Thinker"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "提供 Wi-Fi、蓝牙、UART 和排针扩展接口的 Ai-Thinker ESP32 开发板。",
+        "en": "Ai-Thinker ESP32 development board with Wi-Fi, Bluetooth, UART, and expansion headers.",
+        "ja": "Wi-Fi、Bluetooth、UART、拡張ピンヘッダーを備えるAi-ThinkerのESP32開発ボード。"
+      },
+      "officialUrl": "https://www.waveshare.com/wiki/NodeMCU-32S",
+      "aliases": [
+        "NodeMCU-32S",
+        "安信可 NodeMCU-32S"
+      ],
+      "features": [
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/nodemcu-32s/",
+          "checkedAt": "2026-10-15T18:03:18+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/NodeMCU-32S",
+          "checkedAt": "2026-10-15T18:05:45+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "olimex-esp32-devkitlipo",
+      "name": "ESP32-DevKit-LiPo",
+      "manufacturer": {
+        "id": "olimex",
+        "name": "Olimex"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带锂电池充电与供电接口的 ESP32 开发板，按模块和天线区分不同配置。",
+        "en": "ESP32 development board with LiPo charging and power connectors, offered with different module and antenna variants.",
+        "ja": "LiPo充電・給電端子を備えるESP32開発ボード。モジュールとアンテナの構成に複数の種類があります。"
+      },
+      "officialUrl": "https://www.olimex.com/Products/IoT/ESP32/ESP32-DevKit-LiPo/open-source-hardware",
+      "aliases": [
+        "OLIMEX ESP32-DevKit-LiPo"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-devkitlipo/",
+          "checkedAt": "2026-10-15T19:28:49+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-DevKit-LiPo/open-source-hardware",
+          "checkedAt": "2026-10-15T19:30:46+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "olimex-esp32-evb",
+      "name": "ESP32-EVB",
+      "manufacturer": {
+        "id": "olimex",
+        "name": "Olimex"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "集成以太网、CAN 接口、两个继电器与 MicroSD 的 ESP32 物联网评估板。",
+        "en": "ESP32 IoT evaluation board with Ethernet, a CAN interface, two relays, and MicroSD.",
+        "ja": "Ethernet、CAN端子、2個のリレー、MicroSDを備えるESP32 IoT評価ボード。"
+      },
+      "officialUrl": "https://www.olimex.com/Products/IoT/ESP32/ESP32-EVB/open-source-hardware",
+      "aliases": [
+        "OLIMEX ESP32-EVB"
+      ],
+      "features": [
+        "ethernet",
+        "sd",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-evb/",
+          "checkedAt": "2026-10-15T19:28:51+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-EVB/open-source-hardware",
+          "checkedAt": "2026-10-15T19:31:41+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "olimex-esp32-gateway",
+      "name": "ESP32-GATEWAY",
+      "manufacturer": {
+        "id": "olimex",
+        "name": "Olimex"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带以太网、MicroSD 和扩展排针的 ESP32 网关开发板，硬件修订版的引脚需查官方资料。",
+        "en": "ESP32 gateway board with Ethernet, MicroSD, and expansion headers; consult the official guide for revision-specific pinouts.",
+        "ja": "Ethernet、MicroSD、拡張ピンヘッダーを備えるESP32ゲートウェイボード。リビジョンごとの配線は公式資料を確認してください。"
+      },
+      "officialUrl": "https://www.olimex.com/Products/IoT/ESP32/ESP32-GATEWAY/open-source-hardware",
+      "aliases": [
+        "OLIMEX ESP32-GATEWAY"
+      ],
+      "features": [
+        "ethernet",
+        "sd",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-gateway/",
+          "checkedAt": "2026-10-15T19:28:54+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-GATEWAY/open-source-hardware",
+          "checkedAt": "2026-10-15T19:31:44+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "olimex-esp32-poe-iso",
+      "name": "ESP32-PoE-ISO",
+      "manufacturer": {
+        "id": "olimex",
+        "name": "Olimex"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "提供以太网供电与电气隔离的 ESP32 开发板，带 MicroSD 和 LiPo 充电接口。",
+        "en": "ESP32 board with galvanically isolated Power over Ethernet, MicroSD, and LiPo charging connectors.",
+        "ja": "絶縁型PoE給電、MicroSD、LiPo充電端子を備えるESP32ボード。"
+      },
+      "officialUrl": "https://www.olimex.com/Products/IoT/ESP32/ESP32-PoE-ISO/open-source-hardware",
+      "aliases": [
+        "OLIMEX ESP32-PoE-ISO"
+      ],
+      "features": [
+        "ethernet",
+        "sd",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-poe-iso/",
+          "checkedAt": "2026-10-15T19:28:57+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-PoE-ISO/open-source-hardware",
+          "checkedAt": "2026-10-15T19:31:05+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "olimex-esp32-poe",
+      "name": "ESP32-PoE",
+      "manufacturer": {
+        "id": "olimex",
+        "name": "Olimex"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "支持以太网供电的 ESP32 开发板；本型号没有 PoE 电气隔离，接线与供电按官方说明操作。",
+        "en": "ESP32 board with Power over Ethernet; this model lacks galvanic PoE isolation, so follow official wiring and power instructions.",
+        "ja": "PoE給電対応のESP32ボード。本モデルにはPoEの電気的絶縁がないため、接続と給電は公式の手順に従ってください。"
+      },
+      "officialUrl": "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware",
+      "aliases": [
+        "OLIMEX ESP32-PoE"
+      ],
+      "features": [
+        "ethernet",
+        "sd",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-poe/",
+          "checkedAt": "2026-10-15T19:29:00+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware",
+          "checkedAt": "2026-10-15T19:31:46+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "olimex-esp32-poe2",
+      "name": "ESP32-PoE2",
+      "manufacturer": {
+        "id": "olimex",
+        "name": "Olimex"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带 USB-C、MicroSD 和多路外设供电输出的 ESP32 PoE 开发板；不提供 PoE 电气隔离。",
+        "en": "ESP32 PoE board with USB-C, MicroSD, and multiple peripheral power outputs; PoE is not galvanically isolated.",
+        "ja": "USB-C、MicroSD、複数の周辺機器向け電源出力を備えるESP32 PoEボード。PoEの電気的絶縁はありません。"
+      },
+      "officialUrl": "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE2/open-source-hardware",
+      "aliases": [
+        "Olimex ESP32-POE2"
+      ],
+      "features": [
+        "ethernet",
+        "sd",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/olimex-esp32-poe2/",
+          "checkedAt": "2026-10-15T19:29:02+00:00"
+        },
+        {
+          "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE2/open-source-hardware",
+          "checkedAt": "2026-10-15T19:31:49+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "wemos-d32-pro",
+      "name": "LOLIN D32 Pro",
+      "manufacturer": {
+        "id": "wemos",
+        "name": "WEMOS / LOLIN"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带 PSRAM、MicroSD、显示扩展接口和 LiPo 电池接口的 ESP32 开发板。",
+        "en": "ESP32 board with PSRAM, MicroSD, a display connector, and a LiPo battery connector.",
+        "ja": "PSRAM、MicroSD、表示拡張端子、LiPo電池端子を備えるESP32ボード。"
+      },
+      "officialUrl": "https://www.wemos.cc/en/latest/d32/d32_pro.html",
+      "aliases": [
+        "LOLIN D32 PRO"
+      ],
+      "features": [
+        "usb",
+        "gpio",
+        "sd"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/d32-pro/",
+          "checkedAt": "2026-10-15T19:29:11+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/d32/d32_pro.html",
+          "checkedAt": "2026-10-15T19:31:00+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "wemos-d32",
+      "name": "LOLIN D32",
+      "manufacturer": {
+        "id": "wemos",
+        "name": "WEMOS / LOLIN"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "使用 ESP32-WROOM-32 模块并提供 LiPo 充电接口的开发板。",
+        "en": "Development board using an ESP32-WROOM-32 module with a LiPo charging connector.",
+        "ja": "ESP32-WROOM-32モジュールとLiPo充電端子を備える開発ボード。"
+      },
+      "officialUrl": "https://www.wemos.cc/en/latest/d32/d32.html",
+      "aliases": [
+        "LOLIN D32"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/d32/",
+          "checkedAt": "2026-10-15T19:29:13+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/d32/d32.html",
+          "checkedAt": "2026-10-15T19:31:02+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "wemos-lolin-c3-mini",
+      "name": "LOLIN C3 mini",
+      "manufacturer": {
+        "id": "wemos",
+        "name": "WEMOS / LOLIN"
+      },
+      "chip": "ESP32-C3",
+      "summary": {
+        "zh": "带 USB-C 和 RGB LED 的 ESP32-C3 小型开发板，兼容 LOLIN D1 mini 扩展板。",
+        "en": "Compact ESP32-C3 board with USB-C and an RGB LED, compatible with LOLIN D1 mini shields.",
+        "ja": "USB-CとRGB LEDを備える小型ESP32-C3ボード。LOLIN D1 miniシールドに対応。"
+      },
+      "officialUrl": "https://www.wemos.cc/en/latest/c3/c3_mini.html",
+      "aliases": [
+        "LOLIN C3 Mini"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lolin-c3-mini/",
+          "checkedAt": "2026-10-15T19:29:16+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/c3/c3_mini.html",
+          "checkedAt": "2026-10-15T19:31:06+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "wemos-lolin-s2-mini",
+      "name": "LOLIN S2 mini",
+      "manufacturer": {
+        "id": "wemos",
+        "name": "WEMOS / LOLIN"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "带原生 USB OTG 与 PSRAM 的 ESP32-S2 小型 Wi-Fi 开发板。",
+        "en": "Compact ESP32-S2 Wi-Fi board with native USB OTG and PSRAM.",
+        "ja": "ネイティブUSB OTGとPSRAMを備える小型ESP32-S2 Wi-Fiボード。"
+      },
+      "officialUrl": "https://www.wemos.cc/en/latest/s2/s2_mini.html",
+      "aliases": [
+        "LOLIN S2 Mini"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lolin-s2-mini/",
+          "checkedAt": "2026-10-15T19:29:19+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/s2/s2_mini.html",
+          "checkedAt": "2026-10-15T19:31:08+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "wemos-lolin-s2-pico",
+      "name": "LOLIN S2 Pico",
+      "manufacturer": {
+        "id": "wemos",
+        "name": "WEMOS / LOLIN"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "集成 128×32 OLED 屏幕与 USB-C 的 ESP32-S2 开发板。",
+        "en": "ESP32-S2 development board with a 128×32 OLED and USB-C.",
+        "ja": "128×32 OLEDとUSB-Cを搭載するESP32-S2開発ボード。"
+      },
+      "officialUrl": "https://www.wemos.cc/en/latest/s2/s2_pico.html",
+      "aliases": [
+        "LOLIN S2 PICO"
+      ],
+      "features": [
+        "usb",
+        "gpio",
+        "display"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lolin-s2-pico/",
+          "checkedAt": "2026-10-15T19:29:22+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/s2/s2_pico.html",
+          "checkedAt": "2026-10-15T19:31:10+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "wemos-lolin-s3",
+      "name": "LOLIN S3",
+      "manufacturer": {
+        "id": "wemos",
+        "name": "WEMOS / LOLIN"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "带独立 USB OTG、串口 USB-C 接口和 PSRAM 的 ESP32-S3 开发板。",
+        "en": "ESP32-S3 board with separate USB OTG and USB-to-UART USB-C connectors plus PSRAM.",
+        "ja": "USB OTG用・USB-UART用の独立したUSB-C端子とPSRAMを備えるESP32-S3ボード。"
+      },
+      "officialUrl": "https://www.wemos.cc/en/latest/s3/s3.html",
+      "aliases": [
+        "LOLIN S3"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lolin-s3/",
+          "checkedAt": "2026-10-15T19:29:24+00:00"
+        },
+        {
+          "url": "https://www.wemos.cc/en/latest/s3/s3.html",
+          "checkedAt": "2026-10-15T19:31:12+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "sparkfun-esp32micromod",
+      "name": "MicroMod ESP32 Processor",
+      "manufacturer": {
+        "id": "sparkfun",
+        "name": "SparkFun"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "通过 M.2 接口连接 MicroMod 载板的 ESP32 处理器板，需要配合载板使用。",
+        "en": "ESP32 processor board that connects to a MicroMod carrier over M.2 and requires a carrier board.",
+        "ja": "M.2端子でMicroModキャリアに接続するESP32プロセッサーボード。キャリアボードと組み合わせて使用します。"
+      },
+      "officialUrl": "https://learn.sparkfun.com/tutorials/micromod-esp32-processor-board-hookup-guide",
+      "aliases": [
+        "SparkFun ESP32 MicroMod"
+      ],
+      "features": [],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32micromod/",
+          "checkedAt": "2026-10-15T19:29:35+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/micromod-esp32-processor-board-hookup-guide",
+          "checkedAt": "2026-10-15T19:33:12+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "sparkfun-esp32thing-plus-c",
+      "name": "Thing Plus ESP32 WROOM (USB-C)",
+      "manufacturer": {
+        "id": "sparkfun",
+        "name": "SparkFun"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带 USB-C、MicroSD、Qwiic 接口和电池电量计的 ESP32 Thing Plus，区别于 Micro-B 版本。",
+        "en": "USB-C ESP32 Thing Plus with MicroSD, Qwiic, and a battery fuel gauge, distinct from the Micro-B version.",
+        "ja": "USB-C、MicroSD、Qwiic、電池残量計を備えるESP32 Thing Plus。Micro-B版とは異なります。"
+      },
+      "officialUrl": "https://learn.sparkfun.com/tutorials/esp32-thing-plus-usb-c-hookup-guide/all",
+      "aliases": [
+        "SparkFun ESP32 Thing Plus C"
+      ],
+      "features": [
+        "usb",
+        "gpio",
+        "sd"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32thing-plus-c/",
+          "checkedAt": "2026-10-15T19:29:37+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/esp32-thing-plus-usb-c-hookup-guide/all",
+          "checkedAt": "2026-10-15T19:33:16+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "sparkfun-esp32thing-plus",
+      "name": "Thing Plus ESP32 WROOM (Micro-B)",
+      "manufacturer": {
+        "id": "sparkfun",
+        "name": "SparkFun"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带 Qwiic 和 Micro-B USB 的 ESP32 开发板，采用 Feather 兼容布局。",
+        "en": "ESP32 development board with Qwiic and Micro-B USB in a Feather-compatible layout.",
+        "ja": "QwiicとMicro-B USBを備えるESP32開発ボード。Feather互換の配置を採用。"
+      },
+      "officialUrl": "https://learn.sparkfun.com/tutorials/esp32-thing-plus-hookup-guide/all",
+      "aliases": [
+        "SparkFun ESP32 Thing Plus"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32thing-plus/",
+          "checkedAt": "2026-10-15T19:29:40+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/esp32-thing-plus-hookup-guide/all",
+          "checkedAt": "2026-10-15T19:33:19+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "sparkfun-esp32thing",
+      "name": "ESP32 Thing",
+      "manufacturer": {
+        "id": "sparkfun",
+        "name": "SparkFun"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带 USB 编程与 LiPo 电池充电电路的原版 ESP32 Thing 开发板。",
+        "en": "Original ESP32 Thing development board with USB programming and a LiPo charging circuit.",
+        "ja": "USB書き込みとLiPo充電回路を備える初代ESP32 Thing開発ボード。"
+      },
+      "officialUrl": "https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide",
+      "aliases": [
+        "SparkFun ESP32 Thing"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32thing/",
+          "checkedAt": "2026-10-15T19:29:43+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide",
+          "checkedAt": "2026-10-15T19:33:22+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "sparkfun-esp32-iot-redboard",
+      "name": "IoT RedBoard ESP32",
+      "manufacturer": {
+        "id": "sparkfun",
+        "name": "SparkFun"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "集成 Qwiic、MicroSD、USB-C 和电池充电与电量计的 ESP32 开发板。",
+        "en": "ESP32 development board with Qwiic, MicroSD, USB-C, LiPo charging, and a battery fuel gauge.",
+        "ja": "Qwiic、MicroSD、USB-C、LiPo充電、電池残量計を備えるESP32開発ボード。"
+      },
+      "officialUrl": "https://learn.sparkfun.com/tutorials/iot-redboard-esp32-development-board-hookup-guide/all",
+      "aliases": [
+        "SparkFun ESP32 IoT RedBoard"
+      ],
+      "features": [
+        "usb",
+        "gpio",
+        "sd"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/sparkfun-esp32-iot-redboard/",
+          "checkedAt": "2026-10-15T19:29:46+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/iot-redboard-esp32-development-board-hookup-guide/all",
+          "checkedAt": "2026-10-15T19:33:24+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "sparkfun-esp32s2-thing-plus",
+      "name": "Thing Plus ESP32-S2 WROOM",
+      "manufacturer": {
+        "id": "sparkfun",
+        "name": "SparkFun"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "Feather 外形的 ESP32-S2 Wi-Fi 开发板，带 Qwiic 与 USB-C，不支持蓝牙。",
+        "en": "Feather-format ESP32-S2 Wi-Fi board with Qwiic and USB-C, without Bluetooth.",
+        "ja": "Feather形状のESP32-S2 Wi-Fiボード。QwiicとUSB-Cを備え、Bluetoothには非対応。"
+      },
+      "officialUrl": "https://learn.sparkfun.com/tutorials/esp32-s2-thing-plus-hookup-guide/all",
+      "aliases": [
+        "SparkFun ESP32-S2 Thing Plus"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/sparkfun-esp32s2-thing-plus/",
+          "checkedAt": "2026-10-15T19:29:48+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/esp32-s2-thing-plus-hookup-guide/all",
+          "checkedAt": "2026-10-15T19:33:27+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "sparkfun-lora-gateway-1-channel",
+      "name": "LoRa Gateway 1-Channel",
+      "manufacturer": {
+        "id": "sparkfun",
+        "name": "SparkFun"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "结合 ESP32 与 RFM95W 的单信道 LoRa 实验板；官方说明不适用于 TTN v3 网关。",
+        "en": "Single-channel LoRa experiment board combining ESP32 and RFM95W; the official guide says it is unsuitable as a TTN v3 gateway.",
+        "ja": "ESP32とRFM95Wを組み合わせた単一チャンネルLoRa実験ボード。公式資料ではTTN v3ゲートウェイに適さないと案内されています。"
+      },
+      "officialUrl": "https://learn.sparkfun.com/tutorials/sparkfun-lora-gateway-1-channel-hookup-guide",
+      "aliases": [
+        "SparkFun LoRa Gateway 1-Channel"
+      ],
+      "features": [
+        "lora",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/sparkfun-lora-gateway-1-channel/",
+          "checkedAt": "2026-10-15T19:29:51+00:00"
+        },
+        {
+          "url": "https://learn.sparkfun.com/tutorials/sparkfun-lora-gateway-1-channel-hookup-guide",
+          "checkedAt": "2026-10-15T19:33:29+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "elecrow-crowpanel-2-8-esp32",
+      "name": "CrowPanel ESP32 HMI 2.8-inch",
+      "manufacturer": {
+        "id": "elecrow",
+        "name": "Elecrow"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "集成 ESP32、2.8 英寸电阻触控屏和 MicroSD 插槽的人机界面开发板。",
+        "en": "HMI development board with ESP32, a 2.8-inch resistive touchscreen, and MicroSD.",
+        "ja": "ESP32、2.8インチ抵抗膜タッチ画面、MicroSDを備えるHMI開発ボード。"
+      },
+      "officialUrl": "https://www.elecrow.com/wiki/esp32-display-282727-intelligent-touch-screen-wi-fi26ble-240320-hmi-display.html",
+      "aliases": [
+        "Elecrow CrowPanel 2.8 (ESP32)"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "usb",
+        "sd",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-2-8-esp32/",
+          "checkedAt": "2026-10-15T17:40:25+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/esp32-display-282727-intelligent-touch-screen-wi-fi26ble-240320-hmi-display.html",
+          "checkedAt": "2026-10-15T17:41:04+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "elecrow-crowpanel-7-esp32-s3",
+      "name": "CrowPanel ESP32 HMI 7.0-inch",
+      "manufacturer": {
+        "id": "elecrow",
+        "name": "Elecrow"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "配备 7 英寸 800×480 电容触控屏和扩展接口的 ESP32-S3 人机界面开发板。",
+        "en": "ESP32-S3 HMI board with a 7-inch 800×480 capacitive touchscreen and expansion interfaces.",
+        "ja": "7インチ800×480の静電容量タッチ画面と拡張端子を備えるESP32-S3 HMIボード。"
+      },
+      "officialUrl": "https://www.elecrow.com/wiki/esp32-display-702727-intelligent-touch-screen-wi-fi26ble-800480-hmi-display.html",
+      "aliases": [
+        "Elecrow CrowPanel 7.0 (ESP32-S3)"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "usb",
+        "sd",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-7-esp32-s3/",
+          "checkedAt": "2026-10-15T17:40:28+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/esp32-display-702727-intelligent-touch-screen-wi-fi26ble-800480-hmi-display.html",
+          "checkedAt": "2026-10-15T17:41:06+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "elecrow-crowpanel-advance-5-esp32-p4",
+      "name": "CrowPanel Advanced 5-inch ESP32-P4",
+      "manufacturer": {
+        "id": "elecrow",
+        "name": "Elecrow"
+      },
+      "chip": "ESP32-P4",
+      "summary": {
+        "zh": "以 ESP32-P4 驱动 5 英寸 IPS 触控屏，搭配 ESP32-C6 提供无线连接的交互开发板。",
+        "en": "Interaction board with ESP32-P4, a 5-inch IPS touchscreen, and ESP32-C6 for wireless connectivity.",
+        "ja": "ESP32-P4、5インチIPSタッチ画面、無線接続用ESP32-C6を組み合わせた操作開発ボード。"
+      },
+      "officialUrl": "https://www.elecrow.com/crowpanel-advanced-5inch-esp32-p4-hmi-ai-display-800x480-ips-touch-screen-with-wifi-6.html",
+      "aliases": [
+        "Elecrow CrowPanel Advance 5.0 (ESP32-P4)"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-advance-5-esp32-p4/",
+          "checkedAt": "2026-10-15T17:40:31+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/crowpanel-advanced-5inch-esp32-p4-hmi-ai-display-800x480-ips-touch-screen-with-wifi-6.html",
+          "checkedAt": "2026-10-15T19:35:07+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "elecrow-crowpanel-advance-7-esp32-s3",
+      "name": "CrowPanel Advance 7.0-inch ESP32-S3",
+      "manufacturer": {
+        "id": "elecrow",
+        "name": "Elecrow"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "基于 ESP32-S3 的 7 英寸触控交互开发板，多个硬件版本的扩展功能与接线需查官方资料。",
+        "en": "ESP32-S3 7-inch touch interaction board; expansion features and wiring vary by documented hardware revision.",
+        "ja": "ESP32-S3を使う7インチタッチ操作ボード。拡張機能と配線は公式資料のハードウェア版ごとに異なります。"
+      },
+      "officialUrl": "https://www.elecrow.com/wiki/ESP32_Display-7.0_inch%28Advance_Series%29wiki.html",
+      "aliases": [
+        "Elecrow CrowPanel Advance 7.0 (ESP32-S3)"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "sd",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-advance-7-esp32-s3/",
+          "checkedAt": "2026-10-15T17:40:33+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/ESP32_Display-7.0_inch%28Advance_Series%29wiki.html",
+          "checkedAt": "2026-10-15T17:41:11+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "elecrow-crowpanel-epaper-4-2",
+      "name": "CrowPanel E-Paper 4.2-inch",
+      "manufacturer": {
+        "id": "elecrow",
+        "name": "Elecrow"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "配备 4.2 英寸黑白电子纸、按键、旋钮与 MicroSD 的 ESP32-S3 信息显示设备。",
+        "en": "ESP32-S3 information display with a 4.2-inch monochrome e-paper screen, buttons, a dial, and MicroSD.",
+        "ja": "4.2インチのモノクロ電子ペーパー、ボタン、ダイヤル、MicroSDを備えるESP32-S3情報表示デバイス。"
+      },
+      "officialUrl": "https://www.elecrow.com/wiki/CrowPanel_ESP32_E-paper_4.2-inch_HMI_Display.html",
+      "aliases": [
+        "Elecrow CrowPanel E-Paper 4.2 (ESP32-S3)"
+      ],
+      "features": [
+        "epaper",
+        "sd",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-epaper-4-2/",
+          "checkedAt": "2026-10-15T17:40:36+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/CrowPanel_ESP32_E-paper_4.2-inch_HMI_Display.html",
+          "checkedAt": "2026-10-15T17:41:14+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "elecrow-crowpanel-epaper-5-79",
+      "name": "CrowPanel E-Paper 5.79-inch",
+      "manufacturer": {
+        "id": "elecrow",
+        "name": "Elecrow"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "配备 5.79 英寸 272×792 黑白电子纸与按键、旋钮输入的 ESP32-S3 显示设备。",
+        "en": "ESP32-S3 display with 5.79-inch 272×792 monochrome e-paper, buttons, and a dial.",
+        "ja": "5.79インチ272×792のモノクロ電子ペーパー、ボタン、ダイヤルを備えるESP32-S3表示デバイス。"
+      },
+      "officialUrl": "https://www.elecrow.com/wiki/CrowPanel_ESP32_E-paper_5.79-inch_HMI_Display.html",
+      "aliases": [
+        "Elecrow CrowPanel E-Paper 5.79 (ESP32-S3)"
+      ],
+      "features": [
+        "epaper",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-epaper-5-79/",
+          "checkedAt": "2026-10-15T17:40:39+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/CrowPanel_ESP32_E-paper_5.79-inch_HMI_Display.html",
+          "checkedAt": "2026-10-15T17:41:17+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "elecrow-crowpanel-rotary-2-1",
+      "name": "CrowPanel Rotary 2.1-inch",
+      "manufacturer": {
+        "id": "elecrow",
+        "name": "Elecrow"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "集成 2.1 英寸圆形电容触控屏与旋转按压旋钮的 ESP32-S3 交互设备。",
+        "en": "ESP32-S3 interaction device with a 2.1-inch round capacitive touchscreen and a rotating push dial.",
+        "ja": "2.1インチの円形静電容量タッチ画面と、回して押せるダイヤルを備えるESP32-S3操作デバイス。"
+      },
+      "officialUrl": "https://www.elecrow.com/wiki/CrowPanel_2.1inch-HMI_ESP32_Rotary_Display_480_IPS_Round_Touch_Knob_Screen.html",
+      "aliases": [
+        "Elecrow CrowPanel Rotary 2.1 (ESP32-S3)"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "usb"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-crowpanel-rotary-2-1/",
+          "checkedAt": "2026-10-15T17:40:41+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/CrowPanel_2.1inch-HMI_ESP32_Rotary_Display_480_IPS_Round_Touch_Knob_Screen.html",
+          "checkedAt": "2026-10-15T17:41:19+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "elecrow-thinknode-m2",
+      "name": "ThinkNode M2",
+      "manufacturer": {
+        "id": "elecrow",
+        "name": "Elecrow"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "基于 ESP32-S3 和 SX1262 的 LoRa 通信终端，带 1.3 英寸 OLED 和充电电池，预装 Meshtastic。",
+        "en": "LoRa terminal based on ESP32-S3 and SX1262, with a 1.3-inch OLED, rechargeable battery, and preinstalled Meshtastic.",
+        "ja": "ESP32-S3とSX1262を使うLoRa端末。1.3インチOLED、充電池、導入済みMeshtasticを備えます。"
+      },
+      "officialUrl": "https://www.elecrow.com/wiki/ThinkNode-M2_Transceiver_Device%28Meshtastic%29_Power_By_NRF52840.html",
+      "aliases": [
+        "Elecrow ThinkNode M2 (ESP32-S3)"
+      ],
+      "features": [
+        "lora",
+        "display",
+        "battery"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/elecrow-thinknode-m2/",
+          "checkedAt": "2026-10-15T18:02:13+00:00"
+        },
+        {
+          "url": "https://www.elecrow.com/wiki/ThinkNode-M2_Transceiver_Device%28Meshtastic%29_Power_By_NRF52840.html",
+          "checkedAt": "2026-10-15T18:05:24+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "heltec-wifi-kit-32-v3",
+      "name": "WiFi Kit 32 V3",
+      "manufacturer": {
+        "id": "heltec",
+        "name": "Heltec"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "配备 0.96 英寸 OLED 与 USB-C 的 ESP32-S3 开发板，提供电池管理接口，不带 LoRa 无线芯片。",
+        "en": "ESP32-S3 board with a 0.96-inch OLED, USB-C, and battery-management connector, without a LoRa radio.",
+        "ja": "0.96インチOLED、USB-C、電池管理端子を備えるESP32-S3ボード。LoRa無線チップは搭載していません。"
+      },
+      "officialUrl": "https://docs.heltec.org/en/node/esp32/wifi_kit_32/index.html",
+      "aliases": [
+        "Heltec WiFi Kit 32(V3)"
+      ],
+      "features": [
+        "display",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wifi-kit-32-v3/",
+          "checkedAt": "2026-10-15T17:55:05+00:00"
+        },
+        {
+          "url": "https://docs.heltec.org/en/node/esp32/wifi_kit_32/index.html",
+          "checkedAt": "2026-10-15T19:36:29+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "heltec-wifi-lora-32-v2",
+      "name": "WiFi LoRa 32 V2",
+      "manufacturer": {
+        "id": "heltec",
+        "name": "Heltec"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "基于 ESP32 与 SX1276/SX1278 的 OLED LoRa 开发板；官方已逐步淘汰该版本。",
+        "en": "OLED LoRa board based on ESP32 and SX1276/SX1278; the manufacturer is phasing out this version.",
+        "ja": "ESP32とSX1276/SX1278を使うOLED付きLoRaボード。メーカーでは本バージョンを段階的に終了しています。"
+      },
+      "officialUrl": "https://heltec.org/project/wifi-lora-32v2/",
+      "aliases": [
+        "Heltec WiFi LoRa 32(V2)"
+      ],
+      "features": [
+        "display",
+        "lora",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wifi-lora-32-v2/",
+          "checkedAt": "2026-10-15T17:55:10+00:00"
+        },
+        {
+          "url": "https://heltec.org/project/wifi-lora-32v2/",
+          "checkedAt": "2026-10-15T19:36:30+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "heltec-wifi-lora-32-v3",
+      "name": "WiFi LoRa 32 V3",
+      "manufacturer": {
+        "id": "heltec",
+        "name": "Heltec"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "结合 ESP32-S3、SX1262 与 0.96 英寸 OLED 的 LoRa 开发板，提供电池充电与保护电路。",
+        "en": "LoRa board combining ESP32-S3, SX1262, and a 0.96-inch OLED, with battery charging and protection circuitry.",
+        "ja": "ESP32-S3、SX1262、0.96インチOLEDを組み合わせたLoRaボード。電池充電・保護回路を備えます。"
+      },
+      "officialUrl": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/",
+      "aliases": [
+        "Heltec WiFi LoRa 32 (V3)"
+      ],
+      "features": [
+        "display",
+        "lora",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wifi-lora-32-v3/",
+          "checkedAt": "2026-10-15T17:55:13+00:00"
+        },
+        {
+          "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/",
+          "checkedAt": "2026-10-15T19:36:30+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "heltec-wifi-lora-32-v4",
+      "name": "WiFi LoRa 32 V4",
+      "manufacturer": {
+        "id": "heltec",
+        "name": "Heltec"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "结合 ESP32-S3 与 SX1262 的 LoRa 开发板，增加太阳能与 GNSS 扩展接口，含多个功率与硬件修订配置。",
+        "en": "ESP32-S3 and SX1262 LoRa board with solar and GNSS expansion connectors, offered in multiple power and hardware revisions.",
+        "ja": "ESP32-S3とSX1262を使うLoRaボード。ソーラー・GNSS拡張端子を備え、出力やハードウェア版に複数の構成があります。"
+      },
+      "officialUrl": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4/",
+      "aliases": [
+        "Heltec WiFi LoRa 32 V4"
+      ],
+      "features": [
+        "display",
+        "lora",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wifi-lora-32-v4/",
+          "checkedAt": "2026-10-15T17:55:16+00:00"
+        },
+        {
+          "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4/",
+          "checkedAt": "2026-10-15T19:36:32+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "heltec-wireless-shell-v3",
+      "name": "Wireless Shell V3",
+      "manufacturer": {
+        "id": "heltec",
+        "name": "Heltec"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "将 ESP32-S3 与 SX1262 集成在邮票孔模块中，适合嵌入自定义电路板的 LoRa 项目。",
+        "en": "ESP32-S3 and SX1262 castellated module for integrating LoRa into custom circuit boards.",
+        "ja": "ESP32-S3とSX1262を集積したキャステレーション端子モジュール。自作基板へLoRa機能を組み込む用途向け。"
+      },
+      "officialUrl": "https://heltec.org/project/wireless-shell-v3/",
+      "aliases": [
+        "Heltec Wireless Shell (V3)"
+      ],
+      "features": [
+        "lora"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wireless-shell-v3/",
+          "checkedAt": "2026-10-15T17:55:21+00:00"
+        },
+        {
+          "url": "https://heltec.org/project/wireless-shell-v3/",
+          "checkedAt": "2026-10-15T19:36:33+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "heltec-wireless-stick-lite-v3",
+      "name": "Wireless Stick Lite V3",
+      "manufacturer": {
+        "id": "heltec",
+        "name": "Heltec"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "不带 OLED 的 ESP32-S3 与 SX1262 LoRa 开发板，带 USB-C 与锂电池管理接口。",
+        "en": "ESP32-S3 and SX1262 LoRa board without an OLED, with USB-C and lithium-battery management.",
+        "ja": "OLEDを省いたESP32-S3・SX1262 LoRaボード。USB-Cとリチウム電池管理端子を備えます。"
+      },
+      "officialUrl": "https://heltec.org/project/wireless-stick-lite-v2/",
+      "aliases": [
+        "Heltec Wireless Stick Lite (V3)"
+      ],
+      "features": [
+        "lora",
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wireless-stick-lite-v3/",
+          "checkedAt": "2026-10-15T17:55:24+00:00"
+        },
+        {
+          "url": "https://heltec.org/project/wireless-stick-lite-v2/",
+          "checkedAt": "2026-10-15T19:36:36+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "heltec-wireless-tracker-v2",
+      "name": "Wireless Tracker V2",
+      "manufacturer": {
+        "id": "heltec",
+        "name": "Heltec"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "集成 ESP32-S3、SX1262 和 UC6580 GNSS 的无线定位开发板，配备 TFT 并支持太阳能充电。",
+        "en": "Wireless tracking board with ESP32-S3, SX1262, UC6580 GNSS, a TFT, and solar charging support.",
+        "ja": "ESP32-S3、SX1262、UC6580 GNSS、TFTを備え、ソーラー充電にも対応する無線追跡開発ボード。"
+      },
+      "officialUrl": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-tracker-v2/",
+      "aliases": [
+        "Heltec Wireless Tracker V2"
+      ],
+      "features": [
+        "lora",
+        "gps",
+        "display"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/heltec-wireless-tracker-v2/",
+          "checkedAt": "2026-10-15T17:55:32+00:00"
+        },
+        {
+          "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-tracker-v2/",
+          "checkedAt": "2026-10-15T19:36:36+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "unexpected-maker-pros3",
+      "name": "ProS3",
+      "manufacturer": {
+        "id": "unexpected-maker",
+        "name": "Unexpected Maker"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "带 PSRAM、双路可控稳压供电与 STEMMA QT 的 ESP32-S3 开发板，记录对应原版 ProS3。",
+        "en": "ESP32-S3 board with PSRAM, dual regulated power rails, and STEMMA QT, specifically the original ProS3.",
+        "ja": "PSRAM、2系統の安定化電源、STEMMA QTを備えるESP32-S3ボード。初代ProS3を対象とした記録です。"
+      },
+      "officialUrl": "https://esp32s3.com/pros3.html",
+      "aliases": [
+        "UM PROS3"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/pros3/",
+          "checkedAt": "2026-10-15T17:56:29+00:00"
+        },
+        {
+          "url": "https://esp32s3.com/pros3.html",
+          "checkedAt": "2026-10-15T17:58:01+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "unexpected-maker-rmp",
+      "name": "Reflow Master Pro",
+      "manufacturer": {
+        "id": "unexpected-maker",
+        "name": "Unexpected Maker"
+      },
+      "chip": "ESP32-S2",
+      "summary": {
+        "zh": "基于 ESP32-S2 的回流焊温控终端，配有彩色 TFT、热电偶输入与网页温度曲线管理。",
+        "en": "ESP32-S2 reflow-oven controller with a color TFT, thermocouple inputs, and browser-based profile management.",
+        "ja": "カラーTFT、熱電対入力、ブラウザーからの温度プロファイル管理を備えるESP32-S2リフロー炉コントローラー。"
+      },
+      "officialUrl": "https://help.unexpectedmaker.com/docs/products/reflow-master-pro/",
+      "aliases": [
+        "UM RMP"
+      ],
+      "features": [
+        "display",
+        "usb"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/rmp/",
+          "checkedAt": "2026-10-15T17:56:32+00:00"
+        },
+        {
+          "url": "https://help.unexpectedmaker.com/docs/products/reflow-master-pro/",
+          "checkedAt": "2026-10-15T17:58:02+00:00"
+        }
+      ]
+    },
+    "note": "Facts reviewed against the linked official documentation. Hardware revisions and lifecycle notes follow the source; no hardware tests performed here."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-paper",
+      "name": "M5Paper",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带触摸输入的 4.7 英寸电子纸终端。",
+        "en": "4.7-inch e-paper terminal with touch input.",
+        "ja": "タッチ操作に対応する4.7インチ電子ペーパー端末。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/m5paper",
+      "aliases": [
+        "M5Stack M5Paper"
+      ],
+      "features": [
+        "epaper",
+        "touch",
+        "battery",
+        "sd"
+      ],
+      "sources": [
+        {
+          "url": "https://m5ware.com/projects/23"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/m5paper",
+          "checkedAt": "2026-10-15T17:58:58+00:00"
+        }
+      ]
+    },
+    "note": "Exact model and peripherals reviewed against official M5Stack product documentation."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-tough",
+      "name": "Tough",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "带封闭外壳和触控屏的工业控制开发终端。",
+        "en": "Industrial-control development terminal with an enclosed case and touchscreen.",
+        "ja": "ケースとタッチ画面を備えた産業制御用の開発端末。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/tough",
+      "aliases": [
+        "M5Stack Tough"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "speaker",
+        "sd"
+      ],
+      "sources": [
+        {
+          "url": "https://m5ware.com/projects/453"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/tough",
+          "checkedAt": "2026-10-15T17:59:01+00:00"
+        }
+      ]
+    },
+    "note": "Exact model and peripherals reviewed against official M5Stack product documentation."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-stickc-plus",
+      "name": "M5StickC PLUS",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "集成屏幕、麦克风与运动传感器的便携开发设备。",
+        "en": "Portable development device with a display, microphone, and motion sensor.",
+        "ja": "画面、マイク、モーションセンサーを備えた携帯型開発デバイス。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/m5stickc_plus",
+      "aliases": [
+        "M5Stack M5StickC PLUS"
+      ],
+      "features": [
+        "display",
+        "microphone",
+        "imu",
+        "battery"
+      ],
+      "sources": [
+        {
+          "url": "https://m5ware.com/projects/41"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/m5stickc_plus",
+          "checkedAt": "2026-10-15T17:59:03+00:00"
+        }
+      ]
+    },
+    "note": "Exact model and peripherals reviewed against official M5Stack product documentation."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-stackchan",
+      "name": "StackChan (CoreS3)",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "基于 CoreS3 的桌面机器人，集成触控屏、摄像头、音频和舵机运动机构。",
+        "en": "A CoreS3-based desktop robot with a touchscreen, camera, audio, and servo motion.",
+        "ja": "タッチ画面、カメラ、オーディオ、サーボ駆動部を備える、CoreS3ベースの卓上ロボット。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/StackChan",
+      "aliases": [
+        "M5StackChan",
+        "M5Stack StackChan",
+        "K151",
+        "K151-R"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "camera",
+        "audio",
+        "imu",
+        "battery",
+        "servo"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/stack-chan/stack-chan#readme"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/StackChan",
+          "checkedAt": "2026-10-15T18:29:21+00:00"
+        }
+      ]
+    },
+    "note": "This is the complete StackChan CoreS3 robot (K151 family), not a bare CoreS3 or a Stack-chan RT. The manufacturer documents controller-specific app support."
+  }
+]

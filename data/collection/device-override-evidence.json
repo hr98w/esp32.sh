@@ -1,0 +1,114 @@
+{
+  "reterminal-e1001": {
+    "url": "https://wiki.seeedstudio.com/getting_started_with_reterminal_e1001/",
+    "checkedAt": "2026-10-15T17:56:15+00:00",
+    "reason": "ESPboards primary datasheet is the chip datasheet; use linked device-level official wiki instead",
+    "title": "Getting Started with reTerminal E1001 | Seeed Studio Wiki",
+    "excerpt": "ePaper Displays reTerminal E Series Getting Started with reTerminal E1001 On this page Getting Started with reTerminal E1001 Get One Now 🖱️ Try demos without setting up a development environment If you want to quickly preview project results or try the basic demo firmware before setting up a development environment, open the reTerminal E-Series Firmware Hub . You can choose a supported reTerminal E Series device and flash demo firmware directly from a browser. Firmware Flasher 🖱️ Update Firmware Tips We recommend that you complete your product's firmware update as soon as you receive it for the best experience. Introduction ​ reTerminal E1001 is a 7.5 inch open-source monochrome ePaper display with exceptional 3-month battery life. Powered by ESP32-S3, it natively supports our SenseCraft Seeedash no-code UI platform for effortless dashboard creation, while supporting Home Assistant, TRMNL E-ink dashboard, Arduino and ESP-IDF for further development. Whether for smart home dashboard vis"
+  },
+  "reterminal-e1002": {
+    "url": "https://wiki.seeedstudio.com/getting_started_with_reterminal_e1002/",
+    "checkedAt": "2026-10-15T17:56:27+00:00",
+    "reason": "ESPboards primary datasheet is the chip datasheet; use linked device-level official wiki instead",
+    "title": "Getting Started with reTerminal E1002 | Seeed Studio Wiki",
+    "excerpt": "ePaper Displays reTerminal E Series Getting Started with reTerminal E1002 On this page Getting Started with reTerminal E1002 Get One Now 🖱️ Try demos without setting up a development environment If you want to quickly preview project results or try the basic demo firmware before setting up a development environment, open the reTerminal E-Series Firmware Hub . You can choose a supported reTerminal E Series device and flash demo firmware directly from a browser. Firmware Flasher 🖱️ Update Firmware Tips We recommend that you complete your product's firmware update as soon as you receive it for the best experience. Screen life warning If your reTerminal has been idle for a long time, you can long press the green button on the device for 5 seconds to clear the screen content (using the factory firmware), which can effectively prevent the residual shadow and increase the screen life. Whenever possible, do not display a screen for a long period of time (more than 1 day), as this may create a "
+  },
+  "seeed-xiao-esp32s3-wio-sx1262-kit": {
+    "url": "https://wiki.seeedstudio.com/wio_sx1262_with_xiao_esp32s3_kit/",
+    "checkedAt": "2026-10-15T17:56:38+00:00",
+    "reason": "Prefer linked official kit documentation over radio-module PDF",
+    "title": "XIAO ESP32S3 & Wio-SX1262 Kit Introduction | Seeed Studio Wiki",
+    "excerpt": "LoRa Wio Series Wio-SX1262 XIAO ESP32S3 & Wio-SX1262 Kit XIAO ESP32S3 & Wio-SX1262 Kit Introduction On this page XIAO ESP32S3 & Wio-SX1262 Kit Introduction Get One from Seeed Online Store Get One from Aliexpress Introduction ​ This thumb-sized LoRa development kit, which consists of the XIAO ESP32S3 and the Wio-SX1262 LoRa module, is an ideal starter kit for Meshtastic and LoRa/LoRaWAN projects. Supporting WiFi, BLE, and LoRa, it includes a built-in power management chip and can be extended via IIC, UART, and other GPIO interfaces, and is compatible with Arduino development. The XIAO ESP32S3 & Wio-SX1262 Kit is a single-channel LoRaWAN LoRa module with a low price and high cost performance. It is suitable for application scenarios with long distance, low power consumption, and small data volume. It supports more than 30 node devices (depending on upload interval, data payload, etc.). Seeed provides 3 applications for this XIAO ESP32S3 & Wio-SX1262 Kit. Using Meshtastic for network comm"
+  },
+  "waveshare-esp32-s3-eth": {
+    "url": "https://www.waveshare.com/wiki/ESP32-S3-ETH",
+    "checkedAt": "2026-10-15T18:11:08+00:00",
+    "reason": "Prefer directory-linked device wiki over ESP32-S3 chip datasheet",
+    "title": "ESP32-S3-ETH - Waveshare Wiki",
+    "excerpt": "ESP32-S3-ETH - Waveshare Wiki Navigation menu Toggle navigation Raspberry Pi Boards/Kits Displays Cameras Expansions All-in-one Robots Portable Gaming Accessories Other Android/Linux Boards AI Boards/Kits Displays Cameras Expansions Robots Displays LCD/OLED e-Paper IoT Long Range Wireless Short Range Wireless Wired Comm / Converter Cameras / Audio / Video Sensors Motors / Servos others Robotics Mobile Robots Dog-like Robots Drivers / Sensors Robot Arm / Control MCU/FPGA Arduino micro:bit STM32 FPGA Support ESP32-S3-ETH From Waveshare Wiki Jump to: navigation , search The ETH board ESP32-S3, I2C/UART/USB The ETH board + OV5640 camera ESP32-S3, I2C/UART/USB The ETH board + POE module ESP32-S3, I2C/UART/USB The ETH board + POE module + OV5640 camera ESP32-S3, I2C/UART/USB {{{name5}}} {{{name6}}} Primary Attribute Category: {{{userDefinedInfo}}}: {{{userdefinedvalue}}} Brand: Waveshare Website International: {{{website_en}}} Chinese: {{{website_cn}}} Onboard Interfaces USB UART I2C GPIO Re"
+  },
+  "waveshare-esp32-s3-touch-lcd-4b": {
+    "url": "https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4B",
+    "checkedAt": "2026-10-15T18:11:12+00:00",
+    "reason": "Prefer directory-linked device wiki over generic chip datasheet",
+    "title": "ESP32-S3-Touch-LCD-4B - Waveshare Wiki",
+    "excerpt": "ESP32-S3-Touch-LCD-4B - Waveshare Wiki Navigation menu Toggle navigation Raspberry Pi Boards/Kits Displays Cameras Expansions All-in-one Robots Portable Gaming Accessories Other Android/Linux Boards AI Boards/Kits Displays Cameras Expansions Robots Displays LCD/OLED e-Paper IoT Long Range Wireless Short Range Wireless Wired Comm / Converter Cameras / Audio / Video Sensors Motors / Servos others Robotics Mobile Robots Dog-like Robots Drivers / Sensors Robot Arm / Control MCU/FPGA Arduino micro:bit STM32 FPGA Support ESP32-S3-Touch-LCD-4B From Waveshare Wiki Jump to: navigation , search ESP32-S3 Touch LCD 4B 4inch, 480×480, USB/UART/GPIO {{{name2}}} {{{name3}}} {{{name4}}} {{{name5}}} {{{name6}}} Primary Attribute Category: {{{userDefinedInfo}}}: {{{userdefinedvalue}}} Brand: Waveshare Website International: {{{website_en}}} Chinese: {{{website_cn}}} Onboard Interfaces GPIO UART USB Related Products Contents 1 Introduction 1.1 Introduction 1.2 Features 1.3 Hardware Description 1.4 Onboar"
+  },
+  "edgebox-esp-100": {
+    "url": "https://wiki.seeedstudio.com/Edgebox-ESP-100-Arduino/",
+    "checkedAt": "2026-10-15T18:11:21+00:00",
+    "reason": "Prefer directory-linked official device documentation over store tracking URL",
+    "title": "EdgeBox-ESP-100 Getting Start with Arduino | Seeed Studio Wiki",
+    "excerpt": "ESP Devices EdgeBox-ESP-100 EdgeBox-ESP-100 Getting Start with Arduino On this page EdgeBox-ESP-100 Getting Start with Arduino Edgebox-ESP-100 ​ EdgeBox-ESP-100 is an ESP32-based controller designed for lightweight automation solutions. It supports analog input, effectively monitoring and controlling in a remote environment, ideal for PID control loops, logic sequencing control, or a gateway with flexible wireless and field sensors expansion. Besides EdgeBox-ESP-100, We also have the other 2 Edge products for different solutions in the Edge family, powered by Raspberry Pi. To help you understand the differences deeply and choose the most suitable part for your projects, please refer to the Seeed Studio Edge Series Page . It offers isolated CAN, RS485 Fieldbus connections, and rich IO resources for extensive facilities and sensors input, for both digital and analog signals. It is perfectly satisfactory to the PLC and field automation applications. Since it contains on-chip Wi-Fi and BLE"
+  },
+  "lilygo-t-display-s3-amoled-touch": {
+    "url": "https://lilygo.cc/products/t-display-s3-amoled",
+    "checkedAt": "2026-10-15T18:32:04+00:00",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links",
+    "title": "T-Display S3 AMOLED – LILYGO®",
+    "excerpt": "T-Display S3 AMOLED – LILYGO® Skip to content Series Series T-Display Series T-Deck Series T-Beam Series T3-Series T-Lora Series T-Watch Series T-Embed Series T-Camera Series T-Connect Series T-Echo Series T-Twr Series T-Sim Series T-Relay Series T-Dongle Series T-Eth Series T-Encoder Series T7-Series T5-Series T8-Series T4-Series Industrial Series Accessories Other Development Board New Arrival Local Warehouse Local Warehouse Germany United States Canada By Firmware By Firmware LILYGO Meshtastic MeshCore About About Join Us! Notice FAQs About Us Certificate Contact Us Privacy Policy Shipping & Delivery Refunds & Returns Terms Of Service Worry-Free Purchase--Seel TaoBao [Shipping destination: Mainland China.] Document-Tool Document-Tool Github LILYGO-Spark Wiki Driver of CH9102 Driver of CH9102 For Mac For Window Track Order Log in Country/region U.S. Outlying Islands | USD $ Search Canada USD $ Germany USD $ United Kingdom USD $ United States USD $ Afghanistan USD $ Åland Islands USD "
+  },
+  "lilygo-t-display-s3-amoled": {
+    "url": "https://lilygo.cc/products/t-display-s3-amoled",
+    "checkedAt": "2026-10-15T18:32:04+00:00",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links",
+    "title": "T-Display S3 AMOLED – LILYGO®",
+    "excerpt": "T-Display S3 AMOLED – LILYGO® Skip to content Series Series T-Display Series T-Deck Series T-Beam Series T3-Series T-Lora Series T-Watch Series T-Embed Series T-Camera Series T-Connect Series T-Echo Series T-Twr Series T-Sim Series T-Relay Series T-Dongle Series T-Eth Series T-Encoder Series T7-Series T5-Series T8-Series T4-Series Industrial Series Accessories Other Development Board New Arrival Local Warehouse Local Warehouse Germany United States Canada By Firmware By Firmware LILYGO Meshtastic MeshCore About About Join Us! Notice FAQs About Us Certificate Contact Us Privacy Policy Shipping & Delivery Refunds & Returns Terms Of Service Worry-Free Purchase--Seel TaoBao [Shipping destination: Mainland China.] Document-Tool Document-Tool Github LILYGO-Spark Wiki Driver of CH9102 Driver of CH9102 For Mac For Window Track Order Log in Country/region U.S. Outlying Islands | USD $ Search Canada USD $ Germany USD $ United Kingdom USD $ United States USD $ Afghanistan USD $ Åland Islands USD "
+  },
+  "lilygo-t-display-s3-touch": {
+    "url": "https://lilygo.cc/products/t-display-s3",
+    "checkedAt": "2026-10-15T17:26:49+00:00",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links",
+    "title": "T-Display S3 – LILYGO®",
+    "excerpt": "T-Display S3 – LILYGO® Skip to content Series Series T-Display Series T-Deck Series T-Beam Series T3-Series T-Lora Series T-Watch Series T-Embed Series T-Camera Series T-Connect Series T-Echo Series T-Twr Series T-Sim Series T-Relay Series T-Dongle Series T-Eth Series T-Encoder Series T7-Series T5-Series T8-Series T4-Series Industrial Series Accessories Other Development Board New Arrival Local Warehouse Local Warehouse Germany United States Canada By Firmware By Firmware LILYGO Meshtastic MeshCore About About Join Us! Notice FAQs About Us Certificate Contact Us Privacy Policy Shipping & Delivery Refunds & Returns Terms Of Service Worry-Free Purchase--Seel TaoBao [Shipping destination: Mainland China.] Document-Tool Document-Tool Github LILYGO-Spark Wiki Driver of CH9102 Driver of CH9102 For Mac For Window Track Order Log in Country/region U.S. Outlying Islands | USD $ Search Canada USD $ Germany USD $ United Kingdom USD $ United States USD $ Afghanistan USD $ Åland Islands USD $ Alban"
+  },
+  "t7-c6": {
+    "url": "https://lilygo.cc/products/t7-c6",
+    "checkedAt": "2026-10-15T18:32:07+00:00",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links",
+    "title": "T7-C6 – LILYGO®",
+    "excerpt": "T7-C6 – LILYGO® Skip to content Series Series T-Display Series T-Deck Series T-Beam Series T3-Series T-Lora Series T-Watch Series T-Embed Series T-Camera Series T-Connect Series T-Echo Series T-Twr Series T-Sim Series T-Relay Series T-Dongle Series T-Eth Series T-Encoder Series T7-Series T5-Series T8-Series T4-Series Industrial Series Accessories Other Development Board New Arrival Local Warehouse Local Warehouse Germany United States Canada By Firmware By Firmware LILYGO Meshtastic MeshCore About About Join Us! Notice FAQs About Us Certificate Contact Us Privacy Policy Shipping & Delivery Refunds & Returns Terms Of Service Worry-Free Purchase--Seel TaoBao [Shipping destination: Mainland China.] Document-Tool Document-Tool Github LILYGO-Spark Wiki Driver of CH9102 Driver of CH9102 For Mac For Window Track Order Log in Country/region U.S. Outlying Islands | USD $ Search Canada USD $ Germany USD $ United Kingdom USD $ United States USD $ Afghanistan USD $ Åland Islands USD $ Albania USD "
+  },
+  "ttgo-t-call": {
+    "url": "https://lilygo.cc/products/t-call-v1-4",
+    "checkedAt": "2026-10-15T18:32:09+00:00",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links",
+    "title": "T-Call – LILYGO®",
+    "excerpt": "T-Call – LILYGO® Skip to content Series Series T-Display Series T-Deck Series T-Beam Series T3-Series T-Lora Series T-Watch Series T-Embed Series T-Camera Series T-Connect Series T-Echo Series T-Twr Series T-Sim Series T-Relay Series T-Dongle Series T-Eth Series T-Encoder Series T7-Series T5-Series T8-Series T4-Series Industrial Series Accessories Other Development Board New Arrival Local Warehouse Local Warehouse Germany United States Canada By Firmware By Firmware LILYGO Meshtastic MeshCore About About Join Us! Notice FAQs About Us Certificate Contact Us Privacy Policy Shipping & Delivery Refunds & Returns Terms Of Service Worry-Free Purchase--Seel TaoBao [Shipping destination: Mainland China.] Document-Tool Document-Tool Github LILYGO-Spark Wiki Driver of CH9102 Driver of CH9102 For Mac For Window Track Order Log in Country/region U.S. Outlying Islands | USD $ Search Canada USD $ Germany USD $ United Kingdom USD $ United States USD $ Afghanistan USD $ Åland Islands USD $ Albania USD"
+  },
+  "ttgo-t-oi-plus": {
+    "url": "https://lilygo.cc/products/t-oi-plus",
+    "checkedAt": "2026-10-15T18:32:12+00:00",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links",
+    "title": "T-OI Plus – LILYGO®",
+    "excerpt": "T-OI Plus – LILYGO® Skip to content Series Series T-Display Series T-Deck Series T-Beam Series T3-Series T-Lora Series T-Watch Series T-Embed Series T-Camera Series T-Connect Series T-Echo Series T-Twr Series T-Sim Series T-Relay Series T-Dongle Series T-Eth Series T-Encoder Series T7-Series T5-Series T8-Series T4-Series Industrial Series Accessories Other Development Board New Arrival Local Warehouse Local Warehouse Germany United States Canada By Firmware By Firmware LILYGO Meshtastic MeshCore About About Join Us! Notice FAQs About Us Certificate Contact Us Privacy Policy Shipping & Delivery Refunds & Returns Terms Of Service Worry-Free Purchase--Seel TaoBao [Shipping destination: Mainland China.] Document-Tool Document-Tool Github LILYGO-Spark Wiki Driver of CH9102 Driver of CH9102 For Mac For Window Track Order Log in Country/region U.S. Outlying Islands | USD $ Search Canada USD $ Germany USD $ United Kingdom USD $ United States USD $ Afghanistan USD $ Åland Islands USD $ Albania "
+  },
+  "ttgo-t7-v13-mini32": {
+    "url": "https://lilygo.cc/en-us/products/t7-v1-3-mini-32-esp32",
+    "checkedAt": "2026-10-15T18:32:15+00:00",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links",
+    "title": "T7 V1.3 MINI 32 ESP32 – LILYGO®",
+    "excerpt": "T7 V1.3 MINI 32 ESP32 – LILYGO® Skip to content Series Series T-Display Series T-Deck Series T-Beam Series T3-Series T-Lora Series T-Watch Series T-Embed Series T-Camera Series T-Connect Series T-Echo Series T-Twr Series T-Sim Series T-Relay Series T-Dongle Series T-Eth Series T-Encoder Series T7-Series T5-Series T8-Series T4-Series Industrial Series Accessories Other Development Board New Arrival Local Warehouse Local Warehouse Germany United States Canada By Firmware By Firmware LILYGO Meshtastic MeshCore About About Join Us! Notice FAQs About Us Certificate Contact Us Privacy Policy Shipping & Delivery Refunds & Returns Terms Of Service Worry-Free Purchase--Seel TaoBao [Shipping destination: Mainland China.] Document-Tool Document-Tool Github LILYGO-Spark Wiki Driver of CH9102 Driver of CH9102 For Mac For Window Track Order Log in Country/region United States | USD $ Search Canada USD $ Germany USD $ United Kingdom USD $ United States USD $ Afghanistan USD $ Åland Islands USD $ Alba"
+  },
+  "adafruit-esp32-c6-feather": {
+    "url": "https://learn.adafruit.com/adafruit-esp32-c6-feather",
+    "checkedAt": "2026-10-15T18:51:36+00:00",
+    "reason": "Use the device-level manufacturer HTML guide corresponding to the linked power-management chapter and PDF",
+    "title": "Overview | Adafruit ESP32-C6 Feather | Adafruit Learning System",
+    "excerpt": "Adafruit ESP32-C6 Feather Take flight with the ESP32-C6! by Liz Clark published September 04, 2024, last edited March 27, 2026 posted in Adafruit Products Arduino Compatibles Feather CircuitPython Internet of Things - IOT Save New Favorite × Please sign in to include this guide in your list of favorites. You will be redirected back to this guide once you sign in , and can then save this guide as one of your favorites. Close Link Note Download Overview Pinouts Low Power Use Power Management Install CircuitPython Connecting to the USB Workflow Code Editor Navigating USB Workflow Blink Digital Input I2C Scan MAX17048 Battery Monitor NeoPixel WiFi Test Adafruit IO Arduino IDE Setup Blink I2C MAX17048 Simple Data WiFi Test WipperSnapper Setup WipperSnapper Essentials LED Blink Read a Push-button NeoPixel LED Analog Input I2C Sensor Battery Monitor (MAX17048) Factory Reset Downloads Single page Feedback? Corrections? Text View Guide Products view all Primary Adafruit ESP32-C6 Feather - STEMM"
+  },
+  "adafruit-magtag29-esp32s2": {
+    "url": "https://learn.adafruit.com/adafruit-magtag",
+    "checkedAt": "2026-10-15T18:51:39+00:00",
+    "reason": "Use the manufacturer guide linked by the source directory instead of a reseller",
+    "title": "Overview | Adafruit MagTag | Adafruit Learning System",
+    "excerpt": "Adafruit MagTag An IoT eInk display on magnets! by Kattni Rembor published November 10, 2020, last edited March 02, 2026 last major update July 31, 2025 posted in Adafruit Products Internet of Things - IOT LCDs & Displays / eInk / ePaper Save New Favorite × Please sign in to include this guide in your list of favorites. You will be redirected back to this guide once you sign in , and can then save this guide as one of your favorites. Close Link Note Download Overview Pinouts Update TinyUF2 Bootloader for CircuitPython 10 and Later Install CircuitPython CircuitPython Internet Test Getting The Date & Time MagTag-Specific CircuitPython Libraries Welcome To CircuitPython Installing the Mu Editor Creating and Editing Code Connecting to the Serial Console Interacting with the Serial Console The REPL Advanced Serial Console on Windows CircuitPython Libraries CircuitPython Pins and Modules Advanced Serial Console on Mac Frequently Asked Questions ESP32-S2 Bugs & Limitations Troubleshooting Wel"
+  },
+  "featheresp32": {
+    "url": "https://learn.adafruit.com/adafruit-huzzah32-esp32-feather",
+    "checkedAt": "2026-10-15T18:51:41+00:00",
+    "reason": "Use the original HUZZAH32 manufacturer guide linked by the source directory; do not substitute Feather V2",
+    "title": "Overview | Adafruit HUZZAH32 - ESP32 Feather | Adafruit Learning System",
+    "excerpt": "Adafruit HUZZAH32 - ESP32 Feather WiFi, Bluetooth, peripherals galore! by lady ada published May 10, 2017, last edited October 16, 2025 last major update February 14, 2023 posted in Internet of Things - IOT / Wireless Feather / Feather Boards Internet of Things - IOT / Bluefruit / BLE Save New Favorite × Please sign in to include this guide in your list of favorites. You will be redirected back to this guide once you sign in , and can then save this guide as one of your favorites. Close Link Note Download Overview Pinouts Assembly Power Management CircuitPython Using with Arduino IDE WipperSnapper Setup WipperSnapper Essentials LED Blink Read a Push-button Analog Input I2C Sensor ESP32 F.A.Q Downloads Single page Feedback? Corrections? Text View Guide Products view all Primary Adafruit HUZZAH32 – ESP32 Feather Board $19.95 Add to Cart Primary Adafruit HUZZAH32 – ESP32 Feather Board (pre-soldered) $20.95 Add to Cart Primary Assembled Adafruit HUZZAH32 – ESP32 Feather Board Out of Stock "
+  }
+}

@@ -1,0 +1,1724 @@
+[
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-atom-lite",
+      "name": "ATOM Lite",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "M5Stack 的迷你自动化控制板，采用 ESP32，配有GPIO 扩展、RGB 指示灯。",
+        "en": "M5Stack compact automation board based on ESP32, with GPIO expansion, RGB indicator.",
+        "ja": "ESP32を搭載したM5Stackの小型の自動化ボード。GPIO拡張、RGBインジケーターを備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/ATOM%20Lite",
+      "aliases": [
+        "M5Stack-ATOM"
+      ],
+      "features": [
+        "gpio",
+        "rgb"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-atom/",
+          "checkedAt": "2026-10-15T17:23:27+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/ATOM%20Lite",
+          "checkedAt": "2026-10-15T17:27:16+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-atoms3",
+      "name": "AtomS3",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "M5Stack 的迷你带屏开发设备，采用 ESP32-S3，配有屏幕、运动传感器、GPIO 扩展。",
+        "en": "M5Stack compact display device based on ESP32-S3, with display, motion sensor, GPIO expansion.",
+        "ja": "ESP32-S3を搭載したM5Stackの小型の画面付きデバイス。ディスプレイ、モーションセンサー、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/AtomS3",
+      "aliases": [
+        "M5Stack-ATOMS3"
+      ],
+      "features": [
+        "display",
+        "imu",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-atoms3/",
+          "checkedAt": "2026-10-15T17:23:30+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/AtomS3",
+          "checkedAt": "2026-10-15T17:27:18+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-basic",
+      "name": "BASIC",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "M5Stack 的可堆叠的模块化控制器，采用 ESP32，配有屏幕、扬声器、GPIO 扩展。",
+        "en": "M5Stack stackable modular controller based on ESP32, with display, speaker, GPIO expansion.",
+        "ja": "ESP32を搭載したM5Stackの積み重ね式のモジュール型コントローラー。ディスプレイ、スピーカー、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/basic",
+      "aliases": [
+        "M5Stack-Core-ESP32"
+      ],
+      "features": [
+        "display",
+        "speaker",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-core-esp32/",
+          "checkedAt": "2026-10-15T17:23:32+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/basic",
+          "checkedAt": "2026-10-15T17:27:19+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-core2",
+      "name": "Core2",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "M5Stack 的触控物联网终端，采用 ESP32，配有屏幕、触摸输入、音频输入输出、运动传感器。",
+        "en": "M5Stack touchscreen IoT terminal based on ESP32, with display, touch input, audio I/O, motion sensor.",
+        "ja": "ESP32を搭載したM5Stackのタッチ式のIoT端末。ディスプレイ、タッチ入力、オーディオ入出力、モーションセンサーを備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/core2",
+      "aliases": [
+        "M5Stack-Core2"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "audio",
+        "imu"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-core2/",
+          "checkedAt": "2026-10-15T17:23:32+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/core2",
+          "checkedAt": "2026-10-15T17:27:21+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-coreink",
+      "name": "CoreInk",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "M5Stack 的低功耗信息显示设备，采用 ESP32，配有电子纸屏幕、电池供电、GPIO 扩展。",
+        "en": "M5Stack low-power information display based on ESP32, with e-paper display, battery power, GPIO expansion.",
+        "ja": "ESP32を搭載したM5Stackの低消費電力の情報表示デバイス。電子ペーパーディスプレイ、バッテリー電源、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/coreink",
+      "aliases": [
+        "M5Stack-CoreInk"
+      ],
+      "features": [
+        "epaper",
+        "battery",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-coreink/",
+          "checkedAt": "2026-10-15T17:23:35+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/coreink",
+          "checkedAt": "2026-10-15T17:27:23+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-cores3",
+      "name": "CoreS3",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "M5Stack 的集成多种交互外设的控制器，采用 ESP32-S3，配有屏幕、触摸输入、摄像头、音频输入输出。",
+        "en": "M5Stack controller with integrated interactive peripherals based on ESP32-S3, with display, touch input, camera, audio I/O.",
+        "ja": "ESP32-S3を搭載したM5Stackの複数の操作機能を搭載したコントローラー。ディスプレイ、タッチ入力、カメラ、オーディオ入出力を備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/coreS3",
+      "aliases": [
+        "M5Stack CoreS3"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "camera",
+        "audio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-cores3/",
+          "checkedAt": "2026-10-15T17:23:38+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/coreS3",
+          "checkedAt": "2026-10-15T17:27:25+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-dial",
+      "name": "Dial V1.1",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "M5Stack 的旋钮式控制终端，采用 ESP32-S3，配有屏幕、触摸输入、旋转编码器、RFID 读取。",
+        "en": "M5Stack rotary control terminal based on ESP32-S3, with display, touch input, rotary encoder, RFID reader.",
+        "ja": "ESP32-S3を搭載したM5Stackのダイヤル式の操作端末。ディスプレイ、タッチ入力、ロータリーエンコーダー、RFIDリーダーを備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/M5Dial%20V1.1",
+      "aliases": [
+        "M5Stack Dial V1.1"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "encoder",
+        "rfid"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-dial/",
+          "checkedAt": "2026-10-15T17:23:40+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/M5Dial%20V1.1",
+          "checkedAt": "2026-10-15T17:27:27+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-fire",
+      "name": "FIRE",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "M5Stack 的模块化传感与显示控制器，采用 ESP32，配有屏幕、音频输入输出、运动传感器。",
+        "en": "M5Stack modular sensing and display controller based on ESP32, with display, audio I/O, motion sensor.",
+        "ja": "ESP32を搭載したM5Stackのモジュール型のセンサー・表示コントローラー。ディスプレイ、オーディオ入出力、モーションセンサーを備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/fire",
+      "aliases": [
+        "M5Stack-FIRE"
+      ],
+      "features": [
+        "display",
+        "audio",
+        "imu"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-fire/",
+          "checkedAt": "2026-10-15T17:23:43+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/fire",
+          "checkedAt": "2026-10-15T17:27:29+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-station-485",
+      "name": "Station-485",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "M5Stack 的盒式工业与桌面控制器，采用 ESP32，配有屏幕、RS-485 接口、GPIO 扩展。",
+        "en": "M5Stack enclosed industrial and desktop controller based on ESP32, with display, RS-485 interface, GPIO expansion.",
+        "ja": "ESP32を搭載したM5Stackのケース入りの産業・デスク用コントローラー。ディスプレイ、RS-485インターフェース、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/station_485",
+      "aliases": [
+        "M5Stack-Station"
+      ],
+      "features": [
+        "display",
+        "rs485",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-station/",
+          "checkedAt": "2026-10-15T17:23:46+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/station_485",
+          "checkedAt": "2026-10-15T17:27:31+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-tab5",
+      "name": "Tab5",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32-P4",
+      "summary": {
+        "zh": "M5Stack 的平板形态交互终端，采用 ESP32-P4，配有屏幕、触摸输入、摄像头、RS-485 接口。",
+        "en": "M5Stack tablet-style interaction terminal based on ESP32-P4, with display, touch input, camera, RS-485 interface.",
+        "ja": "ESP32-P4を搭載したM5Stackのタブレット型の操作端末。ディスプレイ、タッチ入力、カメラ、RS-485インターフェースを備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/Tab5",
+      "aliases": [
+        "M5Stack Tab5"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "camera",
+        "rs485"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-tab5/",
+          "checkedAt": "2026-10-15T17:23:49+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/Tab5",
+          "checkedAt": "2026-10-15T17:27:33+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-timer-cam",
+      "name": "Timer Camera",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "M5Stack 的定时图像采集开发设备，采用 ESP32，配有摄像头、电池供电。",
+        "en": "M5Stack timer-based camera development device based on ESP32, with camera, battery power.",
+        "ja": "ESP32を搭載したM5Stackのタイマー撮影用の開発デバイス。カメラ、バッテリー電源を備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/unit/timercam",
+      "aliases": [
+        "M5Stack-Timer-CAM"
+      ],
+      "features": [
+        "camera",
+        "battery"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stack-timer-cam/",
+          "checkedAt": "2026-10-15T17:23:51+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/unit/timercam",
+          "checkedAt": "2026-10-15T17:27:35+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-stickc",
+      "name": "M5StickC",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "M5Stack 的便携式传感开发设备，采用 ESP32，配有屏幕、运动传感器、电池供电。",
+        "en": "M5Stack portable sensing development device based on ESP32, with display, motion sensor, battery power.",
+        "ja": "ESP32を搭載したM5Stackの携帯型のセンサー開発デバイス。ディスプレイ、モーションセンサー、バッテリー電源を備えています。"
+      },
+      "officialUrl": "https://docs.m5stack.com/en/core/m5stickc",
+      "aliases": [
+        "M5Stick-C"
+      ],
+      "features": [
+        "display",
+        "imu",
+        "battery"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/m5stick-c/",
+          "checkedAt": "2026-10-15T17:23:54+00:00"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/m5stickc",
+          "checkedAt": "2026-10-15T17:27:37+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-beam-supreme",
+      "name": "T-Beam Supreme",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的无线定位与遥测开发板，采用 ESP32-S3，配有LoRa 无线模块、定位模块。",
+        "en": "LILYGO wireless positioning and telemetry board based on ESP32-S3, with LoRa radio, GNSS receiver.",
+        "ja": "ESP32-S3を搭載したLILYGOの無線測位・テレメトリー用ボード。LoRa無線、GNSS受信機を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-beam-supreme",
+      "aliases": [
+        "LilyGo T-Beam Supreme"
+      ],
+      "features": [
+        "lora",
+        "gps"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-beam-supreme/",
+          "checkedAt": "2026-10-15T17:23:57+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-beam-supreme",
+          "checkedAt": "2026-10-15T17:26:38+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-beam",
+      "name": "T-Beam",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "LILYGO 的无线定位开发板，采用 ESP32，配有LoRa 无线模块、定位模块。",
+        "en": "LILYGO wireless positioning board based on ESP32, with LoRa radio, GNSS receiver.",
+        "ja": "ESP32を搭載したLILYGOの無線測位用ボード。LoRa無線、GNSS受信機を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-beam",
+      "aliases": [
+        "LilyGo T-Beam"
+      ],
+      "features": [
+        "lora",
+        "gps"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-beam/",
+          "checkedAt": "2026-10-15T17:23:59+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-beam",
+          "checkedAt": "2026-10-15T17:26:41+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-deck-plus",
+      "name": "T-Deck Plus",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的键盘式便携终端，采用 ESP32-S3，配有屏幕、键盘、定位模块、电池供电、LoRa 无线模块。",
+        "en": "LILYGO portable keyboard terminal based on ESP32-S3, with display, keyboard, GNSS receiver, battery power, LoRa radio.",
+        "ja": "ESP32-S3を搭載したLILYGOのキーボード付き携帯端末。ディスプレイ、キーボード、GNSS受信機、バッテリー電源、LoRa無線を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-deck-plus-1",
+      "aliases": [
+        "LilyGo T-Deck Plus"
+      ],
+      "features": [
+        "display",
+        "keyboard",
+        "gps",
+        "battery",
+        "lora"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-deck-plus/",
+          "checkedAt": "2026-10-15T17:24:01+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-deck-plus-1",
+          "checkedAt": "2026-10-15T17:26:44+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-deck",
+      "name": "T-Deck",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的可编程掌上终端，采用 ESP32-S3，配有屏幕、键盘、音频输入输出。",
+        "en": "LILYGO programmable handheld terminal based on ESP32-S3, with display, keyboard, audio I/O.",
+        "ja": "ESP32-S3を搭載したLILYGOのプログラム可能な携帯端末。ディスプレイ、キーボード、オーディオ入出力を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-deck",
+      "aliases": [
+        "LilyGo T-Deck"
+      ],
+      "features": [
+        "display",
+        "keyboard",
+        "audio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-deck/",
+          "checkedAt": "2026-10-15T17:24:04+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-deck",
+          "checkedAt": "2026-10-15T17:26:47+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-display-s3",
+      "name": "T-Display S3",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的彩色屏幕开发板，采用 ESP32-S3，配有屏幕、GPIO 扩展。",
+        "en": "LILYGO color-display development board based on ESP32-S3, with display, GPIO expansion.",
+        "ja": "ESP32-S3を搭載したLILYGOのカラー画面付き開発ボード。ディスプレイ、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-display-s3",
+      "aliases": [
+        "LilyGo T-Display-S3"
+      ],
+      "features": [
+        "display",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-display-s3/",
+          "checkedAt": "2026-10-15T17:24:15+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-display-s3",
+          "checkedAt": "2026-10-15T17:26:49+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-dongle-s3",
+      "name": "T-Dongle S3",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的USB 插棒式开发设备，采用 ESP32-S3，配有屏幕、USB 接口。",
+        "en": "LILYGO USB dongle development device based on ESP32-S3, with display, USB connection.",
+        "ja": "ESP32-S3を搭載したLILYGOのUSBドングル型の開発デバイス。ディスプレイ、USB接続を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-dongle-s3",
+      "aliases": [
+        "LilyGo T-Dongle S3"
+      ],
+      "features": [
+        "display",
+        "usb"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-dongle-s3/",
+          "checkedAt": "2026-10-15T17:24:17+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-dongle-s3",
+          "checkedAt": "2026-10-15T17:26:52+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-embed-cc1101",
+      "name": "T-Embed CC1101",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的带旋钮的无线工具开发设备，采用 ESP32-S3，配有屏幕、旋转编码器、Sub-GHz 无线模块。",
+        "en": "LILYGO wireless tool development device with a dial based on ESP32-S3, with display, rotary encoder, sub-GHz radio.",
+        "ja": "ESP32-S3を搭載したLILYGOのダイヤル付き無線ツール開発デバイス。ディスプレイ、ロータリーエンコーダー、Sub-GHz無線を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-embed-cc1101",
+      "aliases": [
+        "LilyGo T-Embed CC1101"
+      ],
+      "features": [
+        "display",
+        "encoder",
+        "subghz"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-embed-cc1101/",
+          "checkedAt": "2026-10-15T17:24:20+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-embed-cc1101",
+          "checkedAt": "2026-10-15T17:26:55+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-embed",
+      "name": "T-Embed",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的可嵌入式交互面板，采用 ESP32-S3，配有屏幕、旋转编码器、音频输入输出。",
+        "en": "LILYGO embeddable interactive panel based on ESP32-S3, with display, rotary encoder, audio I/O.",
+        "ja": "ESP32-S3を搭載したLILYGOの組み込み型の操作パネル。ディスプレイ、ロータリーエンコーダー、オーディオ入出力を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-embed",
+      "aliases": [
+        "LilyGo T-Embed"
+      ],
+      "features": [
+        "display",
+        "encoder",
+        "audio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-embed/",
+          "checkedAt": "2026-10-15T17:24:22+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-embed",
+          "checkedAt": "2026-10-15T17:26:58+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-eth-lite",
+      "name": "T-ETH-Lite ESP32",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "LILYGO 的有线联网开发板，采用 ESP32，配有以太网、存储卡接口。",
+        "en": "LILYGO wired-network development board based on ESP32, with Ethernet, memory-card slot.",
+        "ja": "ESP32を搭載したLILYGOの有線ネットワーク開発ボード。Ethernet、メモリーカードスロットを備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-eth-lite",
+      "aliases": [
+        "LilyGo T-Eth Lite"
+      ],
+      "features": [
+        "ethernet",
+        "sd"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-eth-lite/",
+          "checkedAt": "2026-10-15T17:24:25+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-eth-lite",
+          "checkedAt": "2026-10-15T17:27:01+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-watch-s3",
+      "name": "T-Watch S3",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的可编程手表开发平台，采用 ESP32-S3，配有屏幕、触摸输入、LoRa 无线模块。",
+        "en": "LILYGO programmable watch development platform based on ESP32-S3, with display, touch input, LoRa radio.",
+        "ja": "ESP32-S3を搭載したLILYGOのプログラム可能な腕時計開発プラットフォーム。ディスプレイ、タッチ入力、LoRa無線を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t-watch-s3",
+      "aliases": [
+        "LilyGo T-Watch S3"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "lora"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t-watch-s3/",
+          "checkedAt": "2026-10-15T17:24:28+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t-watch-s3",
+          "checkedAt": "2026-10-15T17:27:04+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t3s3-v1-0",
+      "name": "T3 S3",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的带显示屏的无线电开发板，采用 ESP32-S3，配有屏幕、LoRa 无线模块。",
+        "en": "LILYGO radio development board with a display based on ESP32-S3, with display, LoRa radio.",
+        "ja": "ESP32-S3を搭載したLILYGOの画面付き無線開発ボード。ディスプレイ、LoRa無線を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t3s3-v1-0",
+      "aliases": [
+        "LilyGo T3S3 V1.0"
+      ],
+      "features": [
+        "display",
+        "lora"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t3s3-v1-0/",
+          "checkedAt": "2026-10-15T17:24:30+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t3s3-v1-0",
+          "checkedAt": "2026-10-15T17:27:06+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t4-s3",
+      "name": "T4 S3",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的AMOLED 信息显示开发板，采用 ESP32-S3，配有屏幕、存储卡接口。",
+        "en": "LILYGO AMOLED information-display board based on ESP32-S3, with display, memory-card slot.",
+        "ja": "ESP32-S3を搭載したLILYGOのAMOLED情報表示用ボード。ディスプレイ、メモリーカードスロットを備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t4-s3",
+      "aliases": [
+        "LilyGo T4-S3"
+      ],
+      "features": [
+        "display",
+        "sd"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t4-s3/",
+          "checkedAt": "2026-10-15T17:24:33+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t4-s3",
+          "checkedAt": "2026-10-15T17:27:09+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t5-4-7-epaper-v2-3",
+      "name": "T5 4.7 E-Paper V2.3",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "LILYGO 的电子纸交互面板，采用 ESP32-S3，配有电子纸屏幕、存储卡接口。",
+        "en": "LILYGO interactive e-paper panel based on ESP32-S3, with e-paper display, memory-card slot.",
+        "ja": "ESP32-S3を搭載したLILYGOの電子ペーパー操作パネル。電子ペーパーディスプレイ、メモリーカードスロットを備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/t5-4-7-inch-e-paper-v2-3",
+      "aliases": [
+        "LilyGo T5 4.7 Inch E-Paper V2.3"
+      ],
+      "features": [
+        "epaper",
+        "sd"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-t5-4-7-epaper-v2-3/",
+          "checkedAt": "2026-10-15T17:24:35+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/t5-4-7-inch-e-paper-v2-3",
+          "checkedAt": "2026-10-15T17:27:12+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-ttgo-t-display-1-14",
+      "name": "T-Display 1.14",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "LILYGO 的小型显示开发板，采用 ESP32，配有屏幕、GPIO 扩展。",
+        "en": "LILYGO small display development board based on ESP32, with display, GPIO expansion.",
+        "ja": "ESP32を搭載したLILYGOの小型の画面付き開発ボード。ディスプレイ、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board",
+      "aliases": [
+        "LilyGo TTGO T-Display 1.14 Inch LCD ESP32"
+      ],
+      "features": [
+        "display",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/lilygo-ttgo-t-display-1-14/",
+          "checkedAt": "2026-10-15T17:24:41+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board",
+          "checkedAt": "2026-10-15T17:27:15+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-lora32-oled",
+      "name": "LoRa32 OLED V1.6.1",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "LILYGO 的长距离无线通信开发板，采用 ESP32，配有屏幕、LoRa 无线模块。",
+        "en": "LILYGO long-range wireless development board based on ESP32, with display, LoRa radio.",
+        "ja": "ESP32を搭載したLILYGOの長距離無線通信用ボード。ディスプレイ、LoRa無線を備えています。"
+      },
+      "officialUrl": "https://lilygo.cc/products/lora3",
+      "aliases": [
+        "TTGO LoRa32-OLED"
+      ],
+      "features": [
+        "display",
+        "lora"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/ttgo-lora32/",
+          "checkedAt": "2026-10-15T17:24:46+00:00"
+        },
+        {
+          "url": "https://lilygo.cc/products/lora3",
+          "checkedAt": "2026-10-15T17:27:42+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "lilygo-t-watch-2020",
+      "name": "T-Watch 2020",
+      "manufacturer": {
+        "id": "lilygo",
+        "name": "LILYGO"
+      },
+      "chip": "ESP32",
+      "summary": {
+        "zh": "LILYGO 的可编程穿戴设备，采用 ESP32，配有屏幕、触摸输入、运动传感器、电池供电。",
+        "en": "LILYGO programmable wearable device based on ESP32, with display, touch input, motion sensor, battery power.",
+        "ja": "ESP32を搭載したLILYGOのプログラム可能なウェアラブルデバイス。ディスプレイ、タッチ入力、モーションセンサー、バッテリー電源を備えています。"
+      },
+      "officialUrl": "https://t-watch-document-en.readthedocs.io/en/latest/introduction/product/2020.html",
+      "aliases": [
+        "TTGO T-Watch"
+      ],
+      "features": [
+        "display",
+        "touch",
+        "imu",
+        "battery"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/twatch/",
+          "checkedAt": "2026-10-15T17:25:01+00:00"
+        },
+        {
+          "url": "https://t-watch-document-en.readthedocs.io/en/latest/introduction/product/2020.html",
+          "checkedAt": "2026-10-15T17:28:14+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "waveshare-esp32-c3-zero",
+      "name": "ESP32-C3-Zero",
+      "manufacturer": {
+        "id": "waveshare",
+        "name": "Waveshare"
+      },
+      "chip": "ESP32-C3",
+      "summary": {
+        "zh": "Waveshare 的紧凑型通用开发板，采用 ESP32-C3，配有USB 接口、GPIO 扩展。",
+        "en": "Waveshare compact general-purpose development board based on ESP32-C3, with USB connection, GPIO expansion.",
+        "ja": "ESP32-C3を搭載したWaveshareの小型の汎用開発ボード。USB接続、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://www.waveshare.com/wiki/ESP32-C3-Zero",
+      "aliases": [
+        "ESP32 C3 Zero"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c3-zero/",
+          "checkedAt": "2026-10-15T17:25:04+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-C3-Zero",
+          "checkedAt": "2026-10-15T17:25:21+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "waveshare-esp32-c6-zero",
+      "name": "ESP32-C6-Zero",
+      "manufacturer": {
+        "id": "waveshare",
+        "name": "Waveshare"
+      },
+      "chip": "ESP32-C6",
+      "summary": {
+        "zh": "Waveshare 的紧凑型联网开发板，采用 ESP32-C6，配有USB 接口、GPIO 扩展。",
+        "en": "Waveshare compact connected-device development board based on ESP32-C6, with USB connection, GPIO expansion.",
+        "ja": "ESP32-C6を搭載したWaveshareの小型のネットワーク開発ボード。USB接続、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://www.waveshare.com/wiki/ESP32-C6-Zero",
+      "aliases": [
+        "ESP32 C6 Zero Mini"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c6-zero-mini/",
+          "checkedAt": "2026-10-15T17:25:07+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-C6-Zero",
+          "checkedAt": "2026-10-15T17:25:24+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "waveshare-esp32-s3-zero",
+      "name": "ESP32-S3-Zero",
+      "manufacturer": {
+        "id": "waveshare",
+        "name": "Waveshare"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "Waveshare 的紧凑型通用开发板，采用 ESP32-S3，配有USB 接口、GPIO 扩展。",
+        "en": "Waveshare compact general-purpose development board based on ESP32-S3, with USB connection, GPIO expansion.",
+        "ja": "ESP32-S3を搭載したWaveshareの小型の汎用開発ボード。USB接続、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://www.waveshare.com/wiki/ESP32-S3-Zero",
+      "aliases": [
+        "ESP32-S3-Zero"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-s3-zero/",
+          "checkedAt": "2026-10-15T17:25:10+00:00"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-S3-Zero",
+          "checkedAt": "2026-10-15T17:26:36+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "waveshare-esp32-s3-epaper-1-54g",
+      "name": "ESP32-S3-ePaper-1.54G",
+      "manufacturer": {
+        "id": "waveshare",
+        "name": "Waveshare"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "Waveshare 的小型电子纸信息面板，采用 ESP32-S3，配有电子纸屏幕、GPIO 扩展。",
+        "en": "Waveshare small e-paper information panel based on ESP32-S3, with e-paper display, GPIO expansion.",
+        "ja": "ESP32-S3を搭載したWaveshareの小型電子ペーパー情報パネル。電子ペーパーディスプレイ、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://docs.waveshare.com/ESP32-S3-ePaper-1.54G",
+      "aliases": [
+        "Waveshare ESP32-S3 ePaper 1.54G"
+      ],
+      "features": [
+        "epaper",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/waveshare-esp32-s3-epaper-1-54g/",
+          "checkedAt": "2026-10-15T17:25:12+00:00"
+        },
+        {
+          "url": "https://docs.waveshare.com/ESP32-S3-ePaper-1.54G",
+          "checkedAt": "2026-10-15T17:28:16+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "waveshare-esp32-s3-touch-lcd-7b",
+      "name": "ESP32-S3-Touch-LCD-7B",
+      "manufacturer": {
+        "id": "waveshare",
+        "name": "Waveshare"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "Waveshare 的大屏触控人机界面开发设备，采用 ESP32-S3，配有屏幕、触摸输入。",
+        "en": "Waveshare large touchscreen HMI development device based on ESP32-S3, with display, touch input.",
+        "ja": "ESP32-S3を搭載したWaveshareの大型タッチ画面のHMI開発デバイス。ディスプレイ、タッチ入力を備えています。"
+      },
+      "officialUrl": "https://docs.waveshare.com/ESP32-S3-Touch-LCD-7B",
+      "aliases": [
+        "Waveshare ESP32-S3 Touch LCD 7B"
+      ],
+      "features": [
+        "display",
+        "touch"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/waveshare-esp32-s3-touch-lcd-7b/",
+          "checkedAt": "2026-10-15T17:25:20+00:00"
+        },
+        {
+          "url": "https://docs.waveshare.com/ESP32-S3-Touch-LCD-7B",
+          "checkedAt": "2026-10-15T17:28:21+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "seeed-xiao-esp32c3",
+      "name": "XIAO ESP32C3",
+      "manufacturer": {
+        "id": "seeed-studio",
+        "name": "Seeed Studio"
+      },
+      "chip": "ESP32-C3",
+      "summary": {
+        "zh": "Seeed Studio 的微型无线开发板，采用 ESP32-C3，配有USB 接口、GPIO 扩展。",
+        "en": "Seeed Studio miniature wireless development board based on ESP32-C3, with USB connection, GPIO expansion.",
+        "ja": "ESP32-C3を搭載したSeeed Studioの超小型の無線開発ボード。USB接続、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/",
+      "aliases": [
+        "XIAO ESP32C3"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32c3/",
+          "checkedAt": "2026-10-15T17:25:36+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/",
+          "checkedAt": "2026-10-15T17:28:38+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "seeed-xiao-esp32c5",
+      "name": "XIAO ESP32C5",
+      "manufacturer": {
+        "id": "seeed-studio",
+        "name": "Seeed Studio"
+      },
+      "chip": "ESP32-C5",
+      "summary": {
+        "zh": "Seeed Studio 的微型双频 Wi-Fi 开发板，采用 ESP32-C5，配有USB 接口、GPIO 扩展。",
+        "en": "Seeed Studio miniature dual-band Wi-Fi board based on ESP32-C5, with USB connection, GPIO expansion.",
+        "ja": "ESP32-C5を搭載したSeeed Studioの超小型のデュアルバンドWi-Fiボード。USB接続、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/",
+      "aliases": [
+        "XIAO ESP32C5"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32c5/",
+          "checkedAt": "2026-10-15T17:25:39+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/",
+          "checkedAt": "2026-10-15T17:28:49+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "seeed-xiao-esp32c6",
+      "name": "XIAO ESP32C6",
+      "manufacturer": {
+        "id": "seeed-studio",
+        "name": "Seeed Studio"
+      },
+      "chip": "ESP32-C6",
+      "summary": {
+        "zh": "Seeed Studio 的微型多协议无线开发板，采用 ESP32-C6，配有USB 接口、GPIO 扩展。",
+        "en": "Seeed Studio miniature multiprotocol wireless board based on ESP32-C6, with USB connection, GPIO expansion.",
+        "ja": "ESP32-C6を搭載したSeeed Studioの超小型のマルチプロトコル無線ボード。USB接続、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/",
+      "aliases": [
+        "XIAO ESP32C6"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32c6/",
+          "checkedAt": "2026-10-15T17:25:41+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/",
+          "checkedAt": "2026-10-15T17:29:00+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "seeed-xiao-esp32s3-plus",
+      "name": "XIAO ESP32S3 Plus",
+      "manufacturer": {
+        "id": "seeed-studio",
+        "name": "Seeed Studio"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "Seeed Studio 的扩展接口更多的微型开发板，采用 ESP32-S3，配有USB 接口、GPIO 扩展。",
+        "en": "Seeed Studio miniature development board with additional I/O based on ESP32-S3, with USB connection, GPIO expansion.",
+        "ja": "ESP32-S3を搭載したSeeed Studioの拡張端子を増やした超小型開発ボード。USB接続、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+      "aliases": [
+        "XIAO ESP32S3 Plus"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32s3-plus/",
+          "checkedAt": "2026-10-15T17:25:44+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+          "checkedAt": "2026-10-15T17:29:11+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "seeed-xiao-esp32s3-sense",
+      "name": "XIAO ESP32S3 Sense",
+      "manufacturer": {
+        "id": "seeed-studio",
+        "name": "Seeed Studio"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "Seeed Studio 的面向图像和声音的微型开发设备，采用 ESP32-S3，配有摄像头、麦克风、存储卡接口。",
+        "en": "Seeed Studio miniature image and audio development device based on ESP32-S3, with camera, microphone, memory-card slot.",
+        "ja": "ESP32-S3を搭載したSeeed Studioの画像・音声向けの超小型開発デバイス。カメラ、マイク、メモリーカードスロットを備えています。"
+      },
+      "officialUrl": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+      "aliases": [
+        "XIAO ESP32S3 Sense"
+      ],
+      "features": [
+        "camera",
+        "microphone",
+        "sd"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32s3-sense/",
+          "checkedAt": "2026-10-15T17:25:46+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+          "checkedAt": "2026-10-15T17:29:11+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "seeed-xiao-esp32s3",
+      "name": "XIAO ESP32S3",
+      "manufacturer": {
+        "id": "seeed-studio",
+        "name": "Seeed Studio"
+      },
+      "chip": "ESP32-S3",
+      "summary": {
+        "zh": "Seeed Studio 的微型通用开发板，采用 ESP32-S3，配有USB 接口、GPIO 扩展。",
+        "en": "Seeed Studio miniature general-purpose development board based on ESP32-S3, with USB connection, GPIO expansion.",
+        "ja": "ESP32-S3を搭載したSeeed Studioの超小型の汎用開発ボード。USB接続、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+      "aliases": [
+        "XIAO ESP32S3"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/xiao-esp32s3/",
+          "checkedAt": "2026-10-15T17:25:49+00:00"
+        },
+        {
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+          "checkedAt": "2026-10-15T17:29:11+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "espressif-esp32-c3-devkitc-02",
+      "name": "ESP32-C3-DevKitC-02",
+      "manufacturer": {
+        "id": "espressif",
+        "name": "Espressif"
+      },
+      "chip": "ESP32-C3",
+      "summary": {
+        "zh": "Espressif 的官方通用开发板，采用 ESP32-C3，配有USB 接口、GPIO 扩展。",
+        "en": "Espressif official general-purpose development board based on ESP32-C3, with USB connection, GPIO expansion.",
+        "ja": "ESP32-C3を搭載したEspressifの公式の汎用開発ボード。USB接続、GPIO拡張を備えています。"
+      },
+      "officialUrl": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitc-02/index.html",
+      "aliases": [
+        "Espressif ESP32-C3-DevKitC-02"
+      ],
+      "features": [
+        "usb",
+        "gpio"
+      ],
+      "sources": [
+        {
+          "url": "https://www.espboards.dev/esp32/esp32-c3-devkitc-02/",
+          "checkedAt": "2026-10-15T17:25:59+00:00"
+        },
+        {
+          "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitc-02/index.html",
+          "checkedAt": "2026-10-15T17:26:34+00:00"
+        }
+      ]
+    },
+    "note": "Source-backed hardware facts. Exact revisions and optional radio modules follow the manufacturer documentation; project compatibility is recorded separately."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-stopwatch",
+      "name": "StopWatch",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32-S3",
+      "officialUrl": "https://docs.m5stack.com/en/core/StopWatch",
+      "features": [
+        "display",
+        "touch",
+        "imu",
+        "battery"
+      ],
+      "aliases": [
+        "M5Stack StopWatch"
+      ],
+      "summary": {
+        "zh": "M5Stack 的圆形触控穿戴开发设备，采用 ESP32-S3，配有屏幕、触摸输入、运动传感器、电池供电。",
+        "en": "M5Stack round touchscreen wearable development device based on ESP32-S3, with display, touch input, motion sensor, battery power.",
+        "ja": "ESP32-S3を搭載したM5Stackの円形タッチ画面のウェアラブル開発デバイス。ディスプレイ、タッチ入力、モーションセンサー、バッテリー電源を備えています。"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/StopWatch",
+          "checkedAt": "2026-10-15T17:26:59+00:00"
+        }
+      ]
+    },
+    "note": "Do not infer firmware compatibility solely from the ESP32 chip family. Hardware revisions and peripherals must match the upstream project."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-sticks3",
+      "name": "StickS3",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32-S3",
+      "officialUrl": "https://docs.m5stack.com/en/core/StickS3",
+      "features": [
+        "display",
+        "imu",
+        "microphone",
+        "battery"
+      ],
+      "aliases": [
+        "M5Stack StickS3"
+      ],
+      "summary": {
+        "zh": "M5Stack 的便携式语音与传感开发设备，采用 ESP32-S3，配有屏幕、运动传感器、麦克风、电池供电。",
+        "en": "M5Stack portable voice and sensing development device based on ESP32-S3, with display, motion sensor, microphone, battery power.",
+        "ja": "ESP32-S3を搭載したM5Stackの携帯型の音声・センサー開発デバイス。ディスプレイ、モーションセンサー、マイク、バッテリー電源を備えています。"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/StickS3",
+          "checkedAt": "2026-10-15T17:27:01+00:00"
+        }
+      ]
+    },
+    "note": "Do not infer firmware compatibility solely from the ESP32 chip family. Hardware revisions and peripherals must match the upstream project."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-stickc-plus2",
+      "name": "M5StickC PLUS2",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32",
+      "officialUrl": "https://docs.m5stack.com/en/core/M5StickC%20PLUS2",
+      "features": [
+        "display",
+        "imu",
+        "microphone",
+        "battery"
+      ],
+      "aliases": [
+        "M5Stack M5StickC PLUS2"
+      ],
+      "summary": {
+        "zh": "M5Stack 的便携式传感开发设备，采用 ESP32，配有屏幕、运动传感器、麦克风、电池供电。",
+        "en": "M5Stack portable sensing development device based on ESP32, with display, motion sensor, microphone, battery power.",
+        "ja": "ESP32を搭載したM5Stackの携帯型のセンサー開発デバイス。ディスプレイ、モーションセンサー、マイク、バッテリー電源を備えています。"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/M5StickC%20PLUS2",
+          "checkedAt": "2026-10-15T17:27:03+00:00"
+        }
+      ]
+    },
+    "note": "Do not infer firmware compatibility solely from the ESP32 chip family. Hardware revisions and peripherals must match the upstream project."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-cardputer-adv",
+      "name": "Cardputer ADV",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32-S3",
+      "officialUrl": "https://docs.m5stack.com/en/core/Cardputer-Adv",
+      "features": [
+        "display",
+        "keyboard",
+        "audio",
+        "imu"
+      ],
+      "aliases": [
+        "M5Stack Cardputer ADV"
+      ],
+      "summary": {
+        "zh": "M5Stack 的带键盘的掌上开发终端，采用 ESP32-S3，配有屏幕、键盘、音频输入输出、运动传感器。",
+        "en": "M5Stack handheld keyboard development terminal based on ESP32-S3, with display, keyboard, audio I/O, motion sensor.",
+        "ja": "ESP32-S3を搭載したM5Stackのキーボード付き携帯開発端末。ディスプレイ、キーボード、オーディオ入出力、モーションセンサーを備えています。"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/Cardputer-Adv",
+          "checkedAt": "2026-10-15T17:27:05+00:00"
+        }
+      ]
+    },
+    "note": "Do not infer firmware compatibility solely from the ESP32 chip family. Hardware revisions and peripherals must match the upstream project."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "m5stack-papers3",
+      "name": "PaperS3",
+      "manufacturer": {
+        "id": "m5stack",
+        "name": "M5Stack"
+      },
+      "chip": "ESP32-S3",
+      "officialUrl": "https://docs.m5stack.com/en/core/PaperS3",
+      "features": [
+        "epaper",
+        "touch",
+        "battery"
+      ],
+      "aliases": [
+        "M5Stack PaperS3"
+      ],
+      "summary": {
+        "zh": "M5Stack 的电子纸触控开发终端，采用 ESP32-S3，配有电子纸屏幕、触摸输入、电池供电。",
+        "en": "M5Stack touchscreen e-paper development terminal based on ESP32-S3, with e-paper display, touch input, battery power.",
+        "ja": "ESP32-S3を搭載したM5Stackのタッチ式電子ペーパー開発端末。電子ペーパーディスプレイ、タッチ入力、バッテリー電源を備えています。"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://docs.m5stack.com/en/core/PaperS3",
+          "checkedAt": "2026-10-15T17:27:07+00:00"
+        }
+      ]
+    },
+    "note": "Do not infer firmware compatibility solely from the ESP32 chip family. Hardware revisions and peripherals must match the upstream project."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "waveshare-esp32-s3-touch-amoled-1-8",
+      "name": "ESP32-S3-Touch-AMOLED-1.8",
+      "manufacturer": {
+        "id": "waveshare",
+        "name": "Waveshare"
+      },
+      "chip": "ESP32-S3",
+      "officialUrl": "https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-1.8",
+      "features": [
+        "display",
+        "touch",
+        "audio",
+        "imu"
+      ],
+      "aliases": [
+        "Waveshare ESP32-S3-Touch-AMOLED-1.8"
+      ],
+      "summary": {
+        "zh": "Waveshare 的AMOLED 桌面与便携交互开发板，采用 ESP32-S3，配有屏幕、触摸输入、音频输入输出、运动传感器。",
+        "en": "Waveshare AMOLED desktop and portable interaction board based on ESP32-S3, with display, touch input, audio I/O, motion sensor.",
+        "ja": "ESP32-S3を搭載したWaveshareのAMOLED画面のデスク・携帯操作ボード。ディスプレイ、タッチ入力、オーディオ入出力、モーションセンサーを備えています。"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-1.8",
+          "checkedAt": "2026-10-15T17:27:10+00:00"
+        }
+      ]
+    },
+    "note": "Do not infer firmware compatibility solely from the ESP32 chip family. Hardware revisions and peripherals must match the upstream project."
+  },
+  {
+    "kind": "device",
+    "data": {
+      "id": "waveshare-esp32-s3-touch-amoled-2-06",
+      "name": "ESP32-S3-Touch-AMOLED-2.06",
+      "manufacturer": {
+        "id": "waveshare",
+        "name": "Waveshare"
+      },
+      "chip": "ESP32-S3",
+      "officialUrl": "https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.06",
+      "features": [
+        "display",
+        "touch",
+        "audio",
+        "imu"
+      ],
+      "aliases": [
+        "Waveshare ESP32-S3-Touch-AMOLED-2.06"
+      ],
+      "summary": {
+        "zh": "Waveshare 的AMOLED 交互开发板，采用 ESP32-S3，配有屏幕、触摸输入、音频输入输出、运动传感器。",
+        "en": "Waveshare AMOLED interaction development board based on ESP32-S3, with display, touch input, audio I/O, motion sensor.",
+        "ja": "ESP32-S3を搭載したWaveshareのAMOLED画面の操作開発ボード。ディスプレイ、タッチ入力、オーディオ入出力、モーションセンサーを備えています。"
+      },
+      "sources": [
+        {
+          "url": "https://github.com/s0lness/awesome-esp32"
+        },
+        {
+          "url": "https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.06",
+          "checkedAt": "2026-10-15T17:27:16+00:00"
+        }
+      ]
+    },
+    "note": "Do not infer firmware compatibility solely from the ESP32 chip family. Hardware revisions and peripherals must match the upstream project."
+  }
+]

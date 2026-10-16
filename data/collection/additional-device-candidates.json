@@ -1,0 +1,183 @@
+{
+  "m5stack-stopwatch": {
+    "id": "m5stack-stopwatch",
+    "name": "StopWatch",
+    "manufacturer": {
+      "id": "m5stack",
+      "name": "M5Stack"
+    },
+    "chip": "ESP32-S3",
+    "officialUrl": "https://docs.m5stack.com/en/core/StopWatch",
+    "features": [
+      "display",
+      "touch",
+      "imu",
+      "battery"
+    ],
+    "discoveredVia": "https://github.com/s0lness/awesome-esp32",
+    "primaryCheckedAt": "2026-10-15T17:26:59+00:00",
+    "primaryExcerpt": "m5-docs Solution Store Software Documentation About Us Contact English English 简体中文 日本語 CONTENTS No Results Found Hot Searches Camera WiFi RS485 RS232 Relay LoRaWAN GPS NB-IoT LTE GSM Zigbee Servo StepMotor Ethernet E-Paper Product Contents Search StopWatch SKU:C152 Description StopWatch is a round AMOLED touch development board designed for portable and interactive scenarios. It features an ESP32-S3R8 main controller with 16MB Flash and 8MB PSRAM, supporting 2.4GHz Wi-Fi wireless communication.",
+    "status": "included",
+    "reason": null,
+    "content": {
+      "id": "m5stack-stopwatch",
+      "file": "content/devices/m5stack/m5stack-stopwatch.md",
+      "manufacturer": "m5stack"
+    }
+  },
+  "m5stack-sticks3": {
+    "id": "m5stack-sticks3",
+    "name": "StickS3",
+    "manufacturer": {
+      "id": "m5stack",
+      "name": "M5Stack"
+    },
+    "chip": "ESP32-S3",
+    "officialUrl": "https://docs.m5stack.com/en/core/StickS3",
+    "features": [
+      "display",
+      "imu",
+      "microphone",
+      "battery"
+    ],
+    "discoveredVia": "https://github.com/s0lness/awesome-esp32",
+    "primaryCheckedAt": "2026-10-15T17:27:01+00:00",
+    "primaryExcerpt": "m5-docs Solution Store Software Documentation About Us Contact English English 简体中文 日本語 CONTENTS No Results Found Hot Searches Camera WiFi RS485 RS232 Relay LoRaWAN GPS NB-IoT LTE GSM Zigbee Servo StepMotor Ethernet E-Paper Product Contents Search StickS3 SKU:K150 Description StickS3 is a compact and high-performance programmable controller designed for remote control and IoT applications. It is powered by the ESP32-S3-PICO-1-N8R8 main control chip, supporting 2.4 GHz Wi-Fi wireless communicatio",
+    "status": "included",
+    "reason": null,
+    "content": {
+      "id": "m5stack-sticks3",
+      "file": "content/devices/m5stack/m5stack-sticks3.md",
+      "manufacturer": "m5stack"
+    }
+  },
+  "m5stack-stickc-plus2": {
+    "id": "m5stack-stickc-plus2",
+    "name": "M5StickC PLUS2",
+    "manufacturer": {
+      "id": "m5stack",
+      "name": "M5Stack"
+    },
+    "chip": "ESP32",
+    "officialUrl": "https://docs.m5stack.com/en/core/M5StickC%20PLUS2",
+    "features": [
+      "display",
+      "imu",
+      "microphone",
+      "battery"
+    ],
+    "discoveredVia": "https://github.com/s0lness/awesome-esp32",
+    "primaryCheckedAt": "2026-10-15T17:27:03+00:00",
+    "primaryExcerpt": "m5-docs Solution Store Software Documentation About Us Contact English English 简体中文 日本語 CONTENTS No Results Found Hot Searches Camera WiFi RS485 RS232 Relay LoRaWAN GPS NB-IoT LTE GSM Zigbee Servo StepMotor Ethernet E-Paper Product Contents Search StickC-Plus2 SKU:K016-P2 Description StickC-Plus2 is the iterative version of StickC-Plus. It is powered by the ESP32-PICO-V3-02 chip, providing Wi-Fi connectivity. Within its compact body, it integrates a rich variety of hardware resources, including ",
+    "status": "included",
+    "reason": null,
+    "content": {
+      "id": "m5stack-stickc-plus2",
+      "file": "content/devices/m5stack/m5stack-stickc-plus2.md",
+      "manufacturer": "m5stack"
+    }
+  },
+  "m5stack-cardputer-adv": {
+    "id": "m5stack-cardputer-adv",
+    "name": "Cardputer ADV",
+    "manufacturer": {
+      "id": "m5stack",
+      "name": "M5Stack"
+    },
+    "chip": "ESP32-S3",
+    "officialUrl": "https://docs.m5stack.com/en/core/Cardputer-Adv",
+    "features": [
+      "display",
+      "keyboard",
+      "audio",
+      "imu"
+    ],
+    "discoveredVia": "https://github.com/s0lness/awesome-esp32",
+    "primaryCheckedAt": "2026-10-15T17:27:05+00:00",
+    "primaryExcerpt": "m5-docs Solution Store Software Documentation About Us Contact English English 简体中文 日本語 CONTENTS No Results Found Hot Searches Camera WiFi RS485 RS232 Relay LoRaWAN GPS NB-IoT LTE GSM Zigbee Servo StepMotor Ethernet E-Paper Product Contents Search Cardputer-Adv SKU:K132-Adv Description Cardputer-Adv is a programmable card-sized computer powered by the Stamp-S3A core module (based on ESP32-S3FN8). It integrates a 1.14\" LCD display and a 56-key minimalist keyboard for convenient interaction and in",
+    "status": "included",
+    "reason": null,
+    "content": {
+      "id": "m5stack-cardputer-adv",
+      "file": "content/devices/m5stack/m5stack-cardputer-adv.md",
+      "manufacturer": "m5stack"
+    }
+  },
+  "m5stack-papers3": {
+    "id": "m5stack-papers3",
+    "name": "PaperS3",
+    "manufacturer": {
+      "id": "m5stack",
+      "name": "M5Stack"
+    },
+    "chip": "ESP32-S3",
+    "officialUrl": "https://docs.m5stack.com/en/core/PaperS3",
+    "features": [
+      "epaper",
+      "touch",
+      "battery"
+    ],
+    "discoveredVia": "https://github.com/s0lness/awesome-esp32",
+    "primaryCheckedAt": "2026-10-15T17:27:07+00:00",
+    "primaryExcerpt": "m5-docs Solution Store Software Documentation About Us Contact English English 简体中文 日本語 CONTENTS No Results Found Hot Searches Camera WiFi RS485 RS232 Relay LoRaWAN GPS NB-IoT LTE GSM Zigbee Servo StepMotor Ethernet E-Paper Product Contents Search PaperS3 SKU:C139 Description PaperS3 is a uniquely designed low-power touch-enabled e-ink screen main control device launched by M5Stack. The controller uses the ESP32-S3 . The front of the device is embedded with a 960 x 540 @ 4.7\" (touch and screen i",
+    "status": "included",
+    "reason": null,
+    "content": {
+      "id": "m5stack-papers3",
+      "file": "content/devices/m5stack/m5stack-papers3.md",
+      "manufacturer": "m5stack"
+    }
+  },
+  "waveshare-esp32-s3-touch-amoled-1-8": {
+    "id": "waveshare-esp32-s3-touch-amoled-1-8",
+    "name": "ESP32-S3-Touch-AMOLED-1.8",
+    "manufacturer": {
+      "id": "waveshare",
+      "name": "Waveshare"
+    },
+    "chip": "ESP32-S3",
+    "officialUrl": "https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-1.8",
+    "features": [
+      "display",
+      "touch",
+      "audio",
+      "imu"
+    ],
+    "discoveredVia": "https://github.com/s0lness/awesome-esp32",
+    "primaryCheckedAt": "2026-10-15T17:27:10+00:00",
+    "primaryExcerpt": "ESP32-S3-Touch-AMOLED-1.8 - Waveshare Wiki Navigation menu Toggle navigation Raspberry Pi Boards/Kits Displays Cameras Expansions All-in-one Robots Portable Gaming Accessories Other Android/Linux Boards AI Boards/Kits Displays Cameras Expansions Robots Displays LCD/OLED e-Paper IoT Long Range Wireless Short Range Wireless Wired Comm / Converter Cameras / Audio / Video Sensors Motors / Servos others Robotics Mobile Robots Dog-like Robots Drivers / Sensors Robot Arm / Control MCU/FPGA Arduino micr",
+    "status": "included",
+    "reason": null,
+    "content": {
+      "id": "waveshare-esp32-s3-touch-amoled-1-8",
+      "file": "content/devices/waveshare/waveshare-esp32-s3-touch-amoled-1-8.md",
+      "manufacturer": "waveshare"
+    }
+  },
+  "waveshare-esp32-s3-touch-amoled-2-06": {
+    "id": "waveshare-esp32-s3-touch-amoled-2-06",
+    "name": "ESP32-S3-Touch-AMOLED-2.06",
+    "manufacturer": {
+      "id": "waveshare",
+      "name": "Waveshare"
+    },
+    "chip": "ESP32-S3",
+    "officialUrl": "https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.06",
+    "features": [
+      "display",
+      "touch",
+      "audio",
+      "imu"
+    ],
+    "discoveredVia": "https://github.com/s0lness/awesome-esp32",
+    "primaryCheckedAt": "2026-10-15T17:27:16+00:00",
+    "primaryExcerpt": "ESP32-S3-Touch-AMOLED-2.06 - Waveshare Wiki Navigation menu Toggle navigation Raspberry Pi Boards/Kits Displays Cameras Expansions All-in-one Robots Portable Gaming Accessories Other Android/Linux Boards AI Boards/Kits Displays Cameras Expansions Robots Displays LCD/OLED e-Paper IoT Long Range Wireless Short Range Wireless Wired Comm / Converter Cameras / Audio / Video Sensors Motors / Servos others Robotics Mobile Robots Dog-like Robots Drivers / Sensors Robot Arm / Control MCU/FPGA Arduino mic",
+    "status": "included",
+    "reason": null,
+    "content": {
+      "id": "waveshare-esp32-s3-touch-amoled-2-06",
+      "file": "content/devices/waveshare/waveshare-esp32-s3-touch-amoled-2-06.md",
+      "manufacturer": "waveshare"
+    }
+  }
+}

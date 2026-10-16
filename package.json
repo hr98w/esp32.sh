@@ -1,0 +1,68 @@
+{
+  "name": "esp32-sh",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#/*": "./src/*"
+  },
+  "scripts": {
+    "dev": "vite dev --port 3000",
+    "generate-routes": "tsr generate",
+    "build": "cf build",
+    "preview": "vite preview",
+    "deploy": "cf deploy",
+    "deploy:check": "cf deploy --dry-run --prebuilt",
+    "deploy:built": "cf deploy --prebuilt",
+    "content:check": "node --import tsx scripts/check-content.ts",
+    "content:generate": "node --import tsx scripts/check-content.ts --write",
+    "typecheck": "pnpm content:generate && pnpm generate-routes && tsc --noEmit",
+    "check": "pnpm content:check && pnpm typecheck",
+    "check:http": "python3 scripts/check-http.py",
+    "check:deployment": "python3 scripts/check-deployment.py",
+    "test": "pnpm test:content && pnpm test:collection",
+    "verify": "pnpm check && pnpm test && pnpm build",
+    "collect:discover": "python3 scripts/collection/discover.py",
+    "collect:m5ware": "python3 scripts/collection/discover_m5ware.py",
+    "collect:devices": "python3 scripts/collection/discover_devices.py",
+    "collect:projects": "python3 scripts/collection/verify_projects.py",
+    "collect:metrics": "python3 scripts/collection/sync_metrics.py",
+    "collect:report": "python3 scripts/collection/report.py",
+    "collect:report:all": "pnpm content:generate && pnpm collect:report && python3 scripts/collection/report_device_enrichment.py && python3 scripts/collection/audit_device_relations.py",
+    "test:collection": "python3 -m unittest discover -s scripts/collection -p 'test_*.py'",
+    "collect:covers": "python3 scripts/collection/discover_covers.py",
+    "test:content": "node --import tsx --test scripts/test-content.ts"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "1.170.44",
+    "@tanstack/react-start": "1.169.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "beta",
+    "@tanstack/router-cli": "^1.132.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "cf": "1.0.0-beta.17",
+    "tsx": "^4.20.0",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.0",
+    "wrangler": "^4.70.0",
+    "yaml": "^2.8.1",
+    "zod": "^4.1.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "lightningcss",
+      "sharp",
+      "workerd"
+    ]
+  },
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

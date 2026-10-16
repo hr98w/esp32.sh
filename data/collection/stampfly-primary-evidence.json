@@ -1,0 +1,298 @@
+{
+  "sourceUrl": "https://docs.m5stack.com/en/app/Stamp%20Fly",
+  "checkedAt": "2026-10-16T01:03:32+00:00",
+  "images": [
+    {
+      "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/app/Stamp%20Fly/4.webp",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/app/Stamp%20Fly/5.webp",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/app/Stamp%20Fly/13.webp",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/app/Stamp%20Fly/6.webp",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/app/Stamp%20Fly/7.webp",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/app/Stamp%20Fly/8.webp",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/app/Stamp%20Fly/9.webp",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/app/Stamp%20Fly/10.webp",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/products/app/Stamp%20Fly/11.webp",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1069/K138-weight.jpg",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1069/StampS3_Fly_Hat_page_01.png",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1069/Stamp_Fly_v1.0_page_01.png",
+      "alt": "Preview"
+    },
+    {
+      "url": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1069/Sch_PMW3901MB_SPI_page_01.png",
+      "alt": "Preview"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "Specification",
+        "Parameter"
+      ],
+      [
+        "Module Model",
+        "Stamp-S3"
+      ],
+      [
+        "SoC",
+        "ESP32-S3 @ Xtensa® 32-bit LX7 dual-core processor, clock frequency 240MHz"
+      ],
+      [
+        "USB",
+        "USB OTG, USB Serial/JTAG"
+      ],
+      [
+        "Flash",
+        "8MB"
+      ],
+      [
+        "Wi-Fi",
+        "2.4 GHz Wi-Fi"
+      ],
+      [
+        "Motor",
+        "716-17600kv"
+      ],
+      [
+        "Distance Sensor",
+        "VL53L3C 0x29 (7-bits) Max 3 m"
+      ],
+      [
+        "Barometric Pressure Sensor",
+        "BMP280 (0x76)@300-1100hPa"
+      ],
+      [
+        "3-axis Magnetometer",
+        "BMM150 (0x10)"
+      ],
+      [
+        "6-axis IMU",
+        "BMI270"
+      ],
+      [
+        "Grove",
+        "I2C+UART"
+      ],
+      [
+        "Battery",
+        "300mAh High-Voltage Lithium Battery"
+      ],
+      [
+        "Battery Output Voltage",
+        "4.35V"
+      ],
+      [
+        "Battery Life",
+        "Approx. 4 min"
+      ],
+      [
+        "Charging Time (Input:5V@1A)",
+        "55min"
+      ],
+      [
+        "Current / Voltage Monitor",
+        "INA3221AIRGVR (0x40)"
+      ],
+      [
+        "Buzzer",
+        "Passive Onboard Buzzer @5020"
+      ],
+      [
+        "Operating Temperature",
+        "0 ~ 40°C"
+      ],
+      [
+        "Product Weight",
+        "27.7g"
+      ],
+      [
+        "Product Size",
+        "81.5 x 81.5 x 31mm"
+      ],
+      [
+        "Package Size",
+        "162 x 99 x 36mm"
+      ],
+      [
+        "Gross Weight",
+        "70.7g"
+      ]
+    ],
+    [
+      [
+        "StampFly (Stamp-S3)",
+        "G3",
+        "G4"
+      ],
+      [
+        "INA3221AIRGVG",
+        "INA_SDA",
+        "INA_SCL"
+      ],
+      [
+        "BMM150",
+        "INA_SDA",
+        "INA_SCL"
+      ],
+      [
+        "BMP280",
+        "INA_SDA",
+        "INA_SCL"
+      ],
+      [
+        "VL53L3",
+        "INA_SDA",
+        "INA_SCL"
+      ]
+    ],
+    [
+      [
+        "StampFly (Stamp-S3)",
+        "G14",
+        "G44",
+        "G43",
+        "G46",
+        "G12"
+      ],
+      [
+        "BMI270",
+        "MOSI",
+        "SCK",
+        "MISO",
+        "CS",
+        ""
+      ],
+      [
+        "PMW3901MB-TXQT",
+        "MOSI",
+        "SCK",
+        "MISO",
+        "",
+        "CS2"
+      ]
+    ],
+    [
+      [
+        "StampFly (Stamp-S3)",
+        "G13",
+        "G15",
+        "G1",
+        "G2"
+      ],
+      [
+        "Grove (RED)",
+        "SDA",
+        "SCL",
+        "",
+        ""
+      ],
+      [
+        "Grove (BLACK)",
+        "",
+        "",
+        "GROVE I",
+        "GROVE O"
+      ]
+    ],
+    [
+      [
+        "StampFly (Stamp-S3)",
+        "G40",
+        "G39"
+      ],
+      [
+        "BEEP",
+        "BEEP",
+        ""
+      ],
+      [
+        "WS2812",
+        "",
+        "RGB"
+      ]
+    ],
+    [
+      [
+        "Easyloader",
+        "Download",
+        "Note"
+      ],
+      [
+        "StampFly Firmware Easyloader",
+        "download",
+        "/"
+      ]
+    ]
+  ],
+  "resources": [
+    {
+      "label": "StampFly & Atom Joystick Firmware Flashing and Getting Started Guide",
+      "url": "https://docs.m5stack.com/en/guide/stampfly/firmware"
+    },
+    {
+      "label": "StampS3_Fly_Hat Schematics PDF",
+      "url": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1069/StampS3_Fly_Hat.pdf"
+    },
+    {
+      "label": "Stamp_Fly Schematics PDF",
+      "url": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1069/Stamp_Fly_v1.0.pdf"
+    },
+    {
+      "label": "PMW3901MB Schematics PDF",
+      "url": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1069/Sch_PMW3901MB_SPI.pdf"
+    },
+    {
+      "label": "UiFlow1",
+      "url": "https://flow.m5stack.com/"
+    },
+    {
+      "label": "UiFlow2",
+      "url": "https://uiflow2.m5stack.com/"
+    },
+    {
+      "label": "UiFlow1",
+      "url": "https://docs.m5stack.com/en/uiflow/uiflow_web"
+    },
+    {
+      "label": "UiFlow2",
+      "url": "https://docs.m5stack.com/en/uiflow2/uiflow_web"
+    },
+    {
+      "label": "Arduino",
+      "url": "https://docs.m5stack.com/en/arduino/arduino_ide"
+    }
+  ],
+  "title": ""
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ESP32 项目收录"
+  short_description: "从文字和 GitHub 链接核验开源项目，生成 esp32.sh 三语 Markdown 并更新收录台账"
+  default_prompt: "使用 $esp32-project-intake 收录下面的 ESP32 开源项目，核验来源并生成完整 Markdown："

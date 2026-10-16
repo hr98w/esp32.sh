@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" shape-rendering="crispEdges" role="img" aria-label="esp32.sh small chip terminal icon">
+  <path fill="#172238" d="M5 1h2v2H5zm4 0h2v2H9zM5 13h2v2H5zm4 0h2v2H9zM1 5h2v2H1zm0 4h2v2H1zM13 5h2v2h-2zm0 4h2v2h-2z"/>
+  <path fill="#c6d0c9" d="M5 1h1v2H5zm4 0h1v2H9zM5 13h1v2H5zm4 0h1v2H9zM1 5h2v1H1zm0 4h2v1H1zM13 5h2v1h-2zm0 4h2v1h-2z"/>
+  <path fill="#172238" d="M4 3h8v1h1v8h-1v1H4v-1H3V4h1z"/>
+  <path fill="#000080" d="M4 4h8v8H4z"/>
+  <path fill="#66c5b1" d="M4 4h8v1H5v7H4z"/>
+  <path fill="#fff3b0" d="M5 6h2v1H5zm1 1h2v1H6zm1 1h2v1H7zm-1 1h2v1H6zm-1 1h2v1H5zm4 0h2v1H9z"/>
+</svg>

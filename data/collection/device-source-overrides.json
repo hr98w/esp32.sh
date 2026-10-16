@@ -1,0 +1,170 @@
+{
+  "reterminal-e1001": {
+    "url": "https://wiki.seeedstudio.com/getting_started_with_reterminal_e1001/",
+    "reason": "ESPboards primary datasheet is the chip datasheet; use linked device-level official wiki instead"
+  },
+  "reterminal-e1002": {
+    "url": "https://wiki.seeedstudio.com/getting_started_with_reterminal_e1002/",
+    "reason": "ESPboards primary datasheet is the chip datasheet; use linked device-level official wiki instead"
+  },
+  "seeed-xiao-esp32s3-wio-sx1262-kit": {
+    "url": "https://wiki.seeedstudio.com/wio_sx1262_with_xiao_esp32s3_kit/",
+    "reason": "Prefer linked official kit documentation over radio-module PDF"
+  },
+  "waveshare-esp32-s3-eth": {
+    "url": "https://www.waveshare.com/wiki/ESP32-S3-ETH",
+    "reason": "Prefer directory-linked device wiki over ESP32-S3 chip datasheet"
+  },
+  "waveshare-esp32-s3-touch-lcd-4b": {
+    "url": "https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4B",
+    "reason": "Prefer directory-linked device wiki over generic chip datasheet"
+  },
+  "edgebox-esp-100": {
+    "url": "https://wiki.seeedstudio.com/Edgebox-ESP-100-Arduino/",
+    "reason": "Prefer directory-linked official device documentation over store tracking URL"
+  },
+  "lilygo-t-display-s3-amoled-touch": {
+    "url": "https://lilygo.cc/products/t-display-s3-amoled",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links"
+  },
+  "lilygo-t-display-s3-amoled": {
+    "url": "https://lilygo.cc/products/t-display-s3-amoled",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links"
+  },
+  "lilygo-t-display-s3-touch": {
+    "url": "https://lilygo.cc/products/t-display-s3",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links"
+  },
+  "t7-c6": {
+    "url": "https://lilygo.cc/products/t7-c6",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links"
+  },
+  "ttgo-t-call": {
+    "url": "https://lilygo.cc/products/t-call-v1-4",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links"
+  },
+  "ttgo-t-oi-plus": {
+    "url": "https://lilygo.cc/products/t-oi-plus",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links"
+  },
+  "ttgo-t7-v13-mini32": {
+    "url": "https://lilygo.cc/en-us/products/t7-v1-3-mini-32-esp32",
+    "reason": "Directory-linked manufacturer product page reviewed for the exact model/configuration; prefer this to unrelated chip PDFs or reseller links"
+  },
+  "adafruit-esp32-c6-feather": {
+    "url": "https://learn.adafruit.com/adafruit-esp32-c6-feather",
+    "reason": "Use the device-level manufacturer HTML guide corresponding to the linked power-management chapter and PDF"
+  },
+  "adafruit-magtag29-esp32s2": {
+    "url": "https://learn.adafruit.com/adafruit-magtag",
+    "reason": "Use the manufacturer guide linked by the source directory instead of a reseller"
+  },
+  "featheresp32": {
+    "url": "https://learn.adafruit.com/adafruit-huzzah32-esp32-feather",
+    "reason": "Use the original HUZZAH32 manufacturer guide linked by the source directory; do not substitute Feather V2"
+  },
+  "esp32cam": {
+    "url": "https://www.waveshare.com/wiki/ESP32-CAM",
+    "reason": "Legacy manufacturer URLs return no device content; the linked vendor wiki explicitly identifies Ai-Thinker and the OV2640 camera module"
+  },
+  "esp32-evb": {
+    "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-EVB/open-source-hardware",
+    "reason": "Exact product linked from the manufacturer ESP32 category, reached via the ESPboards-linked DevKit-LiPo product. Prefer this over reseller, third-party board config, or GitHub PDF."
+  },
+  "esp32-gateway": {
+    "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-GATEWAY/open-source-hardware",
+    "reason": "Exact product linked from the manufacturer ESP32 category, reached via the ESPboards-linked DevKit-LiPo product. Prefer this over reseller, third-party board config, or GitHub PDF."
+  },
+  "esp32-poe": {
+    "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware",
+    "reason": "Exact product linked from the manufacturer ESP32 category, reached via the ESPboards-linked DevKit-LiPo product. Prefer this over reseller, third-party board config, or GitHub PDF."
+  },
+  "olimex-esp32-poe2": {
+    "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE2/open-source-hardware",
+    "reason": "Exact product linked from the manufacturer ESP32 category, reached via the ESPboards-linked DevKit-LiPo product. Prefer this over reseller, third-party board config, or GitHub PDF."
+  },
+  "esp32micromod": {
+    "url": "https://learn.sparkfun.com/tutorials/micromod-esp32-processor-board-hookup-guide",
+    "reason": "Exact manufacturer Hookup Guide linked by the ESPboards model page; prefer it over the reseller fallback."
+  },
+  "esp32thing-plus-c": {
+    "url": "https://learn.sparkfun.com/tutorials/esp32-thing-plus-usb-c-hookup-guide/all",
+    "reason": "Exact manufacturer Hookup Guide linked by the ESPboards model page; prefer it over the reseller fallback."
+  },
+  "esp32thing-plus": {
+    "url": "https://learn.sparkfun.com/tutorials/esp32-thing-plus-hookup-guide/all",
+    "reason": "Exact manufacturer Hookup Guide linked by the ESPboards model page; prefer it over the reseller fallback."
+  },
+  "esp32thing": {
+    "url": "https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide",
+    "reason": "Exact manufacturer Hookup Guide linked by the ESPboards model page; prefer it over the reseller fallback."
+  },
+  "sparkfun-esp32-iot-redboard": {
+    "url": "https://learn.sparkfun.com/tutorials/iot-redboard-esp32-development-board-hookup-guide/all",
+    "reason": "Exact manufacturer Hookup Guide linked by the ESPboards model page; prefer it over the reseller fallback."
+  },
+  "sparkfun-esp32s2-thing-plus": {
+    "url": "https://learn.sparkfun.com/tutorials/esp32-s2-thing-plus-hookup-guide/all",
+    "reason": "Exact manufacturer Hookup Guide linked by the ESPboards model page; prefer it over the reseller fallback."
+  },
+  "sparkfun-lora-gateway-1-channel": {
+    "url": "https://learn.sparkfun.com/tutorials/sparkfun-lora-gateway-1-channel-hookup-guide",
+    "reason": "Exact manufacturer Hookup Guide linked by the ESPboards model page; prefer it over the reseller fallback."
+  },
+  "elecrow-crowpanel-advance-5-esp32-p4": {
+    "url": "https://www.elecrow.com/crowpanel-advanced-5inch-esp32-p4-hmi-ai-display-800x480-ips-touch-screen-with-wifi-6.html",
+    "reason": "Canonical manufacturer product URL read from the HTML returned by the directory affiliate redirect; store the direct source instead."
+  },
+  "heltec-wifi-kit-32-v3": {
+    "url": "https://docs.heltec.org/en/node/esp32/wifi_kit_32/index.html",
+    "reason": "Manufacturer model-level HTML documentation or product page explicitly linked from the ESPboards entry; prefer readable device facts over the PDF-only intake source. Verify the actual hardware version in the page body."
+  },
+  "heltec-wifi-lora-32-v2": {
+    "url": "https://heltec.org/project/wifi-lora-32v2/",
+    "reason": "Manufacturer model-level HTML documentation or product page explicitly linked from the ESPboards entry; prefer readable device facts over the PDF-only intake source. Verify the actual hardware version in the page body."
+  },
+  "heltec-wifi-lora-32-v3": {
+    "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/",
+    "reason": "Manufacturer model-level HTML documentation or product page explicitly linked from the ESPboards entry; prefer readable device facts over the PDF-only intake source. Verify the actual hardware version in the page body."
+  },
+  "heltec-wifi-lora-32-v4": {
+    "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v4/",
+    "reason": "Manufacturer model-level HTML documentation or product page explicitly linked from the ESPboards entry; prefer readable device facts over the PDF-only intake source. Verify the actual hardware version in the page body."
+  },
+  "heltec-wireless-shell-v3": {
+    "url": "https://heltec.org/project/wireless-shell-v3/",
+    "reason": "Manufacturer model-level HTML documentation or product page explicitly linked from the ESPboards entry; prefer readable device facts over the PDF-only intake source. Verify the actual hardware version in the page body."
+  },
+  "heltec-wireless-stick-lite-v3": {
+    "url": "https://heltec.org/project/wireless-stick-lite-v2/",
+    "reason": "Manufacturer model-level HTML documentation or product page explicitly linked from the ESPboards entry; prefer readable device facts over the PDF-only intake source. Verify the actual hardware version in the page body."
+  },
+  "heltec-wireless-tracker-v2": {
+    "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-tracker-v2/",
+    "reason": "Manufacturer model-level HTML documentation or product page explicitly linked from the ESPboards entry; prefer readable device facts over the PDF-only intake source. Verify the actual hardware version in the page body."
+  },
+  "feathers2": {
+    "url": "https://unexpectedmaker.com/shop/feathers2-esp32-s2",
+    "reason": "Manufacturer product page or dedicated product site explicitly linked by ESPboards; prefer direct model facts over a retailer/PDF/obsolete fragment shop URL."
+  },
+  "feathers2neo": {
+    "url": "https://unexpectedmaker.com/shop/feathers2neo-esp32s2",
+    "reason": "Manufacturer product page or dedicated product site explicitly linked by ESPboards; prefer direct model facts over a retailer/PDF/obsolete fragment shop URL."
+  },
+  "feathers3": {
+    "url": "https://feathers3.com/",
+    "reason": "Manufacturer product page or dedicated product site explicitly linked by ESPboards; prefer direct model facts over a retailer/PDF/obsolete fragment shop URL."
+  },
+  "tinypico": {
+    "url": "https://www.tinypico.com/",
+    "reason": "Manufacturer product page or dedicated product site explicitly linked by ESPboards; prefer direct model facts over a retailer/PDF/obsolete fragment shop URL."
+  },
+  "tinys2": {
+    "url": "https://unexpectedmaker.com/shop/tinys2-esp32-s2",
+    "reason": "Manufacturer product page or dedicated product site explicitly linked by ESPboards; prefer direct model facts over a retailer/PDF/obsolete fragment shop URL."
+  },
+  "tinys3": {
+    "url": "https://unexpectedmaker.com/shop/tinys3",
+    "reason": "Manufacturer product page or dedicated product site explicitly linked by ESPboards; prefer direct model facts over a retailer/PDF/obsolete fragment shop URL."
+  }
+}

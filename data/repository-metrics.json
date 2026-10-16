@@ -1,0 +1,902 @@
+{
+  "ai-monitor": {
+    "repository": "https://github.com/tobymarks/esp32-ai-monitor",
+    "githubId": 1206860271,
+    "stars": 17,
+    "checkedAt": "2026-10-15T17:23:03+00:00",
+    "pushedAt": "2026-10-13T10:57:00Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/tobymarks/esp32-ai-monitor"
+  },
+  "basic-synth": {
+    "repository": "https://github.com/marcel-licence/esp32_basic_synth",
+    "githubId": 343904030,
+    "stars": 318,
+    "checkedAt": "2026-10-15T17:23:54+00:00",
+    "pushedAt": "2025-06-17T21:00:40Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/marcel-licence/esp32_basic_synth"
+  },
+  "chat-stick": {
+    "repository": "https://github.com/steveruizok/chat-stick",
+    "githubId": 1212333309,
+    "stars": 184,
+    "checkedAt": "2026-10-15T17:22:03+00:00",
+    "pushedAt": "2026-10-02T14:30:52Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/steveruizok/chat-stick"
+  },
+  "fluidbox": {
+    "repository": "https://github.com/V4C38/esp32-fluidbox",
+    "githubId": 1325408160,
+    "stars": 125,
+    "checkedAt": "2026-10-15T17:23:18+00:00",
+    "pushedAt": "2026-08-10T19:51:44Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/V4C38/esp32-fluidbox"
+  },
+  "homepoint": {
+    "repository": "https://github.com/sieren/Homepoint",
+    "githubId": 188660845,
+    "stars": 662,
+    "checkedAt": "2026-10-15T17:22:39+00:00",
+    "pushedAt": "2022-08-04T13:41:38Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/sieren/HomePoint"
+  },
+  "inksight": {
+    "repository": "https://github.com/datascale-ai/inksight",
+    "githubId": 1173301167,
+    "stars": 762,
+    "checkedAt": "2026-10-15T17:22:18+00:00",
+    "pushedAt": "2026-07-15T17:45:45Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/datascale-ai/inksight"
+  },
+  "lantern": {
+    "repository": "https://github.com/Northstrix/Lantern",
+    "githubId": 607056200,
+    "stars": 13,
+    "checkedAt": "2026-10-15T17:23:35+00:00",
+    "pushedAt": "2026-08-26T05:20:20Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/Northstrix/Lantern"
+  },
+  "lvgl-watchfaces": {
+    "repository": "https://github.com/fbiego/esp32-lvgl-watchface",
+    "githubId": 780047778,
+    "stars": 74,
+    "checkedAt": "2026-10-15T17:22:43+00:00",
+    "pushedAt": "2025-11-05T13:31:10Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/fbiego/esp32-lvgl-watchface"
+  },
+  "meshtastic": {
+    "repository": "https://github.com/meshtastic/firmware",
+    "githubId": 237647258,
+    "stars": 8434,
+    "checkedAt": "2026-10-15T17:23:39+00:00",
+    "pushedAt": "2026-10-15T17:10:20Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/meshtastic/firmware"
+  },
+  "tasmota": {
+    "repository": "https://github.com/arendst/Tasmota",
+    "githubId": 80286288,
+    "stars": 24863,
+    "checkedAt": "2026-10-15T17:23:28+00:00",
+    "pushedAt": "2026-10-15T15:30:25Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/arendst/Tasmota"
+  },
+  "tinydraw": {
+    "repository": "https://github.com/aliceisjustplaying/tinydraw",
+    "githubId": 1329195143,
+    "stars": 14,
+    "checkedAt": "2026-10-15T17:23:09+00:00",
+    "pushedAt": "2026-09-17T15:04:22Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/aliceisjustplaying/tinydraw"
+  },
+  "trmnl": {
+    "repository": "https://github.com/usetrmnl/trmnl-firmware",
+    "githubId": 742912310,
+    "stars": 1192,
+    "checkedAt": "2026-10-15T17:22:52+00:00",
+    "pushedAt": "2026-10-15T16:00:04Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/usetrmnl/firmware"
+  },
+  "vibe-watch": {
+    "repository": "https://github.com/GOROman/vibewatch",
+    "githubId": 1327327043,
+    "stars": 145,
+    "checkedAt": "2026-10-15T17:22:24+00:00",
+    "pushedAt": "2026-08-08T06:16:02Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/GOROman/vibewatch"
+  },
+  "wled": {
+    "repository": "https://github.com/wled/WLED",
+    "githubId": 76990209,
+    "stars": 18856,
+    "checkedAt": "2026-10-15T17:20:18+00:00",
+    "pushedAt": "2026-10-15T16:31:03Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/Aircoookie/WLED"
+  },
+  "xiaozhi": {
+    "repository": "https://github.com/78/xiaozhi-esp32",
+    "githubId": 850267588,
+    "stars": 31190,
+    "checkedAt": "2026-10-15T17:22:08+00:00",
+    "pushedAt": "2026-10-15T00:51:46Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/78/xiaozhi-esp32"
+  },
+  "bruce": {
+    "repository": "https://github.com/BruceDevices/firmware",
+    "githubId": 795166961,
+    "stars": 6995,
+    "checkedAt": "2026-10-15T18:20:19+00:00",
+    "pushedAt": "2026-10-15T14:46:48Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/BruceDevices/firmware"
+  },
+  "furble": {
+    "repository": "https://github.com/gkoh/furble",
+    "githubId": 295602252,
+    "stars": 241,
+    "checkedAt": "2026-10-15T18:20:58+00:00",
+    "pushedAt": "2026-09-14T01:17:55Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/gkoh/furble"
+  },
+  "homething": {
+    "repository": "https://github.com/landonr/homeThing",
+    "githubId": 519864068,
+    "stars": 547,
+    "checkedAt": "2026-10-15T18:20:53+00:00",
+    "pushedAt": "2026-10-13T04:14:43Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/landonr/homeThing"
+  },
+  "m5cardputer-userdemo": {
+    "repository": "https://github.com/m5stack/M5Cardputer-UserDemo",
+    "githubId": 704333424,
+    "stars": 353,
+    "checkedAt": "2026-10-15T18:20:24+00:00",
+    "pushedAt": "2026-07-17T08:46:41Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/m5stack/M5Cardputer-UserDemo"
+  },
+  "m5launcher": {
+    "repository": "https://github.com/bmorcelli/Launcher",
+    "githubId": 755727720,
+    "stars": 2249,
+    "checkedAt": "2026-10-15T18:20:32+00:00",
+    "pushedAt": "2026-10-13T11:25:50Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/bmorcelli/Launcher"
+  },
+  "microhydra": {
+    "repository": "https://github.com/echo-lalia/MicroHydra",
+    "githubId": 752958524,
+    "stars": 320,
+    "checkedAt": "2026-10-15T18:20:45+00:00",
+    "pushedAt": "2026-03-30T03:59:42Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/echo-lalia/MicroHydra"
+  },
+  "openhasp": {
+    "repository": "https://github.com/HASwitchPlate/openHASP",
+    "githubId": 234790574,
+    "stars": 1025,
+    "checkedAt": "2026-10-15T18:20:49+00:00",
+    "pushedAt": "2026-10-10T20:42:35Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/HASwitchPlate/openHASP"
+  },
+  "stack-chan": {
+    "repository": "https://github.com/stack-chan/stack-chan",
+    "githubId": 374381865,
+    "stars": 1779,
+    "checkedAt": "2026-10-15T18:20:36+00:00",
+    "pushedAt": "2026-10-15T14:17:33Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/stack-chan/stack-chan"
+  },
+  "beryllium-micro": {
+    "repository": "https://github.com/beryllium-org/Micro",
+    "githubId": 434342707,
+    "stars": 327,
+    "checkedAt": "2026-10-15T18:22:11+00:00",
+    "pushedAt": "2026-08-28T17:49:40Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/beryllium-org/Micro"
+  },
+  "bit-pirate": {
+    "repository": "https://github.com/geo-tp/ESP32-Bit-Pirate",
+    "githubId": 1014515436,
+    "stars": 6116,
+    "checkedAt": "2026-10-15T18:21:06+00:00",
+    "pushedAt": "2026-10-12T13:39:58Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/geo-tp/ESP32-Bit-Pirate"
+  },
+  "blecollector": {
+    "repository": "https://github.com/tobozo/ESP32-BLECollector",
+    "githubId": 154091767,
+    "stars": 369,
+    "checkedAt": "2026-10-15T18:21:58+00:00",
+    "pushedAt": "2024-09-04T10:51:05Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/tobozo/ESP32-BLECollector"
+  },
+  "cardputer-game-station": {
+    "repository": "https://github.com/geo-tp/Cardputer-Game-Station-Emulators",
+    "githubId": 1070560395,
+    "stars": 249,
+    "checkedAt": "2026-10-15T18:21:02+00:00",
+    "pushedAt": "2026-06-01T18:25:20Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/geo-tp/Cardputer-Game-Station-Emulators"
+  },
+  "m5ez": {
+    "repository": "https://github.com/M5ez/M5ez",
+    "githubId": 141490406,
+    "stars": 389,
+    "checkedAt": "2026-10-15T18:21:49+00:00",
+    "pushedAt": "2022-11-11T13:40:06Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/M5ez/M5ez"
+  },
+  "m5porkchop": {
+    "repository": "https://github.com/0ct0sec/M5PORKCHOP",
+    "githubId": 1110910539,
+    "stars": 926,
+    "checkedAt": "2026-10-15T18:21:32+00:00",
+    "pushedAt": "2026-10-06T09:58:50Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/0ct0sec/M5PORKCHOP"
+  },
+  "picoware": {
+    "repository": "https://github.com/jblanked/Picoware",
+    "githubId": 989766763,
+    "stars": 349,
+    "checkedAt": "2026-10-15T18:22:15+00:00",
+    "pushedAt": "2026-10-14T20:51:13Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/jblanked/Picoware"
+  },
+  "r4s-gateway": {
+    "repository": "https://github.com/alutov/ESP32-R4sGate-for-Redmond",
+    "githubId": 278231913,
+    "stars": 258,
+    "checkedAt": "2026-10-15T18:22:24+00:00",
+    "pushedAt": "2026-08-23T12:43:04Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/alutov/ESP32-R4sGate-for-Redmond"
+  },
+  "sd-updater": {
+    "repository": "https://github.com/tobozo/M5Stack-SD-Updater",
+    "githubId": 124610272,
+    "stars": 350,
+    "checkedAt": "2026-10-15T18:22:02+00:00",
+    "pushedAt": "2025-09-09T10:39:36Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/tobozo/M5Stack-SD-Updater"
+  },
+  "wifi-hash-monster": {
+    "repository": "https://github.com/G4lile0/ESP32-WiFi-Hash-Monster",
+    "githubId": 222137237,
+    "stars": 1100,
+    "checkedAt": "2026-10-15T18:21:28+00:00",
+    "pushedAt": "2023-11-25T16:16:24Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/G4lile0/ESP32-WiFi-Hash-Monster"
+  },
+  "evil-m5project": {
+    "repository": "https://github.com/7h30th3r0n3/Evil-M5Project",
+    "githubId": 734739273,
+    "stars": 2742,
+    "checkedAt": "2026-10-15T18:21:11+00:00",
+    "pushedAt": "2026-10-09T12:48:40Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/7h30th3r0n3/Evil-M5Project"
+  },
+  "ai-stackchan-ex": {
+    "repository": "https://github.com/ronron-gh/AI_StackChan_Ex",
+    "githubId": 906883136,
+    "stars": 153,
+    "checkedAt": "2026-10-15T19:21:53+00:00",
+    "pushedAt": "2026-10-05T13:22:03Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/ronron-gh/AI_StackChan_Ex"
+  },
+  "badcard": {
+    "repository": "https://github.com/VoidNoi/BadCard",
+    "githubId": 765438156,
+    "stars": 153,
+    "checkedAt": "2026-10-15T19:21:49+00:00",
+    "pushedAt": "2025-03-30T11:50:24Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/VoidNoi/BadCard"
+  },
+  "clawputer": {
+    "repository": "https://github.com/bryant24hao/ClawPuter",
+    "githubId": 1171006398,
+    "stars": 158,
+    "checkedAt": "2026-10-15T19:21:40+00:00",
+    "pushedAt": "2026-03-19T17:53:31Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/bryant24hao/ClawPuter"
+  },
+  "esp32cam-rtsp": {
+    "repository": "https://github.com/rzeldent/esp32cam-rtsp",
+    "githubId": 510936336,
+    "stars": 1207,
+    "checkedAt": "2026-10-15T18:21:24+00:00",
+    "pushedAt": "2026-10-12T20:53:14Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/rzeldent/esp32cam-rtsp"
+  },
+  "espeon": {
+    "repository": "https://github.com/Ryuzaki-MrL/Espeon",
+    "githubId": 202086799,
+    "stars": 186,
+    "checkedAt": "2026-10-15T19:21:09+00:00",
+    "pushedAt": "2021-04-22T21:25:06Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/Ryuzaki-MrL/Espeon"
+  },
+  "ha-epaper-remote": {
+    "repository": "https://github.com/ugomeda/home-assistant-epaper-remote",
+    "githubId": 1141381074,
+    "stars": 187,
+    "checkedAt": "2026-10-15T19:21:13+00:00",
+    "pushedAt": "2026-01-24T18:53:12Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/ugomeda/home-assistant-epaper-remote"
+  },
+  "lovyan-launcher": {
+    "repository": "https://github.com/lovyan03/M5Stack_LovyanLauncher",
+    "githubId": 171066659,
+    "stars": 193,
+    "checkedAt": "2026-10-15T19:21:04+00:00",
+    "pushedAt": "2021-09-03T23:37:18Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/lovyan03/M5Stack_LovyanLauncher"
+  },
+  "m5-oscilloscope": {
+    "repository": "https://github.com/botofancalin/M5Stack-ESP32-Oscilloscope",
+    "githubId": 127184414,
+    "stars": 144,
+    "checkedAt": "2026-10-15T19:22:02+00:00",
+    "pushedAt": "2021-04-05T14:16:22Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/botofancalin/M5Stack-ESP32-Oscilloscope"
+  },
+  "m5gotchi": {
+    "repository": "https://github.com/Devsur11/M5Gotchi",
+    "githubId": 837642781,
+    "stars": 182,
+    "checkedAt": "2026-10-15T19:21:21+00:00",
+    "pushedAt": "2026-08-14T19:23:22Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/Devsur11/M5Gotchi"
+  },
+  "m5monster-c5": {
+    "repository": "https://github.com/C5Lab/M5MonsterC5-CardputerADV",
+    "githubId": 1121236821,
+    "stars": 237,
+    "checkedAt": "2026-10-15T19:20:43+00:00",
+    "pushedAt": "2026-09-28T13:58:33Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/C5Lab/M5MonsterC5-CardputerADV"
+  },
+  "m5stick-marauder": {
+    "repository": "https://github.com/ATOMNFT/M5stick-Marauder",
+    "githubId": 783423243,
+    "stars": 230,
+    "checkedAt": "2026-10-15T19:20:32+00:00",
+    "pushedAt": "2025-01-11T22:54:53Z",
+    "archived": true,
+    "sourceUrl": "https://api.github.com/repos/ATOMNFT/M5stick-Marauder"
+  },
+  "meshcore-cardputer": {
+    "repository": "https://github.com/Stachugit/MeshCore-Cardputer-ADV",
+    "githubId": 1128677884,
+    "stars": 140,
+    "checkedAt": "2026-10-15T19:22:11+00:00",
+    "pushedAt": "2026-01-28T13:47:27Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/Stachugit/MeshCore-Cardputer-ADV"
+  },
+  "multiapp-advanced": {
+    "repository": "https://github.com/botofancalin/M5Stack-MultiApp-Advanced",
+    "githubId": 128684227,
+    "stars": 205,
+    "checkedAt": "2026-10-15T19:20:51+00:00",
+    "pushedAt": "2018-12-17T18:54:11Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/botofancalin/M5Stack-MultiApp-Advanced"
+  },
+  "nemo": {
+    "repository": "https://github.com/n0xa/m5stick-nemo",
+    "githubId": 694486730,
+    "stars": 1313,
+    "checkedAt": "2026-10-15T18:21:15+00:00",
+    "pushedAt": "2026-07-15T03:25:58Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/n0xa/m5stick-nemo"
+  },
+  "plai": {
+    "repository": "https://github.com/d4rkmen/plai",
+    "githubId": 1169090650,
+    "stars": 189,
+    "checkedAt": "2026-10-15T19:21:26+00:00",
+    "pushedAt": "2026-07-27T21:21:14Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/d4rkmen/plai"
+  },
+  "pngle": {
+    "repository": "https://github.com/kikuchan/pngle",
+    "githubId": 203041100,
+    "stars": 140,
+    "checkedAt": "2026-10-15T19:22:06+00:00",
+    "pushedAt": "2025-05-18T14:38:36Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/kikuchan/pngle"
+  },
+  "uiflow-micropython": {
+    "repository": "https://github.com/m5stack/uiflow-micropython",
+    "githubId": 446381832,
+    "stars": 213,
+    "checkedAt": "2026-10-15T19:20:47+00:00",
+    "pushedAt": "2026-10-08T03:39:01Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/m5stack/uiflow-micropython"
+  },
+  "m5paper-weather": {
+    "repository": "https://github.com/Bastelschlumpf/M5PaperWeather",
+    "githubId": 354761104,
+    "stars": 153,
+    "checkedAt": "2026-10-15T19:21:36+00:00",
+    "pushedAt": "2024-10-19T14:59:35Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/Bastelschlumpf/M5PaperWeather"
+  },
+  "stackchan-mcp": {
+    "repository": "https://github.com/kisaragi-mochi/stackchan-mcp",
+    "githubId": 1226065142,
+    "stars": 156,
+    "checkedAt": "2026-10-15T19:22:23+00:00",
+    "pushedAt": "2026-10-03T13:07:58Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/kisaragi-mochi/stackchan-mcp"
+  },
+  "avatar-mic": {
+    "repository": "https://github.com/mongonta0716/m5stack-avatar-mic",
+    "githubId": 584058638,
+    "stars": 52,
+    "checkedAt": "2026-10-15T21:00:10+00:00",
+    "pushedAt": "2025-11-19T05:42:30Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/mongonta0716/m5stack-avatar-mic"
+  },
+  "cardputer-audio-stream": {
+    "repository": "https://github.com/geo-tp/M5Cardputer-Audio-Stream-Server",
+    "githubId": 804817569,
+    "stars": 110,
+    "checkedAt": "2026-10-15T20:44:12+00:00",
+    "pushedAt": "2025-08-12T17:07:41Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/geo-tp/M5Cardputer-Audio-Stream-Server"
+  },
+  "core2-aws-examples": {
+    "repository": "https://github.com/m5stack/Core2-for-AWS-IoT-Kit",
+    "githubId": 320435441,
+    "stars": 126,
+    "checkedAt": "2026-10-15T19:22:28+00:00",
+    "pushedAt": "2025-07-13T22:57:26Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/m5stack/Core2-for-AWS-IoT-Kit"
+  },
+  "esp-hal": {
+    "repository": "https://github.com/esp-rs/esp-hal",
+    "githubId": 429554022,
+    "stars": 2151,
+    "checkedAt": "2026-10-15T20:43:39+00:00",
+    "pushedAt": "2026-10-15T15:51:13Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/esp-rs/esp-hal"
+  },
+  "esp-idf": {
+    "repository": "https://github.com/espressif/esp-idf",
+    "githubId": 65899476,
+    "stars": 19251,
+    "checkedAt": "2026-10-15T20:43:35+00:00",
+    "pushedAt": "2026-10-15T19:27:12Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/espressif/esp-idf"
+  },
+  "esp32-camera-demo": {
+    "repository": "https://github.com/m5stack/esp32-cam-demo",
+    "githubId": 135537161,
+    "stars": 117,
+    "checkedAt": "2026-10-15T20:43:59+00:00",
+    "pushedAt": "2018-08-14T11:16:41Z",
+    "archived": true,
+    "sourceUrl": "https://api.github.com/repos/m5stack/esp32-cam-demo"
+  },
+  "esp32drop": {
+    "repository": "https://github.com/s-iwaki-d/ESP32Drop",
+    "githubId": 1356659258,
+    "stars": 21,
+    "checkedAt": "2026-10-15T20:43:04+00:00",
+    "pushedAt": "2026-09-07T10:01:16Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/s-iwaki-d/ESP32Drop"
+  },
+  "m5claw": {
+    "repository": "https://github.com/fwz233-RE/M5Claw",
+    "githubId": 1180676135,
+    "stars": 53,
+    "checkedAt": "2026-10-15T21:00:06+00:00",
+    "pushedAt": "2026-03-28T12:59:44Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/fwz233-RE/M5Claw"
+  },
+  "m5stick-shark": {
+    "repository": "https://github.com/AH2005NA/m5stick-shark",
+    "githubId": 777986469,
+    "stars": 119,
+    "checkedAt": "2026-10-15T20:43:54+00:00",
+    "pushedAt": "2024-09-10T14:47:24Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/AH2005NA/m5stick-shark"
+  },
+  "midbar": {
+    "repository": "https://github.com/Northstrix/Midbar",
+    "githubId": 487564187,
+    "stars": 18,
+    "checkedAt": "2026-10-15T20:27:03+00:00",
+    "pushedAt": "2026-08-20T15:09:07Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/Northstrix/Midbar"
+  },
+  "miniacid": {
+    "repository": "https://github.com/urtubia/miniacid",
+    "githubId": 1106865891,
+    "stars": 112,
+    "checkedAt": "2026-10-15T20:44:08+00:00",
+    "pushedAt": "2026-02-10T04:20:49Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/urtubia/miniacid"
+  },
+  "open-bike-computer": {
+    "repository": "https://github.com/seichris/open-bike-computer",
+    "githubId": 1113491422,
+    "stars": 20,
+    "checkedAt": "2026-10-15T20:27:09+00:00",
+    "pushedAt": "2026-10-15T15:38:27Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/seichris/open-bike-computer"
+  },
+  "readpaper": {
+    "repository": "https://github.com/shinemoon/M5ReadPaper",
+    "githubId": 1122022204,
+    "stars": 54,
+    "checkedAt": "2026-10-15T21:00:01+00:00",
+    "pushedAt": "2026-06-05T08:24:35Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/shinemoon/M5ReadPaper"
+  },
+  "the-badge": {
+    "repository": "https://github.com/curisama/The-Badge",
+    "githubId": 1365672434,
+    "stars": 36,
+    "checkedAt": "2026-10-15T20:27:20+00:00",
+    "pushedAt": "2026-10-05T13:28:44Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/curisama/The-Badge"
+  },
+  "advanceos": {
+    "repository": "https://github.com/bomberman30/AdvanceOS-for-cardputer",
+    "githubId": 1099556447,
+    "stars": 101,
+    "checkedAt": "2026-10-16T00:04:23+00:00",
+    "pushedAt": "2026-08-03T20:46:16Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/bomberman30/AdvanceOS-for-cardputer"
+  },
+  "cardputer-doom": {
+    "repository": "https://github.com/romalik/m5cardputer_doom",
+    "githubId": 801245269,
+    "stars": 87,
+    "checkedAt": "2026-10-16T00:05:17+00:00",
+    "pushedAt": "2024-06-20T01:11:01Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/romalik/m5cardputer_doom"
+  },
+  "crypto-coin-ticker": {
+    "repository": "https://github.com/frittna/Crypto_Coin_Ticker",
+    "githubId": 250798393,
+    "stars": 75,
+    "checkedAt": "2026-10-16T00:05:44+00:00",
+    "pushedAt": "2025-02-09T15:36:28Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/frittna/Crypto_Coin_Ticker"
+  },
+  "imu-dmp-visualizer": {
+    "repository": "https://github.com/nopnop2002/esp-idf-mpu6050-dmp",
+    "githubId": 612431094,
+    "stars": 92,
+    "checkedAt": "2026-10-16T00:04:50+00:00",
+    "pushedAt": "2026-08-20T06:40:31Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/nopnop2002/esp-idf-mpu6050-dmp"
+  },
+  "m5-lvgl-emulator": {
+    "repository": "https://github.com/m5stack/lv_m5_emulator",
+    "githubId": 762652573,
+    "stars": 90,
+    "checkedAt": "2026-10-16T00:04:46+00:00",
+    "pushedAt": "2025-08-01T02:57:27Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/m5stack/lv_m5_emulator"
+  },
+  "m5apps": {
+    "repository": "https://github.com/d4rkmen/M5Apps",
+    "githubId": 1103740185,
+    "stars": 98,
+    "checkedAt": "2026-10-16T00:04:41+00:00",
+    "pushedAt": "2026-07-27T12:13:45Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/d4rkmen/M5Apps"
+  },
+  "m5paper-factory-test": {
+    "repository": "https://github.com/m5stack/M5Paper_FactoryTest",
+    "githubId": 312219312,
+    "stars": 102,
+    "checkedAt": "2026-10-16T00:04:05+00:00",
+    "pushedAt": "2024-06-20T08:54:44Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/m5stack/M5Paper_FactoryTest"
+  },
+  "m5stack-esphome": {
+    "repository": "https://github.com/m5stack/esphome-yaml",
+    "githubId": 1073341322,
+    "stars": 72,
+    "checkedAt": "2026-10-16T00:05:53+00:00",
+    "pushedAt": "2026-09-17T06:31:36Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/m5stack/esphome-yaml"
+  },
+  "microhydra-apps": {
+    "repository": "https://github.com/echo-lalia/MicroHydra-Apps",
+    "githubId": 758858413,
+    "stars": 86,
+    "checkedAt": "2026-10-16T00:04:59+00:00",
+    "pushedAt": "2026-09-09T05:51:49Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/echo-lalia/MicroHydra-Apps"
+  },
+  "palnagotchi": {
+    "repository": "https://github.com/viniciusbo/m5-palnagotchi",
+    "githubId": 757564943,
+    "stars": 81,
+    "checkedAt": "2026-10-16T00:05:26+00:00",
+    "pushedAt": "2026-01-28T11:41:47Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/viniciusbo/m5-palnagotchi"
+  },
+  "raising-hell": {
+    "repository": "https://github.com/acpayers-alt/raising-hell-cardputer",
+    "githubId": 1150124550,
+    "stars": 104,
+    "checkedAt": "2026-10-16T00:04:14+00:00",
+    "pushedAt": "2026-06-03T20:23:38Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/acpayers-alt/raising-hell-cardputer"
+  },
+  "saturn": {
+    "repository": "https://github.com/henriquesebastiao/saturn",
+    "githubId": 809302289,
+    "stars": 86,
+    "checkedAt": "2026-10-16T00:05:08+00:00",
+    "pushedAt": "2025-11-02T14:48:01Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/henriquesebastiao/saturn"
+  },
+  "stickwatch2": {
+    "repository": "https://github.com/eggfly/M5StickCProjects",
+    "githubId": 168490788,
+    "stars": 77,
+    "checkedAt": "2026-10-16T00:05:39+00:00",
+    "pushedAt": "2019-10-08T10:49:55Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/eggfly/M5StickCProjects"
+  },
+  "tab5-user-demo": {
+    "repository": "https://github.com/m5stack/M5Tab5-UserDemo",
+    "githubId": 979315563,
+    "stars": 91,
+    "checkedAt": "2026-10-16T00:04:32+00:00",
+    "pushedAt": "2026-09-15T10:03:54Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/m5stack/M5Tab5-UserDemo"
+  },
+  "esphome": {
+    "repository": "https://github.com/esphome/esphome",
+    "githubId": 128479644,
+    "stars": 11902,
+    "checkedAt": "2026-10-15T20:27:31+00:00",
+    "pushedAt": "2026-10-15T20:25:56Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/esphome/esphome"
+  },
+  "micropython": {
+    "repository": "https://github.com/micropython/micropython",
+    "githubId": 15337142,
+    "stars": 22130,
+    "checkedAt": "2026-10-16T00:03:59+00:00",
+    "pushedAt": "2026-10-15T03:42:53Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/micropython/micropython"
+  },
+  "cardputer-hid-emulator": {
+    "repository": "https://github.com/geo-tp/Bluetooth-Keyboard-Mouse-Emulator",
+    "githubId": 807988574,
+    "stars": 68,
+    "checkedAt": "2026-10-16T01:04:14+00:00",
+    "pushedAt": "2025-10-21T14:29:23Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/geo-tp/Bluetooth-Keyboard-Mouse-Emulator"
+  },
+  "cardputer-ssh-terminal": {
+    "repository": "https://github.com/aat440hz/SSHClient-M5Cardputer",
+    "githubId": 733756267,
+    "stars": 64,
+    "checkedAt": "2026-10-16T01:04:58+00:00",
+    "pushedAt": "2023-12-30T01:38:29Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/aat440hz/SSHClient-M5Cardputer"
+  },
+  "crosspoint-papers3": {
+    "repository": "https://github.com/juicecultus/crosspoint-reader-papers3",
+    "githubId": 1186429176,
+    "stars": 70,
+    "checkedAt": "2026-10-16T01:04:09+00:00",
+    "pushedAt": "2026-05-23T10:17:43Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/juicecultus/crosspoint-reader-papers3"
+  },
+  "homekit-ac-remote": {
+    "repository": "https://github.com/megabitsenmzq/ESP32-HomeKit-Remote",
+    "githubId": 562570781,
+    "stars": 52,
+    "checkedAt": "2026-10-16T01:04:36+00:00",
+    "pushedAt": "2024-09-14T07:12:30Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/megabitsenmzq/ESP32-HomeKit-Remote"
+  },
+  "m5dial-user-demo": {
+    "repository": "https://github.com/m5stack/M5Dial-UserDemo",
+    "githubId": 703374617,
+    "stars": 63,
+    "checkedAt": "2026-10-16T01:04:18+00:00",
+    "pushedAt": "2024-08-27T01:34:24Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/m5stack/M5Dial-UserDemo"
+  },
+  "m5stack-air-quality": {
+    "repository": "https://github.com/koenvervloesem/M5Stack-Air-Quality-ESPHome",
+    "githubId": 321049232,
+    "stars": 54,
+    "checkedAt": "2026-10-16T01:04:23+00:00",
+    "pushedAt": "2023-10-04T00:52:20Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/koenvervloesem/M5Stack-Air-Quality-ESPHome"
+  },
+  "stampfly-firmware": {
+    "repository": "https://github.com/m5stack/M5StampFly",
+    "githubId": 817089068,
+    "stars": 93,
+    "checkedAt": "2026-10-16T00:04:28+00:00",
+    "pushedAt": "2026-09-07T08:36:07Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/m5stack/M5StampFly"
+  },
+  "stopwatch-avatar": {
+    "repository": "https://github.com/Trentct/m5stack-stopwatch-avatar",
+    "githubId": 1345127796,
+    "stars": 63,
+    "checkedAt": "2026-10-16T01:04:00+00:00",
+    "pushedAt": "2026-08-24T16:09:39Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/Trentct/m5stack-stopwatch-avatar"
+  },
+  "vibestick-for-mac": {
+    "repository": "https://github.com/HanminYIN/VibeStick-for-Mac",
+    "githubId": 1330523734,
+    "stars": 101,
+    "checkedAt": "2026-10-16T01:04:05+00:00",
+    "pushedAt": "2026-09-04T19:29:45Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/HanminYIN/VibeStick-for-Mac"
+  },
+  "area512": {
+    "repository": "https://github.com/engneer-hamachan/area512",
+    "githubId": 1288290564,
+    "stars": 81,
+    "checkedAt": "2026-10-16T01:06:00+00:00",
+    "pushedAt": "2026-10-12T23:59:02Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/engneer-hamachan/area512"
+  },
+  "axisorange": {
+    "repository": "https://github.com/naninunenoy/AxisOrange",
+    "githubId": 194375702,
+    "stars": 50,
+    "checkedAt": "2026-10-16T01:06:04+00:00",
+    "pushedAt": "2021-11-11T16:19:45Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/naninunenoy/AxisOrange"
+  },
+  "cardputer-adv-ssh": {
+    "repository": "https://github.com/MangoX0567/M5Stack-Cardputer-SSH",
+    "githubId": 1331629803,
+    "stars": 54,
+    "checkedAt": "2026-10-16T01:05:20+00:00",
+    "pushedAt": "2026-08-12T05:28:43Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/MangoX0567/M5Stack-Cardputer-SSH"
+  },
+  "dualpid": {
+    "repository": "https://github.com/knifter/DualPID",
+    "githubId": 277762803,
+    "stars": 56,
+    "checkedAt": "2026-10-16T01:05:33+00:00",
+    "pushedAt": "2026-09-25T14:31:35Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/knifter/DualPID"
+  },
+  "m5-onscreen-keyboard": {
+    "repository": "https://github.com/lovyan03/M5Stack_OnScreenKeyboard",
+    "githubId": 164316726,
+    "stars": 49,
+    "checkedAt": "2026-10-16T01:06:08+00:00",
+    "pushedAt": "2019-12-30T01:56:35Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/lovyan03/M5Stack_OnScreenKeyboard"
+  },
+  "micropython-core2": {
+    "repository": "https://github.com/lemariva/micropython-core2",
+    "githubId": 314924526,
+    "stars": 64,
+    "checkedAt": "2026-10-16T01:05:07+00:00",
+    "pushedAt": "2022-03-29T18:41:00Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/lemariva/micropython-core2"
+  },
+  "pathshield": {
+    "repository": "https://github.com/lukeswitz/PathShield",
+    "githubId": 825982450,
+    "stars": 55,
+    "checkedAt": "2026-10-16T01:05:42+00:00",
+    "pushedAt": "2026-04-15T17:18:51Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/lukeswitz/PathShield"
+  },
+  "stackchan-bsp": {
+    "repository": "https://github.com/m5stack/StackChan-BSP",
+    "githubId": 1209051423,
+    "stars": 54,
+    "checkedAt": "2026-10-16T01:05:51+00:00",
+    "pushedAt": "2026-08-28T06:32:52Z",
+    "archived": false,
+    "sourceUrl": "https://api.github.com/repos/m5stack/StackChan-BSP"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "sourceUrl": "https://heltec.org/project/wifi-kit32-v3/",
+  "checkedAt": "2026-10-16T01:16:26+00:00",
+  "images": [
+    {
+      "url": "https://heltec.org/wp-content/uploads/2023/10/kit-32-01.png",
+      "alt": "Open Graph image"
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2023/11/Fa-2.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2023/11/maker-home-1000x500-1.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2023/11/appandplatform01.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2022/02/HaLow.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2025/03/Mesh.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2026/10/post.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2026/06/ft1.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2025/07/111.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2025/03/Schema-Lora.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2023/10/19600c52fdacec6ddfd662ec6cf5b2d-600x600-1.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2023/10/kit32-02.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2023/10/WiFi-Kit-32-components-1024x876.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2023/10/HTIT-WB32_V3.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2022/09/4cee17a174530d5642ceecff084ccab-1.png",
+      "alt": ""
+    },
+    {
+      "url": "https://heltec.org/wp-content/uploads/2023/09/2.png",
+      "alt": ""
+    }
+  ],
+  "tables": [
+    [
+      [
+        "Item",
+        "WiFi Kit 32 (V2)",
+        "WiFi Kit 32 (V3)"
+      ],
+      [
+        "MCU",
+        "ESP32-D0",
+        "ESP32-S3"
+      ],
+      [
+        "USB Socket",
+        "Micro USB",
+        "USB Type C"
+      ],
+      [
+        "Low Power Features in Deep Sleep",
+        "≈800uA",
+        "<10uA"
+      ],
+      [
+        "Other Update",
+        "",
+        "Better impedance matching of RF circuits."
+      ]
+    ],
+    [
+      [
+        "Parameters",
+        "Description"
+      ],
+      [
+        "Master Chip",
+        "ESP32-S3FN8(Xtensa®32-bit lx7 dual core processor)"
+      ],
+      [
+        "USB to Serial Chip",
+        "CP2102"
+      ],
+      [
+        "WiFi",
+        "802.11 b/g/n, up to 150Mbps"
+      ],
+      [
+        "Bluetooth LE",
+        "Bluetooth 5, Bluetooth mesh"
+      ],
+      [
+        "Hardware Resource",
+        "7*ADC1+2*ADC2; / 7*Touch; / 3*UART; / 2*I2C; / 2*SPI, etc."
+      ],
+      [
+        "Memory",
+        "384KB ROM; / 512KB SRAM; / 16KB RTC SRAM; / 8MB SiP Flash"
+      ],
+      [
+        "Interface",
+        "Type-C USB; / 2*1.25 lithium battery interface; / 2*18*2.54 Header Pin"
+      ],
+      [
+        "Battery",
+        "3.7V lithium battery power supply and charging"
+      ],
+      [
+        "Power Consumption",
+        "Deep Sleep 15uA"
+      ],
+      [
+        "Operating Temperature",
+        "-20~70℃"
+      ],
+      [
+        "Dimensions",
+        "50.2 * 25.5* 10.2 mm"
+      ]
+    ],
+    [
+      [
+        "Item",
+        "Quantity"
+      ],
+      [
+        "WiFi Kit 32 (V3)",
+        "x1"
+      ],
+      [
+        "SH1.25 x 2 battery cable",
+        "x1"
+      ]
+    ],
+    [
+      [
+        "Weight",
+        "30 g"
+      ],
+      [
+        "Dimensions",
+        "6.6 × 6.6 × 2 cm"
+      ]
+    ]
+  ],
+  "resources": [
+    {
+      "label": "Datasheet",
+      "url": "https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WiFi%20kit32_V3(Rev1.1).pdf"
+    },
+    {
+      "label": "Schematic diagram",
+      "url": "https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3.2-schematic.pdf"
+    }
+  ],
+  "title": "WiFi Kit 32 (V3)"
+}
