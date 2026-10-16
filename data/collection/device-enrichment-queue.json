@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-16T03:33:08+00:00",
+  "generatedAt": "2026-10-16T07:20:20+00:00",
   "scope": "All listed devices; sourced key facts, not exhaustive transcription or physical testing.",
   "counts": {
-    "devices": 140,
+    "devices": 141,
     "complete": 120,
     "images": 120,
-    "specifications": 138,
-    "resources": 140
+    "specifications": 139,
+    "resources": 141
   },
   "devices": [
     {
@@ -1270,6 +1270,35 @@
         {
           "url": "https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-tracker-v2/",
           "checkedAt": "2026-10-15T19:36:36+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "lckfb-szpi-esp32-s3",
+      "manufacturer": "lckfb",
+      "type": "integrated-device",
+      "status": "pending",
+      "image": false,
+      "specifications": true,
+      "resources": true,
+      "pending": [
+        {
+          "task": "official-image",
+          "reason": "No reviewed manufacturer image yet."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://wiki.lckfb.com/zh-hans/szpi-esp32s3/",
+          "checkedAt": "2026-10-16T07:17:57+00:00"
+        },
+        {
+          "url": "https://wiki.lckfb.com/zh-hans/szpi-esp32s3/xiaozhi-ai.html",
+          "checkedAt": "2026-10-16T07:17:57+00:00"
+        },
+        {
+          "url": "https://wiki.lckfb.com/zh-hans/szpi-esp32s3/beginner/introduction.html",
+          "checkedAt": "2026-10-16T07:17:57+00:00"
         }
       ]
     },

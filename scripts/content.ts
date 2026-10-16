@@ -1,24 +1,10 @@
-import { readFileSync, readdirSync, mkdirSync, writeFileSync } from 'node:fs'
+import { readFileSync, mkdirSync, writeFileSync } from 'node:fs'
 import { resolve, relative, dirname } from 'node:path'
-import { parseDocument } from 'yaml'
+import { markdownFiles, frontmatter } from './markdown.ts'
+import { buildGuides } from './guides.ts'
+import { buildTools } from './tools.ts'
 import { projectSchema, deviceSchema, repositoryMetricsSchema } from '../src/lib/content/schema.ts'
 import type { Catalog } from '../src/lib/content/schema.ts'
-
-function markdownFiles(directory: string): string[] {
-  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
-    const file = resolve(directory, entry.name)
-    return entry.isDirectory() ? markdownFiles(file) : entry.isFile() && file.endsWith('.md') ? [file] : []
-  }).sort()
-}
-
-function frontmatter(file: string): unknown {
-  const text = readFileSync(file, 'utf8').replace(/^\uFEFF/, '')
-  const match = /^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/.exec(text)
-  if (!match) throw new Error(`${file}: missing YAML frontmatter`)
-  const document = parseDocument(match[1], { uniqueKeys: true })
-  if (document.errors.length) throw new Error(`${file}: ${document.errors.map((error) => error.message).join('; ')}`)
-  return document.toJS()
-}
 
 /** Node-only build tooling. Workers consume the generated JSON, never the filesystem. */
 export function buildCatalog(root = process.cwd(), write = false): Catalog {
@@ -86,7 +72,21 @@ export function buildCatalog(root = process.cwd(), write = false): Catalog {
   }
   // A confirmed low-star result leaves the authored record intact for review.
   catalog.projects = catalog.projects.filter((project) => !('metrics' in project) || (project.metrics as { stars: number }).stars >= 10)
+  const tools = buildTools(root)
+  const guides = buildGuides(root, catalog)
   if (write) {
+    const guidesTarget = resolve(root, 'src/generated/guides.json')
+    mkdirSync(dirname(guidesTarget), { recursive: true })
+    const guidesOutput = JSON.stringify(guides, null, 2) + '\n'
+    let existingGuides = ''
+    try { existingGuides = readFileSync(guidesTarget, 'utf8') } catch { /* First build. */ }
+    if (existingGuides !== guidesOutput) writeFileSync(guidesTarget, guidesOutput)
+    const toolsTarget = resolve(root, 'src/generated/tools.json')
+    mkdirSync(dirname(toolsTarget), { recursive: true })
+    const toolsOutput = JSON.stringify(tools, null, 2) + '\n'
+    let existingTools = ''
+    try { existingTools = readFileSync(toolsTarget, 'utf8') } catch { /* First build. */ }
+    if (existingTools !== toolsOutput) writeFileSync(toolsTarget, toolsOutput)
     const target = resolve(root, 'src/generated/catalog.json')
     const output = JSON.stringify(catalog, null, 2) + '\n'
     let existing = ''

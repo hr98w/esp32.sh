@@ -83,3 +83,7 @@ python3 scripts/audit-collection.py --min-projects 100 --min-devices 140
 采集工具默认离线，联网必须显式 `--online`。`public_fetch.py` 统一使用不读取 `.curlrc` 的匿名 curl、HTTPS、同主机串行、缓存和限流重置时间。禁止个人 GitHub 凭据；Cloudflare 的部署 OAuth 不用于采集。
 
 避免多个采集进程同时改写同一份整表 JSON。原始响应和请求冷却状态位于 `.cache/collection/`；正式审阅台账位于 `data/collection/`。更多字段与分类见 [数据说明](../data/README.md)。
+
+## 工具目录
+
+`scripts/tools.ts` 读取并校验 `content/tools/*.md`，由内容生成流程统一调用；`scripts/markdown.ts` 提供三类内容共用的 Frontmatter 读取。工具独立生成到 `src/generated/tools.json`，不会写入项目/设备的 `catalog.json` 或采集队列。编辑工具 Markdown 后运行 `pnpm check`；开发服务会监听内容变化。

@@ -15,11 +15,12 @@ def request(path,follow=True):
     except HTTPError as error:r=error
     with r:return r.status,r.read().decode(),r.headers
 class Page(HTMLParser):
-    def __init__(self,html):super().__init__();self.cards=0;self.project_links=[];self.headings=[];self.images=[];self.feed(html)
+    def __init__(self,html):super().__init__();self.cards=0;self.tool_ids=[];self.project_links=[];self.headings=[];self.images=[];self.feed(html)
     def handle_starttag(self,tag,attrs):
         if ('class','project-card') in attrs:self.cards+=1
         values=dict(attrs)
         if tag=='a' and 'cover' in values.get('class','').split():self.project_links.append(values['href'])
+        if tag=='article' and values.get('data-tool-id'):self.tool_ids.append(values['data-tool-id'])
         if tag=='h2' and values.get('id'):self.headings.append(values['id'])
         if tag=='img':self.images.append(values['src'])
 catalog=json.loads(Path('src/generated/catalog.json').read_text())
@@ -62,6 +63,32 @@ if maker_counts[maker]>24:
     assert status==200 and 'href="/devices?maker='+maker+'"' in html and 'aria-current="page"' in html
 
 
+# Curated tools: translated records, no project sidebar, correct external destinations.
+tools=json.loads(Path('src/generated/tools.json').read_text())
+for locale,prefix,html_lang in [('en','','en'),('zh','/zh','zh-CN'),('ja','/ja','ja')]:
+    status,html,_=request(prefix+'/tools')
+    assert status==200 and f'<html lang="{html_lang}"' in html
+    parsed=Page(html)
+    assert parsed.tool_ids==[t['id'] for t in tools] and 'device-sidebar' not in html,(prefix,'tool order/sidebar')
+    rendered=unescape(html)
+    for tool in tools:
+        assert tool['summary'][locale] in rendered and tool['requirements'][locale] in rendered,tool['id']
+        if tool.get('icon'):assert tool['icon'] in parsed.images,(tool['id'],'official icon missing')
+        assert f'href="{tool["url"]}"' in rendered,(tool['id'],'external destination')
+    assert 'href="'+prefix+'/tools"' in html,(prefix,'navigation')
+    for category in ['flashing','simulation','coding-debugging','display-assets']:
+        status,html,_=request(prefix+'/tools?category='+category)
+        assert status==200 and Page(html).tool_ids==[t['id'] for t in tools if t['category']==category],(prefix,category)
+    for query,expected in [('ViperIDE',['viperide']),('zzzznonexistent',[])]:
+        status,html,_=request(prefix+'/tools?q='+query)
+        assert status==200 and Page(html).tool_ids==expected,(prefix,query)
+    status,html,_=request(prefix+'/tools?category=flashing&q=ViperIDE')
+    assert status==200 and Page(html).tool_ids==[],(prefix,'combined filters')
+    status,html,_=request(prefix+'/tools?category=invalid')
+    assert status==200 and len(Page(html).tool_ids)==len(tools),(prefix,'invalid category')
+status,_,headers=request('/en/tools?q=ViperIDE',False)
+assert status==301 and headers['Location']=='/tools?q=ViperIDE'
+
 status,_,headers=request('/en/devices/m5stack-cardputer?q=Bruce',False)
 assert status==301 and headers['Location']=='/devices/m5stack-cardputer?q=Bruce'
 for path in ['/fr','/devices/not-a-device']:
@@ -80,4 +107,24 @@ for locale,prefix,html_lang in [('en','','en'),('zh','/zh','zh-CN'),('ja','/ja',
         assert parsed.headings[-1]=='related-projects',(path,'related projects must be the last section')
         for image in [device.get('cover')]+[g['image'] for g in device.get('gallery',[])]:
             if image:assert image.startswith('https://') and image in parsed.images,(path,image)
-print(f"Passed local Workers HTTP: 3 languages, root URL, paginated directories in all languages, filters, redirects, 404s, {len(catalog['devices'])*3} localized device pages; direct external device images, translated summaries, related projects last and Star-descending.")
+print(f"Passed local Workers HTTP: 3 languages, root URL, paginated directories and curated tools in all languages, filters, redirects, 404s, {len(catalog['devices'])*3} localized device pages; direct external device images, translated summaries, related projects last and Star-descending.")
+
+guides=json.loads(Path('src/generated/guides.json').read_text())
+for locale,prefix,html_lang in [('en','','en'),('zh','/zh','zh-CN'),('ja','/ja','ja')]:
+    path=prefix+'/guides'
+    status,html,_=request(path)
+    assert status==200 and f'<html lang="{html_lang}"' in html,path
+    assert 'class="sidebar"' not in html,path
+    assert html.count('class="guide-posts"')==1 and 'guide-jumps' not in html,path
+    assert html.count('data-guide-post=')==len(guides['posts']),path
+    positions=[html.index(f'data-guide-post="{post["id"]}"') for post in guides['posts']]
+    assert positions==sorted(positions),(path,'post order')
+    assert html.count('data-guide-pick=')==len(guides['picks']),path
+    assert f'https://esp32.sh{path}' in html,path
+    for post in guides['posts']:
+        assert post['url'] in html and post['title'][locale] in unescape(html),(path,post['id'])
+    for pick in guides['picks']:
+        assert pick['title'][locale] in unescape(html),(path,pick['id'])
+        for device in pick['deviceIds']:assert f'href="{prefix}/devices/{device}"' in html,(path,device)
+assert request('/en/guides',False)[0]==301
+print('Passed Start Here HTTP: all localized picks, device links, 10 original-post fallbacks, canonical URLs and language redirect. X iframe rendering requires a browser/network check.')

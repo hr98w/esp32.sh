@@ -1,6 +1,6 @@
 # Contributing content
 
-The public repository and submission flow have not been announced yet. Start with the step-by-step [English README](README.md#contributing-projects-and-devices) or [中文 README](README.zh-CN.md#贡献项目与设备). These are the content conventions for the directory; there is no automated AI approval or auto-merge workflow.
+Contribute through a pull request to [hr98w/esp32.sh](https://github.com/hr98w/esp32.sh). Start with the [English README](README.md#contributing) or [中文 README](README.zh-CN.md#贡献内容). These are the content conventions for the directory; there is no automated AI approval or auto-merge workflow.
 
 1. Add one Markdown file per project under `content/projects/`, or one device under `content/devices/<manufacturer.id>/`. Start with a file in `templates/`.
 2. Use a stable lowercase ID. Project folders do not depend on tags; a repository is listed once, even if it supports many boards.
@@ -18,4 +18,10 @@ Stars and image candidates live in `data/` and do not require repeatedly editing
 
 项目、设备分别新增独立 Markdown 文件。项目文件平铺，设备按厂商分目录；摘要包含英文、中文和日文。项目需 README、明确的开源许可和入库时至少 10 个 Star。设备适配必须有上游明确依据，无法核实的先待定。封面可选。提交前运行 `pnpm check`，不要提交缓存、凭据或生成产物。
 
-站点已上线；公开源码仓库与投稿入口尚未公布。内容先在本地审阅，再由维护者发布，没有 AI 自动批准或自动合并。维护与发布流程见 [文档索引](docs/README.md)。
+通过 [GitHub Pull Request](https://github.com/hr98w/esp32.sh/pulls) 投稿，审核合并后发布，没有 AI 自动批准或自动合并。维护与发布流程见 [文档索引](docs/README.md)。
+
+## Tools / 工具
+
+Tools use `content/tools/<id>.md` and [their own template](templates/tool.md). The [content guide](content/README.md#工具) explains the fields. Favor documented, useful ESP32 tools with distinct purposes. Hosted services and official vendor tools are allowed, but only verified source and license evidence warrants an open-source label; record pricing and usage requirements separately. Tools are curated rather than ranked by GitHub stars.
+
+工具初版优先质量与实用性。每个工具各用一个 Markdown，补齐三语说明、适用条件、来源与核验时间；不把免费服务自动标成开源，也不把桌面浏览器支持推断成手机支持。

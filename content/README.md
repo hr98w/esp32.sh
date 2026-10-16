@@ -1,6 +1,6 @@
 # 内容指南
 
-应用内容放在本目录，产品文档和设计原型留在 `docs/`。`projects/**/*.md` 与 `devices/**/*.md` 会被读取，其余文件不会作为项目或设备记录。
+应用内容放在本目录，产品文档和设计原型留在 `docs/`。`projects/**/*.md`、`devices/**/*.md` 与 `tools/**/*.md` 会被读取，其余文件不会作为项目或设备记录。
 
 每条内容包含 YAML Frontmatter 和可选 Markdown 正文。字段目前采用第一版约定，详见 `src/lib/content/schema.ts` 与 `templates/`。运行 `pnpm content:check` 检查提交。
 
@@ -48,3 +48,24 @@
 生成的目录在 `src/generated/catalog.json`，由脚本维护且不进入版本控制。Star、README 封面候选与采集日期放在 `data/`，避免自动任务反复修改人工 MD。
 
 收录来源与规则的完整讨论见 [产品文档](../docs/product/2026-10-16-content-records.md)。
+
+## 工具
+
+工具放在 `tools/<id>.md`，文件名必须与 ID 相同，模板见 [tool.md](../templates/tool.md)。工具数据单独生成到 `src/generated/tools.json`，与项目、设备目录分开，运行 `pnpm content:generate` 或正常构建即可更新。
+
+- 必填：`id`、`name`、官方 `url`、`category`、`runtime`、`sourceType`、`pricing`、`order`、`addedAt`，以及三语 `summary` 和 `requirements`。
+- `category`：`flashing`、`simulation`、`coding-debugging`、`display-assets`。
+- `icon`：可选的官方图标或网站 favicon HTTPS 地址，直接加载外部资源；缺失或加载失败使用分类图标，图标来源页记录在 `sources` 中。
+- `runtime`：主要运行方式 `browser`、`desktop`、`cli`。具体操作系统、浏览器和手机连接条件写在三语 `requirements` 中。
+- `sourceType`：`open-source`（有明确许可与源码）、`hosted-service`（在线服务）、`official-tool`（官方提供的工具入口）。后两种展示标签不等于断言闭源，不从关联库推断整个网站的许可。
+- 标记开源时必须同时填写已核实的 `repository` 与 `license`。费用另用 `pricing` 表示：`free`、`freemium`、`paid`、`unspecified`；不填具体价格，减少过期维护。
+- `sources` 至少一条，每条包含 HTTPS `url` 和真实 ISO `checkedAt`，用于追溯功能、平台、许可及费用依据。
+- `order` 数值小的优先展示，同值按 ID 稳定排序。工具不使用项目的 Star 指标或最低 Star 门槛。
+
+初版只选官方或有清楚资料、实际用途明确的工具；类似工具需说明使用场景差异。只提供外链入口，不在本站嵌入烧录器、编译服务或模拟器。功能与支持范围来自上游资料，不代表本站已完成硬件实测。
+
+## 新手指南
+
+`guides/picks/` 每个 Markdown 是一张推荐卡片，引用已存在的 `deviceIds` 和 `projectIds`，包含三语标题、简介与上手门槛。`budget` 是相对预算等级，不是价格报价。
+
+`guides/posts/` 每条 X 推文一个 Markdown，支持三语标题、原帖链接和顺序。删除单条推文不会删除或破坏推荐卡片。参考[推文模板](../templates/guide-post.md)、[推荐模板](../templates/guide-pick.md)和[页面组织说明](../docs/product/2026-10-16-beginner-guide.md)。三语字段均必填，运行 `pnpm verify` 校验。

@@ -1,3 +1,4 @@
+import type { Tool } from './content/schema'
 import type { Catalog } from './content/schema'
 import { matchesQuery, deviceSearchFields } from './search'
 
@@ -24,4 +25,8 @@ export function selectDevices(catalog: Catalog, search: DeviceFilters) {
       (search.feature === 'audio' && d.features.some(f => f === 'microphone' || f === 'speaker'))) &&
     matchesQuery(search.q ?? '', [...deviceSearchFields(d), ...Object.values(d.summary)])
   ).sort((a, b) => a.manufacturer.name.localeCompare(b.manufacturer.name) || a.name.localeCompare(b.name) || a.id.localeCompare(b.id))
+}
+
+export function selectTools(tools: readonly Tool[], search: { q?: string; category?: string }) {
+  return tools.filter(tool => (!search.category || tool.category === search.category) && matchesQuery(search.q ?? '', [tool.name, tool.category, ...Object.values(tool.summary), ...Object.values(tool.requirements)]))
 }

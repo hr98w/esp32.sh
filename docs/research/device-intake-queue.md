@@ -1,6 +1,6 @@
 # Device intake queue
 
-Generated: 2026-10-16T03:33:08+00:00
+Generated: 2026-10-16T07:20:20+00:00
 
 Included means an actual Markdown record exists. Pending or needs-review entries are not published. Source coverage is limited to inspected directories; model support is maintained separately on projects.
 
@@ -290,6 +290,12 @@ Included means an actual Markdown record exists. Pending or needs-review entries
 | Device | Stable ID | Status | Reason |
 | --- | --- | --- | --- |
 | [mpython](https://www.espboards.dev/esp32/mpython/) | `mpython` | discovered | Device facts pending |
+
+## lckfb
+
+| Device | Stable ID | Status | Reason |
+| --- | --- | --- | --- |
+| lckfb-szpi-esp32-s3 | `lckfb-szpi-esp32-s3` | included |  |
 
 ## lilygo
 

@@ -9174,5 +9174,19 @@
       "https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-1.8"
     ],
     "reason": null
+  },
+  {
+    "kind": "device",
+    "key": "lckfb-szpi-esp32-s3",
+    "id": "lckfb-szpi-esp32-s3",
+    "manufacturer": "lckfb",
+    "status": "included",
+    "content": {
+      "id": "lckfb-szpi-esp32-s3",
+      "file": "content/devices/lckfb/lckfb-szpi-esp32-s3.md",
+      "manufacturer": "lckfb"
+    },
+    "sources": [],
+    "reason": null
   }
 ]

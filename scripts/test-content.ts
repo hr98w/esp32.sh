@@ -117,3 +117,63 @@ test('untrusted page values are normalized and navigation stays bounded', async 
     assert.deepEqual(numbers, [...numbers].sort((a, b) => a - b))
   }
 })
+
+test('tool intake requires review sources and rejects unverified open-source labels', async () => {
+  const { toolSchema } = await import('../src/lib/content/schema.ts')
+  const base = { id: 'tool', name: 'Tool', url: 'https://example.com/tool', category: 'flashing', runtime: 'browser', sourceType: 'official-tool', pricing: 'unspecified', order: 1, summary: {en:'A useful tool',zh:'实用工具',ja:'便利なツール'}, requirements: {en:'USB',zh:'USB',ja:'USB'}, sources: [{url:'https://example.com/docs',checkedAt:'2026-10-16T06:00:00Z'}], addedAt:'2026-10-16' }
+  assert.equal(toolSchema.safeParse(base).success, true)
+  assert.equal(toolSchema.safeParse({...base,sources:[]}).success, false)
+  assert.equal(toolSchema.safeParse({...base,sources:[{url:'https://example.com/docs'}]}).success, false)
+  assert.equal(toolSchema.safeParse({...base,summary:{en:'Only English'}}).success, false)
+  assert.equal(toolSchema.safeParse({...base,sourceType:'open-source',pricing:'free'}).success, false)
+  assert.equal(toolSchema.safeParse({...base,sourceType:'open-source',license:'MIT',repository:'https://github.com/example/tool'}).success, true)
+})
+
+test('duplicate tools fail without overwriting generated project or tool catalogs', async () => {
+  const { buildTools } = await import('./tools.ts')
+  const authored = buildTools(process.cwd())[0]
+  fixture(root => {
+    mkdirSync(join(root,'content/tools'))
+    md(root,`content/tools/${authored.id}.md`,authored)
+    buildCatalog(root,true)
+    const toolSnapshot=readFileSync(join(root,'src/generated/tools.json'),'utf8')
+    const projectSnapshot=readFileSync(join(root,'src/generated/catalog.json'),'utf8')
+    md(root,'content/tools/duplicate.md',{...authored,id:'duplicate',url:authored.url+'#same-tool'})
+    assert.throws(()=>buildCatalog(root,true),/Duplicate tool URL/)
+    assert.equal(readFileSync(join(root,'src/generated/tools.json'),'utf8'),toolSnapshot)
+    assert.equal(readFileSync(join(root,'src/generated/catalog.json'),'utf8'),projectSnapshot)
+    md(root,'content/tools/duplicate.md',{...authored,id:'duplicate',url:'https://example.com/another-tool'})
+    assert.equal(buildTools(root).length,2)
+    md(root,'content/tools/duplicate.md',{...authored,id:'renamed',url:'https://example.com/another-tool'})
+    assert.throws(()=>buildTools(root),/filename must match id/)
+  })
+})
+
+test('guide posts can be removed without losing curated device/project picks',()=>fixture(root=>{
+  mkdirSync(join(root,'content/guides/posts'),{recursive:true})
+  mkdirSync(join(root,'content/guides/picks'),{recursive:true})
+  const localized={zh:'指南',en:'Guide',ja:'ガイド'}
+  const post={id:'one',title:localized,url:'https://x.com/example/status/123',order:1}
+  const pick={id:'pick',title:localized,summary:localized,effort:localized,budget:'low',deviceIds:['maker-board'],projectIds:['example'],resource:{label:localized,url:'https://example.com/guide'},sources:[post.url],order:1}
+  md(root,'content/guides/posts/one.md',post)
+  md(root,'content/guides/picks/pick.md',pick)
+  buildCatalog(root,true)
+  rmSync(join(root,'content/guides/posts/one.md'))
+  buildCatalog(root,true)
+  const generated=JSON.parse(readFileSync(join(root,'src/generated/guides.json'),'utf8'))
+  assert.equal(generated.posts.length,0)
+  assert.equal(generated.picks.length,1)
+  const before=readFileSync(join(root,'src/generated/guides.json'),'utf8')
+  md(root,'content/guides/picks/pick.md',{...pick,deviceIds:['unknown']})
+  assert.throws(()=>buildCatalog(root,true),/unknown guide device/)
+  assert.equal(readFileSync(join(root,'src/generated/guides.json'),'utf8'),before)
+}))
+test('guide post validation rejects unsupported URLs and duplicate tweet identities',()=>fixture(root=>{
+  mkdirSync(join(root,'content/guides/posts'),{recursive:true})
+  const post={id:'one',title:{zh:'原帖',en:'Post',ja:'投稿'},url:'https://x.com/example/status/123',order:1}
+  md(root,'content/guides/posts/one.md',{...post,url:'https://example.com/not-x'})
+  assert.throws(()=>buildCatalog(root))
+  md(root,'content/guides/posts/one.md',post)
+  md(root,'content/guides/posts/two.md',{...post,id:'two',url:'https://twitter.com/other/status/123'})
+  assert.throws(()=>buildCatalog(root),/Duplicate X post/)
+}))

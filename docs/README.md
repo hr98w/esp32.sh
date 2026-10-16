@@ -17,10 +17,14 @@
 
 ## 产品约定与历史依据
 
+- [新手指南](product/2026-10-16-beginner-guide.md)：推荐设备与玩法、独立推文 Markdown、嵌入和删减方式。
+
 - [产品方向](product/2026-10-15-product-direction.md)、[功能结构](product/2026-10-15-site-functional-structure.md)。
+- [工具目录首版](product/2026-10-16-tools-directory.md)：页面组织、首批 10 个工具与质量规则。
 - [内容记录约定](product/2026-10-16-content-records.md)、[首轮采集计划](product/2026-10-16-data-collection-plan.md)。
 - [竞品结构调研](research/2026-10-15-competitor-structure.md)、[按设备找项目调研](research/2026-10-15-device-to-project-discovery.md)。
 - [内容扩充审阅报告](research/2026-10-16-content-expansion-review.md)。
+- [分页、工具与新手指南发布](research/2026-10-16-tools-guides-deployment.md)：版本与 17 项公网检查。
 - [Plausible 与 Logo 发布记录](research/2026-10-16-plausible-branding-deployment.md)：线上检查与 CLI 收尾网络错误的边界。
 - [首次 Cloudflare 上线记录](research/2026-10-16-cloudflare-deployment.md)：已发布版本和 DNS 切换依据。
 - [历次工作日志](research/overnight-work-log.md)、[早期 HTML 原型](prototype/index.html)。

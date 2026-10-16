@@ -1,6 +1,6 @@
 # Device enrichment coverage
 
-Generated: 2026-10-16T03:33:08+00:00
+Generated: 2026-10-16T07:20:20+00:00
 
 Every listed device is accounted for below. Complete means an externally hosted, reviewed manufacturer image, key sourced hardware specifications, and resource links. It does not mean exhaustive specifications or physical testing.
 
@@ -12,6 +12,7 @@ Every listed device is accounted for below. Complete means an externally hosted,
 | elecrow | 8 | 8 | 8 | 8 | 8 |
 | espressif | 16 | 1 | 16 | 16 | 1 |
 | heltec | 7 | 7 | 7 | 7 | 7 |
+| lckfb | 1 | 0 | 1 | 1 | 0 |
 | lilygo | 23 | 21 | 23 | 23 | 21 |
 | m5stack | 22 | 22 | 22 | 22 | 22 |
 | olimex | 6 | 6 | 6 | 6 | 6 |
@@ -44,6 +45,7 @@ Every listed device is accounted for below. Complete means an externally hosted,
 | espressif-esp32-s2-devkitm-1 | official-image | Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement. |
 | espressif-esp32-s3-devkitm-1 | official-image | Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement. |
 | espressif-esp32-s3-usb-bridge | official-image | Manufacturer resource HTML embeds the product photo as a data URI; a separately reachable exact-model external photo URL still needs verification. Inline images are not published under the external-image requirement. |
+| lckfb-szpi-esp32-s3 | official-image | No reviewed manufacturer image yet. |
 | lilygo-t-display-s3-amoled-touch | official-image | Shared product page; need clearly identified touch variant image. |
 | lilygo-t-display-s3-touch | official-image | Shared product page; need clearly identified touch variant image. |
 | unexpected-maker-rmp | official-image | Official page is client-rendered; image needs another primary source. |
@@ -52,9 +54,9 @@ Every listed device is accounted for below. Complete means an externally hosted,
 
 - functional-board: 51
 - general-board: 52
-- integrated-device: 35
+- integrated-device: 36
 - module: 2
 
-Integrated devices: 35; complete: 35.
+Integrated devices: 36; complete: 35.
 
 Source ledgers: `device-image-review.json`, `device-detail-review.json`, and per-device Markdown. Run `python3 scripts/collection/report_device_enrichment.py` after generating the catalog.

@@ -24,6 +24,7 @@ class Page(HTMLParser):
         super().__init__()
         self.lang = None
         self.cards = 0
+        self.tools = 0
         self.headings = set()
         self.assets = []
         self.feed(body)
@@ -34,6 +35,8 @@ class Page(HTMLParser):
             self.lang = values.get('lang')
         if 'project-card' in values.get('class', '').split():
             self.cards += 1
+        if tag == 'article' and values.get('data-tool-id'):
+            self.tools += 1
         if tag == 'h2' and values.get('id'):
             self.headings.add(values['id'])
         asset = values.get('src') if tag == 'script' else values.get('href') if tag == 'link' else None
@@ -61,6 +64,8 @@ def main():
         parser.error('Generate the local catalog first: pnpm content:generate')
     catalog = json.loads(catalog_path.read_text())
     projects, devices = catalog['projects'], catalog['devices']
+    tools = json.loads((ROOT/'src/generated/tools.json').read_text())
+    guides = json.loads((ROOT/'src/generated/guides.json').read_text())
     if not projects or not devices:
         parser.error('The local catalog needs at least one project and one device.')
     by_id = {d['id']: d for d in devices}
@@ -75,6 +80,8 @@ def main():
               ('/?device='+filtered_id, 'en', min(24,filtered_count))]
     if len(projects)>24: checks.append(('/?page=2','en',min(24,len(projects)-24)))
     if len(devices)>24: checks.append(('/devices?page=2','en',min(24,len(devices)-24)))
+    checks.extend([(path,lang,None) for path,lang in [('/tools','en'),('/zh/tools','zh-CN'),('/ja/tools','ja')]])
+    checks.extend([(path,lang,None) for path,lang in [('/guides','en'),('/zh/guides','zh-CN'),('/ja/guides','ja')]])
     results = []
     with tempfile.TemporaryDirectory(prefix='esp32-deployment-check-') as temp:
         def get(path):
@@ -104,6 +111,18 @@ def main():
                 raise RuntimeError(f'{path}: expected HTML language {lang}, got {page.lang}')
             if count is not None and page.cards != count:
                 raise RuntimeError(f'{path}: expected {count} cards from local catalog, got {page.cards}')
+            if path.endswith('/tools') and page.tools != len(tools):
+                raise RuntimeError(f'{path}: expected {len(tools)} tools, got {page.tools}')
+            if path.endswith('/guides'):
+                rendered = unescape(body)
+                locale = {'en': 'en', 'zh-CN': 'zh', 'ja': 'ja'}[lang]
+                if body.count('data-guide-post=') != len(guides['posts']) or body.count('data-guide-pick=') != len(guides['picks']):
+                    raise RuntimeError(f'{path}: guide content count differs from local records')
+                if body.count('class="guide-posts"') != 1 or 'guide-jumps' in body:
+                    raise RuntimeError(f'{path}: expected a single ungrouped X feed')
+                for post in guides['posts']:
+                    if post['url'] not in body or post['title'][locale] not in rendered:
+                        raise RuntimeError(f'{path}: missing original post {post["id"]}')
             if '/devices/' in path and 'related-projects' not in page.headings:
                 raise RuntimeError(f'{path}: missing related-projects section')
             if '/devices/' in path:

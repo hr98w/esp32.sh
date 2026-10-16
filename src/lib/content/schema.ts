@@ -1,3 +1,4 @@
+import { toolCategories } from '../tool-types.ts'
 import { deviceTypes } from '../device-types.ts'
 import { z } from 'zod'
 
@@ -44,6 +45,29 @@ export const deviceSchema = z.object({
   sources: z.array(source).default([]),
 }).strict()
 
+export const toolSchema = z.object({
+  id,
+  name: z.string().min(1),
+  url,
+  icon: url.optional(),
+  repository: projectSchema.shape.repository.optional(),
+  category: z.enum(toolCategories),
+  summary: localizedText,
+  requirements: localizedText,
+  runtime: z.enum(['browser', 'desktop', 'cli']),
+  sourceType: z.enum(['open-source', 'hosted-service', 'official-tool']),
+  license: z.string().min(1).optional(),
+  pricing: z.enum(['free', 'freemium', 'paid', 'unspecified']),
+  order: z.number().int().min(0),
+  sources: z.array(source.extend({ checkedAt: z.iso.datetime({ offset: true }) })).min(1),
+  addedAt: z.iso.date(),
+}).strict().superRefine((tool, context) => {
+  if (tool.sourceType === 'open-source' && (!tool.license || !tool.repository)) {
+    context.addIssue({ code: 'custom', message: 'Open-source tools need an explicit license and repository', path: ['sourceType'] })
+  }
+})
+export type Tool = z.infer<typeof toolSchema>
+
 export const repositoryMetricsSchema = z.object({
   repository: url,
   githubId: z.number().int().positive(),
@@ -57,3 +81,18 @@ export type RepositoryMetrics = z.infer<typeof repositoryMetricsSchema>
 export type Project = z.infer<typeof projectSchema> & { metrics?: RepositoryMetrics }
 export type Device = z.infer<typeof deviceSchema>
 export type Catalog = { projects: Project[]; devices: Device[] }
+
+export const guidePostSchema = z.object({
+  id, title: localizedText,
+  url: z.string().regex(/^https:\/\/(?:x\.com|twitter\.com)\/[A-Za-z0-9_]+\/status\/[0-9]+$/),
+  order: z.number().int().min(0),
+}).strict()
+export const guidePickSchema = z.object({
+  id, title: localizedText, summary: localizedText, effort: localizedText,
+  budget: z.enum(['low', 'medium', 'high']),
+  deviceIds: z.array(id).min(1), projectIds: z.array(id).min(1),
+  resource: z.object({ label: localizedText, url }).strict(),
+  sources: z.array(url).min(1), order: z.number().int().min(0),
+}).strict()
+export type GuidePost = z.infer<typeof guidePostSchema>
+export type GuidePick = z.infer<typeof guidePickSchema>

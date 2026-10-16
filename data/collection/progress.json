@@ -42,7 +42,7 @@
       }
     }
   },
-  "generatedAt": "2026-10-16T03:33:08+00:00",
+  "generatedAt": "2026-10-16T07:20:20+00:00",
   "counts": {
     "project": {
       "included": 100,
@@ -52,7 +52,7 @@
       "discovered": 72
     },
     "device": {
-      "included": 140,
+      "included": 141,
       "discovered": 86,
       "needs-review": 54,
       "pending": 30
@@ -154,6 +154,9 @@
     },
     "labplus": {
       "discovered": 1
+    },
+    "lckfb": {
+      "included": 1
     },
     "lilygo": {
       "included": 23,

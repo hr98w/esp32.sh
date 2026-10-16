@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T03:33:09+00:00",
+  "generatedAt": "2026-10-16T07:20:20+00:00",
   "scope": "All listed relations; offline lexical review aid only, not execution or hardware verification.",
   "relations": [
     {
@@ -1802,6 +1802,18 @@
       "status": "model-name-found",
       "context": [
         "Use Arduino IDE to compile it, tested with (ESP32 version 1.0.4) M5stack-fire."
+      ]
+    },
+    {
+      "projectId": "xiaozhi",
+      "deviceId": "lckfb-szpi-esp32-s3",
+      "sourceUrl": "https://wiki.lckfb.com/zh-hans/szpi-esp32s3/xiaozhi-ai.html",
+      "readmeCheckedAt": "2026-10-15T17:22:10+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- The project now requires ESP-IDF v6.0.1 or later. [ESP-IDF v6.1](https://github.com/espressif/esp-idf/releases/tag/v6.1) is the recommended SDK. ESP-IDF 5.x is no longer supported. The current matrix contains 171 variants; ESP32-S31 builds require IDF 6.1 or later.",
+        "- ESP32, ESP32-C3, ESP32-C5, ESP32-C6, ESP32-S3, and ESP32-P4 chip platforms",
+        "- <a href=\"https://oshwhub.com/li-chuang-kai-fa-ban/li-chuang-shi-zhan-pai-esp32-s3-kai-fa-ban\" target=\"_blank\" title=\"LiChuang ESP32-S3 Development Board\">LiChuang ESP32-S3 Development Board</a>"
       ]
     },
     {

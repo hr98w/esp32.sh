@@ -13,6 +13,8 @@ tags:
   - ai
   - audio
 devices:
+  - deviceId: lckfb-szpi-esp32-s3
+    sourceUrl: https://wiki.lckfb.com/zh-hans/szpi-esp32s3/xiaozhi-ai.html
   - deviceId: m5stack-cores3
     sourceUrl: https://github.com/78/xiaozhi-esp32#readme
   - deviceId: waveshare-esp32-s3-touch-amoled-1-8

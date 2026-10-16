@@ -11,6 +11,8 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as Char123LangChar125RouteImport } from './routes/{-$lang}'
 import { Route as Char123LangChar125IndexRouteImport } from './routes/{-$lang}.index'
+import { Route as Char123LangChar125GuidesRouteImport } from './routes/{-$lang}.guides'
+import { Route as Char123LangChar125ToolsRouteImport } from './routes/{-$lang}.tools'
 import { Route as Char123LangChar125DevicesIndexRouteImport } from './routes/{-$lang}.devices.index'
 import { Route as Char123LangChar125DevicesDeviceIdRouteImport } from './routes/{-$lang}.devices.$deviceId'
 
@@ -22,6 +24,17 @@ const Char123LangChar125Route = Char123LangChar125RouteImport.update({
 const Char123LangChar125IndexRoute = Char123LangChar125IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => Char123LangChar125Route,
+} as any)
+const Char123LangChar125GuidesRoute =
+  Char123LangChar125GuidesRouteImport.update({
+    id: '/guides',
+    path: '/guides',
+    getParentRoute: () => Char123LangChar125Route,
+  } as any)
+const Char123LangChar125ToolsRoute = Char123LangChar125ToolsRouteImport.update({
+  id: '/tools',
+  path: '/tools',
   getParentRoute: () => Char123LangChar125Route,
 } as any)
 const Char123LangChar125DevicesIndexRoute =
@@ -39,11 +52,15 @@ const Char123LangChar125DevicesDeviceIdRoute =
 
 export interface FileRoutesByFullPath {
   '/{-$lang}': typeof Char123LangChar125RouteWithChildren
+  '/{-$lang}/guides': typeof Char123LangChar125GuidesRoute
+  '/{-$lang}/tools': typeof Char123LangChar125ToolsRoute
   '/{-$lang}/': typeof Char123LangChar125IndexRoute
   '/{-$lang}/devices/$deviceId': typeof Char123LangChar125DevicesDeviceIdRoute
   '/{-$lang}/devices/': typeof Char123LangChar125DevicesIndexRoute
 }
 export interface FileRoutesByTo {
+  '/{-$lang}/guides': typeof Char123LangChar125GuidesRoute
+  '/{-$lang}/tools': typeof Char123LangChar125ToolsRoute
   '/{-$lang}': typeof Char123LangChar125IndexRoute
   '/{-$lang}/devices/$deviceId': typeof Char123LangChar125DevicesDeviceIdRoute
   '/{-$lang}/devices': typeof Char123LangChar125DevicesIndexRoute
@@ -51,6 +68,8 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/{-$lang}': typeof Char123LangChar125RouteWithChildren
+  '/{-$lang}/guides': typeof Char123LangChar125GuidesRoute
+  '/{-$lang}/tools': typeof Char123LangChar125ToolsRoute
   '/{-$lang}/': typeof Char123LangChar125IndexRoute
   '/{-$lang}/devices/$deviceId': typeof Char123LangChar125DevicesDeviceIdRoute
   '/{-$lang}/devices/': typeof Char123LangChar125DevicesIndexRoute
@@ -59,14 +78,23 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/{-$lang}'
+    | '/{-$lang}/guides'
+    | '/{-$lang}/tools'
     | '/{-$lang}/'
     | '/{-$lang}/devices/$deviceId'
     | '/{-$lang}/devices/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/{-$lang}' | '/{-$lang}/devices/$deviceId' | '/{-$lang}/devices'
+  to:
+    | '/{-$lang}/guides'
+    | '/{-$lang}/tools'
+    | '/{-$lang}'
+    | '/{-$lang}/devices/$deviceId'
+    | '/{-$lang}/devices'
   id:
     | '__root__'
     | '/{-$lang}'
+    | '/{-$lang}/guides'
+    | '/{-$lang}/tools'
     | '/{-$lang}/'
     | '/{-$lang}/devices/$deviceId'
     | '/{-$lang}/devices/'
@@ -92,6 +120,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LangChar125IndexRouteImport
       parentRoute: typeof Char123LangChar125Route
     }
+    '/{-$lang}/guides': {
+      id: '/{-$lang}/guides'
+      path: '/guides'
+      fullPath: '/{-$lang}/guides'
+      preLoaderRoute: typeof Char123LangChar125GuidesRouteImport
+      parentRoute: typeof Char123LangChar125Route
+    }
+    '/{-$lang}/tools': {
+      id: '/{-$lang}/tools'
+      path: '/tools'
+      fullPath: '/{-$lang}/tools'
+      preLoaderRoute: typeof Char123LangChar125ToolsRouteImport
+      parentRoute: typeof Char123LangChar125Route
+    }
     '/{-$lang}/devices/': {
       id: '/{-$lang}/devices/'
       path: '/devices'
@@ -110,12 +152,16 @@ declare module '@tanstack/react-router' {
 }
 
 interface Char123LangChar125RouteChildren {
+  Char123LangChar125GuidesRoute: typeof Char123LangChar125GuidesRoute
+  Char123LangChar125ToolsRoute: typeof Char123LangChar125ToolsRoute
   Char123LangChar125IndexRoute: typeof Char123LangChar125IndexRoute
   Char123LangChar125DevicesDeviceIdRoute: typeof Char123LangChar125DevicesDeviceIdRoute
   Char123LangChar125DevicesIndexRoute: typeof Char123LangChar125DevicesIndexRoute
 }
 
 const Char123LangChar125RouteChildren: Char123LangChar125RouteChildren = {
+  Char123LangChar125GuidesRoute: Char123LangChar125GuidesRoute,
+  Char123LangChar125ToolsRoute: Char123LangChar125ToolsRoute,
   Char123LangChar125IndexRoute: Char123LangChar125IndexRoute,
   Char123LangChar125DevicesDeviceIdRoute:
     Char123LangChar125DevicesDeviceIdRoute,
