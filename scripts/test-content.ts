@@ -266,3 +266,27 @@ test('sitemap scales with catalog entries and includes localized pagination with
   assert.match(xml, /hreflang="zh-CN"/)
   assert.doesNotMatch(xml, /device=|tag=|sort=|\/en\//)
 })
+
+import { pageMeta, defaultSocialImage } from '../src/lib/seo.ts'
+test('social metadata uses localized canonical URLs and the raster brand image without a cover', () => {
+  for (const [locale, ogLocale, prefix] of [['en','en_US',''],['zh','zh_CN','/zh'],['ja','ja_JP','/ja']] as const) {
+    const meta = pageMeta({ title:'ESP32 & projects', description:'Localized description', path:'/devices', locale, page:2 })
+    const values = Object.fromEntries(meta.map(entry => ['property' in entry ? entry.property : 'name' in entry ? entry.name : 'title', 'content' in entry ? entry.content : entry.title]))
+    assert.equal(values['og:url'], `https://esp32.sh${prefix}/devices?page=2`)
+    assert.equal(values['og:locale'], ogLocale)
+    assert.equal(values['og:title'], 'ESP32 & projects')
+    assert.equal(values['twitter:description'], 'Localized description')
+    assert.equal(values['twitter:card'], 'summary_large_image')
+    assert.equal(values['og:image'], defaultSocialImage)
+    assert.equal(values['twitter:image'], defaultSocialImage)
+    assert.equal(values['og:image:width'], '1200')
+  }
+})
+test('social covers stay external, while missing, insecure or SVG covers use the fallback', () => {
+  for (const [image, expected] of [[undefined,defaultSocialImage],['https://cdn.example/board.webp','https://cdn.example/board.webp'],['https://cdn.example/icon.SVG?raw=1',defaultSocialImage],['http://cdn.example/photo.jpg',defaultSocialImage],['/local.jpg',defaultSocialImage]]) {
+    const meta = pageMeta({ title:'Board', description:'A board', path:'/devices/board', locale:'en', image })
+    assert.equal(meta.find(entry => 'property' in entry && entry.property==='og:image')?.content,expected)
+    assert.equal(meta.find(entry => 'name' in entry && entry.name==='twitter:image')?.content,expected)
+    if (image===expected) assert.ok(!meta.some(entry => 'property' in entry && entry.property==='og:image:width'))
+  }
+})

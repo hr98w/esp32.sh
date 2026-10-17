@@ -5,7 +5,7 @@ import { selectTools } from '../lib/directory'
 import { resolveLocale } from '../lib/i18n'
 import { toolText, formatToolCount } from '../lib/i18n/tools'
 import { toolCategories, type ToolCategory } from '../lib/tool-types'
-import { languageLinks } from '../lib/seo'
+import { languageLinks, pageMeta } from '../lib/seo'
 
 type ToolSearch = { q?: string; category?: ToolCategory | '' }
 export const Route = createFileRoute('/{-$lang}/tools')({
@@ -16,7 +16,7 @@ export const Route = createFileRoute('/{-$lang}/tools')({
   search: { middlewares: [stripSearchParams({ q: '', category: '' })] },
   head: ({ params }) => {
     const locale = resolveLocale(params.lang), t = toolText(locale)
-    return { meta: [{ title: `${t.title} — esp32.sh` }, { name: 'description', content: t.intro }], links: languageLinks('/tools', locale) }
+    return { meta: pageMeta({ title: `${t.title} — esp32.sh`, description: t.intro, path: '/tools', locale }), links: languageLinks('/tools', locale) }
   },
   component: ToolDirectory,
 })

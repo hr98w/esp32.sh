@@ -13,7 +13,11 @@ normal=build_opener(ProxyHandler({}));raw=build_opener(ProxyHandler({}),NoRedire
 def request(path,follow=True):
     try:r=(normal if follow else raw).open(base+path,timeout=20)
     except HTTPError as error:r=error
-    with r:return r.status,r.read().decode(),r.headers
+    with r:
+        result=r.status,r.read().decode(),r.headers
+        if result[0]==200 and 'text/html' in result[2].get('Content-Type',''):
+            check_social(result[1],path)
+        return result
 class Page(HTMLParser):
     def __init__(self,html):super().__init__();self.cards=0;self.tool_ids=[];self.project_links=[];self.headings=[];self.images=[];self.feed(html)
     def handle_starttag(self,tag,attrs):
@@ -23,6 +27,22 @@ class Page(HTMLParser):
         if tag=='article' and values.get('data-tool-id'):self.tool_ids.append(values['data-tool-id'])
         if tag=='h2' and values.get('id'):self.headings.append(values['id'])
         if tag=='img':self.images.append(values['src'])
+class SocialHead(HTMLParser):
+    def __init__(self,html):
+        super().__init__();self.meta={};self.canonical=None;self.feed(html.split('</head>',1)[0])
+    def handle_starttag(self,tag,attrs):
+        values=dict(attrs)
+        if tag=='meta':self.meta.setdefault(values.get('property') or values.get('name'),[]).append(values.get('content'))
+        if tag=='link' and values.get('rel')=='canonical':self.canonical=values['href']
+def check_social(html,path):
+    head=SocialHead(html)
+    for key in ['og:title','og:description','og:url','og:image','og:image:alt','og:locale','twitter:card','twitter:title','twitter:description','twitter:image','twitter:image:alt']:
+        assert len(head.meta.get(key,[]))==1 and head.meta[key][0],(path,'missing/duplicate social tag',key)
+    assert head.meta['og:url']==[head.canonical],(path,'social canonical mismatch')
+    assert head.meta['twitter:card']==['summary_large_image']
+    assert head.meta['og:image']==head.meta['twitter:image'] and head.meta['og:image'][0].startswith('https://')
+    assert head.meta['og:description']==head.meta['description']==head.meta['twitter:description']
+
 catalog=json.loads(Path('src/generated/catalog.json').read_text())
 status,html,_=request('/',False)
 assert status==200 and '<html lang="en"' in html
@@ -190,3 +210,19 @@ for entry in root:
 status,robots,headers=request('/robots.txt')
 assert status==200 and 'text/plain' in headers['Content-Type'] and 'Sitemap: https://esp32.sh/sitemap.xml' in robots
 print(f'Passed {len(catalog["projects"])*3} localized project details, metadata, device links, project 404s/redirect, robots.txt and {len(locations)} canonical sitemap URLs with language alternates. README browser loading is tested separately with offline fixtures.')
+
+# The brand card must be a real public raster file, not just an SVG or metadata URL.
+import struct
+with normal.open(base+'/social-card.png',timeout=20) as response:
+    image=response.read()
+    assert response.status==200 and 'image/png' in response.headers['Content-Type']
+    assert image[:8]==b'\x89PNG\r\n\x1a\n' and struct.unpack('>II',image[16:24])==(1200,630)
+for kind in ['projects','devices']:
+    for entry in catalog[kind]:
+        # Check existing covers and missing/SVG fallbacks against rendered HTML.
+        cover=entry.get('cover')
+        path='/zh/'+kind+'/'+entry['id']
+        _,html,_=request(path)
+        expected=quote(cover.replace(chr(92),'/'),safe=":/?#[]@!$&'()*+,;=%") if cover and not urlsplit(cover).path.lower().endswith('.svg') else 'https://esp32.sh/social-card.png'
+        assert SocialHead(html).meta['og:image']==[expected],(path,'social cover')
+print('Passed server-rendered social tags on all successful HTML checks, project/device covers and fallbacks, and the 1200x630 public PNG.')

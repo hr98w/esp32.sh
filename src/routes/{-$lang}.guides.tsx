@@ -3,14 +3,14 @@ import { catalog } from '../lib/content'
 import { guides } from '../lib/guides'
 import { localeParam, resolveLocale } from '../lib/i18n'
 import { guideText } from '../lib/i18n/guides'
-import { languageLinks } from '../lib/seo'
+import { languageLinks, pageMeta } from '../lib/seo'
 import { DeviceImage } from '../components/device-image'
 import { XPostEmbed } from '../components/x-post-embed'
 
 export const Route = createFileRoute('/{-$lang}/guides')({
   head: ({ params }) => {
     const locale = resolveLocale(params.lang), t = guideText(locale)
-    return { meta: [{ title: `${t.title} — esp32.sh` }, { name: 'description', content: t.intro }], links: languageLinks('/guides', locale) }
+    return { meta: pageMeta({ title: `${t.title} — esp32.sh`, description: t.intro, path: '/guides', locale }), links: languageLinks('/guides', locale) }
   },
   component: Guides,
 })

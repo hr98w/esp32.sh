@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#008080"/>
+<path d="M78 82h1062v490H78z" fill="#004b4b"/>
+<rect x="60" y="58" width="1080" height="500" fill="#f3f1e7" stroke="#172238" stroke-width="4"/>
+<path d="M64 554V62h1072" fill="none" stroke="#fff" stroke-width="4"/>
+<rect x="72" y="70" width="1056" height="42" fill="#000080"/>
+<text x="92" y="99" fill="#fff" font-family="monospace" font-size="23" font-weight="bold">esp32.sh</text>
+<rect x="1086" y="80" width="28" height="22" fill="#c6d0c9" stroke="#fff" stroke-width="2"/>
+<path d="M1092 95h16" stroke="#172238" stroke-width="3"/>
+<text x="112" y="205" font-family="monospace" font-weight="bold" font-size="62" fill="#172238">esp32<tspan fill="#008080">.sh</tspan></text>
+<text x="112" y="290" font-family="sans-serif" font-weight="bold" font-size="45" fill="#172238">Find your next</text>
+<text x="112" y="348" font-family="sans-serif" font-weight="bold" font-size="45" fill="#172238">ESP32 project.</text>
+<text x="112" y="401" font-family="sans-serif" font-size="23" fill="#526264">Pick your device. See what it can do.</text>
+<rect x="825" y="169" width="248" height="248" fill="#e2e7de" stroke="#bac4bb" stroke-width="2"/>
+<g transform="translate(853 197) scale(6)" shape-rendering="crispEdges">
+  <g fill="#172238">
+    <path d="M8 2h4v4H8zm6 0h4v4h-4zm6 0h4v4h-4zM8 26h4v4H8zm6 0h4v4h-4zm6 0h4v4h-4zM2 8h4v4H2zm0 6h4v4H2zm0 6h4v4H2zM26 8h4v4h-4zm0 6h4v4h-4zm0 6h4v4h-4z"/>
+  </g>
+  <g fill="#c6d0c9">
+    <path d="M9 2h2v3H9zm6 0h2v3h-2zm6 0h2v3h-2zM9 27h2v3H9zm6 0h2v3h-2zm6 0h2v3h-2zM2 9h3v2H2zm0 6h3v2H2zm0 6h3v2H2zM27 9h3v2h-3zm0 6h3v2h-3zm0 6h3v2h-3z"/>
+  </g>
+  <path fill="#172238" d="M8 6h16v2h2v16h-2v2H8v-2H6V8h2z"/>
+  <path fill="#000080" d="M8 8h16v16H8z"/>
+  <path fill="#66c5b1" d="M8 8h16v2H10v14H8z"/>
+  <path fill="#00004c" d="M10 22h14v2H10zm12-12h2v12h-2z"/>
+  <path fill="#fff3b0" d="M11 12h3v2h-3zm2 2h3v2h-3zm2 2h3v2h-3zm-2 2h3v2h-3zm-2 2h3v2h-3zm6 0h4v2h-4z"/>
+</g>
+<path d="M110 450h980" stroke="#b5bcb5" stroke-width="2"/>
+<text x="112" y="498" fill="#172238" font-family="monospace" font-size="22">PROJECTS / DEVICES / TOOLS</text>
+<text x="1088" y="498" text-anchor="end" fill="#526264" font-family="monospace" font-size="17">OPEN SOURCE</text>
+</svg>

@@ -5,7 +5,7 @@ import { deviceTypes, type DeviceType } from '../lib/device-types'
 import { deviceText, deviceTypeLabel } from '../lib/i18n/device'
 import { DeviceImage } from '../components/device-image'
 import { manufacturerLabel } from '../lib/manufacturers'
-import { languageLinks } from '../lib/seo'
+import { languageLinks, pageMeta } from '../lib/seo'
 import { createFileRoute, Link, redirect, stripSearchParams } from '@tanstack/react-router'
 import { catalog, projectsForDevice } from '../lib/content'
 import { resolveLocale, localeParam, text, featureLabel, formatCount, formatPageCount } from '../lib/i18n'
@@ -29,7 +29,7 @@ export const Route = createFileRoute('/{-$lang}/devices/')({
       throw redirect({ to: '/{-$lang}/devices', params, search: { ...search, page }, replace: true })
     }
   },
-  head: ({params, match}) => { const t = text(resolveLocale(params.lang)); return {meta:[{title:`${t.devices} — esp32.sh`},{name:'description',content:t.hardwareIntro}],links:languageLinks('/devices',resolveLocale(params.lang), match.search.page)} },
+  head: ({params, match}) => { const t = text(resolveLocale(params.lang)); return {meta:pageMeta({title:`${t.devices} — esp32.sh`,description:t.hardwareIntro,path:'/devices',locale:resolveLocale(params.lang),page:match.search.page}),links:languageLinks('/devices',resolveLocale(params.lang), match.search.page)} },
   component: DeviceDirectory,
 })
 function DeviceDirectory() {

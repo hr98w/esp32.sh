@@ -1,5 +1,5 @@
 import { manufacturerLabel } from '../lib/manufacturers'
-import { languageLinks } from '../lib/seo'
+import { languageLinks, pageMeta } from '../lib/seo'
 import { createFileRoute, Link, notFound } from '@tanstack/react-router'
 import { catalog, projectsForDevice } from '../lib/content'
 import { resolveLocale, localeParam, text, featureLabel, formatCount } from '../lib/i18n'
@@ -13,7 +13,7 @@ export const Route = createFileRoute('/{-$lang}/devices/$deviceId')({
     if (!device) throw notFound()
     return { device, projects: projectsForDevice(device.id).sort((a, b) => (b.metrics?.stars ?? -1) - (a.metrics?.stars ?? -1) || a.name.localeCompare(b.name)) }
   },
-  head: ({ loaderData, params }) => ({ meta: [{ title: `${loaderData?.device.name ?? 'Device'} — esp32.sh` }, { name: 'description', content: loaderData?.device.summary[resolveLocale(params.lang)] }], links: languageLinks(`/devices/${params.deviceId}`, resolveLocale(params.lang)) }),
+  head: ({ loaderData, params }) => ({ meta: pageMeta({ title: `${loaderData?.device.name ?? 'Device'} — esp32.sh`, description: loaderData?.device.summary[resolveLocale(params.lang)], path: `/devices/${params.deviceId}`, locale: resolveLocale(params.lang), image: loaderData?.device.cover }), links: languageLinks(`/devices/${params.deviceId}`, resolveLocale(params.lang)) }),
   component: DeviceDetail,
 })
 function DeviceDetail() {

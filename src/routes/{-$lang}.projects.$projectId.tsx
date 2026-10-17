@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from '@tanstack/react-router'
 import { catalog } from '../lib/content'
-import { languageLinks } from '../lib/seo'
+import { languageLinks, pageMeta } from '../lib/seo'
 import { localeParam, resolveLocale, tagLabel, text } from '../lib/i18n'
 import { ProjectReadme } from '../components/project-readme'
 
@@ -11,7 +11,7 @@ export const Route = createFileRoute('/{-$lang}/projects/$projectId')({
     return { project }
   },
   head: ({ loaderData, params }) => ({
-    meta: [{ title: `${loaderData?.project.name ?? 'Project'} — esp32.sh` }, { name: 'description', content: loaderData?.project.summary[resolveLocale(params.lang)] }],
+    meta: pageMeta({ title: `${loaderData?.project.name ?? 'Project'} — esp32.sh`, description: loaderData?.project.summary[resolveLocale(params.lang)], path: `/projects/${params.projectId}`, locale: resolveLocale(params.lang), image: loaderData?.project.cover }),
     links: languageLinks(`/projects/${params.projectId}`, resolveLocale(params.lang)),
   }),
   component: ProjectDetail,

@@ -3,7 +3,7 @@ import { paginate, parsePage } from '../lib/pagination'
 import { selectProjects } from '../lib/directory'
 import { manufacturerLabel } from '../lib/manufacturers'
 import { matchesQuery, deviceSearchFields } from '../lib/search'
-import { languageLinks } from '../lib/seo'
+import { languageLinks, pageMeta } from '../lib/seo'
 import { useState } from 'react'
 import { createFileRoute, Link, redirect, stripSearchParams } from '@tanstack/react-router'
 import { catalog, projectsForDevice } from '../lib/content'
@@ -30,7 +30,7 @@ export const Route = createFileRoute('/{-$lang}/')({
       throw redirect({ to: '/{-$lang}', params, search: { ...search, page }, replace: true })
     }
   },
-  head: ({ params, match }) => { const t = text(resolveLocale(params.lang)); return { meta: [{ title: `${t.headline} — esp32.sh` }, { name: 'description', content: t.intro }], links: languageLinks('/', resolveLocale(params.lang), match.search.page) } },
+  head: ({ params, match }) => { const t = text(resolveLocale(params.lang)); return { meta: pageMeta({ title: `${t.headline} — esp32.sh`, description: t.intro, path: '/', locale: resolveLocale(params.lang), page: match.search.page }), links: languageLinks('/', resolveLocale(params.lang), match.search.page) } },
   component: ProjectDirectory,
 })
 

@@ -26,11 +26,17 @@ class Page(HTMLParser):
         self.cards = 0
         self.tools = 0
         self.headings = set()
+        self.meta = {}
+        self.canonical = None
         self.assets = []
         self.feed(body)
 
     def handle_starttag(self, tag, attrs):
         values = dict(attrs)
+        if tag == 'meta':
+            self.meta.setdefault(values.get('property') or values.get('name'), []).append(values.get('content'))
+        if tag == 'link' and values.get('rel') == 'canonical':
+            self.canonical = values.get('href')
         if tag == 'html':
             self.lang = values.get('lang')
         if 'project-card' in values.get('class', '').split():
@@ -109,6 +115,11 @@ def main():
             page = Page(body)
             if 'text/html' not in content_type or page.lang != lang:
                 raise RuntimeError(f'{path}: expected HTML language {lang}, got {page.lang}')
+            for key in ['og:title', 'og:description', 'og:url', 'og:image', 'twitter:card', 'twitter:image']:
+                if len(page.meta.get(key, [])) != 1 or not page.meta[key][0]:
+                    raise RuntimeError(f'{path}: missing or duplicate sharing metadata {key}')
+            if page.meta['og:url'] != [page.canonical] or page.meta['og:image'] != page.meta['twitter:image'] or page.meta['twitter:card'] != ['summary_large_image']:
+                raise RuntimeError(f'{path}: inconsistent social card metadata')
             template = 'submit-project.yml'
             if f'href="https://github.com/hr98w/esp32.sh/issues/new?template={template}"' not in body:
                 raise RuntimeError(f'{path}: missing localized project submission link')
@@ -141,6 +152,9 @@ def main():
                     raise RuntimeError(f'{path}: detail content differs from the local catalog')
             if path == '/':
                 root = page
+        _, card_type = get('/social-card.png')
+        if 'image/png' not in card_type:
+            raise RuntimeError('The shared social card must be a public PNG image')
         for suffix, mime in [('.css', 'text/css'), ('.js', 'javascript')]:
             assets = [a for a in root.assets if a.endswith(suffix)]
             if not assets:

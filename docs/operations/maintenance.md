@@ -82,3 +82,9 @@ pnpm collect:report:all
 `src/routes/{-$lang}.projects.$projectId.tsx` 用现有 ID 生成三语详情页，不增加 Markdown 字段。简介、标签、设备和 Star 快照在服务端输出；README 仅在浏览器请求 GitHub，无 Token、Cookie 或本站代理。会话缓存保留最多 5 篇、有效期一小时；请求超时、限流、超大文件等失败时保留 GitHub 原文入口。README 保留原始语言，安全过滤 HTML，图片与相对链接指向上游；复杂视频等不保证完整还原。README 不在初始 HTML，SEO 依靠已有编辑内容。
 
 `/sitemap.xml` 根据构建生成的 catalog 自动输出三语项目、设备、四个目录入口及项目/设备分页，带语言替代链接；不收录筛选组合。新增或移除 Markdown 后，随重新构建自动更新，无需手填 URL。`/robots.txt` 声明 sitemap。当前规模为单个 sitemap；接近 50,000 URL 时再拆分 sitemap index。
+
+## 链接分享预览
+
+六类页面的 `head` 统一调用 `src/lib/seo.ts` 的 `pageMeta`，在服务端 HTML 输出 Open Graph 和 Twitter 大图卡片标签；标题、简介和 URL 随页面语言及规范页码变化，不依赖浏览器执行 JavaScript 或加载 README。项目/设备优先使用现有 HTTPS 封面；缺图或 SVG 使用 `public/social-card.png`（1200×630），不增加 Markdown 字段。外部封面的可访问性和平台裁剪由源站及分享平台决定。
+
+默认分享图的可编辑源文件是 `public/social-card.svg`，PNG 为提交到仓库的导出文件；修改设计后需重新导出 PNG 并保持二者同步，无需运行时生成图片或新服务。`pnpm check:http` 验证标签唯一性、canonical、封面回退和 PNG 尺寸；`pnpm check:deployment` 验证代表性页面的标签和公开图片。检查通过不代表 X 已抓取或刷新其缓存，实际卡片展示仍需在平台确认。
