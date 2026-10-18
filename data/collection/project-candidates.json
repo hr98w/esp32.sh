@@ -2830,5 +2830,14 @@
       "https://github.com/JosssphZhou/groki-bot"
     ],
     "reason": null
+  },
+  "yanxuceo/knoedel-watch": {
+    "repository": "yanxuceo/knoedel-watch",
+    "status": "discovered",
+    "discoveredAt": "2026-10-18T13:19:41+00:00",
+    "sources": [
+      "https://github.com/yanxuceo/knoedel-watch"
+    ],
+    "reason": null
   }
 }

@@ -1413,5 +1413,25 @@
     "publication": "Included per owner public-source policy; no commit or deployment.",
     "contentId": "groki-bot",
     "compatibility": "documented"
+  },
+  "yanxuceo/knoedel-watch": {
+    "contentId": "knoedel-watch",
+    "review": "Full README and licensing overview read; firmware source exists under main/ and board/. German A2 content with English/Chinese translations, animated flashcards and spaced repetition; no speech recognition or model-based agent claimed. AI-authored cards are not yet native-speaker proofread per upstream. Synthetic TTS audio is provided, not a live AI agent. Hardware support only linked to an existing exact-model entry; no hardware validation by esp32.sh. Mixed source/content/character terms recorded without admission blocking.",
+    "readmeCheckedAt": "2026-10-18T13:19:53+00:00",
+    "deviceIds": [
+      "m5stack-stopwatch"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/yanxuceo/knoedel-watch#hardware"
+    ],
+    "unlistedSupportedDevices": [
+      {
+        "name": "Waveshare ESP32-S3-Touch-AMOLED-1.75C",
+        "sourceUrl": "https://github.com/yanxuceo/knoedel-watch/blob/main/docs/boards/waveshare-175c.md",
+        "note": "Explicit maintained port; device is not present in this catalog. Do not conflate with the listed 1.8-inch model or create a broad chip-based association."
+      }
+    ],
+    "reviewedAt": "2026-10-18T13:21:07+00:00"
   }
 }

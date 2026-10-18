@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T13:11:09+00:00",
+  "generatedAt": "2026-10-18T13:21:08+00:00",
   "scope": "All listed relations; offline lexical review aid only, not execution or hardware verification.",
   "relations": [
     {
@@ -910,6 +910,18 @@
         "<h3>TDisplay S3 homeThing</h3>",
         "<a href=\"https://github.com/landonr/homeThing/tree/main/Case%20Design/tdisplay-s3\">More Info</a><br>",
         "<td><a href=\"tdisplay-s3.yaml\">ESPHome Config</a></td>"
+      ]
+    },
+    {
+      "projectId": "knoedel-watch",
+      "deviceId": "m5stack-stopwatch",
+      "sourceUrl": "https://github.com/yanxuceo/knoedel-watch#hardware",
+      "readmeCheckedAt": "2026-10-18T13:19:53+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Animated vocabulary cards for the M5Stack StopWatch Dev Kit (ESP32-S3, round AMOLED touch screen, speaker, motion sensor). Two characters act out every word: **Knödel**, a dumpling, shows adjectives and expressions; **Brezel**, a ginger cat, does the verbs. Nouns show the thing itself, on a disc in the colour of its gender.",
+        "One [M5Stack StopWatch Dev Kit](https://openelab.io/products/m5stack-stopwatch-dev-kit-esp32-s3?sca_ref=12520936.Zn0RxZ6jdFG) and a USB-C cable. Nothing else is needed.",
+        "| M5Stack StopWatch Dev Kit | the main board, tested before every release |"
       ]
     },
     {

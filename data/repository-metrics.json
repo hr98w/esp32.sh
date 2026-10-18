@@ -925,5 +925,14 @@
     "pushedAt": null,
     "archived": false,
     "sourceUrl": "https://github.com/JosssphZhou/groki-bot"
+  },
+  "knoedel-watch": {
+    "repository": "https://github.com/yanxuceo/knoedel-watch",
+    "githubId": 1419851397,
+    "stars": 34,
+    "checkedAt": "2026-10-18T13:19:53+00:00",
+    "pushedAt": null,
+    "archived": false,
+    "sourceUrl": "https://github.com/yanxuceo/knoedel-watch"
   }
 }

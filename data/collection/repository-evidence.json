@@ -5624,5 +5624,58 @@
     ],
     "verifiedLicense": "BSL-1.0 / MIT / Emotion Ball (non-commercial assets)",
     "archived": false
+  },
+  "yanxuceo/knoedel-watch": {
+    "repository": "yanxuceo/knoedel-watch",
+    "status": "verified",
+    "reason": null,
+    "githubId": 1419851397,
+    "stars": 34,
+    "starsCheckedAt": "2026-10-18T13:19:53+00:00",
+    "defaultBranch": "main",
+    "archived": false,
+    "metadataSourceUrl": "https://github.com/yanxuceo/knoedel-watch",
+    "readmeUrl": "https://github.com/yanxuceo/knoedel-watch#readme",
+    "readmeCacheUrl": "https://raw.githubusercontent.com/yanxuceo/knoedel-watch/main/README.md",
+    "readmeCheckedAt": "2026-10-18T13:19:53+00:00",
+    "readmeCharacters": 13694,
+    "readmeExcerpt": "# Knödel Watch\n\n[![build](https://github.com/yanxuceo/knoedel-watch/actions/workflows/build.yml/badge.svg)](https://github.com/yanxuceo/knoedel-watch/actions/workflows/build.yml)\n\nEnglish | [中文](README.zh.md)\n\n**Little animated characters act out every word. Learn a language on a tiny round screen.**\n\n> 🇩🇪 This first version teaches **German** (level A2), with English and Chinese translations. Its course is called *Deutsch mit Knödel*. More languages can follow: the deck format is not tied to German.\n\n<p align=\"center\"><img src=\"docs/img/hero.gif\" width=\"798\" alt=\"Three watches: Knödel celebra",
+    "verifiedLicense": "MIT / CC-BY-NC-SA-4.0; characters reserved",
+    "licenseReview": {
+      "sourceUrl": "https://github.com/yanxuceo/knoedel-watch/blob/main/LICENSES.md",
+      "checkedAt": "2026-10-18T13:20:15+00:00",
+      "basis": "Code is MIT; learning text in content/, curriculum/ and derived packs is CC BY-NC-SA 4.0. Characters Knödel/Brezel and the Deutsch mit Knödel name reserve rights; building/running/modifying this project is explicitly allowed. Licensing notes separately discuss synthetic audio and dependencies. Record actual terms; license restrictions do not gate inclusion."
+    },
+    "transportReview": {
+      "apiStatus": "deferred",
+      "apiReason": "api.github.com deferred until 2026-10-18T13:54:38+00:00",
+      "fallback": "Public GitHub HTML and raw files fetched anonymously with public_fetch. API cooldown retained; no personal credentials."
+    },
+    "reviewSources": [
+      {
+        "url": "https://github.com/yanxuceo/knoedel-watch",
+        "checkedAt": "2026-10-18T13:19:53+00:00"
+      },
+      {
+        "url": "https://github.com/yanxuceo/knoedel-watch/blob/main/README.md",
+        "checkedAt": "2026-10-18T13:19:53+00:00"
+      },
+      {
+        "url": "https://github.com/yanxuceo/knoedel-watch/blob/main/LICENSE",
+        "checkedAt": "2026-10-18T13:20:12+00:00"
+      },
+      {
+        "url": "https://github.com/yanxuceo/knoedel-watch/blob/main/LICENSES.md",
+        "checkedAt": "2026-10-18T13:20:15+00:00"
+      },
+      {
+        "url": "https://github.com/yanxuceo/knoedel-watch/blob/main/content/LICENSE",
+        "checkedAt": "2026-10-18T13:20:17+00:00"
+      },
+      {
+        "url": "https://github.com/yanxuceo/knoedel-watch/blob/main/docs/boards/waveshare-175c.md",
+        "checkedAt": "2026-10-18T13:20:19+00:00"
+      }
+    ]
   }
 }

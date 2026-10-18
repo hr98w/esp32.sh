@@ -21,7 +21,7 @@
         "discovered": 35
       },
       "Upstream project documentation": {
-        "included": 4
+        "included": 5
       }
     },
     "device": {
@@ -45,10 +45,10 @@
       }
     }
   },
-  "generatedAt": "2026-10-18T13:11:09+00:00",
+  "generatedAt": "2026-10-18T13:21:08+00:00",
   "counts": {
     "project": {
-      "included": 103,
+      "included": 104,
       "needs-review": 45,
       "excluded": 35,
       "pending": 1,

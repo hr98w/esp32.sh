@@ -4433,6 +4433,25 @@
     ]
   },
   {
+    "kind": "project",
+    "key": "yanxuceo/knoedel-watch",
+    "repository": "yanxuceo/knoedel-watch",
+    "status": "included",
+    "content": {
+      "id": "knoedel-watch",
+      "file": "content/projects/knoedel-watch.md"
+    },
+    "sources": [
+      "https://github.com/yanxuceo/knoedel-watch"
+    ],
+    "stars": 34,
+    "checkedAt": "2026-10-18T13:19:53+00:00",
+    "reason": null,
+    "discoveryKeys": [
+      "yanxuceo/knoedel-watch"
+    ]
+  },
+  {
     "kind": "device",
     "key": "https://www.espboards.dev/esp32/adafruit-esp32-c6-feather/",
     "id": "adafruit-esp32-c6-feather",
