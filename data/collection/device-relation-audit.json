@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T15:08:15+00:00",
+  "generatedAt": "2026-10-18T13:11:09+00:00",
   "scope": "All listed relations; offline lexical review aid only, not execution or hardware verification.",
   "relations": [
     {
@@ -832,6 +832,28 @@
       "status": "model-name-found",
       "context": [
         "* M5StickS3"
+      ]
+    },
+    {
+      "projectId": "groki-bot",
+      "deviceId": "m5stack-cores3",
+      "sourceUrl": "https://github.com/JosssphZhou/groki-bot#hardware",
+      "readmeCheckedAt": "2026-10-18T13:05:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "Everything for the Groki Bot desktop robot (M5Stack CoreS3 with a Stack-chan base) in one repository: the robot **firmware**, the **gateway** that runs on your computer, and the link that lets the robot hand tasks to an agent in the **Grok Bot** app. Groki now supports native voice powered by the Grok bot backend, letting you talk to the robot directly. On a Mac signed in to the Grok Bot desktop app, voice runs through your existing login session: no separate xAI voice API key needed and no firmware reflash required.",
+        "What you need: a Groki Bot (CoreS3 with a Stack-chan base), a USB-C cable, desktop Chrome or Edge, a Mac on the same Wi-Fi signed in to the Grok Bot desktop app (tested with version 0.71.2; uses internal APIs, so app updates may break it), Node.js, and [uv](https://docs.astral.sh/uv/).",
+        "1. **Flash.** Open the web flasher at <https://josssphzhou.github.io/groki-bot/> in desktop Chrome or Edge, connect the robot over USB-C, click Connect and pick the serial port, choose the latest release and the `CoreS3` board, then click Flash. Tick \"Erase flash before write\" if you want a clean device. If the page cannot connect, put the board in download mode (see [Download mode](#download-mode))."
+      ]
+    },
+    {
+      "projectId": "groki-bot",
+      "deviceId": "m5stack-stopwatch",
+      "sourceUrl": "https://github.com/JosssphZhou/groki-bot#hardware",
+      "readmeCheckedAt": "2026-10-18T13:05:34+00:00",
+      "status": "model-name-found",
+      "context": [
+        "| M5 StopWatch (C152) | `stopwatch` | 466×466 round AMOLED + touch | No servos. 8 MB Octal PSRAM, 16 MB flash, gaze follows touch, ES8311 |"
       ]
     },
     {

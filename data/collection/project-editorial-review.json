@@ -1391,5 +1391,27 @@
       "sourceCheckedAt": "2026-10-16T15:02:45+00:00",
       "basis": "MCP device tools for external iPhone agents; no onboard model or screenshot capture."
     }
+  },
+  "josssphzhou/groki-bot": {
+    "status": "included",
+    "review": "Complete README, root Boost license, gateway MIT and Emotion Ball non-commercial terms read. Owner clarified license does not gate inclusion; restrictions retained in display label and all three summaries. CoreS3 requires a robot base; StopWatch is documented as a no-servo profile. AtomS3/AtomS3R profiles have caveats and have not been rebuilt in this release, so are not linked here. Grok native voice uses macOS desktop login and internal APIs; firmware microphone pauses while speaking; gateway MCP camera/head tools do not all reach this firmware. No claim of onboard model inference or hardware testing.",
+    "readmeCheckedAt": "2026-10-18T13:05:34+00:00",
+    "deviceIds": [
+      "m5stack-cores3",
+      "m5stack-stopwatch"
+    ],
+    "supportSources": [
+      "https://github.com/JosssphZhou/groki-bot#hardware"
+    ],
+    "proposedTags": [
+      "ai",
+      "agent",
+      "audio",
+      "graphics"
+    ],
+    "reviewedAt": "2026-10-18T13:10:45+00:00",
+    "publication": "Included per owner public-source policy; no commit or deployment.",
+    "contentId": "groki-bot",
+    "compatibility": "documented"
   }
 }

@@ -32,9 +32,11 @@ for project in projects:
     metric=project.get('metrics',{})
     if metric.get('stars',-1)<10 or not metric.get('checkedAt'):errors.append(f'{project["id"]}: no successful Star snapshot >= 10')
     if metric.get('githubId')!=verified.get('githubId'):errors.append(f'{project["id"]}: GitHub identity mismatch')
-    if project['license']!=(verified.get('verifiedLicense') or (verified.get('license') or {}).get('spdx_id')):errors.append(f'{project["id"]}: license differs from verified declaration')
+    declared=(verified.get('license') or {}).get('spdx_id')
+    label=verified.get('verifiedLicense') or (declared if declared and declared!='NOASSERTION' else 'Not specified')
+    if project['license']!=label:errors.append(f'{project["id"]}: license differs from verified declaration')
     if verified.get('verifiedLicense') and not (verified.get('licenseReview',{}).get('sourceUrl') and verified.get('licenseReview',{}).get('checkedAt')):errors.append(f'{project["id"]}: manual license resolution lacks provenance')
     if project['devices'] and project['compatibility']!='documented':errors.append(f'{project["id"]}: linked models not marked documented')
 if errors:
     print('Milestone audit incomplete:\n'+'\n'.join('- '+e for e in errors));raise SystemExit(1)
-print(f'Collection milestone passed: {len(projects)} projects, {len(devices)} devices; all have MD, 3 languages, provenance; projects have verified README/license and dated stars >= 10; report counts agree.')
+print(f'Collection milestone passed: {len(projects)} projects, {len(devices)} devices; all have MD, 3 languages, provenance; projects have verified README, recorded license facts and dated stars >= 10; report counts agree.')

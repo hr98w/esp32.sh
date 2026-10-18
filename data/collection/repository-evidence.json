@@ -5549,5 +5549,80 @@
       "checkedAt": "2026-10-16T15:02:51+00:00",
       "basis": "The complete README declares MIT except the UxPlay-derived AirPlay directory, which is GPL-3.0; the linked firmware binary is distributed under GPL-3.0. The API MIT label alone does not cover the complete repository. License sections were read in the full README; a separate license-file fetch was deferred by anonymous API cooldown."
     }
+  },
+  "josssphzhou/groki-bot": {
+    "repository": "JosssphZhou/groki-bot",
+    "status": "verified",
+    "reason": null,
+    "githubId": 1382697794,
+    "stars": 73,
+    "starsCheckedAt": "2026-10-18T13:05:08+00:00",
+    "defaultBranch": "main",
+    "metadataSourceUrl": "https://github.com/JosssphZhou/groki-bot",
+    "readmeUrl": "https://github.com/JosssphZhou/groki-bot#readme",
+    "readmeCacheUrl": "https://raw.githubusercontent.com/JosssphZhou/groki-bot/main/README.md",
+    "readmeCheckedAt": "2026-10-18T13:05:34+00:00",
+    "readmeCharacters": 26663,
+    "readmeExcerpt": "English | [中文](README.zh-CN.md) | [日本語](README.ja.md)\n\n# Groki Bot\n\nEverything for the Groki Bot desktop robot (M5Stack CoreS3 with a Stack-chan base) in one repository: the robot **firmware**, the **gateway** that runs on your computer, and the link that lets the robot hand tasks to an agent in the **Grok Bot** app. Groki now supports native voice powered by the Grok bot backend, letting you talk to the robot directly. On a Mac signed in to the Grok Bot desktop app, voice runs through your existing login session: no separate xAI voice API key needed and no firmware reflash required.\n\n![Groki ",
+    "licenseReview": {
+      "sourceUrl": "https://github.com/JosssphZhou/groki-bot/blob/main/third_party/emotion-ball/LICENSE",
+      "checkedAt": "2026-10-18T13:05:57+00:00",
+      "basis": "First-party code: Boost Software License 1.0 (not Business Source License); separate gateway: MIT; bundled Emotion Ball eye-ring data: non-commercial Community License. Display all these facts. License restrictions are not an intake gate under the owner clarification on 2026-10-18.",
+      "components": [
+        {
+          "path": "LICENSE",
+          "declaredLicense": "BSL-1.0"
+        },
+        {
+          "path": "gateway/LICENSE",
+          "declaredLicense": "MIT"
+        },
+        {
+          "path": "third_party/emotion-ball/LICENSE",
+          "declaredLicense": "Emotion Ball Community License (non-commercial)"
+        }
+      ]
+    },
+    "transportReview": {
+      "apiStatus": "deferred",
+      "apiReason": "403 from api.github.com; request paused, previous cache retained",
+      "fallback": "Anonymous public GitHub HTML and raw files through public_fetch; API cooldown retained; no authenticated requests."
+    },
+    "reviewSources": [
+      {
+        "url": "https://github.com/JosssphZhou/groki-bot",
+        "checkedAt": "2026-10-18T13:05:08+00:00"
+      },
+      {
+        "url": "https://github.com/JosssphZhou/groki-bot/blob/main/README.md",
+        "checkedAt": "2026-10-18T13:05:34+00:00"
+      },
+      {
+        "url": "https://github.com/JosssphZhou/groki-bot/blob/main/LICENSE",
+        "checkedAt": "2026-10-18T13:05:37+00:00"
+      },
+      {
+        "url": "https://github.com/JosssphZhou/groki-bot/blob/main/gateway/LICENSE",
+        "checkedAt": "2026-10-18T13:05:39+00:00"
+      },
+      {
+        "url": "https://github.com/JosssphZhou/groki-bot/blob/main/THIRD_PARTY_NOTICES.md",
+        "checkedAt": "2026-10-18T13:05:41+00:00"
+      },
+      {
+        "url": "https://github.com/JosssphZhou/groki-bot/blob/main/third_party/emotion-ball/LICENSE",
+        "checkedAt": "2026-10-18T13:05:57+00:00"
+      }
+    ],
+    "reviewHistory": [
+      {
+        "status": "needs-review",
+        "reason": "Current firmware embeds Emotion Ball eye-ring data and animation parameters restricted to non-commercial use; cannot admit the complete project as open-source under the site policy. First-party code is Boost Software License 1.0 (BSL-1.0), and the separate gateway is MIT. Review again if those data are replaced or relicensed.",
+        "supersededAt": "2026-10-18T13:10:45+00:00",
+        "resolution": "Owner clarified: public GitHub source is eligible regardless of license; preserve actual restrictions as display metadata."
+      }
+    ],
+    "verifiedLicense": "BSL-1.0 / MIT / Emotion Ball (non-commercial assets)",
+    "archived": false
   }
 }

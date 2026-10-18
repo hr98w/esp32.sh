@@ -916,5 +916,14 @@
     "pushedAt": "2026-10-15T15:24:42Z",
     "archived": false,
     "sourceUrl": "https://api.github.com/repos/ananhq/anan-iphone-use"
+  },
+  "groki-bot": {
+    "repository": "https://github.com/JosssphZhou/groki-bot",
+    "githubId": 1382697794,
+    "stars": 73,
+    "checkedAt": "2026-10-18T13:05:08+00:00",
+    "pushedAt": null,
+    "archived": false,
+    "sourceUrl": "https://github.com/JosssphZhou/groki-bot"
   }
 }

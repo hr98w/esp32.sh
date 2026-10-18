@@ -32,7 +32,7 @@ pnpm verify                  # 内容、类型、测试和生产构建
 | 新手推荐 | `content/guides/picks/` |
 | X 推文嵌入 | `content/guides/posts/` |
 
-简介需包含中英日三语。项目须有 README、明确开源许可，且收录时至少 10 Star。设备适配需有上游明确依据，相同芯片不代表兼容。封面可选。
+简介需包含中英日三语。项目须在 GitHub 公开源码、有 README、与 ESP32 相关，且收录时至少 10 Star。许可证不作为收录门槛；无协议或有非商业限制均可收录，但须如实注明。设备适配需有上游明确依据，相同芯片不代表兼容。封面可选。
 
 运行 `pnpm check` 后，向 [hr98w/esp32.sh](https://github.com/hr98w/esp32.sh) 提交 Pull Request。字段和审核规则见[内容指南](content/README.md)与[贡献约定](CONTRIBUTING.md)。
 

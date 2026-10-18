@@ -88,3 +88,9 @@ pnpm collect:report:all
 六类页面的 `head` 统一调用 `src/lib/seo.ts` 的 `pageMeta`，在服务端 HTML 输出 Open Graph 和 Twitter 大图卡片标签；标题、简介和 URL 随页面语言及规范页码变化，不依赖浏览器执行 JavaScript 或加载 README。项目/设备优先使用现有 HTTPS 封面；缺图或 SVG 使用 `public/social-card.png`（1200×630），不增加 Markdown 字段。外部封面的可访问性和平台裁剪由源站及分享平台决定。
 
 默认分享图的可编辑源文件是 `public/social-card.svg`，PNG 为提交到仓库的导出文件；修改设计后需重新导出 PNG 并保持二者同步，无需运行时生成图片或新服务。`pnpm check:http` 验证标签唯一性、canonical、封面回退和 PNG 尺寸；`pnpm check:deployment` 验证代表性页面的标签和公开图片。检查通过不代表 X 已抓取或刷新其缓存，实际卡片展示仍需在平台确认。
+
+## 项目许可记录（2026-10-18 调整）
+
+项目收录以 GitHub 公开源码、可读 README、ESP32 关联及初次核验至少 10 Star 为条件，不再要求标准开源许可证。无协议、非商业和复合许可均可收录；`license` 是事实展示，未知填 `Not specified`，不能根据公开源码推断 MIT 或没有商业限制。采集器不再按 SPDX 白名单阻止收录，审计仍核对展示值与来源一致，工具目录的开源标识规则不变。此前仅因许可进入待审的项目后续可定点复核，本次没有自动放行整个历史队列。
+
+Groki Bot 曾因内置非商业表情数据列为待审；按用户本次澄清转为收录，保留 Boost Software License 1.0、MIT 和表情数据限制，历史判断与新政策分别记录在核验台账中。入库 73 Star 来自 2026-10-18 的匿名 GitHub 页面；API 限流记录保留，未切换个人身份或清除冷却。

@@ -32,7 +32,7 @@ Add one Markdown file per entry using the [templates](templates/):
 | Beginner recommendations | `content/guides/picks/` |
 | X embeds | `content/guides/posts/` |
 
-Write descriptions in English, Chinese, and Japanese. Projects need a README, an explicit open-source license, and at least 10 stars at intake. Device support needs explicit upstream evidence; matching chips alone are insufficient. Covers are optional.
+Write descriptions in English, Chinese, and Japanese. Projects need public source on GitHub, a README, an ESP32 connection, and at least 10 stars at intake. License terms do not gate inclusion; record them accurately, including missing licenses or non-commercial restrictions. Device support needs explicit upstream evidence; matching chips alone are insufficient. Covers are optional.
 
 Run `pnpm check`, then open a pull request to [hr98w/esp32.sh](https://github.com/hr98w/esp32.sh). See the [content guide](content/README.md) and [contribution guidelines](CONTRIBUTING.md) for fields and review rules.
 

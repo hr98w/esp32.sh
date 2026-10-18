@@ -53,7 +53,7 @@ python3 scripts/collection/verify_license_files.py --online --repo owner/reposit
 python3 scripts/collection/enrich_devices.py --online --maker <maker-id> --max 10
 ```
 
-项目核验检查 README、Star、仓库身份和许可；复杂代码/模型/资源许可仍需人工处理。`verify_devices.py`、`verify_device_overrides.py` 核对设备级来源，避免拿芯片 PDF 当开发板资料。`enrich_devices.py` 只采集详情与图片候选，不写正式 MD。`review_lilygo_sources.py` 是特定共享商品页的变体核验工具。
+项目核验检查公开源码、README、Star 和仓库身份；许可证不作为收录门槛，复杂代码/模型/资源许可如实记录，未声明时用 `Not specified`。`verify_devices.py`、`verify_device_overrides.py` 核对设备级来源，避免拿芯片 PDF 当开发板资料。`enrich_devices.py` 只采集详情与图片候选，不写正式 MD。`review_lilygo_sources.py` 是特定共享商品页的变体核验工具。
 
 `verify_device_images.py --online` 只请求 `device-image-review.json` 中标为 `selected` 的图片，检查响应的实际格式；200 HTML、通用插画或错误型号照片都不能算合格产品图。型号和视觉审阅另由编辑完成。
 

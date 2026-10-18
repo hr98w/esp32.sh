@@ -4414,6 +4414,25 @@
     ]
   },
   {
+    "kind": "project",
+    "key": "josssphzhou/groki-bot",
+    "repository": "JosssphZhou/groki-bot",
+    "status": "included",
+    "content": {
+      "id": "groki-bot",
+      "file": "content/projects/groki-bot.md"
+    },
+    "sources": [
+      "https://github.com/JosssphZhou/groki-bot"
+    ],
+    "stars": 73,
+    "checkedAt": "2026-10-18T13:05:08+00:00",
+    "reason": null,
+    "discoveryKeys": [
+      "josssphzhou/groki-bot"
+    ]
+  },
+  {
     "kind": "device",
     "key": "https://www.espboards.dev/esp32/adafruit-esp32-c6-feather/",
     "id": "adafruit-esp32-c6-feather",

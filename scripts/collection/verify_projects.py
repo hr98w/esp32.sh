@@ -2,7 +2,6 @@
 import argparse,json,re
 from public_fetch import fetch_public,_read,_write,ROOT,utc_now,Deferred
 
-LICENSES={'0BSD','MIT','Apache-2.0','GPL-2.0','GPL-3.0','GPL-2.0-only','GPL-3.0-only','GPL-2.0-or-later','GPL-3.0-or-later','AGPL-3.0','AGPL-3.0-only','AGPL-3.0-or-later','LGPL-2.1','LGPL-3.0','BSD-2-Clause','BSD-3-Clause','ISC','MPL-2.0','EUPL-1.2','Unlicense','CC0-1.0','Zlib','BSL-1.0'}
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--online',action='store_true');parser.add_argument('--max',type=int,default=60);parser.add_argument('--repo',action='append');parser.add_argument('--retry-review',action='store_true');args=parser.parse_args()
@@ -41,8 +40,8 @@ def main():
                     record.update(status='needs-review',reason='README is too short for a useful description')
                 else:
                     record.update(readmeUrl=readme_url,readmeCheckedAt=readme['checkedAt'],readmeCharacters=len(body),readmeCacheUrl=readme_url,readmeExcerpt=body[:600])
-                    license_id=(metadata.get('license') or {}).get('spdx_id')
-                    record.update(status='verified' if license_id in LICENSES else 'needs-review',reason=None if license_id in LICENSES else 'Open-source license requires manual confirmation')
+                    # License facts remain available for editorial display, but are not an admission gate.
+                    record.update(status='verified',reason=None)
             processed+=1
             print(repo,'→',record['status'],record['stars'],'stars', (metadata.get('license') or {}).get('spdx_id'),flush=True)
         except Deferred as error:

@@ -2821,5 +2821,14 @@
       "https://github.com/ananhq/anan-iphone-use"
     ],
     "reason": null
+  },
+  "josssphzhou/groki-bot": {
+    "repository": "JosssphZhou/groki-bot",
+    "status": "discovered",
+    "discoveredAt": "2026-10-18T13:04:52+00:00",
+    "sources": [
+      "https://github.com/JosssphZhou/groki-bot"
+    ],
+    "reason": null
   }
 }

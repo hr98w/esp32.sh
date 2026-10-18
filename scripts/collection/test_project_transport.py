@@ -19,4 +19,20 @@ class ProjectTransportTests(unittest.TestCase):
    self.assertEqual(evidence['example/a']['status'],'pending')
    self.assertNotIn('example/b',evidence)
 
+
+class ProjectLicensePolicyTests(unittest.TestCase):
+ def test_missing_or_nonstandard_license_does_not_block_public_source_intake(self):
+  for license_info in [None, {'spdx_id':'NOASSERTION'}, {'spdx_id':'LicenseRef-NonCommercial'}]:
+   with self.subTest(license=license_info),tempfile.TemporaryDirectory() as directory:
+    root=Path(directory);data=root/'data/collection';data.mkdir(parents=True)
+    (data/'project-candidates.json').write_text(json.dumps({'example/a':{'repository':'example/a'}}))
+    metadata={'full_name':'example/a','id':123,'stargazers_count':20,'default_branch':'main','license':license_info,'private':False,'disabled':False}
+    responses=[{'body':json.dumps(metadata).encode(),'checkedAt':'2026-10-18T00:00:00Z','url':'https://api.github.com/repos/example/a'}, {'body':b'# ESP32 project\n'+b'Useful source and documentation. '*4,'checkedAt':'2026-10-18T00:00:01Z'}]
+    with patch.object(verify_projects,'ROOT',root),patch.object(verify_projects,'fetch_public',side_effect=responses),patch('sys.argv',['verify_projects.py']),contextlib.redirect_stdout(io.StringIO()):
+     verify_projects.main()
+    evidence=json.loads((data/'repository-evidence.json').read_text())['example/a']
+    self.assertEqual(evidence['status'],'verified')
+    self.assertEqual(evidence['license'],license_info)
+    self.assertIsNone(evidence['reason'])
+
 if __name__=='__main__':unittest.main()
