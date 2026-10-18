@@ -2839,5 +2839,14 @@
       "https://github.com/yanxuceo/knoedel-watch"
     ],
     "reason": null
+  },
+  "regeneratuslabs/physical-hermes": {
+    "repository": "RegeneratusLabs/physical-hermes",
+    "status": "discovered",
+    "discoveredAt": "2026-10-18T13:55:40+00:00",
+    "sources": [
+      "https://github.com/RegeneratusLabs/physical-hermes"
+    ],
+    "reason": null
   }
 }

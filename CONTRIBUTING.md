@@ -9,7 +9,7 @@ Contribute through a pull request to [hr98w/esp32.sh](https://github.com/hr98w/e
 1. Add one Markdown file per project under `content/projects/`, or one device under `content/devices/<manufacturer.id>/`. Start with a file in `templates/`.
 2. Use a stable lowercase ID. Project folders do not depend on tags; a repository is listed once, even if it supports many boards.
 3. Write a short summary in English, Chinese, and Japanese. Keep names, repository URLs, and hardware relations shared across languages. Original summaries are preferred to copying upstream paragraphs.
-4. Projects need public source on GitHub, a substantive README, an ESP32 connection, and at least 10 GitHub stars at intake. Licenses do not gate inclusion: missing, non-commercial, or mixed terms are allowed. Record the actual terms; use `Not specified` if undeclared, and never infer MIT from public visibility.
+4. Projects need public source on GitHub, a substantive README, an ESP32 connection, and normally at least 10 GitHub stars at intake; projects explicitly selected by the site owner are exempt from the star minimum. Licenses do not gate inclusion: missing, non-commercial, or mixed terms are allowed. Record the actual terms; use `Not specified` if undeclared, and never infer MIT from public visibility.
 5. Link a device only when upstream explicitly documents that model. Include the support source URL. Similar names, matching chips, M5Ware tags, and assumed pin compatibility are insufficient. List hardware revisions separately where they materially differ.
 6. Use manufacturer sources for hardware facts. Unbranded boards use `generic`; unresolved manufacturers use `unknown`. Do not treat a marketplace seller as the manufacturer.
 7. Covers are optional. Manual cover → cached README image candidate → project name. Use `autoCover: false` to disable discovery. Do not add third-party images without checking the relevant rights and attribution.
@@ -22,7 +22,7 @@ Stars and image candidates live in `data/` and do not require repeatedly editing
 
 推荐项目请[提交 Issue](https://github.com/hr98w/esp32.sh/issues/new?template=submit-project.yml)，只需填写 GitHub 仓库链接，不需要写代码或 Markdown。维护者负责核验和整理收录。修改网站代码、纠错或直接维护内容请提 PR；其他问题仍可提交普通 Issue。
 
-项目、设备分别新增独立 Markdown 文件。项目文件平铺，设备按厂商分目录；摘要包含英文、中文和日文。项目需 GitHub 公开源码、README、ESP32 关联和入库时至少 10 个 Star。许可证不作为收录门槛；无协议或有非商业限制均可收录，许可与限制须如实记录。设备适配必须有上游明确依据，无法核实的先待定。封面可选。提交前运行 `pnpm check`，不要提交缓存、凭据或生成产物。
+项目、设备分别新增独立 Markdown 文件。项目文件平铺，设备按厂商分目录；摘要包含英文、中文和日文。项目需 GitHub 公开源码、README、ESP32 关联；普通候选入库时至少 10 Star，站主明确指定的项目不限 Star。许可证不作为收录门槛；无协议或有非商业限制均可收录，许可与限制须如实记录。设备适配必须有上游明确依据，无法核实的先待定。封面可选。提交前运行 `pnpm check`，不要提交缓存、凭据或生成产物。
 
 通过 [GitHub Pull Request](https://github.com/hr98w/esp32.sh/pulls) 提交维护改动，审核合并后发布。目前尚未启用自动处理 Issue、AI 自动批准或自动合并。维护与发布流程见 [文档索引](docs/README.md)。
 

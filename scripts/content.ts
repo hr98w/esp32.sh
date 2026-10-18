@@ -3,6 +3,7 @@ import { resolve, relative, dirname } from 'node:path'
 import { markdownFiles, frontmatter } from './markdown.ts'
 import { buildGuides } from './guides.ts'
 import { buildTools } from './tools.ts'
+import { z } from 'zod'
 import { projectSchema, deviceSchema, repositoryMetricsSchema } from '../src/lib/content/schema.ts'
 import type { Catalog } from '../src/lib/content/schema.ts'
 
@@ -70,8 +71,18 @@ export function buildCatalog(root = process.cwd(), write = false): Catalog {
       project.cover = coverResult.data
     }
   }
-  // A confirmed low-star result leaves the authored record intact for review.
-  catalog.projects = catalog.projects.filter((project) => !('metrics' in project) || (project.metrics as { stars: number }).stars >= 10)
+  // Owner-selected repositories remain visible even after a later low-star refresh.
+  let overrides: Record<string, { starThresholdExempt: true; approvedBy: 'site-owner'; approvedAt: string; reason: string }> = {}
+  try {
+    overrides = z.record(z.string().regex(/^[a-z0-9_.-]+\/[a-z0-9_.-]+$/), z.object({
+      starThresholdExempt: z.literal(true), approvedBy: z.literal('site-owner'),
+      approvedAt: z.iso.datetime({ offset: true }), reason: z.string().trim().min(1),
+    }).strict()).parse(JSON.parse(readFileSync(resolve(root, 'data/project-intake-overrides.json'), 'utf8')))
+  } catch (error) {
+    if (!(error instanceof Error && 'code' in error && error.code === 'ENOENT')) throw error
+  }
+
+  catalog.projects = catalog.projects.filter((project) => overrides[project.repository.replace('https://github.com/', '').toLowerCase()]?.starThresholdExempt || !('metrics' in project) || (project.metrics as { stars: number }).stars >= 10)
   const tools = buildTools(root)
   const guides = buildGuides(root, catalog)
   if (write) {

@@ -4452,6 +4452,25 @@
     ]
   },
   {
+    "kind": "project",
+    "key": "regeneratuslabs/physical-hermes",
+    "repository": "RegeneratusLabs/physical-hermes",
+    "status": "included",
+    "content": {
+      "id": "physical-hermes",
+      "file": "content/projects/physical-hermes.md"
+    },
+    "sources": [
+      "https://github.com/RegeneratusLabs/physical-hermes"
+    ],
+    "stars": 7,
+    "checkedAt": "2026-10-18T13:55:41+00:00",
+    "reason": null,
+    "discoveryKeys": [
+      "regeneratuslabs/physical-hermes"
+    ]
+  },
+  {
     "kind": "device",
     "key": "https://www.espboards.dev/esp32/adafruit-esp32-c6-feather/",
     "id": "adafruit-esp32-c6-feather",

@@ -1,6 +1,7 @@
 """Verify discovered repositories with anonymous GitHub REST requests, no credentials."""
 import argparse,json,re
 from public_fetch import fetch_public,_read,_write,ROOT,utc_now,Deferred
+from intake_policy import star_threshold_exempt
 
 
 def main():
@@ -30,7 +31,7 @@ def main():
                 print(repo,'→ canonical alias of',prior[0],flush=True);continue
             if metadata.get('private') or metadata.get('disabled'):
                 record.update(status='excluded',reason='Repository is private or disabled')
-            elif metadata['stargazers_count']<10:
+            elif metadata['stargazers_count']<10 and not star_threshold_exempt(ROOT, metadata['full_name']):
                 record.update(status='excluded',reason='Fewer than 10 GitHub stars at collection time')
             else:
                 readme_url='https://api.github.com/repos/'+metadata['full_name']+'/readme'

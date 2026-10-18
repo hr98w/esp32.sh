@@ -1,4 +1,5 @@
 """Rebuild a reviewable queue and coverage report from source ledgers and actual MD files."""
+from intake_policy import star_threshold_exempt
 import json,re
 from collections import Counter,defaultdict
 from pathlib import Path
@@ -69,7 +70,7 @@ def main():
         included=projects_on_disk.get(canonical) or projects_on_disk.get(key)
         status='included' if included and verified.get('status')=='verified' else 'pending' if included else {'verified':'pending','excluded':'excluded','needs-review':'needs-review','pending':'pending'}.get(verified.get('status'),'discovered')
         snapshot=metrics.get(included['id'],{}) if included else {}
-        low_stars=isinstance(snapshot.get('stars'),int) and snapshot['stars']<10
+        low_stars=isinstance(snapshot.get('stars'),int) and snapshot['stars']<10 and not star_threshold_exempt(ROOT, canonical)
         if low_stars:status='needs-review'
         queue.append({'kind':'project','key':key,'repository':verified.get('repository',candidate['repository']),'status':status,'content':included,'sources':candidate['sources'],'stars':snapshot.get('stars',verified.get('stars')),'checkedAt':snapshot.get('checkedAt',verified.get('starsCheckedAt')),'reason':('Latest confirmed stars below 10; hidden from public catalog, Markdown retained' if low_stars else verified.get('reason')) or ('Verified upstream; summaries and device mapping pending' if verified.get('status')=='verified' and not included else 'Upstream verification pending' if not verified else None)})
     queue=collapse_project_aliases(queue)

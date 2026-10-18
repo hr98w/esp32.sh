@@ -290,3 +290,14 @@ test('social covers stay external, while missing, insecure or SVG covers use the
     if (image===expected) assert.ok(!meta.some(entry => 'property' in entry && entry.property==='og:image:width'))
   }
 })
+
+test('owner-selected low-star projects remain public only for the approved repository',()=>fixture(root=>{
+  data(root,'repository-metrics.json',{example:{...metrics,stars:0}})
+  const approval={starThresholdExempt:true,approvedBy:'site-owner',approvedAt:'2026-10-18T00:00:00Z',reason:'Explicit owner request'}
+  data(root,'project-intake-overrides.json',{'another/repo':approval})
+  assert.equal(buildCatalog(root).projects.length,0)
+  data(root,'project-intake-overrides.json',{'example/project':approval})
+  assert.equal(buildCatalog(root).projects[0].metrics?.stars,0)
+  data(root,'project-intake-overrides.json',{'example/project':{...approval,approvedBy:'issue-author'}})
+  assert.throws(()=>buildCatalog(root),/site-owner/)
+}))

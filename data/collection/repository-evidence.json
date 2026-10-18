@@ -5677,5 +5677,46 @@
         "checkedAt": "2026-10-18T13:20:19+00:00"
       }
     ]
+  },
+  "regeneratuslabs/physical-hermes": {
+    "repository": "RegeneratusLabs/physical-hermes",
+    "status": "verified",
+    "reason": null,
+    "githubId": 1424195755,
+    "stars": 7,
+    "starsCheckedAt": "2026-10-18T13:55:41+00:00",
+    "archived": false,
+    "defaultBranch": "main",
+    "metadataSourceUrl": "https://github.com/RegeneratusLabs/physical-hermes",
+    "readmeUrl": "https://github.com/RegeneratusLabs/physical-hermes#readme",
+    "readmeCacheUrl": "https://raw.githubusercontent.com/RegeneratusLabs/physical-hermes/main/README.md",
+    "readmeCheckedAt": "2026-10-18T13:55:42+00:00",
+    "readmeCharacters": 5616,
+    "readmeExcerpt": "# Physical Hermes\n\n**Give your Hermes Agent a body.**\n\nThis turns a cheap AliExpress AI robot toy into a voice device for [Hermes Agent](https://hermes-agent.nousresearch.com) — running entirely on your own machine, using your own model, with no vendor cloud in the loop.\n\nHold one button, talk, and Hermes answers out loud. The robot's screen becomes Hermes's face, and the whole thing runs on its own battery.\n\n---\n\n## What you need\n\n| | |\n|---|---|\n| **The robot** | [ESP32-S3 1.28\" AI Voice Chat Robot](https://s.click.aliexpress.com/e/_c3d38V2l) — round screen, microphone, speaker, battery, tou",
+    "verifiedLicense": "MIT",
+    "licenseReview": {
+      "sourceUrl": "https://github.com/RegeneratusLabs/physical-hermes/blob/main/LICENSE",
+      "checkedAt": "2026-10-18T13:56:03+00:00",
+      "basis": "Root MIT grant includes original RegeneratusLabs work and an attribution to the MIT Hermes Gadget SDK from which firmware is derived."
+    },
+    "starThresholdReview": {
+      "source": "data/project-intake-overrides.json",
+      "basis": "Owner explicitly requested intake irrespective of Stars; actual public snapshot is retained."
+    },
+    "transportReview": "Anonymous public GitHub HTML and raw requests through public_fetch; no personal GitHub identity used.",
+    "reviewSources": [
+      {
+        "url": "https://github.com/RegeneratusLabs/physical-hermes",
+        "checkedAt": "2026-10-18T13:55:41+00:00"
+      },
+      {
+        "url": "https://github.com/RegeneratusLabs/physical-hermes/blob/main/README.md",
+        "checkedAt": "2026-10-18T13:55:42+00:00"
+      },
+      {
+        "url": "https://github.com/RegeneratusLabs/physical-hermes/blob/main/docs/1-the-device.md",
+        "checkedAt": "2026-10-18T13:56:05+00:00"
+      }
+    ]
   }
 }

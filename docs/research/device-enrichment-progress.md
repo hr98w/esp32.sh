@@ -1,6 +1,6 @@
 # Device enrichment coverage
 
-Generated: 2026-10-18T13:21:08+00:00
+Generated: 2026-10-18T13:59:03+00:00
 
 Every listed device is accounted for below. Complete means an externally hosted, reviewed manufacturer image, key sourced hardware specifications, and resource links. It does not mean exhaustive specifications or physical testing.
 

@@ -934,5 +934,14 @@
     "pushedAt": null,
     "archived": false,
     "sourceUrl": "https://github.com/yanxuceo/knoedel-watch"
+  },
+  "physical-hermes": {
+    "repository": "https://github.com/RegeneratusLabs/physical-hermes",
+    "githubId": 1424195755,
+    "stars": 7,
+    "checkedAt": "2026-10-18T13:55:41+00:00",
+    "pushedAt": null,
+    "archived": false,
+    "sourceUrl": "https://github.com/RegeneratusLabs/physical-hermes"
   }
 }

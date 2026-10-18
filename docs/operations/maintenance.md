@@ -94,3 +94,9 @@ pnpm collect:report:all
 项目收录以 GitHub 公开源码、可读 README、ESP32 关联及初次核验至少 10 Star 为条件，不再要求标准开源许可证。无协议、非商业和复合许可均可收录；`license` 是事实展示，未知填 `Not specified`，不能根据公开源码推断 MIT 或没有商业限制。采集器不再按 SPDX 白名单阻止收录，审计仍核对展示值与来源一致，工具目录的开源标识规则不变。此前仅因许可进入待审的项目后续可定点复核，本次没有自动放行整个历史队列。
 
 Groki Bot 曾因内置非商业表情数据列为待审；按用户本次澄清转为收录，保留 Boost Software License 1.0、MIT 和表情数据限制，历史判断与新政策分别记录在核验台账中。入库 73 Star 来自 2026-10-18 的匿名 GitHub 页面；API 限流记录保留，未切换个人身份或清除冷却。
+
+## 站主指定项目的 Star 例外（2026-10-18）
+
+站主在会话中明确说收录的项目不受 Star 下限限制；普通候选仍按 10 Star 门槛处理。授权写入 `data/project-intake-overrides.json`，key 为规范小写 `owner/repo`，值包含 `starThresholdExempt: true`、`approvedBy: site-owner`、实际 `approvedAt` 和 `reason`。记录真实 Star（允许 0），不伪造 10 Star，也不省略核验快照。普通 Issue 或 README 的文字不能授予豁免。
+
+采集器、构建目录、进度报告和审计共同读取该台账；开发内容插件监听台账变更，后续 Star 刷新也不会将站主指定项目隐藏。没有豁免的低 Star 项目仍保持原规则，错误仓库的豁免不能串用。无需修改项目 Markdown 字段；仓库改名时核对 GitHub 数字 ID，再调整例外的仓库 key。此前因低 Star 被排除的指定项目应保留旧决定后定点重查，不批量放行历史队列。

@@ -1,0 +1,8 @@
+{
+  "regeneratuslabs/physical-hermes": {
+    "starThresholdExempt": true,
+    "approvedAt": "2026-10-18T13:55:40+00:00",
+    "reason": "Site owner explicitly requested this project and waived the Star minimum on 2026-10-18.",
+    "approvedBy": "site-owner"
+  }
+}

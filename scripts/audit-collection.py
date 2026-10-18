@@ -6,6 +6,7 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parent/'collection'))
 from public_fetch import ROOT,_read
 from report import frontmatter
+from intake_policy import star_threshold_exempt
 p=argparse.ArgumentParser();p.add_argument('--min-projects',type=int,default=60);p.add_argument('--min-devices',type=int,default=40);args=p.parse_args()
 catalog=_read(ROOT/'src/generated/catalog.json',{})
 evidence=_read(ROOT/'data/collection/repository-evidence.json',{})
@@ -30,7 +31,7 @@ for project in projects:
     if not verified:errors.append(f'{project["id"]}: no verified upstream evidence');continue
     if not verified.get('readmeCheckedAt') or verified.get('readmeCharacters',0)<50:errors.append(f'{project["id"]}: README not verified')
     metric=project.get('metrics',{})
-    if metric.get('stars',-1)<10 or not metric.get('checkedAt'):errors.append(f'{project["id"]}: no successful Star snapshot >= 10')
+    if metric.get('stars',-1)<0 or not metric.get('checkedAt') or (metric['stars']<10 and not star_threshold_exempt(ROOT,repo)):errors.append(f'{project["id"]}: no dated Star snapshot meeting the threshold or owner exemption')
     if metric.get('githubId')!=verified.get('githubId'):errors.append(f'{project["id"]}: GitHub identity mismatch')
     declared=(verified.get('license') or {}).get('spdx_id')
     label=verified.get('verifiedLicense') or (declared if declared and declared!='NOASSERTION' else 'Not specified')
@@ -39,4 +40,4 @@ for project in projects:
     if project['devices'] and project['compatibility']!='documented':errors.append(f'{project["id"]}: linked models not marked documented')
 if errors:
     print('Milestone audit incomplete:\n'+'\n'.join('- '+e for e in errors));raise SystemExit(1)
-print(f'Collection milestone passed: {len(projects)} projects, {len(devices)} devices; all have MD, 3 languages, provenance; projects have verified README, recorded license facts and dated stars >= 10; report counts agree.')
+print(f'Collection milestone passed: {len(projects)} projects, {len(devices)} devices; all have MD, 3 languages, provenance; projects have verified README, recorded license facts and dated stars meeting the threshold or owner exemption; report counts agree.')

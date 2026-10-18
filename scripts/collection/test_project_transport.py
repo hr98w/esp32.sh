@@ -35,4 +35,23 @@ class ProjectLicensePolicyTests(unittest.TestCase):
     self.assertEqual(evidence['license'],license_info)
     self.assertIsNone(evidence['reason'])
 
+
+
+class ProjectStarPolicyTests(unittest.TestCase):
+ def test_owner_exception_retains_zero_star_projects_without_waiving_readme_check(self):
+  for exempt,readme_length,status,calls in [(False,100,'excluded',1),(True,100,'verified',2),(True,0,'needs-review',2)]:
+   with self.subTest(exempt=exempt,readme_length=readme_length),tempfile.TemporaryDirectory() as directory:
+    root=Path(directory);data=root/'data/collection';data.mkdir(parents=True)
+    (data/'project-candidates.json').write_text(json.dumps({'example/a':{'repository':'example/a'}}))
+    if exempt:
+     (root/'data/project-intake-overrides.json').write_text(json.dumps({'example/a':{'starThresholdExempt':True,'approvedBy':'site-owner','approvedAt':'2026-10-18T00:00:00Z','reason':'Explicit owner request'}}))
+    metadata={'full_name':'example/a','id':123,'stargazers_count':0,'default_branch':'main','private':False,'disabled':False}
+    responses=[{'body':json.dumps(metadata).encode(),'checkedAt':'2026-10-18T00:00:00Z','url':'https://api.github.com/repos/example/a'}, {'body':b'x'*readme_length,'checkedAt':'2026-10-18T00:00:01Z'}]
+    with patch.object(verify_projects,'ROOT',root),patch.object(verify_projects,'fetch_public',side_effect=responses) as request,patch('sys.argv',['verify_projects.py']),contextlib.redirect_stdout(io.StringIO()):
+     verify_projects.main()
+    record=json.loads((data/'repository-evidence.json').read_text())['example/a']
+    self.assertEqual(record['status'],status)
+    self.assertEqual(record['stars'],0)
+    self.assertEqual(request.call_count,calls)
+
 if __name__=='__main__':unittest.main()

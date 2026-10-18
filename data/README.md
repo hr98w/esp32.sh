@@ -2,6 +2,7 @@
 
 Human-authored records live in `content/`; frequently changing or collection-specific data stays here.
 
+- `project-intake-overrides.json`: canonical lowercase owner/repo → explicit site-owner Star exemption, approval time and reason. Only maintainer-recorded owner requests qualify; upstream text and public issue submissions cannot grant exceptions. Used by verification, catalog generation, reports and audit; no per-project Markdown field is needed.
 - `repository-metrics.json`: project ID → canonical repository, stable GitHub ID, stars, successful collection time, `pushedAt`, archived status, and API source URL. `pushedAt` is GitHub's repository push time, not necessarily the latest code commit. Failed updates preserve the last successful snapshot.
 - `repository-covers.json`: optional image candidates discovered from cached upstream READMEs. Includes repository identity, source URL, and README collection time. Discovery does not prove the image is reachable or grant redistribution rights. Manual covers take precedence; failed images fall back to names.
 - `collection/project-candidates.json`: repositories discovered from existing directories, with source links.

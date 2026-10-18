@@ -1433,5 +1433,22 @@
       }
     ],
     "reviewedAt": "2026-10-18T13:21:07+00:00"
+  },
+  "regeneratuslabs/physical-hermes": {
+    "contentId": "physical-hermes",
+    "review": "Full README and device guide read; firmware/spotpear-128-box.patch fetched and inspected as source for the board port against Hermes Gadget SDK. A physical client for an existing Hermes Agent host, not inference on ESP32. PTT input and STT/TTS depend on host configuration, so no unconditional offline/local-model/no-subscription claims. MIT license recorded. README identifies the SpotPear 1.28-inch touch robot but that exact product has no device catalog entry; do not map it to M5Dial or a generic ESP32-S3 board. No hardware validation by esp32.sh.",
+    "readmeCheckedAt": "2026-10-18T13:55:42+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": [
+      "https://github.com/RegeneratusLabs/physical-hermes/blob/main/docs/1-the-device.md"
+    ],
+    "unlistedSupportedDevices": [
+      {
+        "name": "SpotPear ESP32-S3-LCD-1.28-BOX (touch version)",
+        "sourceUrl": "https://github.com/RegeneratusLabs/physical-hermes/blob/main/firmware/spotpear-128-box.patch"
+      }
+    ],
+    "reviewedAt": "2026-10-18T13:59:01+00:00"
   }
 }

@@ -9,7 +9,7 @@ export function contentPlugin(): Plugin {
     configResolved(config) { root = config.root; buildCatalog(root, true) },
     configureServer(server) {
       const directory = resolve(root, 'content')
-      const metadata = [resolve(root, 'data/repository-metrics.json'), resolve(root, 'data/repository-covers.json')]
+      const metadata = [resolve(root, 'data/repository-metrics.json'), resolve(root, 'data/repository-covers.json'), resolve(root, 'data/project-intake-overrides.json')]
       server.watcher.add([directory, ...metadata])
       const refresh = (file: string) => {
         if (!(file.startsWith(directory + '/') && file.endsWith('.md')) && !metadata.includes(file)) return
