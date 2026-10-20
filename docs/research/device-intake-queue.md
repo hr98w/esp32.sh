@@ -1,6 +1,6 @@
 # Device intake queue
 
-Generated: 2026-10-18T13:59:03+00:00
+Generated: 2026-10-20T04:03:58+00:00
 
 Included means an actual Markdown record exists. Pending or needs-review entries are not published. Source coverage is limited to inspected directories; model support is maintained separately on projects.
 
@@ -659,6 +659,7 @@ how to fix it, please visit the web page mentioned above. |
 | [Waveshare ESP32-S3-ETH](https://www.espboards.dev/esp32/waveshare-esp32-s3-eth/) | `waveshare-esp32-s3-eth` | included |  |
 | [waveshare-esp32-s3-touch-amoled-1-8](https://github.com/s0lness/awesome-esp32) | `waveshare-esp32-s3-touch-amoled-1-8` | included |  |
 | [waveshare-esp32-s3-touch-amoled-2-06](https://github.com/s0lness/awesome-esp32) | `waveshare-esp32-s3-touch-amoled-2-06` | included |  |
+| [ESP32-S3-Touch-AMOLED-2.16](https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16) | `waveshare-esp32-s3-touch-amoled-2-16` | included |  |
 | [Waveshare ESP32-S3-Touch-LCD-4B](https://www.espboards.dev/esp32/waveshare-esp32-s3-touch-lcd-4b/) | `waveshare-esp32-s3-touch-lcd-4b` | included |  |
 | [Waveshare ESP32-S3 Touch LCD 7B](https://www.espboards.dev/esp32/waveshare-esp32-s3-touch-lcd-7b/) | `waveshare-esp32-s3-touch-lcd-7b` | included |  |
 | [ESP32-S3-Zero](https://www.espboards.dev/esp32/esp32-s3-zero/) | `waveshare-esp32-s3-zero` | included |  |

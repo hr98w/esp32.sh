@@ -1431,5 +1431,16 @@
     "bytes": 295844,
     "imageCheckedAt": "2026-10-16T00:11:22+00:00",
     "visualReviewCheckedAt": "2026-10-16T01:18:27+00:00"
+  },
+  "waveshare-esp32-s3-touch-amoled-2-16": {
+    "status": "verified",
+    "imageUrl": "https://docs.waveshare.com/assets/images/ESP32-S3-Touch-AMOLED-2.16-showcase-174b30e4b87190a8ea342215849d233f.webp",
+    "sourceUrl": "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16",
+    "sourceCheckedAt": "2026-10-20T04:01:37+00:00",
+    "basis": "Manufacturer-hosted WebP, visually inspected: exact 2.16-inch product in white enclosure with three physical controls; not a diagram, placeholder or C6 product. Keep external URL; local copy is review-only.",
+    "format": "webp",
+    "bytes": 27802,
+    "imageCheckedAt": "2026-10-20T04:02:34+00:00",
+    "visualReviewCheckedAt": "2026-10-20T04:03:57+00:00"
   }
 }

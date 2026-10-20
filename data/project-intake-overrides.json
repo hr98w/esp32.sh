@@ -4,5 +4,11 @@
     "approvedAt": "2026-10-18T13:55:40+00:00",
     "reason": "Site owner explicitly requested this project and waived the Star minimum on 2026-10-18.",
     "approvedBy": "site-owner"
+  },
+  "peterroe/magpie-usage-display": {
+    "starThresholdExempt": true,
+    "approvedBy": "site-owner",
+    "approvedAt": "2026-10-20T03:58:57+00:00",
+    "reason": "Owner explicitly requested intake in this conversation on 2026-10-20; Star minimum waived."
   }
 }

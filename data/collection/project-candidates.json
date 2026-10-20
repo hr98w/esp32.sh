@@ -2848,5 +2848,14 @@
       "https://github.com/RegeneratusLabs/physical-hermes"
     ],
     "reason": null
+  },
+  "peterroe/magpie-usage-display": {
+    "repository": "peterroe/magpie-usage-display",
+    "status": "discovered",
+    "discoveredAt": "2026-10-20T03:58:57+00:00",
+    "sources": [
+      "https://github.com/peterroe/magpie-usage-display"
+    ],
+    "reason": null
   }
 }

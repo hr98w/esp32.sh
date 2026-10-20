@@ -21,7 +21,7 @@
         "discovered": 35
       },
       "Upstream project documentation": {
-        "included": 6
+        "included": 7
       }
     },
     "device": {
@@ -31,6 +31,9 @@
         "needs-review": 54,
         "pending": 30
       },
+      "Upstream manufacturer documentation": {
+        "included": 2
+      },
       "M5Ware": {
         "included": 3
       },
@@ -39,23 +42,20 @@
       },
       "awesome-esp32": {
         "included": 7
-      },
-      "Upstream manufacturer documentation": {
-        "included": 1
       }
     }
   },
-  "generatedAt": "2026-10-18T13:59:03+00:00",
+  "generatedAt": "2026-10-20T04:03:58+00:00",
   "counts": {
     "project": {
-      "included": 105,
+      "included": 106,
       "needs-review": 45,
       "excluded": 35,
       "pending": 1,
       "discovered": 72
     },
     "device": {
-      "included": 141,
+      "included": 142,
       "discovered": 86,
       "needs-review": 54,
       "pending": 30
@@ -286,7 +286,7 @@
       "discovered": 1
     },
     "waveshare": {
-      "included": 9,
+      "included": 10,
       "needs-review": 1
     },
     "wemos": {

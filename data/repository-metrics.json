@@ -943,5 +943,14 @@
     "pushedAt": null,
     "archived": false,
     "sourceUrl": "https://github.com/RegeneratusLabs/physical-hermes"
+  },
+  "magpie-usage-display": {
+    "repository": "https://github.com/peterroe/magpie-usage-display",
+    "githubId": 1425932816,
+    "stars": 33,
+    "checkedAt": "2026-10-20T03:59:08+00:00",
+    "pushedAt": null,
+    "archived": false,
+    "sourceUrl": "https://github.com/peterroe/magpie-usage-display"
   }
 }

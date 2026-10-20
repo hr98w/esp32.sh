@@ -1450,5 +1450,18 @@
       }
     ],
     "reviewedAt": "2026-10-18T13:59:01+00:00"
+  },
+  "peterroe/magpie-usage-display": {
+    "contentId": "magpie-usage-display",
+    "review": "Read full README, MIT grant, third-party notices and PlatformIO config. A community usage/status dashboard, not an AI agent. macOS Companion reads local Magpie HTTP endpoints and sends snapshots over encrypted BLE; the ESP32 shows overview, requests, sessions and context aggregates. Avoid equating public API cache statistics with private Context scores. Only Waveshare ESP32-S3-Touch-AMOLED-2.16 and macOS are documented as verified upstream. PlatformIO uses an Espressif generic board profile for building; that does not prove the generic DevKitC is supported. No hardware or privacy/security runtime validation by esp32.sh. Exact Waveshare ESP32-S3-Touch-AMOLED-2.16 now has a reviewed device record and is linked using the upstream README hardware requirement.",
+    "readmeCheckedAt": "2026-10-20T03:59:09+00:00",
+    "deviceIds": [
+      "waveshare-esp32-s3-touch-amoled-2-16"
+    ],
+    "compatibility": "documented",
+    "supportSources": [
+      "https://github.com/peterroe/magpie-usage-display#硬件与系统要求"
+    ],
+    "reviewedAt": "2026-10-20T04:03:57+00:00"
   }
 }

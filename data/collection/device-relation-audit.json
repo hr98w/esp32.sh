@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T13:59:03+00:00",
+  "generatedAt": "2026-10-20T04:03:58+00:00",
   "scope": "All listed relations; offline lexical review aid only, not execution or hardware verification.",
   "relations": [
     {
@@ -1390,6 +1390,18 @@
         "Shark is a Projekt i started at the 29.2.2024 1:12 PM. I saw a tutorial for the M5StickC PLUS2 on youtube and i ordered myself one when i saw that it only costs 30 USD. It arrived two weeks later and i burned the Nemo firmware on it. I wanted to see the code from this firmware and i downloadet the source code at 1:12 PM. I saw a that it is programed with arduino and because of this fact i decided to programm my own version. Thanks to n0xa good programming skills it isnt a big deal to change and add things. Thank you!",
         "* StickC and StickC-Plus",
         "* If M5Stack -> M5Stick-C-Plus doesn't show up under Tools -> Boards, then use Tools -> Boards -> Boards Manager and search for M5Stack. This will install support for most of the M5Stack boards including the Stick C Plus."
+      ]
+    },
+    {
+      "projectId": "magpie-usage-display",
+      "deviceId": "waveshare-esp32-s3-touch-amoled-2-16",
+      "sourceUrl": "https://github.com/peterroe/magpie-usage-display#硬件与系统要求",
+      "readmeCheckedAt": "2026-10-20T03:59:09+00:00",
+      "status": "model-name-found",
+      "context": [
+        "- [Waveshare ESP32-S3-Touch-AMOLED-2.16](https://www.waveshare.com/esp32-s3-touch-amoled-2.16.htm)",
+        ".pio/build/esp32-s3-touch-amoled-216/firmware.bin",
+        "- 只验证了 Waveshare ESP32-S3-Touch-AMOLED-2.16"
       ]
     },
     {

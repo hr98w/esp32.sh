@@ -4471,6 +4471,25 @@
     ]
   },
   {
+    "kind": "project",
+    "key": "peterroe/magpie-usage-display",
+    "repository": "peterroe/magpie-usage-display",
+    "status": "included",
+    "content": {
+      "id": "magpie-usage-display",
+      "file": "content/projects/magpie-usage-display.md"
+    },
+    "sources": [
+      "https://github.com/peterroe/magpie-usage-display"
+    ],
+    "stars": 33,
+    "checkedAt": "2026-10-20T03:59:08+00:00",
+    "reason": null,
+    "discoveryKeys": [
+      "peterroe/magpie-usage-display"
+    ]
+  },
+  {
     "kind": "device",
     "key": "https://www.espboards.dev/esp32/adafruit-esp32-c6-feather/",
     "id": "adafruit-esp32-c6-feather",
@@ -9067,6 +9086,24 @@
       "https://github.com/vcc-gnd/YD-ESP32-S3"
     ],
     "reason": "Source directory does not assign a manufacturer; verify upstream brand before publication"
+  },
+  {
+    "kind": "device",
+    "key": "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16",
+    "id": "waveshare-esp32-s3-touch-amoled-2-16",
+    "name": "ESP32-S3-Touch-AMOLED-2.16",
+    "manufacturer": "waveshare",
+    "status": "included",
+    "content": {
+      "id": "waveshare-esp32-s3-touch-amoled-2-16",
+      "file": "content/devices/waveshare/waveshare-esp32-s3-touch-amoled-2-16.md",
+      "manufacturer": "waveshare"
+    },
+    "sources": [
+      "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16",
+      "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16"
+    ],
+    "reason": null
   },
   {
     "kind": "device",

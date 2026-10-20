@@ -6272,5 +6272,30 @@
       "sourceCheckedAt": "2026-10-15T18:14:58+00:00",
       "primaryStatus": "pending"
     }
+  },
+  "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16": {
+    "id": "waveshare-esp32-s3-touch-amoled-2-16",
+    "contentId": "waveshare-esp32-s3-touch-amoled-2-16",
+    "status": "verified",
+    "discoveredAt": "2026-10-20T04:03:57+00:00",
+    "sourceUrl": "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16",
+    "manufacturerHint": "waveshare",
+    "sources": [
+      "https://www.waveshare.com/esp32-s3-touch-amoled-2.16.htm",
+      "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16"
+    ],
+    "details": {
+      "name": "ESP32-S3-Touch-AMOLED-2.16",
+      "manufacturer": {
+        "id": "waveshare",
+        "name": "Waveshare"
+      },
+      "chip": "ESP32-S3",
+      "officialUrl": "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16",
+      "primaryStatus": "checked",
+      "primaryCheckedAt": "2026-10-20T04:01:37+00:00",
+      "sourceCheckedAt": "2026-10-20T04:01:37+00:00",
+      "review": "Exact 2.16-inch ESP32-S3 model reviewed against manufacturer store and current docs. Enclosed product photo supports integrated-device classification. Do not conflate with the C6 or 2.06-inch product. Store and docs SKU/option labels differ, so no single SKU is assigned; battery bundle options are stated separately."
+    }
   }
 }

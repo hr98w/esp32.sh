@@ -5718,5 +5718,50 @@
         "checkedAt": "2026-10-18T13:56:05+00:00"
       }
     ]
+  },
+  "peterroe/magpie-usage-display": {
+    "repository": "peterroe/magpie-usage-display",
+    "status": "verified",
+    "reason": null,
+    "githubId": 1425932816,
+    "stars": 33,
+    "starsCheckedAt": "2026-10-20T03:59:08+00:00",
+    "archived": false,
+    "defaultBranch": "main",
+    "metadataSourceUrl": "https://github.com/peterroe/magpie-usage-display",
+    "readmeUrl": "https://github.com/peterroe/magpie-usage-display#readme",
+    "readmeCacheUrl": "https://raw.githubusercontent.com/peterroe/magpie-usage-display/main/README.md",
+    "readmeCheckedAt": "2026-10-20T03:59:09+00:00",
+    "readmeCharacters": 4775,
+    "readmeExcerpt": "# Magpie Usage Display\n\n[简体中文](README.md) | [English](README.en.md)\n\n将本机 Magpie 网关的用量和运行状态显示在一块 480 × 480 AMOLED 开发板上。\nmacOS Companion 从 Magpie 本地 HTTP API 读取数据，再通过加密 BLE 发送给\nESP32-S3。开发板不保存 API Key、账户凭据或请求内容。\n\n> 本项目是社区项目，并非 Magpie 官方产品。它基于\n> [jayyao97/codex-usage-display](https://github.com/jayyao97/codex-usage-display)\n> 改造。\n\n## 实拍\n\n<table>\n  <tr>\n    <td><img src=\"docs/photos/overview.jpg\" alt=\"Overview 页面实拍\"></td>\n    <td><img src=\"docs/photos/requests.jpg\" alt=\"Requests 页面实拍\"></td>\n  </tr>\n  <tr>\n    <td align=\"center\">Overview</td>\n    <td align=\"center\">Requests</td>\n  </tr>\n  <tr>\n    ",
+    "verifiedLicense": "MIT",
+    "licenseReview": {
+      "sourceUrl": "https://github.com/peterroe/magpie-usage-display/blob/main/LICENSE",
+      "checkedAt": "2026-10-20T03:59:25+00:00",
+      "basis": "Root MIT grant retains upstream Jay Yao copyright. README declares a community adaptation of codex-usage-display, not an official Magpie product. THIRD_PARTY_NOTICES records the bundled Montserrat bitmap subset under SIL OFL-1.1 and separately licensed downloaded dependencies; Magpie name/logo remain their owners' marks."
+    },
+    "transportReview": {
+      "apiStatus": "deferred",
+      "apiReason": "403 from api.github.com; request paused, previous cache retained",
+      "fallback": "Anonymous public GitHub HTML and raw files via public_fetch; API cooldown retained, no authenticated access."
+    },
+    "reviewSources": [
+      {
+        "url": "https://github.com/peterroe/magpie-usage-display",
+        "checkedAt": "2026-10-20T03:59:08+00:00"
+      },
+      {
+        "url": "https://github.com/peterroe/magpie-usage-display/blob/main/README.md",
+        "checkedAt": "2026-10-20T03:59:09+00:00"
+      },
+      {
+        "url": "https://github.com/peterroe/magpie-usage-display/blob/main/LICENSE",
+        "checkedAt": "2026-10-20T03:59:25+00:00"
+      },
+      {
+        "url": "https://github.com/peterroe/magpie-usage-display/blob/main/THIRD_PARTY_NOTICES.md",
+        "checkedAt": "2026-10-20T03:59:27+00:00"
+      }
+    ]
   }
 }

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-18T13:59:03+00:00",
+  "generatedAt": "2026-10-20T04:03:58+00:00",
   "scope": "All listed devices; sourced key facts, not exhaustive transcription or physical testing.",
   "counts": {
-    "devices": 141,
-    "complete": 120,
-    "images": 120,
-    "specifications": 139,
-    "resources": 141
+    "devices": 142,
+    "complete": 121,
+    "images": 121,
+    "specifications": 140,
+    "resources": 142
   },
   "devices": [
     {
@@ -2987,6 +2987,30 @@
         {
           "url": "https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.06",
           "checkedAt": "2026-10-15T17:27:16+00:00"
+        }
+      ]
+    },
+    {
+      "deviceId": "waveshare-esp32-s3-touch-amoled-2-16",
+      "manufacturer": "waveshare",
+      "type": "integrated-device",
+      "status": "complete",
+      "image": true,
+      "specifications": true,
+      "resources": true,
+      "pending": [],
+      "sources": [
+        {
+          "url": "https://www.waveshare.com/esp32-s3-touch-amoled-2.16.htm",
+          "checkedAt": "2026-10-20T04:01:37+00:00"
+        },
+        {
+          "url": "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16",
+          "checkedAt": "2026-10-20T04:01:37+00:00"
+        },
+        {
+          "url": "https://docs.waveshare.com/ESP32-S3-Touch-AMOLED-2.16/Instructions-For-Use",
+          "checkedAt": "2026-10-20T04:02:37+00:00"
         }
       ]
     },

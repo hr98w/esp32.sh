@@ -1,6 +1,6 @@
 # Device enrichment coverage
 
-Generated: 2026-10-18T13:59:03+00:00
+Generated: 2026-10-20T04:03:58+00:00
 
 Every listed device is accounted for below. Complete means an externally hosted, reviewed manufacturer image, key sourced hardware specifications, and resource links. It does not mean exhaustive specifications or physical testing.
 
@@ -19,7 +19,7 @@ Every listed device is accounted for below. Complete means an externally hosted,
 | seeed-studio | 10 | 10 | 10 | 10 | 10 |
 | sparkfun | 7 | 7 | 7 | 7 | 7 |
 | unexpected-maker | 2 | 1 | 2 | 2 | 1 |
-| waveshare | 9 | 9 | 9 | 9 | 9 |
+| waveshare | 10 | 10 | 10 | 10 | 10 |
 | wemos | 6 | 6 | 6 | 6 | 6 |
 
 ## Pending
@@ -54,9 +54,9 @@ Every listed device is accounted for below. Complete means an externally hosted,
 
 - functional-board: 51
 - general-board: 52
-- integrated-device: 36
+- integrated-device: 37
 - module: 2
 
-Integrated devices: 36; complete: 35.
+Integrated devices: 37; complete: 36.
 
 Source ledgers: `device-image-review.json`, `device-detail-review.json`, and per-device Markdown. Run `python3 scripts/collection/report_device_enrichment.py` after generating the catalog.
