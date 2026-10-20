@@ -2857,5 +2857,14 @@
       "https://github.com/peterroe/magpie-usage-display"
     ],
     "reason": null
+  },
+  "iamankushpandit/esp_ai": {
+    "repository": "iamankushpandit/esp_ai",
+    "status": "discovered",
+    "discoveredAt": "2026-10-20T04:45:21+00:00",
+    "sources": [
+      "https://github.com/iamankushpandit/esp_ai"
+    ],
+    "reason": null
   }
 }

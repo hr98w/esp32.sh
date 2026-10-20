@@ -4490,6 +4490,25 @@
     ]
   },
   {
+    "kind": "project",
+    "key": "iamankushpandit/esp_ai",
+    "repository": "iamankushpandit/esp_ai",
+    "status": "included",
+    "content": {
+      "id": "ivy-ai",
+      "file": "content/projects/ivy-ai.md"
+    },
+    "sources": [
+      "https://github.com/iamankushpandit/esp_ai"
+    ],
+    "stars": 66,
+    "checkedAt": "2026-10-20T04:45:32+00:00",
+    "reason": null,
+    "discoveryKeys": [
+      "iamankushpandit/esp_ai"
+    ]
+  },
+  {
     "kind": "device",
     "key": "https://www.espboards.dev/esp32/adafruit-esp32-c6-feather/",
     "id": "adafruit-esp32-c6-feather",

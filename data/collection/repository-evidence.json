@@ -5763,5 +5763,58 @@
         "checkedAt": "2026-10-20T03:59:27+00:00"
       }
     ]
+  },
+  "iamankushpandit/esp_ai": {
+    "repository": "iamankushpandit/esp_ai",
+    "status": "verified",
+    "reason": null,
+    "githubId": 1376790274,
+    "stars": 66,
+    "starsCheckedAt": "2026-10-20T04:45:32+00:00",
+    "archived": false,
+    "defaultBranch": "main",
+    "metadataSourceUrl": "https://github.com/iamankushpandit/esp_ai",
+    "readmeUrl": "https://github.com/iamankushpandit/esp_ai#readme",
+    "readmeCacheUrl": "https://raw.githubusercontent.com/iamankushpandit/esp_ai/main/README.md",
+    "readmeCheckedAt": "2026-10-20T04:45:33+00:00",
+    "readmeCharacters": 7998,
+    "readmeExcerpt": "<p align=\"center\">\n  <a href=\"https://www.youtube.com/shorts/lKE4J6aogrc\">\n    <img src=\"https://img.youtube.com/vi/lKE4J6aogrc/maxresdefault.jpg\" width=\"640\" alt=\"Watch Ivy AI answer, on the device (YouTube)\">\n  </a>\n</p>\n<p align=\"center\"><a href=\"https://www.youtube.com/shorts/lKE4J6aogrc\"><b>&#9654;&nbsp; Watch it answer</b></a> &mdash; a minute of it running, on the device.</p>\n\n# Ivy AI\n\nA voice assistant that listens, thinks and speaks **entirely on a $20\nmicrocontroller**. No network, no server, no phone. Say \"Hey Ivy\", ask a\nquestion, and the board transcribes your speech, runs a lang",
+    "verifiedLicense": "GPL-3.0-or-later (Espressif SDK linking exception)",
+    "licenseReview": {
+      "sourceUrl": "https://github.com/iamankushpandit/esp_ai/blob/main/NOTICE.md",
+      "checkedAt": "2026-10-20T04:45:54+00:00",
+      "basis": "Root LICENSE, NOTICE.md and LICENSE.exception declare GPL-3.0-or-later with an additional GPLv3 section 7 permission for linking Espressif SDK components; not an invented SPDX exception identifier. Third-party engines and weights retain separate licenses: conformer weights CC-BY-4.0; TinyTalk training data includes non-commercial DailyDialog/SciQ terms. Upstream says model weights are fetched separately, not covered by the code grant. Ivy AI branding remains reserved. README engine paragraph is not the operative project license grant."
+    },
+    "transportReview": {
+      "apiStatus": "deferred",
+      "apiReason": "403 from api.github.com; request paused, previous cache retained",
+      "fallback": "Anonymous public GitHub HTML and raw files via public_fetch; API cooldown retained, no authenticated access."
+    },
+    "reviewSources": [
+      {
+        "url": "https://github.com/iamankushpandit/esp_ai",
+        "checkedAt": "2026-10-20T04:45:32+00:00"
+      },
+      {
+        "url": "https://github.com/iamankushpandit/esp_ai/blob/main/README.md",
+        "checkedAt": "2026-10-20T04:45:33+00:00"
+      },
+      {
+        "url": "https://github.com/iamankushpandit/esp_ai/blob/main/LICENSE",
+        "checkedAt": "2026-10-20T04:45:52+00:00"
+      },
+      {
+        "url": "https://github.com/iamankushpandit/esp_ai/blob/main/NOTICE.md",
+        "checkedAt": "2026-10-20T04:45:54+00:00"
+      },
+      {
+        "url": "https://github.com/iamankushpandit/esp_ai/blob/main/LICENSE.exception",
+        "checkedAt": "2026-10-20T04:46:34+00:00"
+      },
+      {
+        "url": "https://github.com/iamankushpandit/esp_ai/blob/main/THIRD_PARTY.md",
+        "checkedAt": "2026-10-20T04:46:36+00:00"
+      }
+    ]
   }
 }

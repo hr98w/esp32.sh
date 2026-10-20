@@ -1463,5 +1463,22 @@
       "https://github.com/peterroe/magpie-usage-display#硬件与系统要求"
     ],
     "reviewedAt": "2026-10-20T04:03:57+00:00"
+  },
+  "iamankushpandit/esp_ai": {
+    "contentId": "ivy-ai",
+    "review": "Full README, LICENSE, NOTICE.md, LICENSE.exception and THIRD_PARTY.md read. Local WakeNet9 / conformer STT / small language model / SVOX Pico voice pipeline on Freenove FNK0104B, with SD assets and phase-separated STT/inference. English speech, not arbitrary GGUF support; Wi-Fi is also used for clock setup, so no unconditional no-network claim. Author speed/quality measurements are not independently verified. Voice assistant demo, not evidence of agent tool use. Exact board absent: no generic S3 mapping. Root LICENSE, NOTICE.md and LICENSE.exception declare GPL-3.0-or-later with an additional GPLv3 section 7 permission for linking Espressif SDK components; not an invented SPDX exception identifier. Third-party engines and weights retain separate licenses: conformer weights CC-BY-4.0; TinyTalk training data includes non-commercial DailyDialog/SciQ terms. Upstream says model weights are fetched separately, not covered by the code grant. Ivy AI branding remains reserved. README engine paragraph is not the operative project license grant.",
+    "readmeCheckedAt": "2026-10-20T04:45:33+00:00",
+    "deviceIds": [],
+    "compatibility": "pending",
+    "supportSources": [
+      "https://github.com/iamankushpandit/esp_ai#hardware"
+    ],
+    "unlistedSupportedDevices": [
+      {
+        "name": "Freenove FNK0104B",
+        "sourceUrl": "https://github.com/iamankushpandit/esp_ai#hardware"
+      }
+    ],
+    "reviewedAt": "2026-10-20T04:48:55+00:00"
   }
 }

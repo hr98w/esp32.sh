@@ -1,6 +1,6 @@
 # Device intake queue
 
-Generated: 2026-10-20T04:03:58+00:00
+Generated: 2026-10-20T04:48:56+00:00
 
 Included means an actual Markdown record exists. Pending or needs-review entries are not published. Source coverage is limited to inspected directories; model support is maintained separately on projects.
 

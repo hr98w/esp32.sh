@@ -952,5 +952,14 @@
     "pushedAt": null,
     "archived": false,
     "sourceUrl": "https://github.com/peterroe/magpie-usage-display"
+  },
+  "ivy-ai": {
+    "repository": "https://github.com/iamankushpandit/esp_ai",
+    "githubId": 1376790274,
+    "stars": 66,
+    "checkedAt": "2026-10-20T04:45:32+00:00",
+    "pushedAt": null,
+    "archived": false,
+    "sourceUrl": "https://github.com/iamankushpandit/esp_ai"
   }
 }

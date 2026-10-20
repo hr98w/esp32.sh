@@ -10,5 +10,11 @@
     "approvedBy": "site-owner",
     "approvedAt": "2026-10-20T03:58:57+00:00",
     "reason": "Owner explicitly requested intake in this conversation on 2026-10-20; Star minimum waived."
+  },
+  "iamankushpandit/esp_ai": {
+    "starThresholdExempt": true,
+    "approvedBy": "site-owner",
+    "approvedAt": "2026-10-20T04:45:21+00:00",
+    "reason": "Site owner explicitly requested inclusion in this conversation; no Star minimum."
   }
 }
